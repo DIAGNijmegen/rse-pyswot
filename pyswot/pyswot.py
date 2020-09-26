@@ -41,6 +41,9 @@ def _find_school_names(parts: List[str]) -> List[str]:
             return list(school)
         except FileNotFoundError:
             continue
+        except UnicodeDecodeError:
+            # The school is valid, but the name is not encoded correctly
+            return ["?"]
 
     return []
 

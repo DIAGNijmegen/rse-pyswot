@@ -1,7 +1,10 @@
+import os
+from pathlib import Path
+
 import pytest
 
 from pyswot import find_school_names, is_academic
-from pyswot.pyswot import _domain_parts, _is_stoplisted
+from pyswot.pyswot import _domain_parts, _find_school_names, _is_stoplisted
 
 
 @pytest.mark.parametrize(
@@ -49,6 +52,8 @@ from pyswot.pyswot import _domain_parts, _is_stoplisted
         (False, "lee@mdu.edu.rs"),
         # Iran sanctions are lifted
         (True, "lee@acmt.ac.ir"),
+        (True, "lee@xmu.edu.my"),
+        (True, "lee@uha.fr"),
     ),
 )
 def test_swot(expected, email):
@@ -70,3 +75,19 @@ def test_find_school_names():
     assert ["BRG Fadingerstraße Linz, Austria"] == find_school_names("lrei@fadi.at")
     assert ["St. Petersburg State University"] == find_school_names("max@spbu.ru ")
     assert len(find_school_names("foo@shop.com")) == 0
+
+
+@pytest.mark.xfail
+def test_files_are_utf8(monkeypatch):
+    rootdir = Path(__file__).parent.parent / "pyswot" / "swot" / "lib" / "domains"
+
+    non_unicode_files = []
+
+    for subdir, dirs, files in os.walk(rootdir):
+        for file in files:
+            rel_file = str(os.path.relpath(os.path.join(subdir, file), rootdir))
+            domain_parts = rel_file.split(".txt")[0].split(os.path.sep)
+            if _find_school_names(domain_parts) == ["?"]:
+                non_unicode_files.append(rel_file)
+
+    assert non_unicode_files == []
