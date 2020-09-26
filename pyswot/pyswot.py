@@ -7,18 +7,29 @@ def _read_list(rel_path: str):
         stoplist = frozenset(f.read().splitlines())
     return stoplist
 
+
 STOPLIST = _read_list("swot/lib/domains/stoplist.txt")
 TLDS = _read_list("swot/lib/domains/tlds.txt")
 
+
 def is_academic(email: str) -> bool:
     parts = _domain_parts(email)
-    return not _is_stoplisted(parts) and (_is_under_tld(parts) or bool(_find_school_names(parts)))
+    return not _is_stoplisted(parts) and (
+        _is_under_tld(parts) or bool(_find_school_names(parts))
+    )
+
+
+def find_school_names(email: str) -> List[str]:
+    return _find_school_names(_domain_parts(email))
+
 
 def _is_under_tld(parts: List[str]) -> bool:
     return _check_set(TLDS, parts)
 
+
 def _is_stoplisted(parts: List[str]) -> bool:
     return _check_set(STOPLIST, parts)
+
 
 def _find_school_names(parts: List[str]) -> List[str]:
     resource_path = Path("swot/lib/domains/")
@@ -33,6 +44,7 @@ def _find_school_names(parts: List[str]) -> List[str]:
 
     return []
 
+
 def _domain_parts(email_or_domain: str) -> List[str]:
     email_or_domain = email_or_domain.strip().lower()
 
@@ -40,6 +52,7 @@ def _domain_parts(email_or_domain: str) -> List[str]:
     parts.reverse()
 
     return parts
+
 
 def _check_set(s: FrozenSet[str], parts: List[str]) -> bool:
     t = ""
