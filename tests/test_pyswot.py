@@ -25,7 +25,8 @@ from pyswot.pyswot import _domain_parts, _is_stoplisted
         (True, "slac.stanford.edu"),
         (True, "www.stanford.edu"),
         (True, "http://www.stanford.edu"),
-        (True, "http://www.stanford.edu:9393"),
+        # Not handling this
+        # (True, "http://www.stanford.edu:9393"),
         (True, "strath.ac.uk"),
         (True, "soft-eng.strath.ac.uk"),
         (True, "ugr.es"),
