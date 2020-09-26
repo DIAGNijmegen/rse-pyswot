@@ -1,0 +1,3 @@
+[submodule "pyswot/swot"]
+	path = pyswot/swot
+	url = git@github.com:JetBrains/swot.git
