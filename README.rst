@@ -24,7 +24,7 @@ Features
 
 This library is a wrapper around `JetBrains/swot`_ and provides two methods:
 
-.. code-block::
+.. code-block:: python
 
     >>> from pyswot import is_academic
     >>> is_academic("user@ox.ac.uk")
