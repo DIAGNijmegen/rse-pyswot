@@ -1,6 +1,7 @@
 import pytest
 
 from pyswot import is_academic
+from pyswot.pyswot import _domain_parts, _is_stoplisted
 
 
 @pytest.mark.parametrize(
@@ -51,3 +52,10 @@ from pyswot import is_academic
 )
 def test_swot(expected, email):
     assert expected == is_academic(email)
+
+@pytest.mark.parametrize(
+    "expected,email",
+    ((True, "alumni.nottingham.ac.uk"), (False, "nottingham.ac.uk"))
+)
+def test_stoplist(expected,email):
+    assert expected == _is_stoplisted(_domain_parts(email))
