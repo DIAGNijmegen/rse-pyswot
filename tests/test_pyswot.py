@@ -83,7 +83,7 @@ def test_files_are_utf8(monkeypatch):
 
     non_unicode_files = []
 
-    for subdir, dirs, files in os.walk(rootdir):
+    for subdir, _, files in os.walk(rootdir):
         for file in files:
             rel_file = str(os.path.relpath(os.path.join(subdir, file), rootdir))
             domain_parts = rel_file.split(".txt")[0].split(os.path.sep)
