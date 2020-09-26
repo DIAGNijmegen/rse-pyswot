@@ -1,6 +1,6 @@
 import pytest
 
-from pyswot import is_academic, find_school_names
+from pyswot import find_school_names, is_academic
 from pyswot.pyswot import _domain_parts, _is_stoplisted
 
 
@@ -67,6 +67,6 @@ def test_find_school_names():
     assert "uka tarsadia university,bardoli" in find_school_names(
         "lreilly@cs.strath.ac.uk"
     )
-    assert ["BRG Fadingerstraße Linz, Austria"] == find_school_names("lreilly@fadi.at")
+    assert ["BRG Fadingerstraße Linz, Austria"] == find_school_names("lrei@fadi.at")
     assert ["St. Petersburg State University"] == find_school_names("max@spbu.ru ")
     assert len(find_school_names("foo@shop.com")) == 0

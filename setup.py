@@ -1,8 +1,7 @@
 #!/usr/bin/env python
+from typing import List
 
-"""The setup script."""
-
-from setuptools import setup, find_packages
+from setuptools import find_packages, setup
 
 with open("README.rst") as readme_file:
     readme = readme_file.read()
@@ -10,9 +9,9 @@ with open("README.rst") as readme_file:
 with open("HISTORY.rst") as history_file:
     history = history_file.read()
 
-requirements = []
+requirements: List[str] = []
 
-setup_requirements = []
+setup_requirements: List[str] = []
 
 test_requirements = [
     "pytest>=3",
@@ -21,7 +20,7 @@ test_requirements = [
 setup(
     author="James Meakin",
     author_email="code@jmsmkn.com",
-    python_requires=">=3.5",
+    python_requires=">=3.6",
     classifiers=[
         "Development Status :: 2 - Pre-Alpha",
         "Intended Audience :: Developers",
