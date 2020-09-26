@@ -24,7 +24,8 @@ Features
 
 This library is a wrapper around `JetBrains/swot`_ and provides two methods:
 
-.. code-block:: python
+.. code-block::
+
     >>> from pyswot import is_academic
     >>> is_academic("user@ox.ac.uk")
     True
@@ -32,6 +33,7 @@ This library is a wrapper around `JetBrains/swot`_ and provides two methods:
     False
 
 .. code-block:: python
+
     >>> from pyswot import find_school_names
     >>> find_school_names("user@ox.ac.uk")
     ['University of Oxford']
