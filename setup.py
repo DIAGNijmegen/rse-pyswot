@@ -31,7 +31,7 @@ setup(
         "Programming Language :: Python :: 3.7",
         "Programming Language :: Python :: 3.8",
     ],
-    description="Python implementation of JetBrains/swot.",
+    description="Python wrapper for JetBrains/swot.",
     install_requires=requirements,
     license="Apache Software License 2.0",
     long_description=readme + "\n\n" + history,
