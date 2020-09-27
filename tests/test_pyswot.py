@@ -77,7 +77,6 @@ def test_find_school_names():
     assert len(find_school_names("foo@shop.com")) == 0
 
 
-@pytest.mark.xfail
 def test_files_are_utf8(monkeypatch):
     rootdir = Path(__file__).parent.parent / "pyswot" / "swot" / "lib" / "domains"
 
@@ -87,7 +86,9 @@ def test_files_are_utf8(monkeypatch):
         for file in files:
             rel_file = str(os.path.relpath(os.path.join(subdir, file), rootdir))
             domain_parts = rel_file.split(".txt")[0].split(os.path.sep)
-            if _find_school_names(domain_parts) == ["?"]:
+            try:
+                _find_school_names(domain_parts)
+            except UnicodeDecodeError:
                 non_unicode_files.append(rel_file)
 
     assert non_unicode_files == []

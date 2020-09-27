@@ -23,18 +23,9 @@ recursive-exclude * *.py[co]
 recursive-exclude * *.jar
 recursive-exclude * *.kt
 recursive-exclude * .idea .idea/*
+recursive-exclude * .github .github/*
 
 exclude .editorconfig .gitmodules *.yaml
 
 recursive-include docs *.rst conf.py Makefile make.bat *.jpg *.png *.gif
 recursive-include pyswot *.txt
-
-# These files are broken in the source distribution
-include pyswot/swot/lib/domains/ci/ita-education
-include pyswot/swot/lib/domains/com/emlyon
-include pyswot/swot/lib/domains/com/emlyon/edu
-include pyswot/swot/lib/domains/de/whg-rie.lernsax
-include pyswot/swot/lib/domains/edu/laccd.edu
-include pyswot/swot/lib/domains/eus/doloresibarruribhi.eus
-include pyswot/swot/lib/domains/in/edu/cet.text
-include pyswot/swot/lib/domains/nl/horizoncollege.nl
