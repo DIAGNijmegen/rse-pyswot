@@ -29,7 +29,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        python: [3.6, 3.7, 3.8]
+        python: [3.6, 3.7, 3.8, 3.9]
     steps:
       - uses: actions/checkout@v2
         with:
@@ -45,7 +45,7 @@ jobs:
       - name: Run Tox with system python
         run: tox -e py
       - name: Upload coverage results
-        if: matrix.python == '3.8'
+        if: matrix.python == '3.9'
         run: codecov
         env:
             CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
