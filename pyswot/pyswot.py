@@ -3,7 +3,7 @@ from typing import FrozenSet, List
 
 
 def _read_list(rel_path: str):
-    with open(Path(__file__).parent / rel_path, "r") as f:
+    with open(Path(__file__).parent / rel_path) as f:
         stoplist = frozenset(f.read().splitlines())
     return stoplist
 
