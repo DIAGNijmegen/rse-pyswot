@@ -1,0 +1,29 @@
+name: Update Submodules
+
+on:
+  workflow_dispatch:
+    
+jobs:
+  sync:
+    name: Update Submodules
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          submodules: true
+      
+      - name: Update Submodules
+        run: |
+          git pull --recurse-submodules
+          git submodule update --remote --recursive
+
+      - name: Create a PR
+        uses: peter-evans/create-pull-request@v3
+        with:
+          commit-message: Automated submodule update
+          branch-suffix: short-commit-hash
+          title: Automated submodule update
+          assignees: jmsmkn
+          reviewers: jmsmkn
