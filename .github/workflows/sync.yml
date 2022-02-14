@@ -1,6 +1,8 @@
 name: Update Submodules
 
 on:
+  schedule:
+    - cron: '42 7 * * 3'
   workflow_dispatch:
     
 jobs:
@@ -27,5 +29,3 @@ jobs:
           commit-message: Automated submodule update
           branch-suffix: short-commit-hash
           title: Automated submodule update
-          assignees: jmsmkn
-          reviewers: jmsmkn
