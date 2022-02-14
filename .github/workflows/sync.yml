@@ -1,8 +1,7 @@
 name: Update Submodules
 
 on:
-  schedule:
-    - cron:  '*/5 * * * *'
+  workflow_dispatch:
     
 jobs:
   sync:
@@ -23,7 +22,8 @@ jobs:
       - name: Create a PR
         uses: peter-evans/create-pull-request@v3
         with:
-          token: "${{ secrets.GITHUB_TOKEN }}"
+          token: "${{ secrets.MACHINE_USER_PAT }}"
+          push-to-fork: pyswot-bot/rse-pyswot
           commit-message: Automated submodule update
           branch-suffix: short-commit-hash
           title: Automated submodule update
