@@ -1,7 +1,8 @@
 name: Update Submodules
 
 on:
-  workflow_dispatch:
+  schedule:
+    - cron:  '*/5 * * * *'
     
 jobs:
   sync:
@@ -22,6 +23,7 @@ jobs:
       - name: Create a PR
         uses: peter-evans/create-pull-request@v3
         with:
+          token: "${{ secrets.GITHUB_TOKEN }}"
           commit-message: Automated submodule update
           branch-suffix: short-commit-hash
           title: Automated submodule update
