@@ -13,9 +13,7 @@ requirements: List[str] = []
 
 setup_requirements: List[str] = []
 
-test_requirements = [
-    "pytest>=3",
-]
+test_requirements = ["pytest>=3"]
 
 setup(
     author="James Meakin",
