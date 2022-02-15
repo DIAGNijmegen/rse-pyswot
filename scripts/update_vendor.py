@@ -1,4 +1,3 @@
-from datetime import datetime
 from pathlib import Path
 from subprocess import check_output
 from tempfile import TemporaryDirectory
@@ -17,7 +16,7 @@ def create_set(*, src, dest, varname, commit_id):
         var = [v for v in f.read().splitlines() if v]
 
     with open(dest, "w") as f:
-        f.write(f"# Updated {datetime.now().isoformat()} from {commit_id}\n")
+        f.write(f"# From {commit_id}\n")
         f.write(f"{varname} = frozenset({repr(sorted(var))})\n")
 
 
@@ -55,7 +54,7 @@ def create_dict(*, src, dest, varname, commit_id):
         var[_get_key(rel_path=domain.relative_to(src))] = school_info
 
     with open(dest, "w") as f:
-        f.write(f"# Updated {datetime.now().isoformat()} from {commit_id}\n")
+        f.write(f"# From {commit_id}\n")
         f.write("from typing import Dict, List, Optional\n")
         f.write(f"{varname}: Dict[str, List[Optional[str]]] = {repr(var)}\n")
 
