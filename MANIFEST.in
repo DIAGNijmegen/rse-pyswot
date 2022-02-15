@@ -16,6 +16,8 @@ exclude pyswot/swot/src/swot
 exclude pyswot/swot/swot.iml
 exclude pyswot/swot/test
 exclude pyswot/swot/test/swot
+recursive-exclude pyswot *.yml
+recursive-exclude pyswot *.xml
 
 recursive-include tests *
 recursive-exclude * __pycache__

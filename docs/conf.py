@@ -126,7 +126,7 @@ latex_elements: Dict["str", Any] = {
 # (source start file, target name, title, author, documentclass
 # [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, "pyswot.tex", "PySwot Documentation", "James Meakin", "manual"),
+    (master_doc, "pyswot.tex", "PySwot Documentation", "James Meakin", "manual")
 ]
 
 
@@ -151,5 +151,5 @@ texinfo_documents = [
         "pyswot",
         "One line description of project.",
         "Miscellaneous",
-    ),
+    )
 ]
