@@ -29,6 +29,7 @@ jobs:
 
       - name: Run pre-commit
         run: pre-commit run -a
+        continue-on-error: true
 
       - name: Create a PR
         uses: peter-evans/create-pull-request@v3

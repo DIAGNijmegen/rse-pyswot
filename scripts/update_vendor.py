@@ -21,7 +21,7 @@ def create_set(*, src, dest, varname, commit_id):
         f.write(f"{varname} = frozenset({repr(sorted(var))})\n")
 
 
-def _get_key(rel_path):
+def _get_key(*, rel_path):
     parts = list(rel_path.parts)
 
     # Strip txt
@@ -36,6 +36,10 @@ def create_dict(*, src, dest, varname, commit_id):
     domains = sorted(src.rglob("*.txt"))
 
     for domain in domains:
+        if domain.parent == src:
+            # Skip files in the top level directory
+            continue
+
         with open(domain, "rb") as f:
             lines = f.read().splitlines()
 
@@ -48,7 +52,7 @@ def create_dict(*, src, dest, varname, commit_id):
                     i = None
                 school_info.append(i)
 
-        var[_get_key(domain.relative_to(src))] = school_info
+        var[_get_key(rel_path=domain.relative_to(src))] = school_info
 
     with open(dest, "w") as f:
         f.write(f"# Updated {datetime.now().isoformat()} from {commit_id}\n")

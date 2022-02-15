@@ -1,4 +1,4 @@
-# Updated 2022-02-15T12:05:27.748734 from git@github.com:JetBrains/swot.git@38c46e53
+# Updated 2022-02-15T12:23:42.311097 from git@github.com:JetBrains/swot.git@38c46e53
 
 STOPLIST = frozenset(
     [
