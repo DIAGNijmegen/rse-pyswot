@@ -1,15 +1,15 @@
 from pathlib import Path
-from typing import FrozenSet, List
+from typing import FrozenSet, List, Optional
+
+from pyswot.vendor.domains import DOMAINS
+from pyswot.vendor.stoplist import STOPLIST
+from pyswot.vendor.tlds import TLDS
 
 
 def _read_list(rel_path: str):
     with open(Path(__file__).parent / rel_path) as f:
         stoplist = frozenset(f.read().splitlines())
     return stoplist
-
-
-STOPLIST = _read_list("swot/lib/domains/stoplist.txt")
-TLDS = _read_list("swot/lib/domains/tlds.txt")
 
 
 def is_academic(email: str) -> bool:
@@ -19,7 +19,7 @@ def is_academic(email: str) -> bool:
     )
 
 
-def find_school_names(email: str) -> List[str]:
+def find_school_names(email: str) -> List[Optional[str]]:
     return _find_school_names(_domain_parts(email))
 
 
@@ -31,15 +31,13 @@ def _is_stoplisted(parts: List[str]) -> bool:
     return _check_set(STOPLIST, parts)
 
 
-def _find_school_names(parts: List[str]) -> List[str]:
-    resource_path = Path("swot/lib/domains/")
-
+def _find_school_names(parts: List[str]) -> List[Optional[str]]:
+    key = ""
     for part in parts:
-        resource_path /= part
+        key = f".{part}{key}"
         try:
-            school = _read_list(f"{resource_path}.txt")
-            return list(school)
-        except FileNotFoundError:
+            return DOMAINS[key]
+        except KeyError:
             continue
 
     return []
