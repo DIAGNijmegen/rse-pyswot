@@ -2,9 +2,9 @@ name: Update Submodules
 
 on:
   schedule:
-    - cron: '42 7 * * 3'
+    - cron: '42 6 * * 2'
   workflow_dispatch:
-    
+
 jobs:
   sync:
     name: Update Submodules
@@ -13,19 +13,28 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
+
+      - name: Install Python ${{ env.PYTHON_VERSION }}
+        uses: actions/setup-python@v2
         with:
-          submodules: true
-      
-      - name: Update Submodules
+          python-version: '3.x'
+
+      - name: Install pre-commit
         run: |
-          git pull --recurse-submodules
-          git submodule update --remote --recursive
+          python -m pip install pre-commit
+          pre-commit install
+
+      - name: Update Vendor Directory
+        run: python ./scripts/update_vendor.py
+
+      - name: Run pre-commit
+        run: pre-commit run -a
 
       - name: Create a PR
         uses: peter-evans/create-pull-request@v3
         with:
-          token: "${{ secrets.MACHINE_USER_PAT }}"
-          push-to-fork: pyswot-bot/rse-pyswot
-          commit-message: Automated submodule update
+          commit-message: Automated vendor update
           branch-suffix: short-commit-hash
-          title: Automated submodule update
+          title: Automated vendor update
+          reviewers: jmsmkn
+          assignees: jmsmkn

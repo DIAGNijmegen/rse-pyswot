@@ -73,8 +73,13 @@ def test_find_school_names():
         "lreilly@cs.strath.ac.uk"
     )
     assert ["BRG Fadingerstraße Linz, Austria"] == find_school_names("lrei@fadi.at")
-    assert ["St. Petersburg State University"] == find_school_names("max@spbu.ru ")
+    assert "St. Petersburg State University" in find_school_names("max@spbu.ru ")
     assert len(find_school_names("foo@shop.com")) == 0
+
+
+def test_non_utf8_source():
+    assert find_school_names("myself@cirvianum.cat") == [None]
+    assert is_academic("myself@cirvianum.cat")
 
 
 def test_files_are_utf8(monkeypatch):
