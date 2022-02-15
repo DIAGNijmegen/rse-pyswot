@@ -1,4 +1,4 @@
-# Updated 2022-02-15T12:23:43.011390 from git@github.com:JetBrains/swot.git@38c46e53
+# From https://github.com/JetBrains/swot.git@38c46e53
 
 from typing import Dict, List, Optional
 
