@@ -1,4 +1,4 @@
-name: Update Submodules
+name: Update Vendor Sources
 
 on:
   schedule:
@@ -7,7 +7,7 @@ on:
 
 jobs:
   sync:
-    name: Update Submodules
+    name: Update Vendor Sources
     runs-on: ubuntu-latest
 
     steps:
@@ -24,7 +24,7 @@ jobs:
           python -m pip install pre-commit
           pre-commit install
 
-      - name: Update Vendor Directory
+      - name: Update Vendor Sources
         run: python ./scripts/update_vendor.py
 
       - name: Run pre-commit
