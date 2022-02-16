@@ -1,4 +1,4 @@
-# Updated 2022-02-15T12:23:43.011390 from git@github.com:JetBrains/swot.git@38c46e53
+# From https://github.com/JetBrains/swot.git@70ad2a3d
 
 from typing import Dict, List, Optional
 
@@ -607,6 +607,7 @@ DOMAINS: Dict[str, List[Optional[str]]] = {
     ".nortwest.edu.au": ["Nortwest Pty Ltd."],
     ".ait.nsw.edu.au": ["Academy of Information Technology"],
     ".covenant.nsw.edu.au": ["Covenant Christian School"],
+    ".knox.nsw.edu.au": ["Knox Grammar School", "Knox Grammar School"],
     ".lindisfarne.nsw.edu.au": ["Lindisfarne Anglican Grammar School"],
     ".loreto.nsw.edu.au": ["Loreto Kirribilli"],
     ".mercurycolleges.nsw.edu.au": ["Mercury Colleges"],
@@ -948,6 +949,7 @@ DOMAINS: Dict[str, List[Optional[str]]] = {
     ".reginacaeli.be": ["Regina Caeli"],
     ".ritacollege.be": ["Sint-Ritacollege Kontich"],
     ".student.romerocollege.be": ["Oscar. Romero. College. Belgium."],
+    ".romerocollege.be": ["Óscar Romerocollege"],
     ".s19.be": ["Ecole 19"],
     ".scheppers.be": [
         "Scheppersinstituut Deurne & Antwerpen",
@@ -1203,6 +1205,7 @@ DOMAINS: Dict[str, List[Optional[str]]] = {
     ".colband.com.br": ["Colégio Bandeirantes"],
     ".colegioflama.com.br": ["Flama", "Flama"],
     ".colegiomercurio.com.br": ["Colégio Mercúrio"],
+    ".colegiopolitec.com.br": ["Colégio Politec"],
     ".colegiosantanh.com.br": ["Colégio Santa Catarina"],
     ".cotemig.com.br": ["Faculdade COTEMIG"],
     ".cscs.com.br": ["Colegio Santa Catarina de Sena"],
@@ -1913,6 +1916,9 @@ DOMAINS: Dict[str, List[Optional[str]]] = {
         "Escolas Técnicas Estaduais de São Paulo - Centro Estadual de Educação Tecnológica Paula Souza"
     ],
     ".fatec.sp.gov.br": ["Faculdade de Tecnologia de Sorocaba"],
+    ".paulinia.sp.gov.br": [
+        '\ufeffCEMEP-Municipal Vocational Education Center "Osmar Passarelli Silveira"'
+    ],
     ".edu.santoandre.sp.gov.br": [
         "Escola Municipal Professora Esther Moura Barreto",
         "County School Professor Esther Moura Barreto",
@@ -2765,6 +2771,7 @@ DOMAINS: Dict[str, List[Optional[str]]] = {
     ".bict.ch": ["BiCT AG, Die Berufsbildner"],
     ".bks-campus.ch": ["Bündner Kantonschule Chur"],
     ".stud.bms-zuerich.ch": ["BMZ - Berufsmaturitätsschule Zürich"],
+    ".brueggli.ch": ["Brüggli"],
     ".bsl-lausanne.ch": ["Business School Lausanne (BSL)"],
     ".bwdbern.ch": ["Bildungszentrum für Wirtschaft und Dienstleistung"],
     ".bwz-rappi.ch": ["Berufs- und Weiterbildungszentrum Rapperswil-Jona"],
@@ -5251,6 +5258,14 @@ DOMAINS: Dict[str, List[Optional[str]]] = {
     ".abendgymnasium-muenster.de": ["Abendgymnasium Münster"],
     ".extern.abk-stuttgart.de": ["Staatliche Akademie der Bildenden Künste Stuttgart"],
     ".stud.abk-stuttgart.de": ["Staatliche Akademie der Bildenden Künste Stuttgart"],
+    ".abs-it-kiel.de": [
+        "ABS-IT UG (haftungsbeschränkt)",
+        "Geschäftsführer Paul Klein M.A.",
+        "Werftstraße 193",
+        "24143 Kiel",
+        "Email: info@abs-it-kiel.de",
+        "Domain: https://www.abs-it-kiel.de",
+    ],
     ".adolfinum.de": ["Gymnasium Adolfinum Moers"],
     ".aeg-nb.de": ["Albert-Einstein-Gymnasium Neubrandenburg"],
     ".aegmail.de": ["Albert-Einstein-Gymnasium Duisburg-Rumeln"],
@@ -16751,6 +16766,10 @@ DOMAINS: Dict[str, List[Optional[str]]] = {
     ".hazelwick.org": ["Hazelwick School"],
     ".hazlet.org": ["Raritan High School"],
     ".hcdsb.org": ["Halton Catholic School Board"],
+    ".hcesonepat.org": [
+        "Hindu college of engineering ",
+        "Hindu college of engineering",
+    ],
     ".hcisd.org": ["Harlingen High School South"],
     ".student.hcps.org": ["Harford County Public Schools"],
     ".inst.hcpss.org": ["Howard County Public School System", ".group"],
@@ -17062,6 +17081,10 @@ DOMAINS: Dict[str, List[Optional[str]]] = {
         "The Academy for Mathematics Science and Engineering at Morris Hills High School"
     ],
     ".mhusd.org": ["Morgan Hill Unified School District", ".group"],
+    ".mibdu.org": [
+        "MBA - International Business Delhi University",
+        "MBA - International Business Delhi University",
+    ],
     ".michaelhouse.org": ["Michaelhouse school, South Africa"],
     ".midlandps.org": ["H.H Dow High School"],
     ".milkenschool.org": ["Milken Community Schools"],
@@ -17967,6 +17990,7 @@ DOMAINS: Dict[str, List[Optional[str]]] = {
     ".biskupiak.pl": [
         "XXI Liceum Ogólnokształcące im. św. Stanisława Kostki w Lublinie (BISKUPIAK)"
     ],
+    ".zs1.bochnia.pl": ["Zespół Szkół Nr 1  im. Stanisława Staszica w Bochni"],
     ".amuz.bydgoszcz.pl": ["Music Academy Felix Nowowiejski in Bydgoszcz"],
     ".cdv.pl": ["Collegium Da Vinci"],
     ".cedim.pl": ["Children and Youth Programming School"],
@@ -18624,6 +18648,10 @@ DOMAINS: Dict[str, List[Optional[str]]] = {
     ],
     ".iii-lo.tarnow.pl": ["III Liceum Ogólnokształcące"],
     ".zsme.tarnow.pl": ["Zespół Szkół Mechaniczno-Elektrycznych w Tarnowie"],
+    ".tarnowckz.pl": [
+        "Centrum Kształcenia Zawodowego,Tarnów",
+        "Center for Vocational Education,Tarnow",
+    ],
     ".technikumkreatywne.pl": ["Technikum Kreatywne w Szczecinie"],
     ".gimakad.torun.pl": ["Gimnazjum i Liceum Akademickie w Toruniu"],
     ".loiv.torun.pl": [
@@ -23698,6 +23726,7 @@ DOMAINS: Dict[str, List[Optional[str]]] = {
     ".carmel.org.uk": ["Carmel RC College"],
     ".chartereastdulwich.org.uk": ["The Charter School East Dulwich"],
     ".charterhouse.org.uk": ["Charterhouse"],
+    ".chartersschool.org.uk": ["Charters School", "Charters School"],
     ".chichesterfreeschool.org.uk": ["Chichester Free School"],
     ".christofidelis.org.uk": ["Catholic High School, Chester"],
     ".clevedonschool.org.uk": ["Clevedon School"],
@@ -24511,6 +24540,7 @@ DOMAINS: Dict[str, List[Optional[str]]] = {
     ".ttn.edu.vn": ["Đại học Tây Nguyên", "Tay Nguyen University"],
     ".std.ttu.edu.vn": ["Tan Tao University", "Tan Tao University"],
     ".tuaf.edu.vn": ["Thainguyen University of Agriculture and Forestry"],
+    ".tuyenquang.edu.vn": ["Trường "],
     ".tvu.edu.vn": ["Đại học Trà Vinh", "Tra Vinh University"],
     ".uah.edu.vn": [
         "Đại Học Kiến Trúc Ho Chi Minh City",
