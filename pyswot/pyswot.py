@@ -1,15 +1,8 @@
-from pathlib import Path
 from typing import FrozenSet, List
 
 from pyswot.vendor.domains import DOMAINS
 from pyswot.vendor.stoplist import STOPLIST
 from pyswot.vendor.tlds import TLDS
-
-
-def _read_list(rel_path: str):
-    with open(Path(__file__).parent / rel_path) as f:
-        stoplist = frozenset(f.read().splitlines())
-    return stoplist
 
 
 def is_academic(email: str) -> bool:

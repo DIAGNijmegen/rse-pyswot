@@ -1,9 +1,0 @@
-pip
-wheel
-tox
-coverage
-Sphinx
-twine
-
-pytest
-chardet

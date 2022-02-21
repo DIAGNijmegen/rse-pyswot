@@ -21,7 +21,10 @@ DOMAINS: Dict[str, List[str]] = {
     ".yuhs.ac": ["Yonsei University Health System"],
     ".cti.za.ac": ["CTI Education Group"],
     ".campus.academy": ["Campus Academy"],
-    ".chungkang.academy": ["청강문화산업대학교", "ChungKang College of Cultural Industries"],
+    ".chungkang.academy": [
+        "청강문화산업대학교",
+        "ChungKang College of Cultural Industries",
+    ],
     ".cloud-campus.academy": ["Cloud campus", "Cloud campus"],
     ".esoft.academy": ["ESOFT Metro Campus"],
     ".greta-sud-aquitaine.academy": ["GRETA Sud Aquitaine"],
@@ -51,9 +54,14 @@ DOMAINS: Dict[str, List[str]] = {
     ".hct.ac.ae": ["Higher Colleges of Technology"],
     ".ku.ac.ae": ["Khalifa University of Science, Technology and Research"],
     ".masdar.ac.ae": ["Masdar University Of Science And Technology"],
-    ".mbzuai.ac.ae": ["Mohamed bin Zayed University of Artificial Intelligence"],
+    ".mbzuai.ac.ae": [
+        "Mohamed bin Zayed University of Artificial Intelligence"
+    ],
     ".pi.ac.ae": ["The Petroleum Institute"],
-    ".psa.ac.ae": ["أكاديمية العلوم الشرطية", "Sharjah Police Science Academy"],
+    ".psa.ac.ae": [
+        "أكاديمية العلوم الشرطية",
+        "Sharjah Police Science Academy",
+    ],
     ".sharjah.ac.ae": ["University of Sharjah"],
     ".uaeu.ac.ae": ["United Arab Emirates University"],
     ".ud.ac.ae": ["University Of Dubai"],
@@ -112,8 +120,13 @@ DOMAINS: Dict[str, List[str]] = {
         "International Scientific-Educational Center of the National Academy of Sciences of Republic of Armenia (ISEC)"
     ],
     ".mskh.am": ["Mkhitar Sebastatsi Educational Complex"],
-    ".msu.am": ["Филиал МГУ в Ереване", "Moscow State University Branch in Yerevan"],
-    ".nuaca.am": ["NATIONAL UNIVERSITY OF ARCHITECTURE AND CONSTRUCTION OF ARMENIA"],
+    ".msu.am": [
+        "Филиал МГУ в Ереване",
+        "Moscow State University Branch in Yerevan",
+    ],
+    ".nuaca.am": [
+        "NATIONAL UNIVERSITY OF ARCHITECTURE AND CONSTRUCTION OF ARMENIA"
+    ],
     ".polytechnic.am": ["National Polytechnic University of Armenia"],
     ".student.rau.am": [
         "Russian - Armenian University (RAU)",
@@ -129,12 +142,16 @@ DOMAINS: Dict[str, List[str]] = {
     ".ysmu.am": ["Yerevan State Medical University"],
     ".ysu.am": ["Yerevan State University"],
     ".ysumail.am": ["Yerevan State University"],
-    ".isptec.co.ao": ["Instituto Superior Politécnico de Tecnologias e Ciências"],
+    ".isptec.co.ao": [
+        "Instituto Superior Politécnico de Tecnologias e Ciências"
+    ],
     ".uma.co.ao": ["Universidade Metodista de Angola"],
     ".utanga.co.ao": ["Universidade Tecnica de Angola"],
     ".uan.ao": ["Univesidade Agostinho Neto"],
     ".unia.ao": ["Universidade Independente de Angola"],
-    ".ianca.com.ar": ["Instituto Argentino de Negociación, Conciliación y Arbitraje"],
+    ".ianca.com.ar": [
+        "Instituto Argentino de Negociación, Conciliación y Arbitraje"
+    ],
     ".inaf27.com.ar": ["Instituto Nicolás Avellaneda F-27"],
     ".istea.com.ar": ["Instituto Superior Tecnológico Empresarial Argentino"],
     ".atlantida.edu.ar": ["Universidad Atlantida Argentina"],
@@ -158,12 +175,16 @@ DOMAINS: Dict[str, List[str]] = {
     ".uai.edu.ar": ["Universidad Abierta Interamericana"],
     ".ub.edu.ar": ["Universidad de Belgrano"],
     ".ubp.edu.ar": ["Universidad Blas Pascal"],
-    ".uca.edu.ar": ["Universidad Católica Argentina Santa Maria de los Buenos Aires"],
+    ".uca.edu.ar": [
+        "Universidad Católica Argentina Santa Maria de los Buenos Aires"
+    ],
     ".ucaecemdp.edu.ar": ["Universidad CAECE, Mar del Plata"],
     ".ucalp.edu.ar": ["Universidad Católica de La Plata"],
     ".uccor.edu.ar": ["Universidad Católica de Córdoba"],
     ".uccuyo.edu.ar": ["Universidad Católica de Cuyo"],
-    ".ucel.edu.ar": ["Universidad del Centro Educativo Latinoamericano Rosario"],
+    ".ucel.edu.ar": [
+        "Universidad del Centro Educativo Latinoamericano Rosario"
+    ],
     ".ucema.edu.ar": ["Universidad del CEMA"],
     ".uces.edu.ar": ["Universidad de Ciencias Empresariales y Sociales"],
     ".uch.edu.ar": ["Universidad Champagnat"],
@@ -196,12 +217,16 @@ DOMAINS: Dict[str, List[str]] = {
     ".uner.edu.ar": ["Universidad Nacional de Entre Ríos"],
     ".unf.edu.ar": ["Universidad Nacional de Formosa"],
     ".ungs.edu.ar": ["Universidad Nacional de General Sarmiento"],
-    ".unibo.edu.ar": ["Universidad de Bologna - Representación en Buenos Aires"],
+    ".unibo.edu.ar": [
+        "Universidad de Bologna - Representación en Buenos Aires"
+    ],
     ".unicen.edu.ar": [
         "Universidad Nacional del Centro de la Provincia de Buenos Aires"
     ],
     ".unimoron.edu.ar": ["Universidad de Morón"],
-    ".universidad-policial.edu.ar": ["Instituto Universitario de la Policia Federal"],
+    ".universidad-policial.edu.ar": [
+        "Instituto Universitario de la Policia Federal"
+    ],
     ".universidadnotarial.edu.ar": ["Universidad Notarial Argentina"],
     ".unju.edu.ar": ["Universidad Nacional de Jujuy"],
     ".unl.edu.ar": ["Universidad Nacional del Littoral"],
@@ -290,7 +315,10 @@ DOMAINS: Dict[str, List[str]] = {
     ".fh-kaernten.ac.at": ["Fachhochschule Kärnten"],
     ".fh-krems.ac.at": ["Fachhochschule Krems"],
     ".fh-kufstein.ac.at": ["Fachhochschule Kufstein (Tirol)"],
-    ".fh-salzburg.ac.at": ["Fachhochschule Salzburg", "University of Applied Sciences"],
+    ".fh-salzburg.ac.at": [
+        "Fachhochschule Salzburg",
+        "University of Applied Sciences",
+    ],
     ".fh-sbg.ac.at": ["Fachhochschule Salzburg"],
     ".fh-stpoelten.ac.at": ["Fachhochschule St. Pölten"],
     ".fh-vie.ac.at": ["Fachhochschule für Bank- und Finanzwirtschaft"],
@@ -412,9 +440,14 @@ DOMAINS: Dict[str, List[str]] = {
     ".gymnasium-saalfelden.at": ["BG/Sport-RG Saalfelden"],
     ".hak-althofen.at": ["HAK Althofen"],
     ".hak-bregenz.at": ["HAK Bregenz"],
-    ".hak-frk.at": ["Bundeshandelsakademie und Bundeshandelsschule Frauenkirchen"],
+    ".hak-frk.at": [
+        "Bundeshandelsakademie und Bundeshandelsschule Frauenkirchen"
+    ],
     ".hak-liezen.at": ["BHAK/BHAS Liezen"],
-    ".hak-op.at": ["HAK Oberpullendorf", "Commercial High School Oberpullendorf"],
+    ".hak-op.at": [
+        "HAK Oberpullendorf",
+        "Commercial High School Oberpullendorf",
+    ],
     ".hakneumarkt.at": [
         "Bundeshandelsakademie Neumarkt am Wallersee",
         "Commercial School in Neumarkt am Wallersee",
@@ -443,7 +476,9 @@ DOMAINS: Dict[str, List[str]] = {
         "Höhere Technische Lehranstalt und Werkmeisterschule des Schulvereins der Berg- und Hüttenschule Leoben Privatschule mit Öffentlichkeitsrecht",
         "Higher Technical Education Institute Leoben, private school",
     ],
-    ".htl-leoben.at": ["Higher Technical Education Institute Leoben, private school"],
+    ".htl-leoben.at": [
+        "Higher Technical Education Institute Leoben, private school"
+    ],
     ".htl-neufelden.at": ["HTL Neufelden"],
     ".htl-ottakring.at": ["HTL Ottakring"],
     ".htl-saalfelden.at": [
@@ -471,7 +506,9 @@ DOMAINS: Dict[str, List[str]] = {
         "Federal Business Academy St. Johann im Pongau",
     ],
     ".klostergasse.at": ["BG 18 Klostergasse"],
-    ".kundmanngasse.at": ["GRg3 Kundmanngasse Bundesgymnasium und Bundesrealgymnasium"],
+    ".kundmanngasse.at": [
+        "GRg3 Kundmanngasse Bundesgymnasium und Bundesrealgymnasium"
+    ],
     ".lichtenfels.at": ["BG/BRG Lichtenfels Graz"],
     ".lyceefrancais.at": ["Lycée Français de Vienne"],
     ".mci4me.at": ["Management Center Innsbruck"],
@@ -519,7 +556,9 @@ DOMAINS: Dict[str, List[str]] = {
     ],
     ".tugraz.at": ["Technische Universität Graz"],
     ".ufg.at": ["University of Art and Design Linz"],
-    ".umit.at": ["Private Universität für Medizinische Informatik und Technik Tirol"],
+    ".umit.at": [
+        "Private Universität für Medizinische Informatik und Technik Tirol"
+    ],
     ".uni-graz.at": ["University of Graz"],
     ".edu.uni-seeburg.at": ["Pruvatuniversität Seeburg"],
     ".ursulinen.at": ["Schulverein der Grazer Ursulinen"],
@@ -544,7 +583,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".adelaide.edu.au": ["University of Adelaide"],
     ".study.aib.edu.au": ["Australia Institute of Business"],
     ".aie.edu.au": ["The Academy of Interactive Entertainment"],
-    ".albrightinstitute.edu.au": ["Albright Institute of Business and Language"],
+    ".albrightinstitute.edu.au": [
+        "Albright Institute of Business and Language"
+    ],
     ".alc.edu.au": ["Australian Lutheran College"],
     ".amc.edu.au": ["Australian Maritime College"],
     ".angliss.edu.au": ["William Angliss Institute"],
@@ -605,7 +646,10 @@ DOMAINS: Dict[str, List[str]] = {
     ".murdoch.edu.au": ["Murdoch University"],
     ".myacu.edu.au": ["Australian Catholic University"],
     ".myangliss.edu.au": ["William Angliss Institute"],
-    ".myune.edu.au": ["University of New England", "University of New England"],
+    ".myune.edu.au": [
+        "University of New England",
+        "University of New England",
+    ],
     ".nd.edu.au": ["University of Notre Dame Australia"],
     ".newcastle.edu.au": ["University of Newcastle"],
     ".nortwest.edu.au": ["Nortwest Pty Ltd."],
@@ -733,7 +777,10 @@ DOMAINS: Dict[str, List[str]] = {
     ".wu.edu.az": ["Western University"],
     ".gsu.az": ["Ganja State University "],
     ".jis.az": ["Azerbaijan State Oil Academy"],
-    ".ufaz.az": ["French-Azerbaijani University", "Azərbaycan-Fransız Universiteti"],
+    ".ufaz.az": [
+        "French-Azerbaijani University",
+        "Azərbaycan-Fransız Universiteti",
+    ],
     ".ibu.edu.ba": ["International Burch University"],
     ".ius.edu.ba": ["International University of Sarajevo"],
     ".unvi.edu.ba": ["University Vitez In Travnik"],
@@ -763,10 +810,14 @@ DOMAINS: Dict[str, List[str]] = {
     ".uwichill.edu.bb": ["University of the West Indies, Cave Hill"],
     ".bracu.ac.bd": ["BRAC University"],
     ".brur.ac.bd": ["Begum Rokeya University, Rangpur"],
-    ".buet.ac.bd": ["Bangladesh University of Engineering and Technology (BUET)"],
+    ".buet.ac.bd": [
+        "Bangladesh University of Engineering and Technology (BUET)"
+    ],
     ".cou.ac.bd": ["Comilla University"],
     ".cu.ac.bd": ["University of Chittagong"],
-    ".cuet.ac.bd": ["Chittagong University of Engineering and Technology (CUET)"],
+    ".cuet.ac.bd": [
+        "Chittagong University of Engineering and Technology (CUET)"
+    ],
     ".du.ac.bd": ["University of Dhaka"],
     ".duet.ac.bd": ["Dhaka University of Engineering and Technology"],
     ".iiuc.ac.bd": [
@@ -807,7 +858,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".ulab.edu.bd": ["University of Liberal Arts"],
     ".wub.edu.bd": ["World University of Bangladesh"],
     ".fpms.ac.be": ["Faculté Polytechnique de Mons"],
-    ".fsagx.ac.be": ["Faculté Universitaire des Sciences Agronomiques de Gembloux"],
+    ".fsagx.ac.be": [
+        "Faculté Universitaire des Sciences Agronomiques de Gembloux"
+    ],
     ".fucam.ac.be": ["Facultés Universitaires Catholiques de Mons"],
     ".ful.ac.be": ["Fondation Universitaire Luxembourgeoise"],
     ".fundp.ac.be": ["Facultés Universitaires Notre-Dame de la Paix"],
@@ -876,7 +929,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".groept.be": ["Groep T Hogeschool Leuven"],
     ".gtibeveren.be": ["GTI Beveren"],
     ".ha.be": ["Hogeschool Antwerpen"],
-    ".hainaut-promsoc.be": ["Haute Ecole Provinciale de Hainaut -promotion sociale"],
+    ".hainaut-promsoc.be": [
+        "Haute Ecole Provinciale de Hainaut -promotion sociale"
+    ],
     ".student.hdcleuven.be": ["Heilige-Drievuldigheidscollege"],
     ".he-spaak.be": ["Haute Ecole Paul-Henri Spaak"],
     ".he2b.be": ["Haute École Bruxelles-Brabant"],
@@ -930,10 +985,15 @@ DOMAINS: Dict[str, List[str]] = {
     ".min.ksleuven.be": ["Miniemeninstituut"],
     ".student.kta1-hasselt.be": ["GO! NEXT KTA1 Hasselt", "KTA1"],
     ".kuleuven.be": ["KU Leuven"],
-    ".kvri.be": ["Kardinaal Van Roey-Instituut", "Cardinal Van Roey-Institute"],
+    ".kvri.be": [
+        "Kardinaal Van Roey-Instituut",
+        "Cardinal Van Roey-Institute",
+    ],
     ".leielandscholen.be": ["Scholengroep Leielandscholen VZW"],
     ".luca-arts.be": ["Luca School of Arts"],
-    ".lyceefrancais.be": ["IT option at the French Lycée Jean Monnet in Brussels"],
+    ".lyceefrancais.be": [
+        "IT option at the French Lycée Jean Monnet in Brussels"
+    ],
     ".mad-fac.be": [
         " Media, Arts and Design Faculty at University College of Limburg & Provincial University College Limburg"
     ],
@@ -1005,7 +1065,10 @@ DOMAINS: Dict[str, List[str]] = {
     ".uclouvain.be": ["Catholic University of Louvain"],
     ".ugent.be": ["Ghent University"],
     ".uhasselt.be": ["Hasselt University"],
-    ".ulb.be": ["Université Libre de Bruxelles", "Free University of Brussels"],
+    ".ulb.be": [
+        "Université Libre de Bruxelles",
+        "Free University of Brussels",
+    ],
     ".uliege.be": ["Université de Liège"],
     ".unamur.be": ["Université de Namur"],
     ".vinci.be": ["Haute École Léonard de Vinci"],
@@ -1015,7 +1078,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".student.viveshbo5.be": ["VIVES University College"],
     ".vlekho.be": ["Hogeschool voor Wetenschap en Kunst (VLEKHO), Brussel"],
     ".vlerick.be": ["Vlerick Leuven Gent Management School"],
-    ".vspw.be": ["PCVO Vormingsleergang voor Sociaal en Pedagogisch Werk Gent"],
+    ".vspw.be": [
+        "PCVO Vormingsleergang voor Sociaal en Pedagogisch Werk Gent"
+    ],
     ".vtideinze.be": ["VTI Deinze"],
     ".vub.be": ["Vrije Universiteit Brussel"],
     ".ifosup.wavre.be": ["IFOSUP"],
@@ -1056,10 +1121,15 @@ DOMAINS: Dict[str, List[str]] = {
     ],
     ".mgu.bg": ["University of Mining and Geology St. Ivan Rils"],
     ".edu.mon.bg": ["Ministry of Education and Science - Bulgaria"],
-    ".mu-plovdiv.bg": ["Medical University Plovdiv", "Medical University Plovdiv"],
+    ".mu-plovdiv.bg": [
+        "Medical University Plovdiv",
+        "Medical University Plovdiv",
+    ],
     ".mu-sofia.bg": ["Medical University of Sofia"],
     ".mu-varna.bg": ["Medical University Varna"],
-    ".natfiz.bg": ["National Academy for Theatre and Film Arts Krustju Sarafov"],
+    ".natfiz.bg": [
+        "National Academy for Theatre and Film Arts Krustju Sarafov"
+    ],
     ".naval-acad.bg": [
         'Висше Военноморско Училище "Никола Йонков Вапцаров"',
         "Nicola Vaptsarov Naval Academy",
@@ -1093,7 +1163,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".uni-svishtov.bg": ["Academy of Economics Dimitur A. Tscenov"],
     ".uni-sz.bg": ["Trakia University Stara Zagora"],
     ".uni-vt.bg": ["Veliko Turnovo University Cyril and Methodius"],
-    ".unibit.bg": ["University of Library Studies and Information Technologies"],
+    ".unibit.bg": [
+        "University of Library Studies and Information Technologies"
+    ],
     ".unwe.bg": ["University of National and World Economy"],
     ".uwekind.bg": ["International School Uwekind "],
     ".vfu.bg": ["Varna Free University"],
@@ -1121,13 +1193,17 @@ DOMAINS: Dict[str, List[str]] = {
         "Universidad Mayor de San Andres",
         "University Major of San Andres",
     ],
-    ".fhumanidades-uagrm.edu.bo": ["Facultad de Humanidades, Gabriel Rene Moreno"],
+    ".fhumanidades-uagrm.edu.bo": [
+        "Facultad de Humanidades, Gabriel Rene Moreno"
+    ],
     ".incos-santacruz.edu.bo": [
         "Solicitud Incos Santa Cruz",
         "Correo dominio: incos-santacruz.edu.bo",
         "pagina web: https://incos-santacruz.edu.bo/",
     ],
-    ".industrialmurillo.edu.bo": ["Escuela Industrial Superior Pedro Domingo Murillo"],
+    ".industrialmurillo.edu.bo": [
+        "Escuela Industrial Superior Pedro Domingo Murillo"
+    ],
     ".nur.edu.bo": ["Universidad Nur", "Nur University"],
     ".uab.edu.bo": ["Universidad Adventista de Bolivia"],
     ".uabjb.edu.bo": ["Universidad Autónoma del Beni José Ballivián"],
@@ -1148,7 +1224,10 @@ DOMAINS: Dict[str, List[str]] = {
     ".ucbtja.edu.bo": ["Universidad Católica Boliviana, Tarija"],
     ".udabol.edu.bo": ["Universidad de Aquino Bolivia"],
     ".udelosandes.edu.bo": ["Universidad Los Andes"],
-    ".ulasalle.edu.bo": ["Universidad LaSalle Bolivia", "LaSalle Bolivia University"],
+    ".ulasalle.edu.bo": [
+        "Universidad LaSalle Bolivia",
+        "LaSalle Bolivia University",
+    ],
     ".umss.edu.bo": ["Universidad Mayor de San Simón"],
     ".unefco.edu.bo": [
         "Unidad Especializada de Formación Continua - UNEFCO",
@@ -1168,7 +1247,10 @@ DOMAINS: Dict[str, List[str]] = {
         "Domingo Savio Private University",
     ],
     ".umsa.bo": ["Universidad Mayor de San Andrés"],
-    ".upea.bo": ["Universidad publica de El Alto", "Public University of El Alto"],
+    ".upea.bo": [
+        "Universidad publica de El Alto",
+        "Public University of El Alto",
+    ],
     ".usfx.bo": [
         "Universidad Mayor Real y Pontificia de San Francisco Xavier de Chuquisaca",
         "San Francisco Xavier University",
@@ -1179,7 +1261,10 @@ DOMAINS: Dict[str, List[str]] = {
     ".anhembi.br": ["Universidade Anhembi Morumbi"],
     ".baraodemaua.br": ["Centro Universitário Barao de Maua"],
     ".brazcubas.br": ["Universidade Braz Cubas"],
-    ".cairu.br": ["Fundação Visconde de Cairu", "Viscount of Cairu Foundation"],
+    ".cairu.br": [
+        "Fundação Visconde de Cairu",
+        "Viscount of Cairu Foundation",
+    ],
     ".candidomendes.br": ["Universidade Candido Mendes"],
     ".castelobranco.br": ["Universidade Castelo Branco"],
     ".cbpf.br": ["Centro Brasileiro de Pesquisas Físicas"],
@@ -1216,7 +1301,10 @@ DOMAINS: Dict[str, List[str]] = {
     ".cotemig.com.br": ["Faculdade COTEMIG"],
     ".cscs.com.br": ["Colegio Santa Catarina de Sena"],
     ".descomplica.com.br": ["Faculdade Descomplica"],
-    ".edumail.com.br": ["Faculdade Pitágoras Ipatinga", "Faculdade Pitágoras Ipatinga"],
+    ".edumail.com.br": [
+        "Faculdade Pitágoras Ipatinga",
+        "Faculdade Pitágoras Ipatinga",
+    ],
     ".einsteinlimeira.com.br": ["Einstein Limeira"],
     ".escolamobile.com.br": ["Escola Móbile", "Móbile School"],
     ".etecdeguaianazes.com.br": ["Etec de Guaianazes"],
@@ -1250,10 +1338,14 @@ DOMAINS: Dict[str, List[str]] = {
     ".fiap.com.br": ["Faculdade de Informatica e Administração Paulista"],
     ".ftec.com.br": ["Faculdade de Tecnologia TECBrasil"],
     ".grupoprominas.com.br": ["Grupo PROMINAS"],
-    ".ienh.com.br": ["Faculdade IENH - Instituição Evangélica de Novo Hamburgo"],
+    ".ienh.com.br": [
+        "Faculdade IENH - Instituição Evangélica de Novo Hamburgo"
+    ],
     ".ises.com.br": ["Instituto Sumaré de Ensino Superior"],
     ".kroton.com.br": ["Universidade Pitágoras", "University Pitagoras"],
-    ".liberato.com.br": ["Fundação Escola Técnica Liberato Salzano Vieira da Cunha"],
+    ".liberato.com.br": [
+        "Fundação Escola Técnica Liberato Salzano Vieira da Cunha"
+    ],
     ".mackenzista.com.br": ["Mackenzie Presbyterian University"],
     ".maisunifacisa.com.br": ["Unifacisa", "Unifacisa"],
     ".melies.com.br": [
@@ -1295,7 +1387,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".estudante.ufscar.com.br": ["universidade federal de são carlos"],
     ".unialfa.com.br": ["UNIALFA"],
     ".uniara.com.br": ["Centro Universitário de Araraquara"],
-    ".uniasselvi.com.br": ["Sociedade Educacional Leonardo da Vinci - UNIASSELVI"],
+    ".uniasselvi.com.br": [
+        "Sociedade Educacional Leonardo da Vinci - UNIASSELVI"
+    ],
     ".unibrasil.com.br": ["Faculdades Integradas do Brasil - UNIBRASIL"],
     ".unicaipatinga.com.br": ["Faculdade Única"],
     ".uniciv.com.br": ["UNICIV - POS GRADUAÇÂO EAD EM TI."],
@@ -1320,12 +1414,17 @@ DOMAINS: Dict[str, List[str]] = {
     ],
     ".unitau.com.br": ["Universidade de Taubaté"],
     ".univale.com.br": ["Faculdades Integradas do Vale do Ivaí"],
-    ".univicosa.com.br": ["Centro Universitário de Viçosa - Univiçosa", "Univiçosa"],
+    ".univicosa.com.br": [
+        "Centro Universitário de Viçosa - Univiçosa",
+        "Univiçosa",
+    ],
     ".unopar.com.br": ["Universidade Norte do Paraná"],
     ".uscsonline.com.br": ["Universidade Municipal de São Caetano do Sul"],
     ".uvvnet.com.br": ["Universidade Vila Velha"],
     ".viannasempre.com.br": ["Instituto Vianna Júnior"],
-    ".creupi.br": ["Centro Regional Universitário de Espiríto Santo do Pinhal"],
+    ".creupi.br": [
+        "Centro Regional Universitário de Espiríto Santo do Pinhal"
+    ],
     ".ime.eb.br": ["Instituto Militar de Engenharia"],
     ".alunosatc.edu.br": [
         "SATC - Educação e Tecnologia",
@@ -1350,7 +1449,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".claretiano.edu.br": ["Centro Universitário Claretiano"],
     ".cruzeirodosul.edu.br": ["Universidade Cruzeiro do Sul"],
     ".doctum.edu.br": ["Doctum"],
-    ".einstein.edu.br": ["Instituto Israelita de Ensino e Pesquisa Albert Einstein"],
+    ".einstein.edu.br": [
+        "Instituto Israelita de Ensino e Pesquisa Albert Einstein"
+    ],
     ".academico.emge.edu.br": [
         "Escola de Engenharia de Minas Gerais - EMGE",
         " Engineering School of Minas Gerais",
@@ -1379,7 +1480,10 @@ DOMAINS: Dict[str, List[str]] = {
     ".faeterj-rio.edu.br": [
         "Resultados da pesquisa Resultados da Web  Faeterj-Rio - Faculdade de Educação Tecnológica do Estado do Rio de Janeiro"
     ],
-    ".faex.edu.br": ["Faculdade de Ciências Sociais Aplicadas de extrema", "FAEX"],
+    ".faex.edu.br": [
+        "Faculdade de Ciências Sociais Aplicadas de extrema",
+        "FAEX",
+    ],
     ".minha.fag.edu.br": ["Centro Universitário da Fundação Assis Gurgacz"],
     ".fagammon.edu.br": ["Fagammon", "Faculdade Presbiteriana Gammon"],
     ".fam.edu.br": ["FAM - Faculdade de Americana"],
@@ -1411,10 +1515,16 @@ DOMAINS: Dict[str, List[str]] = {
     ".fcarp.edu.br": ["Faculdade Católica Rainha da Paz"],
     ".fdvmg.edu.br": ["Faculdade de Viçosa - FDV"],
     ".fei.edu.br": ["Centro Universitário FEI", "University Center FEI"],
-    ".feitep.edu.br": ["Faculdade de Engenharia e Inovação Técnico Profissional"],
+    ".feitep.edu.br": [
+        "Faculdade de Engenharia e Inovação Técnico Profissional"
+    ],
     ".fema.edu.br": ["FEMA - Fundação Educacional do Município de Assis"],
     ".fgp.edu.br": ["Faculdade Gennari & Peartree"],
-    ".fgv.edu.br": ["Fundação Getúlio Vargas", "Getulio Vargas Foundation", "FGV"],
+    ".fgv.edu.br": [
+        "Fundação Getúlio Vargas",
+        "Getulio Vargas Foundation",
+        "FGV",
+    ],
     ".alunos.fho.edu.br": ["Fundação Hermínio Ometto"],
     ".fho.edu.br": ["Centro Universitário da Fundação Hermínio Ometto"],
     ".a.ficr.edu.br": ["Faculdade Imaculada Conceição do Recife"],
@@ -1443,16 +1553,30 @@ DOMAINS: Dict[str, List[str]] = {
     ],
     ".alunos.ibmec.edu.br": ["IBMEC"],
     ".iesb.edu.br": ["IESB - Centro Universitário", "IESB University Center"],
-    ".iesp.edu.br": ["Centro Universitário UNIESP", "University Center UNIESP"],
-    ".ifal.edu.br": ["Instituto Federal de Alagoas", "Federal Institute of Alagoas"],
-    ".ifam.edu.br": ["Instituto Federal de Educação, Ciência e Tecnologia do Amazonas"],
-    ".ifap.edu.br": ["Instituto Federal de Educação, Ciência e Tecnologia do Amapá"],
-    ".ifb.edu.br": ["Instituto Federal de Educação, Ciência e Tecnologia de Brasília"],
+    ".iesp.edu.br": [
+        "Centro Universitário UNIESP",
+        "University Center UNIESP",
+    ],
+    ".ifal.edu.br": [
+        "Instituto Federal de Alagoas",
+        "Federal Institute of Alagoas",
+    ],
+    ".ifam.edu.br": [
+        "Instituto Federal de Educação, Ciência e Tecnologia do Amazonas"
+    ],
+    ".ifap.edu.br": [
+        "Instituto Federal de Educação, Ciência e Tecnologia do Amapá"
+    ],
+    ".ifb.edu.br": [
+        "Instituto Federal de Educação, Ciência e Tecnologia de Brasília"
+    ],
     ".ifba.edu.br": [
         "Instituto Federal de Educação, Ciência e Tecnologia da Bahia",
         "Federal Institute of Education, Science and Technology of Bahia",
     ],
-    ".ifbaiano.edu.br": ["Instituto Federal de Educação, Ciência e Tecnologia Baiano"],
+    ".ifbaiano.edu.br": [
+        "Instituto Federal de Educação, Ciência e Tecnologia Baiano"
+    ],
     ".ifc.edu.br": ["Instituto Federal Catarinense"],
     ".aluno.ifce.edu.br": [
         "Instituto Federal de Educação, Ciência e Tecnologia do Ceará"
@@ -1462,7 +1586,9 @@ DOMAINS: Dict[str, List[str]] = {
     ],
     ".ifce.edu.br": ["Instituto Federal do Ceará"],
     ".ifes.edu.br": ["Instituto Federal do Espírito Santo"],
-    ".iff.edu.br": ["Instituto Federal de Educação, Ciência e Tecnologia Fluminense"],
+    ".iff.edu.br": [
+        "Instituto Federal de Educação, Ciência e Tecnologia Fluminense"
+    ],
     ".aluno.iffar.edu.br": [
         "Instituto Federal de Educação, Ciência e Tecnologia Farroupilha"
     ],
@@ -1479,13 +1605,18 @@ DOMAINS: Dict[str, List[str]] = {
     ".acad.ifma.edu.br": [
         "Instituto Federal de Educação Ciência e Tecnologia do Maranhão"
     ],
-    ".ifma.edu.br": ["Instituto Federal do Maranhão", "Federal Institute of Maranhão"],
+    ".ifma.edu.br": [
+        "Instituto Federal do Maranhão",
+        "Federal Institute of Maranhão",
+    ],
     ".ifmg.edu.br": ["Instituto Federal de Minas Gerais"],
     ".ifms.edu.br": ["Federal Institute of Mato Grosso do Sul (IFMS)"],
     ".ifmt.edu.br": ["Instituto Federal de Mato Grosso"],
     ".ifnmg.edu.br": ["Instituto Federal do Norte de Minas Gerais"],
     ".ifpa.edu.br": ["Instituto Federal do Pará"],
-    ".ifpb.edu.br": ["Instituto Federal de Educação, Ciência e Tecnologia da Paraíba"],
+    ".ifpb.edu.br": [
+        "Instituto Federal de Educação, Ciência e Tecnologia da Paraíba"
+    ],
     ".ifpe.edu.br": ["Instituto Federal de Pernambuco"],
     ".ifpi.edu.br": ["Instituto Federal do Piauí"],
     ".ifpr.edu.br": ["Instituto Federal de Instituto Federal do Paraná"],
@@ -1497,8 +1628,13 @@ DOMAINS: Dict[str, List[str]] = {
         "Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Norte"
     ],
     ".aluno.ifro.edu.br": [" Instituto Federal de Rondônia - Campus Vilhena"],
-    ".ifro.edu.br": ["Instituto Federal de Educação, Ciência e Tecnologia de Rondônia"],
-    ".ifrr.edu.br": ["Instituto Federal de Roraima", "Federal Institute of Roraima"],
+    ".ifro.edu.br": [
+        "Instituto Federal de Educação, Ciência e Tecnologia de Rondônia"
+    ],
+    ".ifrr.edu.br": [
+        "Instituto Federal de Roraima",
+        "Federal Institute of Roraima",
+    ],
     ".aluno.canoas.ifrs.edu.br": [
         "Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Sul - Campus Canoas",
         "Federal Institute of Rio Grande do Sul Canoas Campus",
@@ -1595,7 +1731,10 @@ DOMAINS: Dict[str, List[str]] = {
         "Pontifical Catholic University of Paraná",
     ],
     ".pucsp.edu.br": ["Pontifícia Universidade Católica"],
-    ".redentor.edu.br": ["Centro Universitário Redentor", "Redentor University Center"],
+    ".redentor.edu.br": [
+        "Centro Universitário Redentor",
+        "Redentor University Center",
+    ],
     ".senacsp.edu.br": ["Centro Universitario Senac"],
     ".senaimt.edu.br": ["FATEC SENAI MT", "FATEC SENAI MT"],
     ".estudante.senairs.edu.br": ["senairs"],
@@ -1609,7 +1748,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".toledoprudente.edu.br": ["Toledo Prudente Centro Universitário"],
     ".ubec.edu.br": ["União Brasileira de Educação Católica"],
     ".uca.edu.br": ["Faculdade Católica Paulista"],
-    ".uceff.edu.br": ["UCEFF- UNIDADE CENTRAL DE EDUCAÇÃO FAI FACULDADES LTDA"],
+    ".uceff.edu.br": [
+        "UCEFF- UNIDADE CENTRAL DE EDUCAÇÃO FAI FACULDADES LTDA"
+    ],
     ".ucpel.edu.br": [
         "Universidade Católica de Pelotas",
         "Catholic University of Pelotas",
@@ -1620,7 +1761,10 @@ DOMAINS: Dict[str, List[str]] = {
     ],
     ".udc.edu.br": ["Centro Universitário Dinâmica Cataratas"],
     ".udf.edu.br": ["Centro de Ensino Unificado do Distrito Federal"],
-    ".uea.edu.br": ["Universidade do Estado do Amazonas", "Amazonas State University"],
+    ".uea.edu.br": [
+        "Universidade do Estado do Amazonas",
+        "Amazonas State University",
+    ],
     ".uepb.edu.br": ["Universidade Estadual da Paraíba"],
     ".uergs.edu.br": ["Universidade Estadual do Rio Grande do Sul"],
     ".uerr.edu.br": ["Universidade Estadual de Roraima"],
@@ -1628,14 +1772,18 @@ DOMAINS: Dict[str, List[str]] = {
         "Universidade Estadual do Sudoeste da Bahia",
         "State University of Southwest Bahia",
     ],
-    ".uezo.edu.br": ["Fundação Centro Universitário da Zona Oeste do Rio de Janeiro"],
+    ".uezo.edu.br": [
+        "Fundação Centro Universitário da Zona Oeste do Rio de Janeiro"
+    ],
     ".ufabc.edu.br": ["Universidade Federal do ABC"],
     ".ufam.edu.br": ["UNIVERSIDADE FEDERAL DO AMAZONAS"],
     ".ufape.edu.br": ["Universidade Federal do Agreste de Pernambuco"],
     ".ufca.edu.br": ["Universidade Federal do Cariri"],
     ".discente.ufcat.edu.br": ["Universidade Federal de Catalão"],
     ".ufcg.edu.br": ["Universidade Federal de Campina Grande"],
-    ".ufcspa.edu.br": ["Universidade Federal de Ciências da Saúde de Porto Alegre"],
+    ".ufcspa.edu.br": [
+        "Universidade Federal de Ciências da Saúde de Porto Alegre"
+    ],
     ".ufersa.edu.br": [
         "Universidade Federal Rural do Semi-Árido",
         "Federal Rural University of the Semi-Arid",
@@ -1660,7 +1808,10 @@ DOMAINS: Dict[str, List[str]] = {
         "Federal University of Western Pará",
     ],
     ".ufpel.edu.br": ["Universidade Federal de Pelotas"],
-    ".ufpi.edu.br": ["Universidade Federal do Piauí", "Federal University of Piaui"],
+    ".ufpi.edu.br": [
+        "Universidade Federal do Piauí",
+        "Federal University of Piaui",
+    ],
     ".ufr.edu.br": [
         "Universidade Federal de Rondonópolis",
         "Federal University of Rondonópolis",
@@ -1687,7 +1838,9 @@ DOMAINS: Dict[str, List[str]] = {
         "Universidade Federal do Triângulo Mineiro",
         "Federal University of Triângulo Mineiro",
     ],
-    ".ufvjm.edu.br": ["Universidade Federal dos Vales do Jequitinhonha e Mucuri"],
+    ".ufvjm.edu.br": [
+        "Universidade Federal dos Vales do Jequitinhonha e Mucuri"
+    ],
     ".ulbra.edu.br": ["Universidade Luterana do Brasil"],
     ".sou.unaerp.edu.br": [
         "UNAERP - Universidade de Ribeirão Preto",
@@ -1708,7 +1861,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".uniacademia.edu.br": ["UniAcademia Centro Universitário"],
     ".uniaeso.edu.br": ["UNIAESO", "Centro Universitário AESO-Barros Melo"],
     ".uniara.edu.br": ["Uniara - Universidade de Araraquara"],
-    ".uniasselvi.edu.br": ["Sociedade Educacional Leonardo da Vinci - UNIASSELVI"],
+    ".uniasselvi.edu.br": [
+        "Sociedade Educacional Leonardo da Vinci - UNIASSELVI"
+    ],
     ".aluno.uniateneu.edu.br": [
         "Centro Universitário UniAteneu",
         "UniAteneu University Center",
@@ -1720,7 +1875,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".unichristus.edu.br": ["Centro Universitário Christus - Unichristus"],
     ".unicid.edu.br": ["Universidade Cidade de São Paulo"],
     ".unidavi.edu.br": ["Unidavi"],
-    ".unidesc.edu.br": ["Centro Universitário de Desenvolvimento do Centro-Oeste"],
+    ".unidesc.edu.br": [
+        "Centro Universitário de Desenvolvimento do Centro-Oeste"
+    ],
     ".unidombosco.edu.br": [
         "Centro Universitário Dom Bosco",
         "Dom Bosco University Center",
@@ -1753,7 +1910,9 @@ DOMAINS: Dict[str, List[str]] = {
     ],
     ".unifesspa.edu.br": ["Universidade Federal do Sul e Sudeste do Pará"],
     ".unifev.edu.br": ["Unifev - Centro Universitário de Votuporanga"],
-    ".unifio.edu.br": ["Centro Universitário das Faculdades Integradas de Ourinhos"],
+    ".unifio.edu.br": [
+        "Centro Universitário das Faculdades Integradas de Ourinhos"
+    ],
     ".unifoa.edu.br": ["Centro Universitário de Volta Redonda - UniFOA"],
     ".unifran.edu.br": ["Universidade de Franca"],
     ".unigran.edu.br": ["Centro Universitário da Grande Dourados"],
@@ -1770,7 +1929,9 @@ DOMAINS: Dict[str, List[str]] = {
         "Federal University for Latin American",
     ],
     ".unilasalle.edu.br": ["Universidade La Salle"],
-    ".a.unileste.edu.br": ["Centro Universitário Católica do Leste de Minas Gerais"],
+    ".a.unileste.edu.br": [
+        "Centro Universitário Católica do Leste de Minas Gerais"
+    ],
     ".aluno.unilins.edu.br": ["UNILINS"],
     ".aluno.unimeta.edu.br": ["Unimeta"],
     ".unimetrocamp.edu.br": ["Centro Universitário UniMetrocamp"],
@@ -1816,13 +1977,18 @@ DOMAINS: Dict[str, List[str]] = {
     ".unis.edu.br": ["CENTRO UNIVERSITÁRIO DO SUL DE MINAS - UNIS"],
     ".alunos.unisagrado.edu.br": ["Unisagrado"],
     ".unisecal.edu.br": ["SOCIEDADE EDUCATIVA E CULTURAL AMELIA S/C LTDA"],
-    ".unisepe.edu.br": ["Unisepe Educacional", "Unisepe Educational University"],
+    ".unisepe.edu.br": [
+        "Unisepe Educacional",
+        "Unisepe Educational University",
+    ],
     ".unisuam.edu.br": [
         "Centro Universitário Augusto Motta",
         "Augusto Motta University Center",
     ],
     ".unitri.edu.br": ["Unitri - Centro Universitário do Triângulo"],
-    ".uniuv.edu.br": ["UNIUV - Centro Universitário da Cidade de União da Vitória"],
+    ".uniuv.edu.br": [
+        "UNIUV - Centro Universitário da Cidade de União da Vitória"
+    ],
     ".univag.edu.br": ["Univag Centro Universitário"],
     ".univas.edu.br": ["\ufeffUniversidade do Vale do Sapucaí"],
     ".univasf.edu.br": ["Universidade Federal do Vale do São Francisco"],
@@ -1833,7 +1999,9 @@ DOMAINS: Dict[str, List[str]] = {
         "University Salgado de Oliveira",
     ],
     ".univille.edu.br": ["Universidade da Região de Joinville - UNIVILLE(c)"],
-    ".univisa.edu.br": ["CENTRO UNIVERSITÁRIO DA VITÓRIA DE SANTO ANTÃO - UNIVISA"],
+    ".univisa.edu.br": [
+        "CENTRO UNIVERSITÁRIO DA VITÓRIA DE SANTO ANTÃO - UNIVISA"
+    ],
     ".unochapeco.edu.br": [
         "Universidade Comunitária da Região de Chapecó - Unochapecó",
         "Community University of Chapecó Region - Unochapecó",
@@ -1866,7 +2034,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".facape.br": ["Faculdade de Ciências Aplicadas e Sociais de Petrolina"],
     ".faccat.br": ["Faculdades Integradas de Taquara"],
     ".facens.br": ["Engineering College of Sorocaba"],
-    ".facol.br": ["Facol Faculdade Orígenes Lessa - Lençóis Paulista / São Paulo"],
+    ".facol.br": [
+        "Facol Faculdade Orígenes Lessa - Lençóis Paulista / São Paulo"
+    ],
     ".aluno.faculdadecotemig.br": ["Faculdade COTEMIG"],
     ".faculdadescuritiba.br": ["Faculdades Integradas Curitiba"],
     ".sou.fae.br": [
@@ -1874,14 +2044,22 @@ DOMAINS: Dict[str, List[str]] = {
     ],
     ".faesa.br": ["FAESA Centro Universitário"],
     ".fagoc.br": ["Faculdade Governador Ozanam Coelho"],
-    ".fai-mg.br": ["\ufeffCentro de Ensino Superior em Gestão, Tecnologia e Educação"],
+    ".fai-mg.br": [
+        "\ufeffCentro de Ensino Superior em Gestão, Tecnologia e Educação"
+    ],
     ".faj.br": ["Universidade de Jaguaríuna"],
     ".falec.br": ["Faculdade Doutor Leocádio José Correia"],
     ".famerp.br": ["Faculdade de Medicina de São José do Rio Preto"],
     ".fasp.br": ["FASP - Faculdades Associadas de Sao Paulo"],
     ".faspmail.br": ["FASP - Faculdades Associadas de Sao Paulo"],
-    ".edu.fecap.br": ["Fundação Escola de Comércio Álvares Penteado (FECAP)", "FECAP"],
-    ".fecap.br": ["Fundação Escola de Comércio Álvares Penteado (FECAP)", "FECAP"],
+    ".edu.fecap.br": [
+        "Fundação Escola de Comércio Álvares Penteado (FECAP)",
+        "FECAP",
+    ],
+    ".fecap.br": [
+        "Fundação Escola de Comércio Álvares Penteado (FECAP)",
+        "FECAP",
+    ],
     ".feevale.br": ["Universidade Feevale"],
     ".fgv.br": ["Getulio Vargas Foundation"],
     ".fmu.br": ["Centro Universitário FMU", "FMU University Center"],
@@ -1902,9 +2080,14 @@ DOMAINS: Dict[str, List[str]] = {
         "e-Nova Educacao Project by the Government of the State of Bahia, Brazil"
     ],
     ".escola.ce.gov.br": ["EEEP Professora Luíza De Teodoro Vieira"],
-    ".tc.df.gov.br": ["Escola de Contas do Tribunal de Contas do Distrito Federal"],
+    ".tc.df.gov.br": [
+        "Escola de Contas do Tribunal de Contas do Distrito Federal"
+    ],
     ".enap.gov.br": ["Escola Nacional de Administração Pública"],
-    ".escola.pr.gov.br": ["Pedro Macedo High School", "Colégio Estadual Pedro Macedo"],
+    ".escola.pr.gov.br": [
+        "Pedro Macedo High School",
+        "Colégio Estadual Pedro Macedo",
+    ],
     ".aluno.educa.rj.gov.br": ["Colégio Estadual Paulino Barbosa"],
     ".aluno.faeterj-prc.faetec.rj.gov.br": [
         "Faculdade de Educação Tecnológica do Estado do Rio de Janeiro (FAETERJ-Paracambi)"
@@ -1956,7 +2139,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".metodista.br": ["Universidade Metodista de Sao Paulo"],
     ".newtonpaiva.br": ["Centro Universitário Newton Paiva"],
     ".on.br": ["Observatório Nacional", "National Observatory of Brazil"],
-    ".catolicasc.org.br": ["Centro Universitário - Católica de Santa Catarina"],
+    ".catolicasc.org.br": [
+        "Centro Universitário - Católica de Santa Catarina"
+    ],
     ".faculdadedaindustriaiel.org.br": [
         "Faculdade da Indústria - Campus Afonso Pena",
         "faculdade da Indústria",
@@ -2020,7 +2205,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".sc.estudante.senai.br": ["SENAI"],
     ".pe.senai.br": ["Serviço Nacional de Aprendizagem Industrial - SENAI"],
     ".sc.senai.br": ["Serviço Nacional de Aprendizagem Industrial"],
-    ".sp.senai.br": ["Serviço Nacional de Aprendizagem Industrial - São Paulo"],
+    ".sp.senai.br": [
+        "Serviço Nacional de Aprendizagem Industrial - São Paulo"
+    ],
     ".simonsen.br": ["Faculdades Integradas Simonsen"],
     ".smarcos.br": ["Universidade São Marcos"],
     ".souzamarques.br": ["Faculdade Tecnico-Educacional Souza Marques"],
@@ -2196,7 +2383,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".upf.br": ["Universidade de Passo Fundo"],
     ".upis.br": ["Faculdades Integradas UPIS"],
     ".urca.br": ["Universidade Regional do Cariri"],
-    ".uri.br": ["Universidade Regional Integrada do Alto Uruguai e das Missões"],
+    ".uri.br": [
+        "Universidade Regional Integrada do Alto Uruguai e das Missões"
+    ],
     ".usc.br": ["Universidade do Sagrado Coração"],
     ".usf.br": ["Universidade São Francisco"],
     ".usjt.br": ["Universidade São Judas Tadeu"],
@@ -2211,7 +2400,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".jnec.edu.bt": ["Jigme Namgyel Engineering College"],
     ".rub.edu.bt": ["Royal University of Bhutan"],
     ".bac.ac.bw": ["Botswana Accountancy College"],
-    ".biust.ac.bw": ["Botswana  International University of Science & Technology"],
+    ".biust.ac.bw": [
+        "Botswana  International University of Science & Technology"
+    ],
     ".mybac.ac.bw": ["Botswana Accountancy College"],
     ".ub.ac.bw": ["University of Botswana"],
     ".bca.bw": ["Botswana College of Agriculture"],
@@ -2226,7 +2417,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".bkatk.by": ["Буда-Кошелевский аграрно-технический колледж"],
     ".bntu.by": ["Belarusian National Technical University"],
     ".brest.by": ["Brest State University"],
-    ".brsu.by": ["\ufeffБрестский государственный университет имени А.С. Пушкина"],
+    ".brsu.by": [
+        "\ufeffБрестский государственный университет имени А.С. Пушкина"
+    ],
     ".bru.by": ["Belarusian-Russian University"],
     ".bsac.by": ["Belarusian State Academy of Telecommunications"],
     ".bseu.by": ["Belarusian State Economic University"],
@@ -2237,7 +2430,9 @@ DOMAINS: Dict[str, List[str]] = {
     ],
     ".bstu.by": ["Brest State Technical University"],
     ".bsu.by": ["Belarusian State University"],
-    ".bsuir.by": ["Belarusian State University of Informatics and Radioelectronics"],
+    ".bsuir.by": [
+        "Belarusian State University of Informatics and Radioelectronics"
+    ],
     ".bsut.by": [
         "Белорусский государственный университет транспорта",
         "Belarusian State University of Transport",
@@ -2271,7 +2466,10 @@ DOMAINS: Dict[str, List[str]] = {
     ".gsu.by": ["Francisk Skorina Gomel State University"],
     ".iseu.by": ["International Sakharov Environmental University"],
     ".lyceum.by": ["Lyceum of Belarusian State University"],
-    ".mcb.by": ["Минский колледж предпринимательства", "Minsk college of business"],
+    ".mcb.by": [
+        "Минский колледж предпринимательства",
+        "Minsk college of business",
+    ],
     ".mia.by": [
         "Academy of the Ministry of Internal Affairs of the Republic of Belarus"
     ],
@@ -2294,7 +2492,10 @@ DOMAINS: Dict[str, List[str]] = {
         "Mozyr State Pedagogical University named after I.P.Shamyakin",
     ],
     ".msu.by": ["Mogilev State University A.A. Kuleshov"],
-    ".mtp.by": ["Минский Колледж Предпринимательства", "Minsk College Of Bisenes"],
+    ".mtp.by": [
+        "Минский Колледж Предпринимательства",
+        "Minsk College Of Bisenes",
+    ],
     ".pac.by": [
         "The Academy of Public Administration under the aegis of the President of the Republic of Belarus",
         "Академия управления при Президенте Республики Беларусь",
@@ -2330,7 +2531,11 @@ DOMAINS: Dict[str, List[str]] = {
     ".vstu.by": ["Vitebsk State Technological Univercity"],
     ".vsu.by": ["Vitebsk State University"],
     ".ub.edu.bz": ["University of Belize"],
-    ".5565.ca": ["St. Albert Public Schools", ".group", "http://www.spschools.org/"],
+    ".5565.ca": [
+        "St. Albert Public Schools",
+        ".group",
+        "http://www.spschools.org/",
+    ],
     ".augustana.ab.ca": ["Augustana University College"],
     ".concordia.ab.ca": ["Concordia University College of Alberta"],
     ".gprc.ab.ca": ["Grande Prairie Regional College"],
@@ -2338,7 +2543,10 @@ DOMAINS: Dict[str, List[str]] = {
     ".rvschools.ab.ca": ["Springbank Community High School"],
     ".acadiau.ca": ["Acadia University"],
     ".algomau.ca": ["Algoma University"],
-    ".arsdayschool.ca": ["ARS Armenian Private School", "ARS Armenian Private School"],
+    ".arsdayschool.ca": [
+        "ARS Armenian Private School",
+        "ARS Armenian Private School",
+    ],
     ".ashbury.ca": ["Ashbury"],
     ".assumptionu.ca": ["Assumption University"],
     ".athabascau.ca": ["Athabasca University"],
@@ -2529,7 +2737,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".lambton.on.ca": ["Lambton College"],
     ".limestone.on.ca": ["Limestone district school board"],
     ".loyalistc.on.ca": ["Loyalist College"],
-    ".student.rcdsb.on.ca": ["renfrew county district school board student emails"],
+    ".student.rcdsb.on.ca": [
+        "renfrew county district school board student emails"
+    ],
     ".rcdsb.on.ca": ["renfrew county district school board"],
     ".rsgc.on.ca": ["Royal St. George's College"],
     ".scdsb.on.ca": ["Banting Memorial High School"],
@@ -2695,10 +2905,17 @@ DOMAINS: Dict[str, List[str]] = {
         "University of St. Jerome's College",
         "University of Waterloo",
     ],
-    ".uwaterloo.ca": ["University of St. Jerome's College", "University of Waterloo"],
+    ".uwaterloo.ca": [
+        "University of St. Jerome's College",
+        "University of Waterloo",
+    ],
     ".uwindsor.ca": ["University of Windsor"],
     ".uwinnipeg.ca": ["University of Winnipeg"],
-    ".uwo.ca": ["Brescia College", "King's College", "University of Western Ontario"],
+    ".uwo.ca": [
+        "Brescia College",
+        "King's College",
+        "University of Western Ontario",
+    ],
     ".vanas.ca": ["Vancouver Animation School"],
     ".vcc.ca": ["Vancouver Community College"],
     ".viu.ca": ["Vancouver Island University"],
@@ -2836,14 +3053,20 @@ DOMAINS: Dict[str, List[str]] = {
     ".fh-hwz.ch": ["Hochschule für Wirtschaft Zürich"],
     ".fhbb.ch": ["University of Applied Sciences Basel (FHBB )"],
     ".fhgr.ch": ["University of Applied Sciences of the Grisons"],
-    ".fhnw.ch": ["University of Applied Sciences and Arts Northwestern Switzerland"],
-    ".fhso.ch": ["University of Applied Sciences Solothurn Northwestern Switzerland"],
+    ".fhnw.ch": [
+        "University of Applied Sciences and Arts Northwestern Switzerland"
+    ],
+    ".fhso.ch": [
+        "University of Applied Sciences Solothurn Northwestern Switzerland"
+    ],
     ".fhsstudents.ch": ["University of Applied Sciences St.Gallen"],
     ".fmi.ch": ["Friedrich Miescher Institute for Biomedical Research"],
     ".gbchur.ch": ["Gewerbliche Berufsschule Chur (GBC)"],
     ".gbs-ge.ch": ["Geneva Business School"],
     ".gbssg.ch": ["Gewerbliches Berufs- und Weiterbildungszentrum St. Gallen"],
-    ".edu.ge.ch": ["Département de l'Instruction Publique du Canton de Genève"],
+    ".edu.ge.ch": [
+        "Département de l'Instruction Publique du Canton de Genève"
+    ],
     ".edu.gfbienne.ch": ["Gymnase Français de Bienne"],
     ".gibb.ch": ["Gewerblich-Industrielle Berufsschule Bern"],
     ".gibmit.ch": ["GIBM IT Pratteln"],
@@ -2860,12 +3083,16 @@ DOMAINS: Dict[str, List[str]] = {
         "University of Applied Sciences and Arts Western Switzerland // Fribourg"
     ],
     ".heig-vd.ch": ["The School of Engineering and Business Vaud"],
-    ".hes-so.ch": ["University of Applied Sciences and Arts Western Switzerland"],
+    ".hes-so.ch": [
+        "University of Applied Sciences and Arts Western Switzerland"
+    ],
     ".hesge.ch": ["University of Applied Sciences (HES-SO)"],
     ".hevs.ch": [
         "University of Applied Sciences and Arts Western Switzerland // Valais"
     ],
-    ".hf-ict.ch": ["Höhere Fachschule für Informations- und Kommunikationstechnologie"],
+    ".hf-ict.ch": [
+        "Höhere Fachschule für Informations- und Kommunikationstechnologie"
+    ],
     ".hftm.ch": [
         "Höhere Fachschule für Technik Mittelland",
         "école supérieure technique Mittelland",
@@ -2877,7 +3104,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".htwchur.ch": ["University of Applied Sciences (HTW) Chur"],
     ".ibw-schule.ch": ["Hohere Fachschule Sudostschweiz"],
     ".ibw.ch": ["Hohere Fachschule Sudostschweiz"],
-    ".iet-gibb.ch": ["Gewerblich-Industrielle Berufsschule Bern Abteilung IET"],
+    ".iet-gibb.ch": [
+        "Gewerblich-Industrielle Berufsschule Bern Abteilung IET"
+    ],
     ".ifa.ch": ["IFA - Höhere Fachschule für Wirtschaft und Informatik"],
     ".informatikschuleolten.ch": ["Informatikschule Olten"],
     ".ini.ch": ["Institute of Neuroinformatics"],
@@ -2910,11 +3139,16 @@ DOMAINS: Dict[str, List[str]] = {
     ".kzn.ch": ["Kantonsschule Zürich Nord"],
     ".kzo.ch": ["Kantonsschule Zurcher Oberland"],
     ".kzu.ch": ["Kantonsschule Zurcher Unterland"],
-    ".stud.lgr.ch": ["Literargymnasium Rämibühl", "literary high school rämibühl"],
+    ".stud.lgr.ch": [
+        "Literargymnasium Rämibühl",
+        "literary high school rämibühl",
+    ],
     ".liceolugano.ch": ["Liceo di Lugano 1"],
     ".lilu2.ch": ["Liceo di Lugano 2, Savosa"],
     ".lrguas.ch": ["Les Roches Gruyère University of Applied Sciences"],
-    ".mng.ch": ["Mathematisch-Naturwissenschaftliches Gymnasium Rämibühl Zürich"],
+    ".mng.ch": [
+        "Mathematisch-Naturwissenschaftliches Gymnasium Rämibühl Zürich"
+    ],
     ".ntb.ch": ["NTB Interstate University of Applied Sciences of Technology"],
     ".orif.ch": [
         "Organisation romande pour la formation et l'intégration professionnelle (Orif)",
@@ -2927,8 +3161,12 @@ DOMAINS: Dict[str, List[str]] = {
     ".phgr.ch": ["Padagogischen Hochschule Graubunden"],
     ".phlu.ch": ["PH Luzern - University of Teacher Education Lucerne"],
     ".phsg.ch": ["Pädagogische Hochschule St.Gallen"],
-    ".phtg.ch": ["Pädagogische Hochschule Thurgau (Thurgau School of Education)"],
-    ".phzh.ch": ["Pädagogische Hochschule Zürich (Zurich School of Education)"],
+    ".phtg.ch": [
+        "Pädagogische Hochschule Thurgau (Thurgau School of Education)"
+    ],
+    ".phzh.ch": [
+        "Pädagogische Hochschule Zürich (Zurich School of Education)"
+    ],
     ".psi.ch": ["Paul Scherrer Institute"],
     ".rpn.ch": ["Réseau pédagogique neuchâtelois"],
     ".samtrevano.ch": ["Scuola Arti e Mestieri di Trevano"],
@@ -2946,8 +3184,12 @@ DOMAINS: Dict[str, List[str]] = {
     ],
     ".stiftsschule-engelberg.ch": ["Stiftsschule Engelberg"],
     ".studentfr.ch": ["Education et formation dans le canton de Fribourg"],
-    ".supsi.ch": ["University of Applied Sciences and Arts of Southern Switzerland"],
-    ".swissinternationalschool.ch": ["SIS Swiss International Schools Schweiz AG"],
+    ".supsi.ch": [
+        "University of Applied Sciences and Arts of Southern Switzerland"
+    ],
+    ".swissinternationalschool.ch": [
+        "SIS Swiss International Schools Schweiz AG"
+    ],
     ".swissmc.ch": ["Swiss Management Center"],
     ".tbz.ch": ["Technische Berufsschule Zürich"],
     ".teko.ch": ["Schweizerische Fachschule TEKO"],
@@ -2962,7 +3204,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".unige.ch": ["University of Geneva"],
     ".unil.ch": ["University of Lausanne"],
     ".unilu.ch": ["University of Lucerne"],
-    ".uniludes.ch": ["Libera Università degli Studi di Scienze Umane e Tecnologiche"],
+    ".uniludes.ch": [
+        "Libera Università degli Studi di Scienze Umane e Tecnologiche"
+    ],
     ".unine.ch": ["University of Neuchatel"],
     ".unisg.ch": ["University of St. Gallen"],
     ".unisi.ch": ["University of the Italian-speaking Part of Switzerland"],
@@ -2971,7 +3215,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".usi.ch": ["Università della Svizzera italiana"],
     ".uzh.ch": ["University of Zurich"],
     ".webster.ch": ["Webster University Geneva"],
-    ".wsl.ch": ["Swiss Federal Institute for Forest, Snow and Landscape Research WSL"],
+    ".wsl.ch": [
+        "Swiss Federal Institute for Forest, Snow and Landscape Research WSL"
+    ],
     ".zbw-online.ch": ["Zentrum für Berufliche Weiterbildung"],
     ".zhaw.ch": ["Zurich University of Applied Sciences"],
     ".zhdk.ch": ["Zurich University of Arts"],
@@ -2980,8 +3226,13 @@ DOMAINS: Dict[str, List[str]] = {
     ".ujlg.edu.ci": ["Université Jean Lourougnon Guédé"],
     ".uvci.edu.ci": ["Université Virtuelle de Côte d'Ivoire"],
     ".esatic.ci": ["ESATIC", "ESATIC"],
-    ".inphb.ci": ["INP-HB (Institut National Polytechnique Félix Houphouët-Boigny)"],
-    ".ita-education.ci": ["ITA Ingenierie SA", "Abidjan Institute of Technology"],
+    ".inphb.ci": [
+        "INP-HB (Institut National Polytechnique Félix Houphouët-Boigny)"
+    ],
+    ".ita-education.ci": [
+        "ITA Ingenierie SA",
+        "Abidjan Institute of Technology",
+    ],
     ".nan.ci": ["NaN"],
     ".uabobo.ci": ["Université d'Abobo-Adjamé"],
     ".ubouake.ci": ["Université de Bouaké"],
@@ -3104,7 +3355,9 @@ DOMAINS: Dict[str, List[str]] = {
         "Institut Universitaire des Technologies",
         "Univesity Institute Of Technologies",
     ],
-    ".polytechnique.cm": ["Ecole National Supérieure Polytechnique de Yaounde"],
+    ".polytechnique.cm": [
+        "Ecole National Supérieure Polytechnique de Yaounde"
+    ],
     ".ubuea.cm": ["University of Buea"],
     ".udm.cm": ["\ufeffUniversité des Montagnes"],
     ".uninet.cm": ["Université de Yaoundé I"],
@@ -3171,7 +3424,10 @@ DOMAINS: Dict[str, List[str]] = {
         "中国科学院软件研究所，中国科学院大学",
         "Institute of Software, Chinese Academy of Sciences/University of Chinese Academy of Sciences",
     ],
-    ".nibs.ac.cn": ["北京生命科学研究所", "National Institute of Biological Sciences, Beijing"],
+    ".nibs.ac.cn": [
+        "北京生命科学研究所",
+        "National Institute of Biological Sciences, Beijing",
+    ],
     ".nssc.ac.cn": [
         "中国科学院国家空间科学中心",
         "National Space Science Center, Chinese Academy of Sciences",
@@ -3201,8 +3457,14 @@ DOMAINS: Dict[str, List[str]] = {
         "中国科学院武汉物理与数学研究所",
         "Wuhan Institute of Physics and Mathematics Chinese Academy of Science",
     ],
-    ".mails.ucas.as.cn": ["中国科学院大学", "University of Chinese Academy of Sciences"],
-    ".stu.aurora-college.cn": ["上海震旦职业技术学院", "Shanghai Aurora Vocational College"],
+    ".mails.ucas.as.cn": [
+        "中国科学院大学",
+        "University of Chinese Academy of Sciences",
+    ],
+    ".stu.aurora-college.cn": [
+        "上海震旦职业技术学院",
+        "Shanghai Aurora Vocational College",
+    ],
     ".bcis.cn": ["Beijing City International School"],
     ".bupt.cn": ["北京邮电大学"],
     ".ccbupt.cn": [
@@ -3216,10 +3478,16 @@ DOMAINS: Dict[str, List[str]] = {
     ],
     ".cvit.com.cn": ["Changchun Vocational Institute Of Technology"],
     ".jxhlxy.com.cn": ["江西卫生职业学院", "jiangxi health vocational college"],
-    ".njude.com.cn": ["南京大学网络教育学院", "NANJING UNIVERSITY School of Distance Education"],
+    ".njude.com.cn": [
+        "南京大学网络教育学院",
+        "NANJING UNIVERSITY School of Distance Education",
+    ],
     ".nou.com.cn": ["Dalian Neusoft University of Information"],
     ".qypt.com.cn": ["Qingyuan Polytechnic"],
-    ".schxmvc.com.cn": ["四川华新现代职业学院", "Sichuan Huaxin Modern Vocational College"],
+    ".schxmvc.com.cn": [
+        "四川华新现代职业学院",
+        "Sichuan Huaxin Modern Vocational College",
+    ],
     ".scie.com.cn": [
         "Shenzhen College of Internation Education",
         "深圳国际交流学院",
@@ -3268,12 +3536,17 @@ DOMAINS: Dict[str, List[str]] = {
     ".bnuz.edu.cn": ["BEIJING NORMAL UNIVERSITY ZHUHAI"],
     ".btbu.edu.cn": ["Beijing Technology and Business University"],
     ".buaa.edu.cn": ["Beihang University"],
-    ".stu.bucea.edu.cn": ["BEIJING UNIVERSITY OF CIVITL ENGINEERING AND ARCHITECTURE"],
+    ".stu.bucea.edu.cn": [
+        "BEIJING UNIVERSITY OF CIVITL ENGINEERING AND ARCHITECTURE"
+    ],
     ".buct.edu.cn": ["Beijing University of Chemical Technology"],
     ".bupt.edu.cn": ["Beijing University of Posts and Telecommunications"],
     ".buu.edu.cn": ["Beijing Union University", "北京联合大学"],
     ".cafa.edu.cn": ["Central Academy of  Fine Art"],
-    ".cafuc.edu.cn": ["中国民用航空飞行学院", "Civil Aviation Flight University of China"],
+    ".cafuc.edu.cn": [
+        "中国民用航空飞行学院",
+        "Civil Aviation Flight University of China",
+    ],
     ".cau.edu.cn": ["China Agricultural University"],
     ".ccdgut.edu.cn": ["City College of Dongguan University of Technology"],
     ".ccmu.edu.cn": ["Capital Medical University", "首都医科大学"],
@@ -3346,7 +3619,10 @@ DOMAINS: Dict[str, List[str]] = {
     ".dufe.edu.cn": ["Dongbei University of Finance And Economics"],
     ".student.ecnu.edu.cn": ["East China Normal University"],
     ".ecnu.edu.cn": ["East China Normal University"],
-    ".ecupl.edu.cn": ["华东政法大学", "East China University of Political Science and Law"],
+    ".ecupl.edu.cn": [
+        "华东政法大学",
+        "East China University of Political Science and Law",
+    ],
     ".ecust.edu.cn": ["East China University of Science and Technology"],
     ".ecut.edu.cn": ["East China University of Technology"],
     ".fjau.edu.cn": ["Fujian Agricultural University"],
@@ -3478,7 +3754,10 @@ DOMAINS: Dict[str, List[str]] = {
     ".nchu.edu.cn": ["Nanchang Hangkong University"],
     ".nciae.edu.cn": ["North China Institute of Aerospace Engineering"],
     ".ncist.edu.cn": ["North China Institute of Science and Technology"],
-    ".ncst.edu.cn": ["North China University of Science and Technology", "华北理工大学"],
+    ".ncst.edu.cn": [
+        "North China University of Science and Technology",
+        "华北理工大学",
+    ],
     ".ncu.edu.cn": ["Nanchang University"],
     ".ncut.edu.cn": ["North China University of Technology"],
     ".neau.edu.cn": ["Northeast Agricultural University"],
@@ -3506,7 +3785,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".nuc.edu.cn": ["North University of China"],
     ".nudt.edu.cn": ["National University of Defense Technology"],
     ".nufe.edu.cn": ["Nanjing University of Finance and Economics", "南京财经大学"],
-    ".nuist.edu.cn": ["Nanjing University of Information Science and Technology"],
+    ".nuist.edu.cn": [
+        "Nanjing University of Information Science and Technology"
+    ],
     ".nuit.edu.cn": ["Neusoft Institute Guangdong"],
     ".stu.nun.edu.cn": ["北方民族大学", "North Minzu University"],
     ".nwafu.edu.cn": ["Northwest A&F University"],
@@ -3535,14 +3816,20 @@ DOMAINS: Dict[str, List[str]] = {
     ".mail.scut.edu.cn": ["华南理工大学", "South China University of Technology"],
     ".scut.edu.cn": ["South China University of Technology"],
     ".sdau.edu.cn": ["Shandong Agricultural University"],
-    ".sdcit.edu.cn": ["Shandong College of Information Technology", "山东信息职业技术学院"],
+    ".sdcit.edu.cn": [
+        "Shandong College of Information Technology",
+        "山东信息职业技术学院",
+    ],
     ".sdjtu.edu.cn": ["Shandong Jiaotong University"],
     ".sdju.edu.cn": ["Shanghai Dainji University"],
     ".sdmu.edu.cn": ["Shandong Medical University"],
     ".sdnu.edu.cn": ["Shandong Normal University"],
     ".sdpt.edu.cn": ["顺德职业技术学院", "ShundePolyTechnic"],
     ".sdu.edu.cn": ["Shandong University"],
-    ".sdust.edu.cn": ["Shandong University of Science and Technology", "山东科技大学"],
+    ".sdust.edu.cn": [
+        "Shandong University of Science and Technology",
+        "山东科技大学",
+    ],
     ".sdut.edu.cn": ["Shandong University of Technology"],
     ".sdutcm.edu.cn": ["Shandong University of Triaditional Chinese Medicine"],
     ".sdyu.edu.cn": ["SHANDONG YOUTH UNIVERITY OF POLITICAL SCIENCE"],
@@ -3584,7 +3871,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".sues.edu.cn": ["Shanghai University of Engineering Science"],
     ".163.sufe.edu.cn": ["Shanghai University of Finance and Economics"],
     ".live.sufe.edu.cn": ["Shanghai University of Finance and Economics"],
-    ".suibe.edu.cn": ["Shanghai University of International Business and Economics"],
+    ".suibe.edu.cn": [
+        "Shanghai University of International Business and Economics"
+    ],
     ".sustc.edu.cn": [
         "南方科技大学",
         "Southern University of Science and Technology",
@@ -3633,7 +3922,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".tyut.edu.cn": ["Taiyuan University of Technology"],
     ".ucas.edu.cn": ["University of Chinese Academy of Sciences"],
     ".ucass.edu.cn": ["University of Chinese Academy of Social Sciences"],
-    ".uestc.edu.cn": ["University of Electronic Science and Technology of China"],
+    ".uestc.edu.cn": [
+        "University of Electronic Science and Technology of China"
+    ],
     ".uibe.edu.cn": ["University of International Business and Economics"],
     ".mail.ujn.edu.cn": ["University of Jinan", "ujn.edu.cn", "济南大学"],
     ".ujn.edu.cn": ["University of Jinan"],
@@ -3671,7 +3962,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".xhcom.edu.cn": ["Xinghai Conservatory of Music"],
     ".xhu.edu.cn": ["Xihua University"],
     ".stu.xidian.edu.cn": ["Xidian University"],
-    ".xidian.edu.cn": ["Xi'an University of Electronic Science and Technology"],
+    ".xidian.edu.cn": [
+        "Xi'an University of Electronic Science and Technology"
+    ],
     ".xiyou.edu.cn": ["Xi’an University of Posts and Telecommunications"],
     ".xjau.edu.cn": ["Xinjiang Agriculture University"],
     ".xjnu.edu.cn": ["Xinjiang Normal University"],
@@ -3709,8 +4002,13 @@ DOMAINS: Dict[str, List[str]] = {
     ".stu.zucc.edu.cn": ["Zhejiang University City College", "浙江大学城市学院"],
     ".zucc.edu.cn": ["Zhejiang University City College", "浙江大学城市学院"],
     ".zuel.edu.cn": ["Zhongnan University of Economics and Law"],
-    ".zufe.edu.cn": ["Zhejiang University of Finance & Economic, Hangzhou, China"],
-    ".zust.edu.cn": ["Zhejiang University of Science & Technology", "浙江科技学院(浙江科技大学)"],
+    ".zufe.edu.cn": [
+        "Zhejiang University of Finance & Economic, Hangzhou, China"
+    ],
+    ".zust.edu.cn": [
+        "Zhejiang University of Science & Technology",
+        "浙江科技学院(浙江科技大学)",
+    ],
     ".zut.edu.cn": ["  Zhongyuan University of Technology (ZUT)"],
     ".zyufl.edu.cn": ["ZheJiang YueXiu University", "浙江越秀外国语学院"],
     ".zzu.edu.cn": ["Zhengzhou University"],
@@ -3722,10 +4020,19 @@ DOMAINS: Dict[str, List[str]] = {
     ".gzmhxy.cn": ["贵州民用航空职业学院"],
     ".harrowbeijing.cn": ["北京哈罗国际学校", "Harrow International School Beijing"],
     ".mail.hniu.cn": ["湖南信息职业技术学院", "Hunan College of Information"],
-    ".hsefz.cn": ["华东师范大学第二附属中学", "No.2 High School of East China Normal University"],
-    ".stu.ccit.js.cn": ["常州信息职业技术学院", "ChangZhou College Of Information Technology"],
+    ".hsefz.cn": [
+        "华东师范大学第二附属中学",
+        "No.2 High School of East China Normal University",
+    ],
+    ".stu.ccit.js.cn": [
+        "常州信息职业技术学院",
+        "ChangZhou College Of Information Technology",
+    ],
     ".ecjtu.jx.cn": ["East China Jiao Tong University"],
-    ".jxvc.jx.cn": ["江西财经职业学院", "Jiangxi Vocational College of Finance and Economis"],
+    ".jxvc.jx.cn": [
+        "江西财经职业学院",
+        "Jiangxi Vocational College of Finance and Economis",
+    ],
     ".stu.jxufe.cn": ["Jiangxi University of Finance and Economics"],
     ".lut.cn": ["LanZhou University Of Technology"],
     ".nbcc.cn": ["NingBo City College Of Vacational Technology"],
@@ -3760,8 +4067,13 @@ DOMAINS: Dict[str, List[str]] = {
     ".dallam.co": [],
     ".americana.edu.co": ["corporación universitaria americana"],
     ".amigo.edu.co": ["Universidad Católica Luis Amigó"],
-    ".estudiantes.areandina.edu.co": ["Fundación Universitaria del Área Andina"],
-    ".artesyletras.edu.co": ["Escuela de Artes y Letras", "School of Arts and Letters"],
+    ".estudiantes.areandina.edu.co": [
+        "Fundación Universitaria del Área Andina"
+    ],
+    ".artesyletras.edu.co": [
+        "Escuela de Artes y Letras",
+        "School of Arts and Letters",
+    ],
     ".asys.edu.co": ["Corporacion Universitaria Remington "],
     ".aunarvillavicencio.edu.co": [
         "Corporación Universitaria Autónoma de Nariño Villavicencio"
@@ -3775,13 +4087,21 @@ DOMAINS: Dict[str, List[str]] = {
     ],
     ".cecar.edu.co": ["Coorporacion Universitaria del Caribe - CECAR"],
     ".ces.edu.co": ["Universidad CES"],
-    ".cesa.edu.co": ["Colegio de Estudios Superiores de Administración - CESA"],
+    ".cesa.edu.co": [
+        "Colegio de Estudios Superiores de Administración - CESA"
+    ],
     ".cgb.edu.co": ["\ufeffColegio Gran Bretaña"],
-    ".colegionuevocampestre.edu.co": ["colegio nuevo campestre", "new country school"],
+    ".colegionuevocampestre.edu.co": [
+        "colegio nuevo campestre",
+        "new country school",
+    ],
     ".colmabrija.edu.co": [
         "Instituto Técnico Padre Manuel Briceño Jauregui Fe y Alegría"
     ],
-    ".colmayor.edu.co": ["Colegio Mayor de Antioquia", "Colegio Mayor de Antioquia"],
+    ".colmayor.edu.co": [
+        "Colegio Mayor de Antioquia",
+        "Colegio Mayor de Antioquia",
+    ],
     ".coreducacion.edu.co": [
         "Coreducación – Patrimonio Educativo Regional Honda Tolima"
     ],
@@ -3794,7 +4114,9 @@ DOMAINS: Dict[str, List[str]] = {
     ],
     ".cuc.edu.co": ["Corporación Universitaria de la Costa (UNICOSTA)"],
     ".cues.edu.co": ["Corporacion Universitaria Empresarial de Salamanca"],
-    ".cun.edu.co": ["Corporación Unificada Nacional de Educación Superior CUN"],
+    ".cun.edu.co": [
+        "Corporación Unificada Nacional de Educación Superior CUN"
+    ],
     ".curnvirtual.edu.co": [
         "Corporacion Universitaria Rafael Nuñez",
         "Universitary Coporation Rafael Nunez",
@@ -3811,7 +4133,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".esap.edu.co": ["Escuela Superiore de Administración Pública"],
     ".escuelaing.edu.co": ["Escuela Colombiana de Ingeniería Julio Garavito"],
     ".estudiantesunibague.edu.co": ["Universidad de Ibague"],
-    ".fet.edu.co": ['FET Fundación Escuela Tecnológica De Neiva "Jesús Oviedo Perez"'],
+    ".fet.edu.co": [
+        'FET Fundación Escuela Tecnológica De Neiva "Jesús Oviedo Perez"'
+    ],
     ".fuac.edu.co": ["Universidad Autónoma de Colombia"],
     ".fumc.edu.co": ["FUNDACIÓN UNIVERSITARIA MARIA CANO"],
     ".funlam.edu.co": ["Fundación Universitaria Luis Amigó"],
@@ -3857,7 +4181,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".pascualbravo.edu.co": ["Institución universitaria Pascual Bravo"],
     ".pca.edu.co": ["Politécnico de la costa atlántica"],
     ".pedagogica.edu.co": ["Universidad Pedagogica Nacional"],
-    ".poligran.edu.co": ["Politécnico Grancolombiano - Institución Universitaria"],
+    ".poligran.edu.co": [
+        "Politécnico Grancolombiano - Institución Universitaria"
+    ],
     ".sanmartin.edu.co": ["Fundación Universitaria San Martín"],
     ".sanmateo.edu.co": [
         " Fundación Universitaria San Mateo",
@@ -3869,14 +4195,21 @@ DOMAINS: Dict[str, List[str]] = {
     ],
     ".sgs.edu.co": ["Saint George School"],
     ".soyucn.edu.co": ["Universidad Católica del Norte"],
-    ".soyudemedellin.edu.co": ["Universidad De Medellín", "University of Medellín"],
+    ".soyudemedellin.edu.co": [
+        "Universidad De Medellín",
+        "University of Medellín",
+    ],
     ".systemplus.edu.co": [
         "SystemPlus - Red Nacional de Educación ",
         "SystemPlus - National Education Network ",
     ],
     ".correo.tdea.edu.co": ["Tecnologico de Antioquia"],
-    ".tecnocomfenalco.edu.co": ["Fundacion Universitaria Tecnologico Comfenalco"],
-    ".teinco.edu.co": ["Corporación Tecnológica Industrial Colombiana – TEINCO"],
+    ".tecnocomfenalco.edu.co": [
+        "Fundacion Universitaria Tecnologico Comfenalco"
+    ],
+    ".teinco.edu.co": [
+        "Corporación Tecnológica Industrial Colombiana – TEINCO"
+    ],
     ".uac.edu.co": ["Universidad Autónoma del Caribe"],
     ".uam.edu.co": ["Universidad Autónoma de Las Américas"],
     ".uamerica.edu.co": ["Universidad de América Bogotá"],
@@ -3894,7 +4227,10 @@ DOMAINS: Dict[str, List[str]] = {
     ".ucn.edu.co": ["Universidad Católica del Norte"],
     ".uco.edu.co": ["Universidad Católica del Oriente"],
     ".ucompensar.edu.co": ["Fundación Universitaria Compensar"],
-    ".ucp.edu.co": ["Universidad Católica de Pereira", "https://www.ucp.edu.co/"],
+    ".ucp.edu.co": [
+        "Universidad Católica de Pereira",
+        "https://www.ucp.edu.co/",
+    ],
     ".ucundinamarca.edu.co": [
         "Universidad de Cundianamarca",
         "University of Cundinamarca",
@@ -3927,8 +4263,12 @@ DOMAINS: Dict[str, List[str]] = {
     ".unbosque.edu.co": ["Universidad El Bosque"],
     ".uniagraria.edu.co": ["Fundación Universitaria Agraria de Colombia"],
     ".uniagustiniana.edu.co": ["Uniagustiniana"],
-    ".estudiante.uniajc.edu.co": ["institucion universitaria antonio jose camacho"],
-    ".estudiantes.uniajc.edu.co": ["Institución Universitaria Antonio Jose Camacho"],
+    ".estudiante.uniajc.edu.co": [
+        "institucion universitaria antonio jose camacho"
+    ],
+    ".estudiantes.uniajc.edu.co": [
+        "Institución Universitaria Antonio Jose Camacho"
+    ],
     ".profesores.uniajc.edu.co": [
         "Institución Universitaria Antonio Jose Camacho",
         "Antonio Jose Camacho University Institution",
@@ -3976,7 +4316,9 @@ DOMAINS: Dict[str, List[str]] = {
         "Universidad Militar Nueva Granada",
     ],
     ".uniminuto.edu.co": ["Corporación Universitaria Minuto de Dios"],
-    ".unimonserrate.edu.co": ["Fundación Universitaria Monserrate - Unimonserrate"],
+    ".unimonserrate.edu.co": [
+        "Fundación Universitaria Monserrate - Unimonserrate"
+    ],
     ".unincca.edu.co": ["Universidad INCCA de Colombia"],
     ".uninorte.edu.co": ["Universidad del Norte"],
     ".uninpahu.edu.co": [
@@ -3991,7 +4333,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".uniremington.edu.co": ["uniremingtonmanizales", "uniremingtonmanizales"],
     ".uniremingtonmanizales.edu.co": ["Uniremington Manizales"],
     ".unisabana.edu.co": ["Universidad de La Sabana"],
-    ".unisabaneta.edu.co": ["Corporación Universitaria de Sabaneta - UNISABANETA"],
+    ".unisabaneta.edu.co": [
+        "Corporación Universitaria de Sabaneta - UNISABANETA"
+    ],
     ".unisalle.edu.co": ["Universidad de la Salle", "La Salle university"],
     ".unisimon.edu.co": ["universidad simón bolívar "],
     ".unisimonbolivar.edu.co": [
@@ -4024,7 +4368,10 @@ DOMAINS: Dict[str, List[str]] = {
     ".usco.edu.co": ["Universidad Surcolombiana", "Surcolombian university"],
     ".usergioarboleda.edu.co": ["Universidad Sergio Arboleda"],
     ".usta.edu.co": ["Universidad Santo Tomás"],
-    ".ustadistancia.edu.co": ["Universidad Santo Tomas", "Santo Tomas University"],
+    ".ustadistancia.edu.co": [
+        "Universidad Santo Tomas",
+        "Santo Tomas University",
+    ],
     ".ut.edu.co": ["Universidad del Tolima"],
     ".utadeo.edu.co": ["Universidad de Bogotá Jorge Tadeo Lozano"],
     ".utb.edu.co": [
@@ -4055,7 +4402,10 @@ DOMAINS: Dict[str, List[str]] = {
         "Instituto Tecnologico de Estudios Superiores de Zamora",
         "Technological Institute of Superior Studies of Zamora",
     ],
-    ".aclcbukidnon.com": ["ACLC Bukidnon", "AMA Computer Learning Center Bukidnon"],
+    ".aclcbukidnon.com": [
+        "ACLC Bukidnon",
+        "AMA Computer Learning Center Bukidnon",
+    ],
     ".actonlascruces.com": ["Acton Academy Mesilla Valley"],
     ".adenformations.com": ["ADEN Formations"],
     ".adithyatech.com": ["Adithya Institute Of Technology"],
@@ -4066,7 +4416,10 @@ DOMAINS: Dict[str, List[str]] = {
         "Alpendorada School Cluster",
     ],
     ".afip-formations.com": ["AFIP FORMATIONS", "AFIP FORMATIONS"],
-    ".agenlaacademy.com": ["Agenla Academy Institute", "Agenla Academy Institute"],
+    ".agenlaacademy.com": [
+        "Agenla Academy Institute",
+        "Agenla Academy Institute",
+    ],
     ".agk88.com": ["Adana Gündoğdu Koleji", "Adana Gundogdu College"],
     ".agmrcet.com": ["A G M R College of Engineering and Technology"],
     ".ahlulbaitonline.com": ["Ahlulbait International University"],
@@ -4081,7 +4434,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".alustudent.com": ["African Leadership University"],
     ".amityonline.com": ["Amity University"],
     ".amrolicollege.com": ["AMROLI COLLEGE"],
-    ".anangpuria.com": ["B.S. ANANGPURIA INSTITUTE OF TECHNOLOGY AND MANAGEMENT"],
+    ".anangpuria.com": [
+        "B.S. ANANGPURIA INSTITUTE OF TECHNOLOGY AND MANAGEMENT"
+    ],
     ".andela.com": ["Andela"],
     ".anhanguera.com": ["Universidade Anhanguera"],
     ".animashighschool.com": ["Animas High School"],
@@ -4103,7 +4458,9 @@ DOMAINS: Dict[str, List[str]] = {
         "https://www.ausiasmarch.com",
     ],
     ".st.bcc1852.com": ["Bangkok Christian College"],
-    ".students.berlinsbi.com": ["Berlin School of Business and Innovation (BSBI)"],
+    ".students.berlinsbi.com": [
+        "Berlin School of Business and Innovation (BSBI)"
+    ],
     ".bernardsboe.com": ["Bernards Township School District"],
     ".bic-benal.com": ["The Benalmádena International College"],
     ".bis-school.com": ["Bavarian International School"],
@@ -4133,20 +4490,29 @@ DOMAINS: Dict[str, List[str]] = {
     ".campusaula.com": ["Aula Campus"],
     ".canadahanson.com": ["Hanson College"],
     ".canadiancollege.com": ["Canadian College"],
-    ".canford.com": ["Independent Co-educational Boarding Dorset UK | Canford School"],
-    ".careerdevs.com": ["CareerDevs Computer Science University", "CareerDevs"],
+    ".canford.com": [
+        "Independent Co-educational Boarding Dorset UK | Canford School"
+    ],
+    ".careerdevs.com": [
+        "CareerDevs Computer Science University",
+        "CareerDevs",
+    ],
     ".carrollwooddayschool.com": ["Carrollwood Day School"],
     ".cchsrams.com": ["Central Catholic High School"],
     ".ccndpr.com": ["Colegio Cat�lico Notre Dame"],
     ".ccsdschools.com": ["Charleston County School District, South Carolina"],
     ".cdsantodomingo.com": ["Colegio Diocesano Santo Domingo"],
-    ".centralcatholichs.com": ["Central Catholic High School, Pittsburgh Pennsylvania"],
+    ".centralcatholichs.com": [
+        "Central Catholic High School, Pittsburgh Pennsylvania"
+    ],
     ".centrosanluis.com": ["Centro San Luis"],
     ".ceste.com": ["CESTE, Escuela Internacional de Negocios"],
     ".cesurformacion.com": ["CESUR FORMACIÓN"],
     ".cev.com": ["CEV"],
     ".cfedundrum.com": ["Dundrum College of Further Education"],
-    ".cfpj.com": ["Centre de Formation et de Perfectionnement des Journalistes"],
+    ".cfpj.com": [
+        "Centre de Formation et de Perfectionnement des Journalistes"
+    ],
     ".chapeltownacademy.com": ["Chapeltown Academy"],
     ".chethams.com": ["Chetham's School of Music"],
     ".chippingsodburyschool.com": ["Chipping Sodbury School"],
@@ -4168,7 +4534,10 @@ DOMAINS: Dict[str, List[str]] = {
     ".columbusu.com": ["Columbus University"],
     ".comcave.com": ["Comcave College"],
     ".confetti-live.com": ["Confetti Institute of Creative Technologies"],
-    ".coppellisd.com": ["Coppell Independent School District", "Coppell High School"],
+    ".coppellisd.com": [
+        "Coppell Independent School District",
+        "Coppell High School",
+    ],
     ".coresteam.com": ["Core School"],
     ".cpilosenlaces.com": [
         "Centro Público Integrado de Formación Profesional Los Enlaces",
@@ -4176,7 +4545,9 @@ DOMAINS: Dict[str, List[str]] = {
     ],
     ".cpschools.com": ["Chesapeake Public Schools", ".group"],
     ".cqumail.com": ["Central Queensland University (CQU) "],
-    ".crescent.com": ["B.S.Abdur Rahman Crescent Institute of Science and Technology"],
+    ".crescent.com": [
+        "B.S.Abdur Rahman Crescent Institute of Science and Technology"
+    ],
     ".crsmu.com": ["Crimea State Medical University"],
     ".cs2i-bourgogne.com": ["CS2I Bourgogne"],
     ".csafa.com": [
@@ -4198,7 +4569,10 @@ DOMAINS: Dict[str, List[str]] = {
         "100-1632 Dickson Avenue • Kelowna, British Columbia • V1Y 7T2",
     ],
     ".dijonformation.com": ["Dijon Formation"],
-    ".dlevh.com": ["Lev Hasharon Democratic School", "בית הספר הדמוקרטי לב השרון"],
+    ".dlevh.com": [
+        "Lev Hasharon Democratic School",
+        "בית הספר הדמוקרטי לב השרון",
+    ],
     ".dnsalbarsha.com": ["Dubai national school", "Dubai National School"],
     ".docchula.com": ["Faculty of Medicine, Chulalongkorn University"],
     ".doonschool.com": ["The Doon School"],
@@ -4212,8 +4586,12 @@ DOMAINS: Dict[str, List[str]] = {
     ".ece-france.com": ["BBA INSEEC - Ecole de Commerce Européenne"],
     ".ecnudec.com": ["华东师范大学开放教育学院", "School of Open Learning and Education"],
     ".ecole-hexagone.com": ["École Hexagone"],
-    ".ecole-ipssi.com": ["IPSSI - École d’Informatique, Web et Design Graphique"],
-    ".ecole-it.com": ["Ecole-IT - École Supérieure des Technologies de l'Information"],
+    ".ecole-ipssi.com": [
+        "IPSSI - École d’Informatique, Web et Design Graphique"
+    ],
+    ".ecole-it.com": [
+        "Ecole-IT - École Supérieure des Technologies de l'Information"
+    ],
     ".ecole-multimedia.com": ["Ecole Multimédia"],
     ".ecole-webstart.com": ["Webstart"],
     ".ecole2600.com": ["École 2600"],
@@ -4234,9 +4612,13 @@ DOMAINS: Dict[str, List[str]] = {
     ".enigma-school.com": ["HIGHER SCHOOL OF COMPUTER SCIENCE IN LILLE"],
     ".epinfante.com": ["Escola Profissional do Infante"],
     ".epschoolsri.com": ["East Providence Public Schools"],
-    ".esat-alumni.com": ["\ufeffEscuela Superior de Arte y Tecnología de Valencia"],
+    ".esat-alumni.com": [
+        "\ufeffEscuela Superior de Arte y Tecnología de Valencia"
+    ],
     ".escdijon.com": ["Ecole Supérieure de Commerce de Dijon"],
-    ".esprit-tn.com": ["Ecole Superieure Privee d'Ingenierie et de Technologies"],
+    ".esprit-tn.com": [
+        "Ecole Superieure Privee d'Ingenierie et de Technologies"
+    ],
     ".essat-gabes-elearning.com": [
         "Ecole Supérieure des Sciences Appliquées et de la Technologie Privée de Gabès",
         "Private Higher School of Applied Sciences and Technology of Gabès",
@@ -4307,7 +4689,10 @@ DOMAINS: Dict[str, List[str]] = {
     ".hollandcollege.com": ["Holland College"],
     ".htl-shkoder.com": ['Österreichische Schule "Peter Mahringer"'],
     ".htlinternationalschool.com": ["HTL International School"],
-    ".hzcollege.com": ["惠州经济职业技术学院", "Huizhou Ecomonics And Polytechnic College"],
+    ".hzcollege.com": [
+        "惠州经济职业技术学院",
+        "Huizhou Ecomonics And Polytechnic College",
+    ],
     ".iae-aix.com": [
         "Institut d'Administration des Entreprises (Aix-en-Provence, France)"
     ],
@@ -4327,7 +4712,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".iesciudadjardin.com": [
         "Instituto de educación secundaria Ciudad Jardín (Sevilla)"
     ],
-    ".iesdoctorbalmis.com": ['Instituto de Educación Secundaria "Doctor Balmis"'],
+    ".iesdoctorbalmis.com": [
+        'Instituto de Educación Secundaria "Doctor Balmis"'
+    ],
     ".iesemilidarder.com": ["Institut d'Educació Secundària i FP"],
     ".iesiliberis.com": [
         "Instituto de Educación Secundaria Ilíberis",
@@ -4338,7 +4725,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".iesmarenostrum.com": ["IES Mare Nostrum (Alicante)"],
     ".iesmiguelherrero.com": ["IES Miguel Herrero (Cantabria)"],
     ".iesmutxamel.com": ["IES MUTXAMEL", "Secondary Institute MUTXAMEL"],
-    ".iespabloserrano.com": ["Instituto de Educación Secundaria Pablo Serrano"],
+    ".iespabloserrano.com": [
+        "Instituto de Educación Secundaria Pablo Serrano"
+    ],
     ".iessanandres.com": ["IES San Andres"],
     ".iessantiagohernandez.com": [
         "Instituto de Educacion Secundaria Santiago Hernandez"
@@ -4351,7 +4740,9 @@ DOMAINS: Dict[str, List[str]] = {
         "Institut Poly Informatique",
         "http://www.ipi-ecoles.com/",
     ],
-    ".iihtsrt.com": ["Indian Institute of Hardware Technology,Surat,Gujarat,India"],
+    ".iihtsrt.com": [
+        "Indian Institute of Hardware Technology,Surat,Gujarat,India"
+    ],
     ".iimtu.com": ["iimtu"],
     ".iimtuniversity.com": ["IIMT University"],
     ".iitmjanakpuri.com": [
@@ -4374,8 +4765,12 @@ DOMAINS: Dict[str, List[str]] = {
     ".infouniron.com": ["Faculdade Interamericana de Porto Velho"],
     ".ingesup.com": ["Ingésup - Ecole supérieure d'ingénierie informatique"],
     ".initcollege.com": ["International IT College of Sweden"],
-    ".inseec-edu.com": ["Institut des hautes études économiques et commerciales"],
-    ".inseec-france.com": ["Institut des hautes études économiques et commerciales"],
+    ".inseec-edu.com": [
+        "Institut des hautes études économiques et commerciales"
+    ],
+    ".inseec-france.com": [
+        "Institut des hautes études économiques et commerciales"
+    ],
     ".institutotimoteo.com": ["Instituto Timoteo"],
     ".doz.internationale-ba.com": [
         "iba - University of Cooperative Education",
@@ -4386,7 +4781,10 @@ DOMAINS: Dict[str, List[str]] = {
     ".iou-students.com": ["Islamic Online University"],
     ".ipnetinstitute.com": ["IPNet Institute of Technology"],
     ".ipssi-lyon.com": ["École Informatique IP Formation Lyon"],
-    ".student.isartdigital.com": ["Isart Digital Paris", "https://www.isart.com/en/"],
+    ".student.isartdigital.com": [
+        "Isart Digital Paris",
+        "https://www.isart.com/en/",
+    ],
     ".isartdigital.com": ["ISART Digital"],
     ".isbm-school.com": ["International School of Business Management"],
     ".iscmosuperiori.com": ["Istituto Sacro Cuore"],
@@ -4422,7 +4820,10 @@ DOMAINS: Dict[str, List[str]] = {
         ".group",
     ],
     ".karpagam.com": ["Karpagam Institutions"],
-    ".kcgcollege.com": ["KCG College of Technology", "KCG College of Technology"],
+    ".kcgcollege.com": [
+        "KCG College of Technology",
+        "KCG College of Technology",
+    ],
     ".kdu-online.com": ["KDU University College"],
     ".kedgebs.com": ["Kedge Business School"],
     ".kellerisd.com": ["Keller Center For Advanced Learning (KCAL)"],
@@ -4475,7 +4876,10 @@ DOMAINS: Dict[str, List[str]] = {
         "BTS SN Informatique et Réseaux : https://www.btssnir.fr/",
     ],
     ".lyceerobertschuman.com": ["LYCÉE PRIVÉ ET UFA ROBERT SCHUMAN"],
-    ".lyceesaintefamille.com": ["Lycée Sainte Famille", "Sainte Famille High School"],
+    ".lyceesaintefamille.com": [
+        "Lycée Sainte Famille",
+        "Sainte Famille High School",
+    ],
     ".mac-eg.com": ["Misr American College"],
     ".madisonu.com": ["Madison University (Distance Education)"],
     ".maghullhigh.com": ["Maghull High School"],
@@ -4504,7 +4908,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".melroseschools.com": ["Melrose Public Schools"],
     ".millfieldschool.com": ["Millfield School"],
     ".misbbocconi.com": ["MISB Bocconi: Mumbai campus of SDA Bocconi, Milan"],
-    ".mitkundapura.com": ["mitkundapura engineering college : mitkundapura.com"],
+    ".mitkundapura.com": [
+        "mitkundapura engineering college : mitkundapura.com"
+    ],
     ".mitrastudents.com": ["Mitra Academy"],
     ".mittymonarch.com": ["Archbishop Mitty High School"],
     ".mjm-design.com": ["MJM Graphic Design"],
@@ -4523,16 +4929,24 @@ DOMAINS: Dict[str, List[str]] = {
         "มหาวิทยาลัยเทคโนโลยีมหานคร",
         "Mahanakorn University of Technology",
     ],
-    ".edu.my-campus-berlin.com": ["DHGS Deutsche Hochschule für Gesundheit & Sport"],
+    ".edu.my-campus-berlin.com": [
+        "DHGS Deutsche Hochschule für Gesundheit & Sport"
+    ],
     ".mydigitalschool.com": ["mydigitalschool.com"],
-    ".ust-ics.mygbiz.com": ["University of Santo Tomas", "University of Santo Tomas"],
+    ".ust-ics.mygbiz.com": [
+        "University of Santo Tomas",
+        "University of Santo Tomas",
+    ],
     ".mygyanvihar.com": ["Suresh Gyan vihar University, Jagatpura Jaipur"],
     ".myiuc.com": [
         "Institut Universitaire de la Côte",
         "Coast University Institute",
         "IUC",
     ],
-    ".mypscedu.com": ["Paramount School and College", "Paramount School and College"],
+    ".mypscedu.com": [
+        "Paramount School and College",
+        "Paramount School and College",
+    ],
     ".myuax.com": ["Universidad Alfonso X El Sabio"],
     ".mywhitecliffe.com": ["Whitecliffe College of Arts and Design"],
     ".nahdaschools.com": ["Al Nahda National School"],
@@ -4610,11 +5024,16 @@ DOMAINS: Dict[str, List[str]] = {
     ".csorsay.onmicrosoft.com": ["COURS SECONDAIRE D'ORSAY"],
     ".csssnina.onmicrosoft.com": ["Cirkevná spojená škola Snina"],
     ".dypisp.onmicrosoft.com": ["Dr. D. Y. Patil School of Engineering"],
-    ".emineornekkoleji.onmicrosoft.com": ["Emine Örnek Koleji", "Emine Ornek Collage"],
+    ".emineornekkoleji.onmicrosoft.com": [
+        "Emine Örnek Koleji",
+        "Emine Ornek Collage",
+    ],
     ".epshl.onmicrosoft.com": ["Emil-Possehl-Schule"],
     ".esimetz.onmicrosoft.com": ["ESI Metz, France"],
     ".fagoceducacional.onmicrosoft.com": ["UniFagoc"],
-    ".firstwald.onmicrosoft.com": ["Evangelisches Firstwald Gymnasium Mössingen"],
+    ".firstwald.onmicrosoft.com": [
+        "Evangelisches Firstwald Gymnasium Mössingen"
+    ],
     ".ghsede.onmicrosoft.com": [
         "Gwerbliche und Hauwirtschaftlich-Sozialpflegerische Schulen Emmendingen"
     ],
@@ -4643,7 +5062,9 @@ DOMAINS: Dict[str, List[str]] = {
         "We have three years of IT specialization in the 3th, 4th and 5th year with a focus on programming ",
         "https://www.slideshare.net/slideshow/embed_code/15570843?wmode=transparent",
     ],
-    ".kgsu.onmicrosoft.com": ["ФГБОУ ВО «Курганский государственный университет»"],
+    ".kgsu.onmicrosoft.com": [
+        "ФГБОУ ВО «Курганский государственный университет»"
+    ],
     ".klaraopp.onmicrosoft.com": [
         "Klara-Oppenheimer-Schule Würzburg (student accounts)"
     ],
@@ -4667,7 +5088,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".opolelo3.onmicrosoft.com": [
         "Publiczne Liceum Ogólnokształcące nr III z Oddziałami Dwujęzycznymi im. Marii Skłodowskiej-Curie w Opolu"
     ],
-    ".pfaffenhofenschule.onmicrosoft.com": ["Grund und Mittelschule Pfaffenhofen"],
+    ".pfaffenhofenschule.onmicrosoft.com": [
+        "Grund und Mittelschule Pfaffenhofen"
+    ],
     ".pforta.onmicrosoft.com": [
         "Landesschule Pforta",
         "The Landesschule Pforta is a boarding school located in Germany, with a special concept of furthering talented students in natural sciences.",
@@ -4684,7 +5107,9 @@ DOMAINS: Dict[str, List[str]] = {
     ],
     ".sabje.onmicrosoft.com": ["King David Schools"],
     ".sjcacblr.onmicrosoft.com": ["St. Joseph's College (Autonomous)"],
-    ".steppingstoneschd.onmicrosoft.com": ["Stepping Stones Senior Secondary School"],
+    ".steppingstoneschd.onmicrosoft.com": [
+        "Stepping Stones Senior Secondary School"
+    ],
     ".studentmgppu.onmicrosoft.com": [
         "Московский государственный психолого-педагогический университет (МГППУ)",
         "Moscow city university of psychology and pedagogy (second Live ID e-mail, primary e-mail already exists mgppu.ru)",
@@ -4694,14 +5119,19 @@ DOMAINS: Dict[str, List[str]] = {
         "Dwarkadas Jivanlal Sanghvi College of Engineering "
     ],
     ".tmgdaun.onmicrosoft.com": ["Thomas-Morus-Gymnasium Daun"],
-    ".tmsnoida.onmicrosoft.com": ["The Millennium School", "The Millennium School"],
+    ".tmsnoida.onmicrosoft.com": [
+        "The Millennium School",
+        "The Millennium School",
+    ],
     ".unidebhu.onmicrosoft.com": [
         "Debrecen University of Agricultural Sciences",
         "University of Debrecen ",
     ],
     ".urfume.onmicrosoft.com": ["Ural Federal University"],
     ".uzlabina.onmicrosoft.com": ["SPŠE v Úžlabině"],
-    ".venkateshwaraschool.onmicrosoft.com": ["Venkateshwara International School"],
+    ".venkateshwaraschool.onmicrosoft.com": [
+        "Venkateshwara International School"
+    ],
     ".vyatsu.onmicrosoft.com": ["Vyatka State University"],
     ".zskocjan.onmicrosoft.com": [
         "Zespół szkół nr 3 imienia Antoniego Kocjana w Olkuszu",
@@ -4792,13 +5222,21 @@ DOMAINS: Dict[str, List[str]] = {
     ".sbjacksonville.com": ["Sanford-Brown Institute"],
     ".scbaghdad.com": ["College of Science, Baghdad University"],
     ".scetop.com": ["四川托普信息技术职业学院", "SiChuan Top IT Voctional institute"],
-    ".schillerstrasbourg.com": ["Schiller International University, Strasbourg"],
+    ".schillerstrasbourg.com": [
+        "Schiller International University, Strasbourg"
+    ],
     ".sdglobalschool.com": ["sdglobalschool"],
     ".sdsydxx.com": ["\ufeffShandong Post and Telecommunications School"],
-    ".sekpacifico.com": ["Colegio Sek Pacifico", "Colegio Internacional Sek Pacifico"],
+    ".sekpacifico.com": [
+        "Colegio Sek Pacifico",
+        "Colegio Internacional Sek Pacifico",
+    ],
     ".sempreceub.com": ["Centro Universitário de Brasília"],
     ".sfhs.com": ["Saint Francis High School"],
-    ".sgsc-students.com": ["St. georges school cologne", "St. georges school cologne"],
+    ".sgsc-students.com": [
+        "St. georges school cologne",
+        "St. georges school cologne",
+    ],
     ".sh-sipopolytechnic.com": ["Shanghai Sipo Polytechnic"],
     ".shannoncollege.com": ["Shannon College of Hotel Management"],
     ".sheldoncollege.com": ["Sheldon College"],
@@ -4844,7 +5282,10 @@ DOMAINS: Dict[str, List[str]] = {
     ".stenden.com": ["Stenden University"],
     ".stjomaristes.com": ["Saint Joseph les Maristes"],
     ".stockholm-fu.com": ["Free University Stockholm"],
-    ".stonarschool.com": ["Stonar School", "Wiltshire, SN12 8NT, United Kingdom"],
+    ".stonarschool.com": [
+        "Stonar School",
+        "Wiltshire, SN12 8NT, United Kingdom",
+    ],
     ".stretfordgrammar.com": ["Stretford Grammar School"],
     ".stu-lisaa.com": ["ESG - Ecole de commerce"],
     ".stucom.com": ["El Centre d’Estudis Stucom"],
@@ -4891,13 +5332,18 @@ DOMAINS: Dict[str, List[str]] = {
         "TKR College of Engineering and Technology",
         "TKR College of Engineering and Technology",
     ],
-    ".totharpadgimnazium.com": ["Tóth Árpád Gimnázium", "Tóth Árpád Secondary School"],
+    ".totharpadgimnazium.com": [
+        "Tóth Árpád Gimnázium",
+        "Tóth Árpád Secondary School",
+    ],
     ".trios.com": ["triOS College"],
     ".trioscollege.com": ["triOS College"],
     ".triosstudent.com": ["triOS College"],
     ".truemax.com": ["TRUEMAX academy"],
     ".twynhamschool.com": ["Twynham School"],
-    ".u-tad.com": ["U-tad - Centro Universitario de Tecnología y Arte Digital"],
+    ".u-tad.com": [
+        "U-tad - Centro Universitario de Tecnología y Arte Digital"
+    ],
     ".ucreativa.com": ["Universidad Creativa", "Creative University"],
     ".uft-plovdiv.com": ["University of Food Technology"],
     ".students.paca.uk.com": [
@@ -4913,7 +5359,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".uniactiva.com": ["Universidad Abierta Interactiva"],
     ".students.unicoischools.com": ["Unicoi County High School"],
     ".unidompedro.com": ["Centro Universitario Dom Pedro II"],
-    ".uniedpa.com": ["Universidad Interamericana de Educacion a Distancia de Panama"],
+    ".uniedpa.com": [
+        "Universidad Interamericana de Educacion a Distancia de Panama"
+    ],
     ".unigoias.com": [
         "UNIGOIÁS - Centro Universitário de Goiás",
         "UNIGOIÁS - University Center of Goiás",
@@ -4988,7 +5436,10 @@ DOMAINS: Dict[str, List[str]] = {
     ".ynov.com": [
         "Y-nov | Lim'art - Ingésup - Infosup | Carrefour des formations aux métiers du numérique."
     ],
-    ".zealeducation.com": ["Zeal College of Engineering and Research", ".group"],
+    ".zealeducation.com": [
+        "Zeal College of Engineering and Research",
+        ".group",
+    ],
     ".zhbit.com": ["Beijing Institute of Technology, Zhuhai"],
     ".zictcollege.com": ["Zambia ICT College"],
     ".zubirimanteo.com": ["IES Zubiri-Manteo BHI"],
@@ -5032,8 +5483,12 @@ DOMAINS: Dict[str, List[str]] = {
     ".una.cr": ["Universidad Nacional de Costa Rica"],
     ".uned.cr": ["Universidad Estatal a Distancia"],
     ".co.cu": ["Universidad de Granma"],
-    ".cujae.edu.cu": ["Instituto Superior Politécnico José Antonio Echeverría"],
-    ".ismm.edu.cu": ["Instituto Superior Minero Metalúrgico Dr. Antonio Núñez Jiménez"],
+    ".cujae.edu.cu": [
+        "Instituto Superior Politécnico José Antonio Echeverría"
+    ],
+    ".ismm.edu.cu": [
+        "Instituto Superior Minero Metalúrgico Dr. Antonio Núñez Jiménez"
+    ],
     ".reduc.edu.cu": ["Universidad de Camagüey"],
     ".ucf.edu.cu": ["Universidad de Cienfuegos"],
     ".uclv.edu.cu": ["Universidad Central de Las Villas"],
@@ -5067,9 +5522,13 @@ DOMAINS: Dict[str, List[str]] = {
         "Vysoká škola regionálního rozvoje a Bankovní institut - AMBIS, a.s."
     ],
     ".amu.cz": ["Academy of Performing Arts"],
-    ".bigy-cb.cz": ["Biskupské gymnázium J. N. Neumanna a Církevní základní škola"],
+    ".bigy-cb.cz": [
+        "Biskupské gymnázium J. N. Neumanna a Církevní základní škola"
+    ],
     ".bivs.cz": ["The College of Banking", "Bankovní institut vysoká škola"],
-    ".math.cas.cz": [" Institute of Mathematics of the Czech Academy of Sciences"],
+    ".math.cas.cz": [
+        " Institute of Mathematics of the Czech Academy of Sciences"
+    ],
     ".cerge-ei.cz": [
         "Center for Economic Research and Graduate Education - Economics Institute"
     ],
@@ -5078,7 +5537,9 @@ DOMAINS: Dict[str, List[str]] = {
         "High School of informatics, postal services and finance Brno, funded organization"
     ],
     ".copsu.cz": ["VOŠ, SŠ, COP Sezimovo Ústí"],
-    ".coptkm.cz": ["Střední škola - Centrum odborné přípravy technické Kroměříž"],
+    ".coptkm.cz": [
+        "Střední škola - Centrum odborné přípravy technické Kroměříž"
+    ],
     ".cuni.cz": ["Charles University Prague"],
     ".cvut.cz": ["Czech Technical University of Prague"],
     ".czu.cz": ["Czech University of Agriculture Prague"],
@@ -5154,7 +5615,10 @@ DOMAINS: Dict[str, List[str]] = {
     ".meruzalka.cz": ["Meruzalka-Montessori MŠ a ZŠ v Jihlavě"],
     ".mg-akademie.cz": ["\ufeffSOŠ Manažerská Akademie"],
     ".muni.cz": ["Masaryk University"],
-    ".mup.cz": ["Metropolitní univerzita Praha", "Metropolitan University Prague"],
+    ".mup.cz": [
+        "Metropolitní univerzita Praha",
+        "Metropolitan University Prague",
+    ],
     ".novyporg.cz": ["Nový Porg Základní Škola a Gymnázium"],
     ".oa-opava.cz": [
         "Obchodní akademie a Střední odborná škola logistická, Opava, příspěvková organizace"
@@ -5166,8 +5630,12 @@ DOMAINS: Dict[str, List[str]] = {
     ".odbskmb.cz": [
         "STŘEDNÍ ODBORNÁ ŠKOLA A STŘEDNÍ ODBORNÉ UČILIŠTĚ, MLADÁ BOLESLAV, JIČÍNSKÁ 762"
     ],
-    ".orangefactory.cz": ["Soukroma VOS umeni a reklamy s.r.o. Orange Factory"],
-    ".ossp.cz": ["Odborná střední škola podnikání a mediální tvorby Kolín s.r.o. "],
+    ".orangefactory.cz": [
+        "Soukroma VOS umeni a reklamy s.r.o. Orange Factory"
+    ],
+    ".ossp.cz": [
+        "Odborná střední škola podnikání a mediální tvorby Kolín s.r.o. "
+    ],
     ".osu.cz": ["University of Ostrava"],
     ".polac.cz": ["Police Academy of Czech Republic"],
     ".porg.cz": ["PORG – gymnázium a základní škola, o. p. s. "],
@@ -5183,7 +5651,9 @@ DOMAINS: Dict[str, List[str]] = {
         "Stanisław Hadyna Elementary School and Kindergarten with Polish language of instruction Bystřice 366, okr. Frýdek-Místek, contributory organization",
     ],
     ".sgagy.cz": ["Sportovní gymnázium Kladno"],
-    ".skolaac.cz": ["Střední škola André Citroëna Boskovice, příspěvková organizace"],
+    ".skolaac.cz": [
+        "Střední škola André Citroëna Boskovice, příspěvková organizace"
+    ],
     ".skolakrizik.cz": [
         "Vyšší odborná škola a střední průmyslová škola elektrotechnická Františka Křižíka"
     ],
@@ -5192,7 +5662,9 @@ DOMAINS: Dict[str, List[str]] = {
         "Hotelová škola, Obchodní akademie a Střední průmyslová škola Teplice"
     ],
     ".sps-cl.cz": ["Střední průmyslová škola Česká Lípa"],
-    ".sps-karvina.cz": ["Střední průmyslová škola, Karviná, příspěvková organizace"],
+    ".sps-karvina.cz": [
+        "Střední průmyslová škola, Karviná, příspěvková organizace"
+    ],
     ".sps-pi.cz": ["SPŠ a VOŠ Písek"],
     ".sps-prosek.cz": ["Střední průmyslová škola na Proseku"],
     ".sps-tabor.cz": ["SPŠ strojní a stavební, Tábor"],
@@ -5212,8 +5684,12 @@ DOMAINS: Dict[str, List[str]] = {
         "Střední průmyslová škola a obchodní akademie, Frýdek-Místek",
         "Secondary High School - SPSOAFM",
     ],
-    ".spsostrov.cz": ["Střední průmyslová škola Ostrov, příspěvková organizace"],
-    ".spspzlin.cz": ["\ufeffStřední průmyslová škola polytechnická – COP Zlín"],
+    ".spsostrov.cz": [
+        "Střední průmyslová škola Ostrov, příspěvková organizace"
+    ],
+    ".spspzlin.cz": [
+        "\ufeffStřední průmyslová škola polytechnická – COP Zlín"
+    ],
     ".spsrakovnik.cz": [
         "Střední průmyslová škola Emila Kolbena Rakovník, příspěvková organizace"
     ],
@@ -5226,13 +5702,17 @@ DOMAINS: Dict[str, List[str]] = {
     ".ssakhk.cz": ["High School and College of Applied Cybernetic"],
     ".ssemi.cz": ["Střední škola elektrotechniky, multimédií a informatiky"],
     ".ssinfotech.cz": ["Stredni skola informacnich technologii, s.r.o."],
-    ".sspbrno.cz": ["High School of Electrical Engineering and Information Technology"],
+    ".sspbrno.cz": [
+        "High School of Electrical Engineering and Information Technology"
+    ],
     ".ssps.cz": ["Smíchovská střední průmyslová škola"],
     ".sspu-opava.cz": ["Střední škola průmyslová a umělecká Opava"],
     ".sssvt.cz": ["Soukromá střední škola výpočetní techniky"],
     ".stredniskola.cz": ["Střední škola informatiky a právních studií"],
     ".tul.cz": ["Technical University of Liberec"],
-    ".ufe.cz": ["Institute of Photonics and Electronics, Czech Academy of Sciences"],
+    ".ufe.cz": [
+        "Institute of Photonics and Electronics, Czech Academy of Sciences"
+    ],
     ".uhk.cz": ["University of Hradec Králové"],
     ".ujep.cz": ["University of Jan Evangelista Purkyne"],
     ".unicorncollege.cz": ["Unicorn College"],
@@ -5266,13 +5746,19 @@ DOMAINS: Dict[str, List[str]] = {
     ".zskomenskeho.cz": [
         "Základní škola, Kroměříž, Komenského náměstí 440, příspěvková organizace"
     ],
-    ".zssvat.cz": ["Základní škola Svatoplukova 7, Šternberk, příspěvková organizace"],
+    ".zssvat.cz": [
+        "Základní škola Svatoplukova 7, Šternberk, příspěvková organizace"
+    ],
     ".student.42wolfsburg.de": ["42wolfsburg", "42wolfsburg"],
     ".Birklehof.de": ["Schule Birklehof e.V. Hinterzarten"],
     ".aagcux.de": ["Amandus-Abendroth-Gymnasium Cuxhaven"],
     ".abendgymnasium-muenster.de": ["Abendgymnasium Münster"],
-    ".extern.abk-stuttgart.de": ["Staatliche Akademie der Bildenden Künste Stuttgart"],
-    ".stud.abk-stuttgart.de": ["Staatliche Akademie der Bildenden Künste Stuttgart"],
+    ".extern.abk-stuttgart.de": [
+        "Staatliche Akademie der Bildenden Künste Stuttgart"
+    ],
+    ".stud.abk-stuttgart.de": [
+        "Staatliche Akademie der Bildenden Künste Stuttgart"
+    ],
     ".abs-it-kiel.de": [
         "ABS-IT UG (haftungsbeschränkt)",
         "Geschäftsführer Paul Klein M.A.",
@@ -5318,9 +5804,13 @@ DOMAINS: Dict[str, List[str]] = {
         "Martin-Segitz-Schule / Staatliche Berufsschule III Fürth",
         "Martin-Segitz-Schule / State vocational school III Fürth",
     ],
-    ".ba-bautzen.de": ["Berufsakademie Sachsen Staatliche Studienakademie Bautzen"],
+    ".ba-bautzen.de": [
+        "Berufsakademie Sachsen Staatliche Studienakademie Bautzen"
+    ],
     ".rz.ba-dresden.de": ["Staatliche Studienakademie Dresden"],
-    ".ba-dresden.de": ["Berufsakademie Sachsen Staatliche Studienakademie Dresden"],
+    ".ba-dresden.de": [
+        "Berufsakademie Sachsen Staatliche Studienakademie Dresden"
+    ],
     ".ba-eisenach.de": ["Berufsakademie Eisenach"],
     ".ba-fulda.de": [
         "Private Berufsakademie Fulda University of Cooperative Education ",
@@ -5328,9 +5818,13 @@ DOMAINS: Dict[str, List[str]] = {
     ],
     ".ba-glauchau.de": ["Staatliche Studienakademie Glauchau"],
     ".ba-leipzig.de": ["Berufsakademie Leipzig"],
-    ".ba-riesa.de": ["Berufsakademie Sachsen Staatliche Studienakademie Riesa"],
+    ".ba-riesa.de": [
+        "Berufsakademie Sachsen Staatliche Studienakademie Riesa"
+    ],
     ".ba-rm.de": ["Berufsakademie Rhein Main"],
-    ".ba-sachsen.de": ["Berufsakademie Sachsen Staatliche Studienakademie Leipzig"],
+    ".ba-sachsen.de": [
+        "Berufsakademie Sachsen Staatliche Studienakademie Leipzig"
+    ],
     ".sibi.badhonnef.de": ["Siebengebrigsgymnasium"],
     ".bbs-buchholz.de": [
         "BBS Buchholz",
@@ -5342,7 +5836,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".bbs-me.de": ["BBS-ME – Otto-Brenner-Schule "],
     ".bbs-meppen.de": ["Berufsbildende Schulen Meppen"],
     ".bbs-montabaur.de": ["BBS Montabaur"],
-    ".bbs-nienburg.de": ["Berufsbildende Schulen des Landkreises Nienburg/Weser"],
+    ".bbs-nienburg.de": [
+        "Berufsbildende Schulen des Landkreises Nienburg/Weser"
+    ],
     ".bbs-ohz.de": ["Berufsbildende Schulen Osterholz-Scharmbeck"],
     ".bbs-stadthagen.de": [
         "Berufsbildende Schule Stadthagen",
@@ -5366,7 +5862,10 @@ DOMAINS: Dict[str, List[str]] = {
         "Berufsbildende Schule Stadthagen",
         "vocational schools Stadthagen",
     ],
-    ".bbssth.de": ["Berufsbildende Schule Stadthagen", "vocational schools Stadthagen"],
+    ".bbssth.de": [
+        "Berufsbildende Schule Stadthagen",
+        "vocational schools Stadthagen",
+    ],
     ".bbstghs.de": ["\ufeffBerufliches Gymnasium Technik Bad Kreuznach"],
     ".bbstghs365.de": ["\ufeffBerufliches Gymnasium Technik Bad Kreuznach"],
     ".bbw-fi.de": ["SFZ Förderzentrum gGmbH (Berufsbildungswerk Chemnitz)"],
@@ -5376,7 +5875,9 @@ DOMAINS: Dict[str, List[str]] = {
         "IT-Course example: https://www.rkibbw.de/angebote/berufsausbildung/fachinformatiker-anwendungsentwicklung.html",
     ],
     ".bbzsm.de": ["Berufsbildungszentrum Schmalkalden"],
-    ".bccn-berlin.de": ["BERNSTEIN CENTER FOR COMPUTATIONAL NEUROSCIENCE, BERLIN"],
+    ".bccn-berlin.de": [
+        "BERNSTEIN CENTER FOR COMPUTATIONAL NEUROSCIENCE, BERLIN"
+    ],
     ".bcw-gruppe-net.de": ["bcw-gruppe-net"],
     ".berlin.de": ["Fachhochschule für Verwaltung und Rechtspflege Berlin"],
     ".sus.bertha-online.de": ["Bertha-von-Suttner Schule "],
@@ -5411,13 +5912,19 @@ DOMAINS: Dict[str, List[str]] = {
     ".bgbentheim.de": ["Burg-Gymnasium Bad Bentheim"],
     ".bht-berlin.de": ["Berliner Hochschule für Technik"],
     ".bib.de": ["Fachhochschule für die Wirtschaft"],
-    ".gym-muentzer.bildung-lsa.de": ['GIEBICHENSTEIN-GYMNASIUM "THOMAS MÜNTZER" HALLE'],
+    ".gym-muentzer.bildung-lsa.de": [
+        'GIEBICHENSTEIN-GYMNASIUM "THOMAS MÜNTZER" HALLE'
+    ],
     ".bildung-unna.de": ["Hellweg Berufskolleg Unna"],
-    ".bits-iserlohn.de": ["BiTS - Business and Information Technology School gGmbH"],
+    ".bits-iserlohn.de": [
+        "BiTS - Business and Information Technology School gGmbH"
+    ],
     ".bk-berliner-platz.de": ["Berufskolleg Berliner Platz"],
     ".bk-deutz.de": ["Berufskolleg Deutzer Freiheit "],
     ".bk-h.de": ["Berufskolleg Hattingen"],
-    ".bk-hennef.de": ["Carl-Reuther-Berufskolleg des Rhein-Sieg-Kreises in Hennef"],
+    ".bk-hennef.de": [
+        "Carl-Reuther-Berufskolleg des Rhein-Sieg-Kreises in Hennef"
+    ],
     ".bk-opladen.de": ["Berufskolleg Opladen"],
     ".bk-technik-moers.de": ["Berufskolleg für Technik Moers"],
     ".bk-tm.de": ["Berufskolleg Platz der Republik fur Technik und Medien"],
@@ -5426,7 +5933,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".student.bkukr.de": ["Berufskolleg Krefeld Uerdingen"],
     ".hhek.bonn.de": ["Heinrich Hertz Europakolleg"],
     ".bracke-igs.de": ["Wilhelm Bracke Gesamtschule"],
-    ".brand-university.de": ["Brand University of Applied Sciences, Hamburg, Germany"],
+    ".brand-university.de": [
+        "Brand University of Applied Sciences, Hamburg, Germany"
+    ],
     ".schule.bremen.de": ["Bremer Schulzentrum"],
     ".bs-an.de": ["Staatliche Berufsshule I Ansbach"],
     ".bs-elmshorn.de": [
@@ -5463,7 +5972,9 @@ DOMAINS: Dict[str, List[str]] = {
         "Berufskolleg für Wirtschaft und Verwaltung der StädteRegion Aachen"
     ],
     ".bwv-ahaus.de": ["Berufskolleg Wirtschaft und Verwaltung Ahaus"],
-    ".bztg-oldenburg.de": ["Bildungszentrum für Technik und Gestaltung Oldenburg"],
+    ".bztg-oldenburg.de": [
+        "Bildungszentrum für Technik und Gestaltung Oldenburg"
+    ],
     ".caeci-ol.de": ["Gymnasium Cäcilienschule Oldenburg"],
     ".carl-orff-gym.de": ["Carl-Orff-Gymnasium Unterschleißheim"],
     ".cased.de": ["Center for Advanced Security Research Darmstadt"],
@@ -5495,17 +6006,25 @@ DOMAINS: Dict[str, List[str]] = {
     ".design-akademie-berlin.de": [
         "design akademie berlin / SRH Hochschule für Kommunikation und Design"
     ],
-    ".cas.dhbw.de": ["Center for Advanced Studies Duale Hochschule Baden Württemberg"],
+    ".cas.dhbw.de": [
+        "Center for Advanced Studies Duale Hochschule Baden Württemberg"
+    ],
     ".heilbronn.dhbw.de": ["DHBW Heilbronn"],
-    ".lehre.mosbach.dhbw.de": ["\ufeffDuale Hochschule Baden-Württemberg, Mosbach"],
+    ".lehre.mosbach.dhbw.de": [
+        "\ufeffDuale Hochschule Baden-Württemberg, Mosbach"
+    ],
     ".mosbach.dhbw.de": ["Duale Hochschule Baden-Württemberg Mosbach"],
     ".dhbw-heidenheim.de": ["Duale Hochschule Baden-Württemberg, Heidenheim"],
-    ".student.dhbw-karlsruhe.de": ["Duale Hochschule Baden-Württemberg Karlsruhe"],
+    ".student.dhbw-karlsruhe.de": [
+        "Duale Hochschule Baden-Württemberg Karlsruhe"
+    ],
     ".dhbw-karlsruhe.de": ["Duale Hochschule Baden-Württemberg Karlsruhe"],
     ".dhbw-loerrach.de": ["Duale Hochschule Baden-Württemberg Lörrach"],
     ".dhbw-mannheim.de": ["Duale Hochschule Baden-Württemberg, Mannheim"],
     ".dhbw-mosbach.de": ["Duale Hochschule Baden-Württemberg, Mosbach"],
-    ".stud.dhbw-ravensburg.de": ["Duale Hochschule Baden-Württemberg Ravensburg"],
+    ".stud.dhbw-ravensburg.de": [
+        "Duale Hochschule Baden-Württemberg Ravensburg"
+    ],
     ".dhbw-ravensburg.de": ["Duale Hochschule Baden-Württemberg Ravensburg"],
     ".lehre.dhbw-stuttgart.de": [
         "DHBW Stuttgart",
@@ -5513,8 +6032,12 @@ DOMAINS: Dict[str, List[str]] = {
     ],
     ".dhbw-stuttgart.de": ["Duale Hochschule Baden-Württemberg Stuttgart"],
     ".dhbw-vs.de": ["Baden-Wuerttemberg Cooperative State University"],
-    ".dhfpg-bsa.de": ["Deutsche Hochschule für Prävention und Gesundheitsmanagement"],
-    ".dhfpg.de": ["Deutsche Hochschule für Prävention und Gesundheitsmanagement"],
+    ".dhfpg-bsa.de": [
+        "Deutsche Hochschule für Prävention und Gesundheitsmanagement"
+    ],
+    ".dhfpg.de": [
+        "Deutsche Hochschule für Prävention und Gesundheitsmanagement"
+    ],
     ".stud.eisenach.dhge.de": [
         "Duale Hochschule Gera Eisenach",
         "Gera Eisenach Cooperative State University",
@@ -5530,7 +6053,9 @@ DOMAINS: Dict[str, List[str]] = {
         "Gera Eisenach Cooperative State University",
     ],
     ".dhsh.de": ["Berufsakademie Schleswig-Holstein"],
-    ".dhv-speyer.de": ["Deutsche Hochschule für Verwaltungswissenschaften Speyer"],
+    ".dhv-speyer.de": [
+        "Deutsche Hochschule für Verwaltungswissenschaften Speyer"
+    ],
     ".diesterweg-gymnasium.de": ["Diesterweg Gymnasium"],
     ".diploma.de": [
         "DIPLOMA-Fachhochschule Ölsnitz/Vogtland",
@@ -5570,7 +6095,9 @@ DOMAINS: Dict[str, List[str]] = {
     ],
     ".edvschule-plattling.de": ["EDV-Schulen des Landkreises Deggendrof"],
     ".edvw.de": ["EDV-Schule Wiesau"],
-    ".efh-bochum.de": ["Evangelische Fachhochschule Rheinland-Westfalen-Lippe"],
+    ".efh-bochum.de": [
+        "Evangelische Fachhochschule Rheinland-Westfalen-Lippe"
+    ],
     ".efh-darmstadt.de": ["Evangelische Fachhochschule Darmstadt"],
     ".efh-freiburg.de": [
         "Evangelische Fachhochschule Freiburg, Hochschule für Soziale Arbeit, Diakonie und Religionspädagogik"
@@ -5583,7 +6110,9 @@ DOMAINS: Dict[str, List[str]] = {
         "Evangelische Fachhochschule Ludwigshafen Hochschule für Sozial- und Gesundheitswesen"
     ],
     ".egb-koeln.de": ["Erich-Gutenberg Berufskolleg "],
-    ".ehs-dresden.de": ["Evangelische Hochschule für Soziale Arbeit Dresden (FH)"],
+    ".ehs-dresden.de": [
+        "Evangelische Hochschule für Soziale Arbeit Dresden (FH)"
+    ],
     ".imap.elektronikschule.de": ["Elektronikschule Tettnang"],
     ".elektronikschule.de": ["Elektronikschule Tettnang"],
     ".embl.de": [
@@ -5598,7 +6127,10 @@ DOMAINS: Dict[str, List[str]] = {
     ".erasmus-kittler-schule.de": ["Erasmus-Kittler-Schule, Darmstadt"],
     ".ernestinum-rinteln.de": ["Gymnasium Ernestinum Rinteln"],
     ".ers-hameln.de": ["Eugen-Reintjes-Schule Hameln"],
-    ".ess-erfurt.de": ["Edith Stein Schule Erfurt", "Edith Stein School Erfurt"],
+    ".ess-erfurt.de": [
+        "Edith Stein Schule Erfurt",
+        "Edith Stein School Erfurt",
+    ],
     ".eufh-mail.de": ["Europäische Fachhochschule"],
     ".eufh.de": ["Europäische Fachhochschule"],
     ".europa-uni.de": [" "],
@@ -5629,7 +6161,9 @@ DOMAINS: Dict[str, List[str]] = {
         "Friedrich-Ebert-Schule, Pfungstadt",
         "http://www.fes-pfungstadt.de",
     ],
-    ".fh-Kempten.de": ["Fachhochschule Kempten, Hochschule für Technik und Wirtschaft"],
+    ".fh-Kempten.de": [
+        "Fachhochschule Kempten, Hochschule für Technik und Wirtschaft"
+    ],
     ".alumni.fh-aachen.de": ["Fachhochschule Aachen"],
     ".fh-aachen.de": ["Fachhochschule Aachen"],
     ".fh-aalen.de": ["Internationale Fachhochschule Aalen"],
@@ -5693,7 +6227,9 @@ DOMAINS: Dict[str, List[str]] = {
     ],
     ".fh-lausitz.de": ["Fachhochschule Lausitz"],
     ".fh-lippe.de": ["Fachhochschule Lippe"],
-    ".fh-ludwigshafen.de": ["Fachhochschule Ludwigshafen, Hochschule für Wirtschaft"],
+    ".fh-ludwigshafen.de": [
+        "Fachhochschule Ludwigshafen, Hochschule für Wirtschaft"
+    ],
     ".fh-luebeck.de": ["Fachhochschule Lübeck"],
     ".fh-mainz.de": ["Fachhochschule Mainz"],
     ".fh-mannheim.de": [
@@ -5723,7 +6259,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".fh-rosenheim.de": [
         "Fachhochschule Rosenheim, Hochschule für Technik und Wirtschaft"
     ],
-    ".fh-rottenburg.de": ["Fachhochschule Rottenburg, Hochschule für Forstwirtschaft"],
+    ".fh-rottenburg.de": [
+        "Fachhochschule Rottenburg, Hochschule für Forstwirtschaft"
+    ],
     ".fh-schwaebischhall.de": [
         "Fachhochschule Schwäbisch Hall, Hochschule für Gestaltung"
     ],
@@ -5761,16 +6299,24 @@ DOMAINS: Dict[str, List[str]] = {
     ".fhm-mittelstand.de": ["Fachhochschule des Mittelstandes (FHM)"],
     ".fhnon.de": ["Fachhochschule Nordostniedersachsen"],
     ".fhoebb.de": ["Fachhochschule für das öffentliche Bibliothekswesen Bonn"],
-    ".fhs-mannheim.de": ["Fachhochschule Mannheim, Hochschule für Sozialwesen"],
+    ".fhs-mannheim.de": [
+        "Fachhochschule Mannheim, Hochschule für Sozialwesen"
+    ],
     ".fhs-moritzburg.de": [
         "Evangelische Fachhochschule für Religionspädagogik, und Gemeindediakonie Moritzburg"
     ],
     ".fht-stuttgart.de": ["Fachhochschule Stuttgart, Hochschule für Technik"],
     ".fhtw-berlin.de": ["Fachhochschule für Technik und Wirtschaft Berlin"],
     ".fhw-berlin.de": ["Fachhochschule für Wirtschaft Berlin"],
-    ".fhws.de": ["Hochschule für angewandte Wissenschaften Würzburg-Schweinfurt"],
-    ".fhwt.de": ["Private Fachhochschule für Wirtschaft und Technik Vechta/Diepholz"],
-    ".fhwue.de": ["Hochschule für angewandte Wissenschaften Würzburg-Schweinfurt"],
+    ".fhws.de": [
+        "Hochschule für angewandte Wissenschaften Würzburg-Schweinfurt"
+    ],
+    ".fhwt.de": [
+        "Private Fachhochschule für Wirtschaft und Technik Vechta/Diepholz"
+    ],
+    ".fhwue.de": [
+        "Hochschule für angewandte Wissenschaften Würzburg-Schweinfurt"
+    ],
     ".filderbenden.de": ["Gymnasium in den Filder Benden"],
     ".filmakademie.de": ["Filmakademie Baden-Württemberg"],
     ".filmuniversitaet.de": ["Filmuniversität Babelsberg-Potsdam"],
@@ -5799,7 +6345,10 @@ DOMAINS: Dict[str, List[str]] = {
     ".g18.de": ["Staatliche Gewerbeschule G18 - Technical College G18"],
     ".games-academy.de": ["Games Academy"],
     ".gaussschule-bs.de": ["Gaußschule - Gymnasium am Löwenwall"],
-    ".gbg-remscheid.de": ["Gertrud-Bäumer-Gymnasium", "Gertrud-Bäumer-Gymnasium"],
+    ".gbg-remscheid.de": [
+        "Gertrud-Bäumer-Gymnasium",
+        "Gertrud-Bäumer-Gymnasium",
+    ],
     ".gbgrs.de": ["Gertrud-Bäumer-Gymnasium", "Gertrud-Bäumer-Gymnasium"],
     ".sus.gbs-grafschaft.de": ["GBS Grafschaft Bentheim"],
     ".gbs-sha.de": ["Gewerbliche Schule Schwäbisch Hall"],
@@ -5827,10 +6376,18 @@ DOMAINS: Dict[str, List[str]] = {
         "https://gesamtschule-stolberg.de/wp-content/uploads/2018/09/Schulprogramm017-09-19.pdf",
     ],
     ".gewerbeschule-vs.de": ["Gewerbeschule villingen Schwenningen"],
-    ".gg-lin.de": ["Gymnasium Georgianum Lingen", "Georgianum High School Lingen"],
-    ".student.giu-uni.de": ["German International University of Applied Sciences"],
+    ".gg-lin.de": [
+        "Gymnasium Georgianum Lingen",
+        "Georgianum High School Lingen",
+    ],
+    ".student.giu-uni.de": [
+        "German International University of Applied Sciences"
+    ],
     ".gms-da.de": ["Georg Mueller Schule Darmstadt"],
-    ".goegy.de": ["Goethe-Gymnasium Regensburg", "Goethe-Gymnasium Regensburg"],
+    ".goegy.de": [
+        "Goethe-Gymnasium Regensburg",
+        "Goethe-Gymnasium Regensburg",
+    ],
     ".os-scultetus.goerlitz.de": ["Scultetus-Oberschule Goerlitz"],
     ".grimmels.de": [
         "Name: Grimmelshausen Gymnasium Gelnhausen",
@@ -5844,7 +6401,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".gs-wt.de": ["Gewerbliche Schulen Waldshut"],
     ".gso-koeln.de": ["Georg-Simon-Ohm-Berufskolleg Köln"],
     ".student.gsso.de": ["Grafenbergschule Schorndorf"],
-    ".gsz-bl.de": ["Philipp-Matthäus-Hahn-Schule – Gewerbliches Schulzentrum Balingen"],
+    ".gsz-bl.de": [
+        "Philipp-Matthäus-Hahn-Schule – Gewerbliches Schulzentrum Balingen"
+    ],
     ".gsz-zak.de": [
         "Philipp-Matthäus-Hahn-Schule – Gewerbliches Schulzentrum Balingen"
     ],
@@ -5895,7 +6454,9 @@ DOMAINS: Dict[str, List[str]] = {
         "Vocational school ITECH Elbinsel Wilhelmsburg (BS14)",
     ],
     ".jbg.hamburg.de": ["Johannes-Brahms-Gymnasium"],
-    ".johannes-brahms-gymnasium.hamburg.de": ["Johannes-Brahms-Gymnasium, Hamburg"],
+    ".johannes-brahms-gymnasium.hamburg.de": [
+        "Johannes-Brahms-Gymnasium, Hamburg"
+    ],
     ".hamburger-fh.de": ["Hamburger Fern-Hochschule (HFH)"],
     ".hans-baldung-gymnasium.de": ["Hans-Baldung-Gymnasium"],
     ".edu.hansenberg.de": [
@@ -5910,7 +6471,10 @@ DOMAINS: Dict[str, List[str]] = {
         "HAWK Hochschule für angewandte Wissenschaft und Kunst Hildesheim Holzminden Göttingen"
     ],
     ".hawk.de": ["HAWK Hochschule für angewandte Wissenschaft und Kunst"],
-    ".hbbk-office.de": ["Hans-Böckler-Berufskolleg, Münster", "(hbbk-muenster.de)"],
+    ".hbbk-office.de": [
+        "Hans-Böckler-Berufskolleg, Münster",
+        "(hbbk-muenster.de)",
+    ],
     ".hbg-troisdorf.de": ["Heinrich-Böll-Gymnasium"],
     ".hbksaar.de": ["Hochschule der Bildenden Künste Saar"],
     ".hcu-hamburg.de": ["Hafencity Universität Hamburg"],
@@ -5920,7 +6484,9 @@ DOMAINS: Dict[str, List[str]] = {
     ],
     ".hdm-stuttgart.de": ["Fachhochschule Stuttgart, Hochschule der Medien"],
     ".hebk.de": ["Hermann-Emanuel-Berufskolleg"],
-    ".hector-seminar.de": ["Hector Seminar Heidelberg, Karlsruhe, Mannheim, Pforzheim"],
+    ".hector-seminar.de": [
+        "Hector Seminar Heidelberg, Karlsruhe, Mannheim, Pforzheim"
+    ],
     ".heinrichheinedo.de": ["Heinrich-Heine-Gymnasium Dortmund"],
     ".helmholtz-gymnasium.de": ["Helmholtz-Gymnasium Essen"],
     ".helmholtz-muenchen.de": ["Helmholtz Zentrum München"],
@@ -5929,9 +6495,14 @@ DOMAINS: Dict[str, List[str]] = {
         "Hochschule für Bankwirtschaft (HfB), Private Fachhochschule der Bankakademie"
     ],
     ".hfbk-hamburg.de": ["Hochschule für bildende Künste Hamburg"],
-    ".hfg-gmuend.de": ["Fachhochschule Schwäbisch Gmünd, Hochschule für Gestaltung"],
+    ".hfg-gmuend.de": [
+        "Fachhochschule Schwäbisch Gmünd, Hochschule für Gestaltung"
+    ],
     ".hfk-bremen.de": ["Hochschule für Künste Bremen"],
-    ".hfm-detmold.de": ["Hochschule für Musik Detmold", "University for Music Detmold"],
+    ".hfm-detmold.de": [
+        "Hochschule für Musik Detmold",
+        "University for Music Detmold",
+    ],
     ".hfm-karlsruhe.de": ["University of Music Karlsruhe"],
     ".hfmt-koeln.de": ["Hochschule für Musik und Tanz Köln"],
     ".aiv.hfoed.de": [
@@ -5946,7 +6517,9 @@ DOMAINS: Dict[str, List[str]] = {
         "Hessian University of Applied Sciences for Police and Public Administration",
         "Hessische Hochschule für Polizei und Verwaltung",
     ],
-    ".hft-leipzig.de": ["Deutsche Telekom University of Applied Sciences Leipzig"],
+    ".hft-leipzig.de": [
+        "Deutsche Telekom University of Applied Sciences Leipzig"
+    ],
     ".hft-stuttgart.de": ["Stuttgart University of Applied Sciences"],
     ".hfwu.de": ["Hochschule für Wirtschaft und Umwelt Nürtingen-Geislingen"],
     ".hg-gf.de": ["Humboldt-Gymnasium Gifhorn"],
@@ -6010,13 +6583,18 @@ DOMAINS: Dict[str, List[str]] = {
     ".hs-furtwangen.de": ["Furtwangen University of Applied Sciences"],
     ".hs-gesundheit.de": ["Hochschule für Gesundheit"],
     ".hs-hannover.de": ["Hochschule Hannover"],
-    ".hs-harz.de": ["Hochschule Harz, Hochschule für angewandte Wissenschaften (FH)"],
+    ".hs-harz.de": [
+        "Hochschule Harz, Hochschule für angewandte Wissenschaften (FH)"
+    ],
     ".hs-heilbronn.de": ["Hochschule Heilbronn (FH)"],
     ".hs-kempten.de": [
         "Hochschule für angewandte Wissenschaften Kempten",
         "University of Applied Sciences Kempten",
     ],
-    ".hs-kl.de": ["Hochschule Kaiserslautern", "University of Applied Sciences"],
+    ".hs-kl.de": [
+        "Hochschule Kaiserslautern",
+        "University of Applied Sciences",
+    ],
     ".hs-koblenz.de": ["Hochschule Koblenz"],
     ".hs-lausitz.de": ["Hochschule Lausitz"],
     ".hs-lu.de": ["Hochschule Ludwigshafen am Rhein"],
@@ -6027,26 +6605,34 @@ DOMAINS: Dict[str, List[str]] = {
     ".hs-merseburg.de": ["University of Applied Sciences Merseburg"],
     ".hs-mittweida.de": ["University of Applied Sciences Mittweida"],
     ".hs-nb.de": ["Hochschule Neubrandenburg"],
-    ".student.hs-neu-ulm.de": ["Hochschule Neu Ulm University of applied sciences"],
+    ".student.hs-neu-ulm.de": [
+        "Hochschule Neu Ulm University of applied sciences"
+    ],
     ".hs-neu-ulm.de": ["Hochschule Neu Ulm University of applied sciences"],
     ".hs-niederrhein.de": ["Hochschule Niederrhein"],
     ".hs-nordhausen.de": ["Hochschule Nordhausen"],
     ".hs-offenburg.de": ["Offenburg University of Applied Sciences"],
     ".hs-osnabrueck.de": ["University Of Osnabrück"],
     ".hs-owl.de": ["Hochschule Ostwestfalen-Lippe"],
-    ".hs-pforzheim.de": ["Hochschule Pforzheim für Gestaltung, Technik und Wirtschaft"],
+    ".hs-pforzheim.de": [
+        "Hochschule Pforzheim für Gestaltung, Technik und Wirtschaft"
+    ],
     ".hs-rm.de": ["Rheinmain University of Applied Sciences"],
     ".hs-ruhrwest.de": ["Hochschule Ruhr West"],
     ".hs-sm.de": ["Hochschule Schmalkalden"],
     ".hs-ulm.de": ["University of Applied Sciences Ulm"],
-    ".hs-weingarten.de": ["University of Applied Sciences Ravensburg-Weingarten"],
+    ".hs-weingarten.de": [
+        "University of Applied Sciences Ravensburg-Weingarten"
+    ],
     ".hs-wismar.de": [
         "Hochschule Wismar, Fachhochschule für Technik, Wirtschaft und Gestaltung"
     ],
     ".hs-worms.de": ["Hochschule Worms University of Applied Sciences"],
     ".hs-zigr.de": ["Hochschule Zittau/Görlitz (FH)"],
     ".hs21.de": ["Hochschule 21/Buxtehude (FH)"],
-    ".hsba.de": ["HSBA Hamburg School of Business Administration (old accounts)"],
+    ".hsba.de": [
+        "HSBA Hamburg School of Business Administration (old accounts)"
+    ],
     ".hshl.de": ["Hochschule Hamm-Lippstadt"],
     ".hss-wi.de": ["Hubert-Sternberg-Schule Wiesloch"],
     ".hss-wiesloch.de": ["Hubert-Sternberg-Schule Wiesloch"],
@@ -6061,14 +6647,22 @@ DOMAINS: Dict[str, List[str]] = {
     ".htw-aalen.de": ["hs-aalen.txt"],
     ".htw-berlin.de": ["University of Applied Sciences, Berlin"],
     ".htw-dresden.de": ["Hochschule für Technik und Wirtschaft Dresden (FH)"],
-    ".htw-saarland.de": ["Hochschule für Technik und Wirtschaft des Saarlandes"],
-    ".htwg-konstanz.de": ["Hochschule Konstanz University of Applied Sciences"],
-    ".htwk-leipzig.de": ["Hochschule für Technik, Wirtschaft und Kultur Leipzig (FH)"],
+    ".htw-saarland.de": [
+        "Hochschule für Technik und Wirtschaft des Saarlandes"
+    ],
+    ".htwg-konstanz.de": [
+        "Hochschule Konstanz University of Applied Sciences"
+    ],
+    ".htwk-leipzig.de": [
+        "Hochschule für Technik, Wirtschaft und Kultur Leipzig (FH)"
+    ],
     ".htwm.de": ["Hochschule Mittweida (FH)"],
     ".htwsaar.de": ["Hochschule für Technik und Wirtschaft des Saarlandes"],
     ".hu-berlin.de": ["Humboldt Universität Berlin"],
     ".hwg-lu.de": ["Hochschule für Wirtschaft und Gesellschaft Ludwigshafen"],
-    ".hwp-hamburg.de": ["HWP - Hamburger Universität für Wirtschaft und Politik"],
+    ".hwp-hamburg.de": [
+        "HWP - Hamburger Universität für Wirtschaft und Politik"
+    ],
     ".hwr-berlin.de": [
         "HWR Berlin - Hochschule für Wirtschaft und Recht Berlin (Berlin School of Economics and Law)"
     ],
@@ -6116,7 +6710,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".its-stuttgart.de": ["it.schule Stuttgart"],
     ".iubh-dualesstudium.de": ["IUBH Internationale Hochschule GmbH"],
     ".iubh-fernstudium.de": ["Internationale Hochschule Bad Honnef · Bonn"],
-    ".iubh.de": ["International University of Applied Sciences Bad Honnef - Bonn"],
+    ".iubh.de": [
+        "International University of Applied Sciences Bad Honnef - Bonn"
+    ],
     ".jacobs-university.de": ["Jacobs University Bremen"],
     ".jade-hs.de": ["Jade Hochschule Wilhelms/Oldenburg/Elsfleth"],
     ".jakob-brucker-gymnasium.de": ["Jakob-Brucker-Gymnasium, Kaufbeuren"],
@@ -6148,7 +6744,9 @@ DOMAINS: Dict[str, List[str]] = {
         "Kaufmännisches Berufskolleg Duisburg-Mitte",
         "Kaufmännisches Berufskolleg Duisburg-Mitte",
     ],
-    ".kbs-nordhorn.de": ["Kaufmännische Berufsbildende Schulen Nordhorn (KBS)"],
+    ".kbs-nordhorn.de": [
+        "Kaufmännische Berufsbildende Schulen Nordhorn (KBS)"
+    ],
     ".kfb-berlin.de": ["Katholische Fachhochschule Berlin (KFB)"],
     ".kfh-Freiburg.de": [
         "Katholische Fachhochschule Freiburg, Hochschule für Sozialwesen, Religionspädagogik und Pflege"
@@ -6156,7 +6754,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".kfh-mainz.de": ["Katholische Fachhochschule Mainz"],
     ".kfhnw.de": ["Katholische Fachhochschule Nordrhein-Westfalen"],
     ".kgw-duisburg.de": ["Kopernikus Gymnasium Walsum"],
-    ".kh-berlin.de": ["Kunsthochschule Berlin-Weissensee, Hochschule für Gestaltung "],
+    ".kh-berlin.de": [
+        "Kunsthochschule Berlin-Weissensee, Hochschule für Gestaltung "
+    ],
     ".khgmettmann.de": ["Konrad-Heresbach-Gymnasium Mettmann"],
     ".khm.de": ["Academy of Media Arts, Cologne"],
     ".khsa.de": ["Katholische Hochschule für Soziale Arbeit Saarbrücken"],
@@ -6276,20 +6876,30 @@ DOMAINS: Dict[str, List[str]] = {
     ".louisenlund.de": ["Stiftung Louisenlund", "Louisenlund Foundation"],
     ".lsbkmi.de": ["Leo-Sympher-Berufskolleg"],
     ".ludwig-geissler-schule.de": ["Ludwig-Geißler-Schule"],
-    ".stud.macromedia.de": ["Macromedia University Munich (stud.macromedia.de)"],
+    ".stud.macromedia.de": [
+        "Macromedia University Munich (stud.macromedia.de)"
+    ],
     ".maedchenrealschule-neumarkt.de": ["Staatliche Mädchenrealschule"],
     ".marienschule-bielefeld.de": ["Marienschule Bielefeld"],
-    ".markdorf-robotics.de": ["Gymnasium im Bildungszentrum Markdorf - Roboter AG"],
-    ".schueler.max-eyth-schule.de": ["Max-Eyth-Schule Berufliche Schule Kassel"],
+    ".markdorf-robotics.de": [
+        "Gymnasium im Bildungszentrum Markdorf - Roboter AG"
+    ],
+    ".schueler.max-eyth-schule.de": [
+        "Max-Eyth-Schule Berufliche Schule Kassel"
+    ],
     ".max-weber-schule.de": ["Max-Weber-Schule Freiburg im Breisgau"],
     ".maxplanckschools.de": ["Max Planck School of Cognition"],
     ".mbg-germering.de": ["Max-Born-Gymnasium Germering"],
     ".mcg-berlin.de": ["Marie Curie Gymnasium"],
     ".mcggehrden.de": ["Matthias Claudius Gymnasium Gehrden"],
-    ".mdc-berlin.de": ["Max-Delbrück-Centrum für Molekulare Medizin Graduate School"],
+    ".mdc-berlin.de": [
+        "Max-Delbrück-Centrum für Molekulare Medizin Graduate School"
+    ],
     ".mdg-hamburg.de": ["Marion Dönhoff Gymnasium"],
     ".mediadesign.de": ["Mediadesign Hochschule"],
-    ".merz-akademie.de": ["Merz Akademie, Hochschule für Gestaltung Stuttgart"],
+    ".merz-akademie.de": [
+        "Merz Akademie, Hochschule für Gestaltung Stuttgart"
+    ],
     ".mes-portal.de": ["Max Eyth Schule Schiffdorf"],
     ".mesk.de": ["Max-Eyth-Schule Kirchheim"],
     ".mfh-iserlohn.de": ["Märkische Fachhochschule Iserlohn"],
@@ -6299,10 +6909,16 @@ DOMAINS: Dict[str, List[str]] = {
     ".mhmk.de": ["Hochschule Macromedia University of Applied Sciences"],
     ".mhn.de": ["Hochschule für Politik (HFP)"],
     ".mint-kolleg.de": ["MINT-Kolleg Baden-Württemberg"],
-    ".mk-bs.de": ["Martino-Katharineum Gymnasium", "Martino-Katharineum high school"],
+    ".mk-bs.de": [
+        "Martino-Katharineum Gymnasium",
+        "Martino-Katharineum high school",
+    ],
     ".mls-marburg.de": ["Martin-Luther Schule Marburg"],
     ".mm-bbs.de": ["multi media BBS Hannover"],
-    ".stud.mobile-university.de": ["SRH Fernhochschule ", "The Mobile University"],
+    ".stud.mobile-university.de": [
+        "SRH Fernhochschule ",
+        "The Mobile University",
+    ],
     ".monte-koeln.de": ["Montessori Gymnasium Köln"],
     ".ae.mpg.de": ["Max-Planck Institute for Empirical Aesthetics"],
     ".brain.mpg.de": ["Max Planck Institute for Brain Research"],
@@ -6318,7 +6934,9 @@ DOMAINS: Dict[str, List[str]] = {
         "Max-Planck-Institut für evolutionäre Anthropologie",
         "Max Planck Institute for Evolutionary Anthropology",
     ],
-    ".is.mpg.de": ["Max Planck Institute for Intelligent Systems, Stuttgart, Germany"],
+    ".is.mpg.de": [
+        "Max Planck Institute for Intelligent Systems, Stuttgart, Germany"
+    ],
     ".molgen.mpg.de": ["Max Planck Institute for Molecular Genetics"],
     ".mpe.mpg.de": ["Max-Planck Institute for Extraterrestrial Physics"],
     ".mpi-inf.mpg.de": ["Max Planck Institute for Informatics"],
@@ -6333,7 +6951,9 @@ DOMAINS: Dict[str, List[str]] = {
         "Max Planck Institute for Polymer Research, mainz, Germany",
         "http://www.mpip-mainz.mpg.de",
     ],
-    ".mpiwg-berlin.mpg.de": ["Max Planck Institute for the History of Science"],
+    ".mpiwg-berlin.mpg.de": [
+        "Max Planck Institute for the History of Science"
+    ],
     ".mpl.mpg.de": [
         "Max-Planck-Institut für die Physik des Lichts",
         "Max Planck Institute for the Science of Light",
@@ -6347,10 +6967,14 @@ DOMAINS: Dict[str, List[str]] = {
         "Max-Planck-Institut für Psychiatrie",
         "Max Planck Institute of Psychiatry",
     ],
-    ".tue.mpg.de": ["Max Planck Institute for Intelligent Systems, Tuebingen, Germany"],
+    ".tue.mpg.de": [
+        "Max Planck Institute for Intelligent Systems, Tuebingen, Germany"
+    ],
     ".mpg-bb.de": ["Max-Planck-Gymnasium Böblingen"],
     ".schueler.mpg-umstadt.de": ["Max-Planck-Gymnasium Groß-Umstadt"],
-    ".mpi-cbg.de": ["Max Planck Institute of Molecular Cell Biology and Genetics"],
+    ".mpi-cbg.de": [
+        "Max Planck Institute of Molecular Cell Biology and Genetics"
+    ],
     ".mpia.de": [
         "International Max Planck Research School for Astronomy and Cosmic Physics at the University of Heidelberg"
     ],
@@ -6364,7 +6988,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".mtgmuenchen.de": ["Staatliches Maria-Theresia-Gymnasium München"],
     ".mu-luebeck.de": ["Medizinische Universität Lübeck"],
     ".mtg.musin.de": ["Maria-Theresia-Gymnasium München"],
-    ".bs-info.muenchen.musin.de": ["Städtische Berufsschule für Informationstechnik"],
+    ".bs-info.muenchen.musin.de": [
+        "Städtische Berufsschule für Informationstechnik"
+    ],
     ".fosbos-technik.muenchen.musin.de": [
         "Staatliche Fachoberschule und Berufsoberschule München - Ausbildungsrichtungen: Technik / Agrarwirtschaft, Bio- und Umwelttechnologie"
     ],
@@ -6374,9 +7000,13 @@ DOMAINS: Dict[str, List[str]] = {
     ".lfg.muenchen.musin.de": ["Städtisches Lion-Feuchtwanger-Gymnasium"],
     ".lpg.muenchen.musin.de": ["Luitpold-Gymnasium München"],
     ".ts.muenchen.musin.de": ["Technikerschule München"],
-    ".wsg.muenchen.musin.de": ["Städtisches Werner-von-Siemens-Gymnasium München"],
+    ".wsg.muenchen.musin.de": [
+        "Städtisches Werner-von-Siemens-Gymnasium München"
+    ],
     ".wsg.musin.de": ["Städtisches Werner-von-Siemens-Gymnasium München"],
-    ".muthesius.de": ["Muthesius-Hochschule, Fachhochschule für Kunst und Gestaltung"],
+    ".muthesius.de": [
+        "Muthesius-Hochschule, Fachhochschule für Kunst und Gestaltung"
+    ],
     ".mwn.de": ["Hochschule für Philosophie München"],
     ".mws-mainz.de": ["Maria Ward-Schule Mainz"],
     ".mycorvey.de": ["Gymnasium Corveystraße", "high school Corveystraße"],
@@ -6406,7 +7036,10 @@ DOMAINS: Dict[str, List[str]] = {
     ".oegym.de": ["Ökumenisches Gymnasium zu Bremen"],
     ".ohggf.de": ["Otto-Hahn-Gymnasium"],
     ".ohs-bensberg.de": ["Otto-Hahn-Gymnasium Bergisch Gladbach - Bensberg"],
-    ".onbtineuss.de": ["Berufskolleg für Technik und Informatik Neuss", "BTI Neuss"],
+    ".onbtineuss.de": [
+        "Berufskolleg für Technik und Informatik Neuss",
+        "BTI Neuss",
+    ],
     ".ostendorfer.de": ["Ostendorfer Gymnasium"],
     ".ostfalia.de": ["Ostfalia Hochschule für angewandte Wissenschaften"],
     ".oszimt.de": ["Oberstufenzentrum Informations- und Medizintechnik"],
@@ -6434,7 +7067,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".popakademie.de": ["Popakademie Baden-Württemberg"],
     ".ppc-schule.de": ["Peter-Paul-Cahensly Schule"],
     ".privatfh-da.de": ["Private FernFachhochschule Darmstadt"],
-    ".pth-bb.de": ["Philosophisch-Theologische Hochschule der Salesianer Don Boscos"],
+    ".pth-bb.de": [
+        "Philosophisch-Theologische Hochschule der Salesianer Don Boscos"
+    ],
     ".pth-muenster.de": ["Philosophisch-Theologische Hochschule Münster"],
     ".pthv.de": [
         "Philosophisch-Theologische Hochschule Vallendar der Gesellschaft des Katholischen Apostolates (Pallottiner)"
@@ -6476,14 +7111,19 @@ DOMAINS: Dict[str, List[str]] = {
     ".rsplus-nierstein.de": [
         "Carl-Zuckmayer-Realschule Plus und Fachoberschule Nierstein"
     ],
-    ".rss-witten.de": ["Rudolf-Steiner-Schule Witten", "Rudolf-Steiner-School Witten"],
+    ".rss-witten.de": [
+        "Rudolf-Steiner-Schule Witten",
+        "Rudolf-Steiner-School Witten",
+    ],
     ".rsu-germering.de": ["Staatliche Realschule Unterpfaffenhofen"],
     ".rub.de": ["Ruhr-Universität Bochum"],
     ".ruhr-uni-bochum.de": ["Ruhr-Universität Bochum"],
     ".rvwbk.de": ["Richard-von-Weizsäcker-Berufskolleg"],
     ".stud.rwg-waren.de": ["Richard Wossidlo Gymnasium"],
     ".rwth-aachen.de": ["Rheinisch Westfälische Technische Hochschule Aachen"],
-    ".rwu.de": ["RWU Hochschule Ravensburg-Weingarten University of Applied Sciences"],
+    ".rwu.de": [
+        "RWU Hochschule Ravensburg-Weingarten University of Applied Sciences"
+    ],
     ".sadds.de": ["Schule an der Donauschleife"],
     ".sbs-herzogenaurach.de": [
         "SBS Herzogenaurach-Höchstadt ",
@@ -6495,7 +7135,10 @@ DOMAINS: Dict[str, List[str]] = {
         "SBSZ Jena-Göschwitz",
         "https://www.sbsz-jena.de/",
     ],
-    ".schueler-bsd.de": ["Staatliche Berufsschule Dachau", "Nikolaus-Lehner-Schule"],
+    ".schueler-bsd.de": [
+        "Staatliche Berufsschule Dachau",
+        "Nikolaus-Lehner-Schule",
+    ],
     ".gjo.schulbistum.de": ["Gymnasium Johanneum", '"Die Loburg"'],
     ".gsma.schulbistum.de": [
         "St. Michael Gymnasium Ahlen",
@@ -6532,7 +7175,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".siewerth-akademie.de": ["Gustav-Siewerth-Akademie"],
     ".sis-fellbach.de": ["Swiss International School"],
     ".siu-heidelberg.de": ["Schiller International University, Heidelberg"],
-    ".bkt.siwiwissen.de": ["Berufskolleg Technik des Kreises Siegen-Wittgenstein"],
+    ".bkt.siwiwissen.de": [
+        "Berufskolleg Technik des Kreises Siegen-Wittgenstein"
+    ],
     ".bwv.siwiwissen.de": [
         "Berufskolleg Wirtschaft und Verwaltung des Kreises Siegen-Wittgenstein"
     ],
@@ -6544,7 +7189,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".srh-berlin.de": ["SRH University of Applied Sciences"],
     ".stud.srh-campus-berlin.de": ["Design Akademie Berlin"],
     ".srh.de": ["SRH Berufliche Rehabilitation GmbH"],
-    ".staedelschule.de": ["Hochschule für bildende Künste Frankfurt, Städelschule"],
+    ".staedelschule.de": [
+        "Hochschule für bildende Künste Frankfurt, Städelschule"
+    ],
     ".stiftkeppel.de": ["Gymnasium Stift Keppel"],
     ".stiftsgymnasium.de": ["Stiftsgymnasium Sindelfingen"],
     ".stresemanngymnasium.de": ["Gustav Stresemann Gymnasium"],
@@ -6554,7 +7201,9 @@ DOMAINS: Dict[str, List[str]] = {
     ],
     ".students-hnbk.de": ["Heinz-Nixdorf Berufskolleg"],
     ".stw.de": ["Steinbeis-Hochschule-Berlin"],
-    ".sus-am-bktm.de": ["Berufskolleg Platz der Republik für Technik und Medien"],
+    ".sus-am-bktm.de": [
+        "Berufskolleg Platz der Republik für Technik und Medien"
+    ],
     ".sus-bbswhs.de": ["Berufliches Gymnasium Wildeshausen"],
     ".edu.sz-deg.de": ["Robert-Koch-Gymnasium Deggendorf"],
     ".sz-haltern.de": [
@@ -6579,7 +7228,9 @@ DOMAINS: Dict[str, List[str]] = {
         "Technische Hochschule Aschaffenburg",
         "University of applied sciences Aschaffenburg",
     ],
-    ".th-bingen.de": ["Technische Hochschule Bingen University of Applied Sciences"],
+    ".th-bingen.de": [
+        "Technische Hochschule Bingen University of Applied Sciences"
+    ],
     ".th-brandenburg.de": ["Technische Hochschule Brandenburg"],
     ".th-deg.de": ["Technische Hochschule Deggendorf"],
     ".th-koeln.de": ["Fachhochschule Köln", "Technische Hochschule Köln"],
@@ -6606,12 +7257,17 @@ DOMAINS: Dict[str, List[str]] = {
     ".thi.de": ["Technische Hochschule Ingolstadt"],
     ".thm.de": ["University of Applied Sciences Giessen-Friedberg"],
     ".ths-berlin.de": ["Theodor-Haubach-Schule"],
-    ".thu.de": ["Technische Hochschule Ulm", "Ulm University of Applied Science "],
+    ".thu.de": [
+        "Technische Hochschule Ulm",
+        "Ulm University of Applied Science ",
+    ],
     ".tiho-hannover.de": ["Tierärztliche Hochschule Hannover"],
     ".tms-badoldesloe.de": ["TMS Bad Oldesloe"],
     ".ts-aalen.de": ["Technische Schule Aalen"],
     ".tu-berlin.de": ["Technische Universität Berlin"],
-    ".tu-braunschweig.de": ["Technische Universität Carolo-Wilhelmina zu Braunschweig"],
+    ".tu-braunschweig.de": [
+        "Technische Universität Carolo-Wilhelmina zu Braunschweig"
+    ],
     ".tu-bs.de": ["Technische Universität Carolo-Wilhelmina zu Braunschweig"],
     ".tu-chemnitz.de": ["Technische Universität Chemnitz-Zwickau"],
     ".tu-clausthal.de": ["Technische Universität Clausthal"],
@@ -6674,7 +7330,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".uni-hildesheim.de": ["Universität Hildesheim"],
     ".uni-hohenheim.de": ["Universität Hohenheim"],
     ".uni-jena.de": ["Friedrich-Schiller Universität Jena"],
-    ".uni-karlsruhe.de": ["Universität Fridericana Karlsruhe (Technische Hochschule)"],
+    ".uni-karlsruhe.de": [
+        "Universität Fridericana Karlsruhe (Technische Hochschule)"
+    ],
     ".uni-kassel.de": ["Universität Kassel"],
     ".uni-kiel.de": ["Christian-Albrechts-Universität Kiel"],
     ".uni-kl.de": ["Universität Kaiserslautern"],
@@ -6708,7 +7366,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".uni-vechta.de": ["Hochschule Vechta"],
     ".uni-weimar.de": ["Bauhaus-Universität Weimar"],
     ".uni-wh.de": ["Private Universität Witten/Herdecke"],
-    ".uni-wuerzburg.de": ["Bayerische Julius-Maximilians-Universität Würzburg"],
+    ".uni-wuerzburg.de": [
+        "Bayerische Julius-Maximilians-Universität Würzburg"
+    ],
     ".uni-wuppertal.de": [
         "Bergische Universität Gesamthochschule Wuppertal",
         "Kirchliche Hochschule Wuppertal",
@@ -6716,7 +7376,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".unibw-hamburg.de": ["Universität der Bundeswehr Hamburg"],
     ".unibw-muenchen.de": ["Universität der Bundeswehr München"],
     ".unibw.de": ["Universität der Bundeswehr München", "www.unibw.de"],
-    ".uniklinik-freiburg.de": ["University Medical Center University of Freiburg"],
+    ".uniklinik-freiburg.de": [
+        "University Medical Center University of Freiburg"
+    ],
     ".uos.de": ["University of Osnabrueck"],
     ".upb.de": ["University of Paderborn"],
     ".ursulinenschule.de": ["Ursulinenschule Fritzlar"],
@@ -6729,7 +7391,10 @@ DOMAINS: Dict[str, List[str]] = {
     ".wak-sh.de": ["Wirtschaftsakademie Schleswig-Holstein"],
     ".wara.de": ["Walther-Rathenau Gewerbeschule Freiburg"],
     ".webmail.wavelearn.de": ["sgd-OnlineCampus"],
-    ".wb-fernstudium.de": ["Wilhelm Büchner Hochschule", "Wilhelm Büchner Hochschule"],
+    ".wb-fernstudium.de": [
+        "Wilhelm Büchner Hochschule",
+        "Wilhelm Büchner Hochschule",
+    ],
     ".wgg-neumarkt.de": ["Willibald-Gluck-Gymnasium"],
     ".whg-lu.de": ["Wilhelm-von-Humboldt-Gymnasium"],
     ".whu-koblenz.de": [
@@ -6742,14 +7407,18 @@ DOMAINS: Dict[str, List[str]] = {
     ".wvo-dbg.de": ["Wilhelm von Oranien Schule"],
     ".wvss-hildesheim.de": ["Werner-von-Siemens-Schule Hildesheim"],
     ".wvss2-hildesheim.de": ["Werner-von-Siemens-Schule Hildesheim"],
-    ".wwgsk.de": [" Wirtschaftswissenschaftliches Gymnasium und Saarland-Kolleg"],
+    ".wwgsk.de": [
+        " Wirtschaftswissenschaftliches Gymnasium und Saarland-Kolleg"
+    ],
     ".gnr.wwschool.de": ["Gymnasium Nepomucenum Rietberg"],
     ".wwu.de": ["University of Münster"],
     ".student.xu-university.de": ["xu-university", "xu-university"],
     ".zgk-konstanz.de": ["Zeppelin-Gewerbeschule Konstanz"],
     ".zgs-konstanz.de": ["Zeppelin Gewerbeschule Konstanz"],
     ".zu.de": ["Zeppelin University"],
-    ".epitech.digital": ["Epitech Digital - L’ÉCOLE DE LA TRANSFORMATION DIGITALE"],
+    ".epitech.digital": [
+        "Epitech Digital - L’ÉCOLE DE LA TRANSFORMATION DIGITALE"
+    ],
     ".edu.dj": ["Université de Djibouti"],
     ".aaks.dk": ["Aarhus Kommune Skoler", "Aarhus Municipality Schools"],
     ".katrinebjergskolen.aarhus.dk": ["Katrinebjergskolen"],
@@ -6788,7 +7457,10 @@ DOMAINS: Dict[str, List[str]] = {
     ".easv365.dk": ["Business Academy SouthWest"],
     ".elevcampus.dk": ["EUC Syd - Teknisk Gymnasium Sønderjylland"],
     ".elevportal.dk": ["elevportal.dk"],
-    ".euclive.dk": ["EUC Nord HTX Frederikshavn", "EUC North HTX Frederikshavn"],
+    ".euclive.dk": [
+        "EUC Nord HTX Frederikshavn",
+        "EUC North HTX Frederikshavn",
+    ],
     ".eucnordvest.dk": ["EUC Nordvest"],
     ".unv.eucsj.dk": ["EUC SJÆLLAND"],
     ".eucsyd.dk": ["EUC SYD"],
@@ -6813,7 +7485,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".karch.dk": ["Royal Danish Academy of Fine Arts, School of Architecture"],
     ".kea.dk": ["Copenhagen School of Design and Technology"],
     ".ku.dk": ["Copenhagen University"],
-    ".kunstakademiet.dk": ["Royal Danish Academy of Fine Arts, School of Visual Art"],
+    ".kunstakademiet.dk": [
+        "Royal Danish Academy of Fine Arts, School of Visual Art"
+    ],
     ".kvl.dk": ["Royal Veterinary and Agricultural University"],
     ".learnmark.dk": ["Learnmark Horsens"],
     ".mediacollege.dk": ["Media College Aalborg"],
@@ -6821,7 +7495,10 @@ DOMAINS: Dict[str, List[str]] = {
     ".mitvuc.dk": ["VUC Syd"],
     ".musik-kons.dk": ["Royal Academy of Music"],
     ".nbi.dk": ["Niels Bohr Institute"],
-    ".edu.nextkbh.dk": ["Next Uddannelse København", "Next Education Copenhagen"],
+    ".edu.nextkbh.dk": [
+        "Next Uddannelse København",
+        "Next Education Copenhagen",
+    ],
     ".nextkbh.dk": ["NEXT Uddannelse København", "NEXT Education Copenhagen"],
     ".edu.nyborg-gym.dk": ["Nyborg Gymnasium"],
     ".ofe.dk": ["Osted fri og efterskole"],
@@ -6838,7 +7515,10 @@ DOMAINS: Dict[str, List[str]] = {
     ".edu.simac.dk": ["Svendborg International Maritime Academy"],
     ".studiebyenesbjerg.dk": ["Erhvervs Akademi Sydvest"],
     ".svhfvuc.dk": ["Skive Viborg Hf & VUC"],
-    ".svkskole.dk": ["Svendborg Kommunes Skoler ", "Svendborg Municipality Schools"],
+    ".svkskole.dk": [
+        "Svendborg Kommunes Skoler ",
+        "Svendborg Municipality Schools",
+    ],
     ".sydfynsfrifagskole.dk": ["Sydfyns Fri Fagskole"],
     ".tcaa.dk": ["Tech College Aalborg"],
     ".tec.dk": ["TEC - Technical Education Copenhagen"],
@@ -6895,7 +7575,10 @@ DOMAINS: Dict[str, List[str]] = {
         "Universidad Católica Tecnológica del Cibao",
         "Universidad Católica Tecnológica del Cibao",
     ],
-    ".uce.edu.do": ["Universidad Central del Este", "Universidad Central del Este"],
+    ".uce.edu.do": [
+        "Universidad Central del Este",
+        "Universidad Central del Este",
+    ],
     ".ucne.edu.do": [
         "Universidad Católica Nordestana",
         "Universidad Católica Nordestana",
@@ -6923,7 +7606,10 @@ DOMAINS: Dict[str, List[str]] = {
         "Universidad Experimental Felix Adam",
         "Universidad Experimental Felix Adam",
     ],
-    ".unibe.edu.do": ["Universidad Iberoamericana", "Universidad Iberoamericana"],
+    ".unibe.edu.do": [
+        "Universidad Iberoamericana",
+        "Universidad Iberoamericana",
+    ],
     ".unicaribe.edu.do": ["Universidad del Caribe", "Universidad del Caribe"],
     ".uniremhos.edu.do": [
         "Universidad Eugenio Maria de Hostos",
@@ -6937,7 +7623,10 @@ DOMAINS: Dict[str, List[str]] = {
         "Universidad Odontológica Dominicana",
         "Universidad Odontológica Dominicana",
     ],
-    ".ute.edu.do": ["Universidad de la Tercera Edad", "Universidad de la Tercera Edad"],
+    ".ute.edu.do": [
+        "Universidad de la Tercera Edad",
+        "Universidad de la Tercera Edad",
+    ],
     ".utesur.edu.do": [
         "Universidad Tecnológica del Sur",
         "Universidad Tecnológica del Sur",
@@ -6967,13 +7656,17 @@ DOMAINS: Dict[str, List[str]] = {
     ],
     ".enst.dz": ["Ecole Nationale Superieure de Technologie"],
     ".epst-oran.dz": ["Ecole Préparatoire en Sciences et Techniques"],
-    ".esi-sba.dz": ["Ecole Nationale Supérieure D'Informatique de Sidi Belabbess"],
+    ".esi-sba.dz": [
+        "Ecole Nationale Supérieure D'Informatique de Sidi Belabbess"
+    ],
     ".esi.dz": ["l'Ecole Nationale Supérieure D'Informatique"],
     ".essa-tlemcen.dz": [
         "Ecole Supérieure en Sciences Appliquées de Tlemcen",
         "School of Applied Sciences Tlemcen",
     ],
-    ".esti-annaba.dz": ["École Supérieure de Technologies Industrielles d'Annaba"],
+    ".esti-annaba.dz": [
+        "École Supérieure de Technologies Industrielles d'Annaba"
+    ],
     ".estin.dz": [
         "École supérieure en Sciences et Technologies de l'Informatique et du Numérique",
         "Higher School of Digital and Computer Sciences and Technologies",
@@ -7045,7 +7738,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".univ-tiaret.dz": ["Centre Universitaire de Tiaret"],
     ".univ-tlemcen.dz": ["Université Abou Bekr Belkaid, Tlemcen"],
     ".univ-usto.dz": ["Université des Sciences et de la Technologie d'Oran"],
-    ".usthb.dz": ["Université des Sciences et de la Technologie Houari Boumediène"],
+    ".usthb.dz": [
+        "Université des Sciences et de la Technologie Houari Boumediène"
+    ],
     ".aitec.edu.ec": [
         "Instituto Superior Tecnológico Almirante Illingworth",
         "Instituto Superior Tecnológico Almirante Illingworth",
@@ -7084,8 +7779,12 @@ DOMAINS: Dict[str, List[str]] = {
     ".pucese.edu.ec": [
         "PONTIFICIA UNIVERSIDAD CATÓLICA DEL ECUADOR SEDE EN ESMERALDAS"
     ],
-    ".pucesi.edu.ec": ["Pontificia Universidad Católica del Ecuador Sede Ibarra"],
-    ".sudamericano.edu.ec": ["Instituto Superior Tecnológico Particular Sudamericano"],
+    ".pucesi.edu.ec": [
+        "Pontificia Universidad Católica del Ecuador Sede Ibarra"
+    ],
+    ".sudamericano.edu.ec": [
+        "Instituto Superior Tecnológico Particular Sudamericano"
+    ],
     ".tecazuay.edu.ec": [
         "Instituto Superior Tecnológico del Azuay",
         "Higher Technological Institute of Azuay",
@@ -7107,7 +7806,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".uea.edu.ec": ["Universidad Estatal Amazónica"],
     ".ueb.edu.ec": ["\ufeffUNIVERSIDAD ESTATAL DE BOLÍVAR"],
     ".uees.edu.ec": ["Universidad de Especialidades del Espíritu Santo"],
-    ".uefsorteresavalse.edu.ec": ["Unidad Educativa Fiscomisional Sor Teresa Valse"],
+    ".uefsorteresavalse.edu.ec": [
+        "Unidad Educativa Fiscomisional Sor Teresa Valse"
+    ],
     ".ug.edu.ec": ["Universidad de Guayaquil"],
     ".uisek.edu.ec": [
         "Universidad Internacional SEK Ecuador",
@@ -7118,7 +7819,10 @@ DOMAINS: Dict[str, List[str]] = {
         "Universidad Laica Vicente Rocafuerte",
         "Laica Vicente Rocafuerte University",
     ],
-    ".est.umet.edu.ec": ["Universidad Metropolitana", "Metropolitan University"],
+    ".est.umet.edu.ec": [
+        "Universidad Metropolitana",
+        "Metropolitan University",
+    ],
     ".unach.edu.ec": ["Universidad Nacional de Chimborazo"],
     ".unemi.edu.ec": [
         "Universidad Estatal De Milagro UNEMI",
@@ -7141,7 +7845,10 @@ DOMAINS: Dict[str, List[str]] = {
     ".utmachala.edu.ec": ["Universidad Técnica de Machala"],
     ".utn.edu.ec": ["Universidad Técnica del Norte"],
     ".utpl.edu.ec": ["Universidad Técnica Particular de Loja"],
-    ".yachaytech.edu.ec": ["Universidad Yachay Tech", "Yachay Tech University"],
+    ".yachaytech.edu.ec": [
+        "Universidad Yachay Tech",
+        "Yachay Tech University",
+    ],
     ".yavirac.edu.ec": ["Instituto Tecnológico Superior Yavirac"],
     ".udlanet.ec": ["Universidad de Las Americas - UDLA Quito"],
     ".stu.SanJac.edu": ["San Jacinto College"],
@@ -7154,7 +7861,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".aast.edu": ["Arab Academy for Science &amp; Technology"],
     ".aauj.edu": ["Arab American University - Jenin"],
     ".ab.edu": ["Alderson Broaddus College"],
-    ".academy.edu": ["International Academy of  Merchandising and Design Tampa"],
+    ".academy.edu": [
+        "International Academy of  Merchandising and Design Tampa"
+    ],
     ".academyart.edu": ["Academy of Art College"],
     ".acp.edu": ["Albany College of Pharmacy"],
     ".act.edu": ["American College of Thessaloniki"],
@@ -7407,7 +8116,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".calcoast.edu": ["California Coast University"],
     ".caldwell.edu": ["Caldwell College"],
     ".callutheran.edu": ["California Lutheran University"],
-    ".calpoly.edu": ["California Polytechnic State University - San Luis Obispo"],
+    ".calpoly.edu": [
+        "California Polytechnic State University - San Luis Obispo"
+    ],
     ".calstatela.edu": ["California State University, Los Angeles"],
     ".caltech.edu": ["California Institute of Technology"],
     ".calvary.edu": ["Calvary Bible College"],
@@ -7496,7 +8207,10 @@ DOMAINS: Dict[str, List[str]] = {
     ".clearwater.edu": ["Clearwater Christian College"],
     ".cleary.edu": ["Cleary College"],
     ".clemson.edu": ["Clemson University"],
-    ".clu.edu": ["Universidad de Puerto Rico", "Universidad de Puerto Rico, Humacao"],
+    ".clu.edu": [
+        "Universidad de Puerto Rico",
+        "Universidad de Puerto Rico, Humacao",
+    ],
     ".cmc.edu": ["Central Methodist College"],
     ".cmich.edu": ["Central Michigan University"],
     ".cmsv.edu": ["College of Mount St. Vincent"],
@@ -7512,7 +8226,10 @@ DOMAINS: Dict[str, List[str]] = {
     ],
     ".cod.edu": ["College of DuPage"],
     ".coe.edu": ["Coe College"],
-    ".cofc.edu": ["College of Charleston", "University of Charleston South Carolina"],
+    ".cofc.edu": [
+        "College of Charleston",
+        "University of Charleston South Carolina",
+    ],
     ".cofo.edu": ["College of the Ozarks"],
     ".cogswell.edu": ["Cogswell Polytechnical College"],
     ".coker.edu": ["Coker College"],
@@ -7520,7 +8237,10 @@ DOMAINS: Dict[str, List[str]] = {
     ".colby.edu": ["Colby College"],
     ".coleman.edu": ["Coleman College"],
     ".colgate.edu": ["Colgate University"],
-    ".collegeamerica.edu": ["CollegeAmerica, Phoenix", "CollegeAmerica, Denver"],
+    ".collegeamerica.edu": [
+        "CollegeAmerica, Phoenix",
+        "CollegeAmerica, Denver",
+    ],
     ".collegeofidaho.edu": ["College of Idaho"],
     ".colorado.edu": ["Colorado College", "University of Colorado at Boulder"],
     ".colostate.edu": ["Colorado State University"],
@@ -7564,7 +8284,11 @@ DOMAINS: Dict[str, List[str]] = {
     ".csj.edu": ["College of St. Joseph"],
     ".csld.edu": ["Conway School of Landscape Design"],
     ".csm.edu": ["College of St. Mary"],
-    ".csn.edu": ["College of Southern Nevada", "The College of Southern Nevada", "CSN"],
+    ".csn.edu": [
+        "College of Southern Nevada",
+        "The College of Southern Nevada",
+        "CSN",
+    ],
     ".csp.edu": ["Concordia College, St. Paul"],
     ".cspp.edu": [
         "California School of Professional Psychology - Berkley/Alameda",
@@ -7572,7 +8296,10 @@ DOMAINS: Dict[str, List[str]] = {
         "California School of Professional Psychology - Los Angels",
         "California School of Professional Psychology - San Diego",
     ],
-    ".css.edu": ["College of St. Scholastica", "The College of St. Scholastica"],
+    ".css.edu": [
+        "College of St. Scholastica",
+        "The College of St. Scholastica",
+    ],
     ".csu.edu": ["Chicago State University"],
     ".csubak.edu": ["California State University, Bakersfield"],
     ".csuchico.edu": ["California State University, Chico"],
@@ -7671,7 +8398,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".dongguk.edu": ["Dongguk University"],
     ".dordt.edu": ["Dordt College"],
     ".dowling.edu": ["Dowling College"],
-    ".downstate.edu": ["State University of New York Downstate Medical Center"],
+    ".downstate.edu": [
+        "State University of New York Downstate Medical Center"
+    ],
     ".dpc.edu": ["Dubai Pharmacy College"],
     ".drake.edu": ["Drake University"],
     ".drew.edu": ["Drew University"],
@@ -7729,7 +8458,10 @@ DOMAINS: Dict[str, List[str]] = {
     ".etsu.edu": ["East Tennessee State University"],
     ".eurasia.edu": ["Xi'an Eurasia University"],
     ".eureka.edu": ["Eureka College"],
-    ".euruni.edu": ["European University", "European University, Athens Campus"],
+    ".euruni.edu": [
+        "European University",
+        "European University, Athens Campus",
+    ],
     ".evangel.edu": ["Evangel University"],
     ".evansville.edu": ["University of Evansville"],
     ".evergreen.edu": ["Evergreen State College"],
@@ -7737,7 +8469,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".ewc.edu": ["Edward Waters College"],
     ".ewu.edu": ["Eastern Washington University"],
     ".ewubd.edu": ["East West University", "East-West University, Mohakhali"],
-    ".fae.edu": ["FAE Business School - Faculdade de Administração e Economia"],
+    ".fae.edu": [
+        "FAE Business School - Faculdade de Administração e Economia"
+    ],
     ".fairfield.edu": ["Fairfield University"],
     ".famu.edu": ["Florida Agricultural and Mechanical University"],
     ".fandm.edu": ["Franklin and Marshall College"],
@@ -7899,7 +8633,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".hsbc.edu": ["Hobe Sound Bible College"],
     ".hsc.edu": ["Hampden-Sydney College"],
     ".hscbklyn.edu": ["State University of New York Downstate Medical Center"],
-    ".hscsyr.edu": ["State University of New York Health Sience Centre Syracuse"],
+    ".hscsyr.edu": [
+        "State University of New York Health Sience Centre Syracuse"
+    ],
     ".hsu.edu": ["Henderson State Univerisity"],
     ".hsutx.edu": ["Hardin-Simmons University"],
     ".htc.edu": ["Huston-Tillotson College"],
@@ -7914,7 +8650,10 @@ DOMAINS: Dict[str, List[str]] = {
     ".ie.edu": ["IE University"],
     ".iit.edu": ["Illinois Institute of Technology"],
     ".illinois.edu": ["University of Illinois at Urbana-Champaign"],
-    ".ilstu.edu": ["Illinois State University", "Mennonite College of Nursing"],
+    ".ilstu.edu": [
+        "Illinois State University",
+        "Mennonite College of Nursing",
+    ],
     ".immaculata.edu": ["Immaculata University"],
     ".imtu.edu": ["International Medical &amp; Technological University"],
     ".indiana.edu": [
@@ -7939,7 +8678,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".itt.edu": ["Institute of Textile Technology"],
     ".itu.edu": ["International Technology Institute"],
     ".iub.edu": ["Indiana University at Bloomington"],
-    ".iubat.edu": ["International University of Business Agriculture and Technology"],
+    ".iubat.edu": [
+        "International University of Business Agriculture and Technology"
+    ],
     ".iufs.edu": [
         "International University of Fundamental Studies, St. Petersburg",
         "International University of Fundamental Studies, St. Petersburg",
@@ -8113,7 +8854,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".loyno.edu": ["Loyola University New Orleans"],
     ".loyola.edu": ["Loyola College in Maryland"],
     ".lssu.edu": ["Lake Superior State University"],
-    ".lsu.edu": ["Louisiana State University and Agricultural and Mechanical College"],
+    ".lsu.edu": [
+        "Louisiana State University and Agricultural and Mechanical College"
+    ],
     ".lsus.edu": ["Louisiana State University in Shreveport"],
     ".ltu.edu": ["Lawrence Technological University"],
     ".luc.edu": ["Loyola University of Chicago"],
@@ -8181,7 +8924,10 @@ DOMAINS: Dict[str, List[str]] = {
     ".medaille.edu": ["Medaille College"],
     ".memphis.edu": ["University of Memphis"],
     ".menlo.edu": ["Menlo College"],
-    ".mercer.edu": ["Mercer University", "Mercer University, Cecil B. Day Campus"],
+    ".mercer.edu": [
+        "Mercer University",
+        "Mercer University, Cecil B. Day Campus",
+    ],
     ".mercyhurst.edu": ["Mercyhurst College"],
     ".meredith.edu": ["Meredith College"],
     ".messiah.edu": ["Messiah College"],
@@ -8287,7 +9033,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".nayanova.edu": ["Nayanova University", "Nayanova University"],
     ".naz.edu": ["Nazareth College"],
     ".nbc.edu": ["Nazarene Bible College"],
-    ".ncat.edu": ["North Carolina Agricultural and Technical State University"],
+    ".ncat.edu": [
+        "North Carolina Agricultural and Technical State University"
+    ],
     ".ncbc.edu": ["North Central Bible College"],
     ".ncc.edu": ["Nassau Community College"],
     ".nccu.edu": ["North Carolina Central University"],
@@ -8374,7 +9122,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".nwcc.edu": ["Northwest Christian College"],
     ".nwciowa.edu": ["Northwestern College Iowa"],
     ".nwmissouri.edu": ["Northwest Missouri State University"],
-    ".nyaa.edu": ["New York Academy of Art, Graduate School of Figurative Art"],
+    ".nyaa.edu": [
+        "New York Academy of Art, Graduate School of Figurative Art"
+    ],
     ".nyackcollege.edu": ["Nyack College"],
     ".nycc.edu": ["New York Chiropractic College"],
     ".nycpm.edu": ["New York College of Podiatric Medicine"],
@@ -8421,7 +9171,9 @@ DOMAINS: Dict[str, List[str]] = {
         "Oklahoma State University Center for Health Sciences",
     ],
     ".olc.edu": ["Oglala Lakota College"],
-    ".oldwestbury.edu": ["State University of New York College at Old Westbury"],
+    ".oldwestbury.edu": [
+        "State University of New York College at Old Westbury"
+    ],
     ".olemiss.edu": ["University of Mississippi"],
     ".olin.edu": ["Olin College of Engineering"],
     ".olivet.edu": ["Olivet Nazarene University"],
@@ -8450,7 +9202,10 @@ DOMAINS: Dict[str, List[str]] = {
     ".owu.edu": ["Ohio Wesleyan University"],
     ".oxy.edu": ["Occidental College"],
     ".ozarks.edu": ["University of the Ozarks"],
-    ".pace.edu": ["Pace University", "Pace University  Pleasantville/Briarcliff"],
+    ".pace.edu": [
+        "Pace University",
+        "Pace University  Pleasantville/Briarcliff",
+    ],
     ".pacific.edu": ["University of the Pacific"],
     ".pacifica.edu": ["Pacifica Graduate Institute"],
     ".pacificoaks.edu": ["Pacific Oaks College"],
@@ -8492,7 +9247,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".pittstate.edu": ["Pittsburg State University"],
     ".pitzer.edu": ["Pitzer College"],
     ".planwel.edu": ["Planwel University"],
-    ".plattsburgh.edu": ["State University of New York College at Plattsburgh"],
+    ".plattsburgh.edu": [
+        "State University of New York College at Plattsburgh"
+    ],
     ".plu.edu": ["Pacific Lutheran University"],
     ".plymouth.edu": ["Plymouth State College"],
     ".pnca.edu": ["Pacific Northwest College of Art"],
@@ -8753,7 +9510,10 @@ DOMAINS: Dict[str, List[str]] = {
     ".stetson.edu": ["Stetson University"],
     ".stevens-tech.edu": ["Stevens Institute of Technology"],
     ".stevens.edu": ["Stevens Institute of Technology"],
-    ".stfrancis.edu": ["St. Joseph College of Nursing", "University of St. Francis"],
+    ".stfrancis.edu": [
+        "St. Joseph College of Nursing",
+        "University of St. Francis",
+    ],
     ".stikom.edu": ["Institut Bisnis dan Informatika Stikom Surabaya"],
     ".stillman.edu": ["Stillman College"],
     ".stjohns.edu": ["St. John's University"],
@@ -8777,7 +9537,10 @@ DOMAINS: Dict[str, List[str]] = {
     ".stu.edu": ["St. Thomas University"],
     ".stvincent.edu": ["St. Vincent College"],
     ".su.edu": ["Shenandoah University"],
-    ".suagm.edu": ["Sistema Universitario Ana G. Méndez", "Universidad Metropolitana"],
+    ".suagm.edu": [
+        "Sistema Universitario Ana G. Méndez",
+        "Universidad Metropolitana",
+    ],
     ".subr.edu": ["Southern University - Baton Rouge"],
     ".sullivan.edu": ["Sullivan College"],
     ".sulross.edu": ["Sul Ross State University"],
@@ -8818,12 +9581,18 @@ DOMAINS: Dict[str, List[str]] = {
     ".talladega.edu": ["Talladega College"],
     ".tambcd.edu": ["Baylor College of Dentistry"],
     ".tamiu.edu": ["Texas A&amp;M International University"],
-    ".tamu.edu": ["Texas A&amp;M University", "Texas A&amp;M University - Galveston"],
+    ".tamu.edu": [
+        "Texas A&amp;M University",
+        "Texas A&amp;M University - Galveston",
+    ],
     ".tamucc.edu": ["Texas A&amp;M University - Corpus Christi"],
     ".tamuk.edu": ["Texas A&amp;M University - Kingsville"],
     ".tamut.edu": ["Texas A&amp;M University - Texarkana"],
     ".tarleton.edu": ["Tarleton State University"],
-    ".tayloru.edu": ["Taylor University", "Taylor University, Fort Wayne Campus"],
+    ".tayloru.edu": [
+        "Taylor University",
+        "Taylor University, Fort Wayne Campus",
+    ],
     ".tbc2day.edu": ["Trinity Bible College"],
     ".tci.edu": ["The College of Insurance"],
     ".tcnj.edu": ["The College of New Jersey"],
@@ -9074,7 +9843,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".uprrp.edu": ["Universidad de Puerto Rico, Rio Pedras"],
     ".uprutuado.edu": ["Universidad de Puerto Rico, Utuado"],
     ".ups.edu": ["University of Puget Sound"],
-    ".upstate.edu": ["State University of New York Upstate Medical University "],
+    ".upstate.edu": [
+        "State University of New York Upstate Medical University "
+    ],
     ".urbana.edu": ["Urbana University"],
     ".urbaniana.edu": ["Pontifcia Università Urbaniana"],
     ".urbe.edu": ["Universidad Dr. Rafael Belloso Chacín"],
@@ -9084,7 +9855,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".ursinus.edu": ["Ursinus College"],
     ".ursuline.edu": ["Ursuline College"],
     ".uru.edu": ["Universidad Rafael Urdaneta"],
-    ".usaim.edu": ["University of Seychelles - American Institute of Medicine"],
+    ".usaim.edu": [
+        "University of Seychelles - American Institute of Medicine"
+    ],
     ".usao.edu": ["University of Science and Arts of Oklahoma"],
     ".usc.edu": ["University of Southern California"],
     ".uscsumter.edu": ["University of South Carolina - Sumter"],
@@ -9119,7 +9892,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".utexas.edu": ["University of Texas at Austin"],
     ".uthct.edu": ["University of Texas Health Center at Tyler"],
     ".uthouston.edu": ["University of Texas Health Center at Houston"],
-    ".uthscsa.edu": ["University of Texas Health Science Center at San Antonio"],
+    ".uthscsa.edu": [
+        "University of Texas Health Science Center at San Antonio"
+    ],
     ".utk.edu": ["University of Tennessee - Knoxville"],
     ".utm.edu": ["University of Tennessee - Martin"],
     ".utmb.edu": ["University of Texas Medical Branch Galveston"],
@@ -9190,7 +9965,9 @@ DOMAINS: Dict[str, List[str]] = {
         "Vermont Technical College",
     ],
     ".vsu.edu": ["Virginia State University"],
-    ".vt.edu": ["Virginia Polytechnic Institute and State University (Virginia Tech)"],
+    ".vt.edu": [
+        "Virginia Polytechnic Institute and State University (Virginia Tech)"
+    ],
     ".vtu.edu": ["Free University (Virginia Theological University)"],
     ".vuu.edu": ["Virginia Union University"],
     ".wabash.edu": ["Wabash College"],
@@ -9205,7 +9982,10 @@ DOMAINS: Dict[str, List[str]] = {
     ".wartburg.edu": ["Wartburg College"],
     ".washburn.edu": ["Washburn University"],
     ".washcoll.edu": ["Washington College"],
-    ".washington.edu": ["University of Washington", "University of Washington, Tacoma"],
+    ".washington.edu": [
+        "University of Washington",
+        "University of Washington, Tacoma",
+    ],
     ".wayne.edu": ["Wayne State University"],
     ".waynesburg.edu": ["Waynesburg College"],
     ".wbcoll.edu": ["Williams Baptist College"],
@@ -9364,7 +10144,10 @@ DOMAINS: Dict[str, List[str]] = {
         'Berehivsʹkyy Litsey "Platan"',
     ],
     ".unimaksl.education": ["University of Makeni", "Unimak"],
-    ".ametikool.ee": ["Kuressaare Ametikool", "Kuressaare Regional Training Centre"],
+    ".ametikool.ee": [
+        "Kuressaare Ametikool",
+        "Kuressaare Regional Training Centre",
+    ],
     ".artun.ee": ["Estonian Academy of Arts"],
     ".eava.ee": ["Estonian Aviation Academy"],
     ".ebs.ee": ["Estonian Business School"],
@@ -9398,8 +10181,14 @@ DOMAINS: Dict[str, List[str]] = {
         "Alexandria Higher Institute of Engineering and Technology",
         "Alexandria Higher Institute of Engineering and Technology",
     ],
-    ".aiu.edu.eg": ["Alamein International University", "جامعة العلمين الدولية"],
-    ".akhbaracademy.edu.eg": ["Akhbar El-Yom Academy", "Akhbar El-Yom Academy"],
+    ".aiu.edu.eg": [
+        "Alamein International University",
+        "جامعة العلمين الدولية",
+    ],
+    ".akhbaracademy.edu.eg": [
+        "Akhbar El-Yom Academy",
+        "Akhbar El-Yom Academy",
+    ],
     ".alex.edu.eg": ["Alexandria University"],
     ".alexmed.edu.eg": ["Faculty of Medicine, Alexandria University"],
     ".alexu.edu.eg": ["Alexandria University"],
@@ -9468,7 +10257,11 @@ DOMAINS: Dict[str, List[str]] = {
         "Higher Institute of Engineering and Technology Kafrelsheikh",
     ],
     ".kfs.edu.eg": ["Kafr El-Sheikh University"],
-    ".luxor.edu.eg": ["Luxor University", "جامعة الأقصر", "http://www.luxor.edu.eg/"],
+    ".luxor.edu.eg": [
+        "Luxor University",
+        "جامعة الأقصر",
+        "http://www.luxor.edu.eg/",
+    ],
     ".madinagroups.edu.eg": ["Madina Academy"],
     ".mans.edu.eg": ["Mansoura University"],
     ".mau.edu.eg": [
@@ -9539,18 +10332,28 @@ DOMAINS: Dict[str, List[str]] = {
     ".alumni-eae.es": ["EAE Business School"],
     ".alumnos-eneb.es": ["ENEB. Escuela de Negocios Europea de Barcelona"],
     ".alumnosiesleliana.es": ["IES L'Eliana"],
-    ".campuscamara.es": ["ESTUDIOS UNIVERSITARIOS Y SUPERIORES DE ANDALUCIA, SLU"],
+    ".campuscamara.es": [
+        "ESTUDIOS UNIVERSITARIOS Y SUPERIORES DE ANDALUCIA, SLU"
+    ],
     ".campusviu.es": [
         "Universidad Internacional de Valencia",
         "Valencian International University",
     ],
     ".cesma.es": ["CESMA Business School"],
-    ".ceu.es": ["Universidad Cardenal Herrera-CEU", "Universidad de San Pablo CEU"],
+    ".ceu.es": [
+        "Universidad Cardenal Herrera-CEU",
+        "Universidad de San Pablo CEU",
+    ],
     ".ceuandalucia.es": ["CEU Andalucía", "CEU Andalusia"],
-    ".chabacier.es": ["IES Leonardo de Chabacier", "IES Leonardo de Chabacier"],
+    ".chabacier.es": [
+        "IES Leonardo de Chabacier",
+        "IES Leonardo de Chabacier",
+    ],
     ".cide.es": ["CIDE"],
     ".cifpcarballeira.es": ["CIFP A Carballeira - Marcos Valcárcel"],
-    ".aula.cifplalaboral.es": ["Centro Integral de Formacion Profesional La Laboral"],
+    ".aula.cifplalaboral.es": [
+        "Centro Integral de Formacion Profesional La Laboral"
+    ],
     ".cifpzonzamas.es": ["CIFP ZONZAMAS"],
     ".colegiotorremalmuerta.es": [
         "C.E.I.P. TORRE MALMUERTA DE CÓRDOBA",
@@ -9575,7 +10378,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".ull.edu.es": ["Universidad de La Laguna"],
     ".upv.edu.es": ["Universidad Politécnica de Valencia"],
     ".g.educaand.es": ["Schools in Andalusia"],
-    ".educarex.es": ["Institutos de Educación Secundaria de Extremadura (España)"],
+    ".educarex.es": [
+        "Institutos de Educación Secundaria de Extremadura (España)"
+    ],
     ".educastillalamancha.es": [
         "Educación de Castilla-La Mancha",
         "Castilla-La Mancha's education",
@@ -9611,7 +10416,10 @@ DOMAINS: Dict[str, List[str]] = {
     ".idep.es": ["Idep Barcelona - Escola Superior d'Imatge i Disseny"],
     ".ies-azarquiel.es": ["I.E.S. Azarquiel"],
     ".iesalbarregas.es": ["IES ALBARREGAS"],
-    ".iesalbujaira.es": ["Instituto de Educación Secundaria Albujaira", "Albujaira"],
+    ".iesalbujaira.es": [
+        "Instituto de Educación Secundaria Albujaira",
+        "Albujaira",
+    ],
     ".iesandorra.es": ["Pablo Serrano", "Pablo Serrano"],
     ".iesbenigaslo.es": ["IES Benigaslo"],
     ".iescamas.es": ["IES Camas", "IES Camas"],
@@ -9636,10 +10444,14 @@ DOMAINS: Dict[str, List[str]] = {
     ".iessantaaurelia.es": ["IES Santa Aurelia"],
     ".iessoterohernandez.es": ["\ufeffIES Sotero Hernández"],
     ".iesteis.es": ["IES de Teis"],
-    ".informatica.iesvalledeljerteplasencia.es": ["IES Valle del Jerte (Plasencia)"],
+    ".informatica.iesvalledeljerteplasencia.es": [
+        "IES Valle del Jerte (Plasencia)"
+    ],
     ".iesvegademijas.es": ["IES Vega de Mijas (Málaga)"],
     ".juntadeandalucia.es": ["IES Jaroso"],
-    ".students.lesroches.es": ["Les Roches International School of Hotel Management"],
+    ".students.lesroches.es": [
+        "Les Roches International School of Hotel Management"
+    ],
     ".linkiafp.es": ["Linkia FP - Formación Profesional Oficial a Distancia"],
     ".maristaslogrono.es": ["Colegio Maristas San Jose Logroño"],
     ".alu.medac.es": ["MEDAC"],
@@ -9706,7 +10518,10 @@ DOMAINS: Dict[str, List[str]] = {
     ".ujaen.es": ["Universidad de Jaén"],
     ".uji.es": ["Universitat Jaume I de Castellón"],
     ".ull.es": ["Universidad de La Laguna"],
-    ".al.uloyola.es": ["Universidad Loyola Andalucia", "Andalusian Loyola University"],
+    ".al.uloyola.es": [
+        "Universidad Loyola Andalucia",
+        "Andalusian Loyola University",
+    ],
     ".ulpgc.es": ["Universidad de Las Palmas de Gran Canaria"],
     ".um.es": ["Universidad de Murcia"],
     ".uma.es": ["Universidad de Málaga"],
@@ -9806,7 +10621,9 @@ DOMAINS: Dict[str, List[str]] = {
     ],
     ".ensam.eu": ["Arts et Métiers ParisTech"],
     ".ensg.eu": ["Ecole Nationale des Sciences Géographiques"],
-    ".ensup.eu": ["\ufeffENSUP, Ecole supérieure de Commerce dans le 78 et 95"],
+    ".ensup.eu": [
+        "\ufeffENSUP, Ecole supérieure de Commerce dans le 78 et 95"
+    ],
     ".epfc.eu": ["EPFC - Ecole de Promotion et de Formation Continue"],
     ".epitech.eu": ["École de l'Innovation et de l'Expertise Informatique"],
     ".edu.escp.eu": ["ESCP Business School"],
@@ -9820,8 +10637,14 @@ DOMAINS: Dict[str, List[str]] = {
     ],
     ".eui.eu": ["European University Institute"],
     ".euroakadeemia.eu": ["Euroakadeemia"],
-    ".eursc.eu": ["European schools", "Ecoles européennes", "Europäische Schulen"],
-    ".fh-dresden.eu": ["Fachhochschule Dresden – University of Applied Sciences"],
+    ".eursc.eu": [
+        "European schools",
+        "Ecoles européennes",
+        "Europäische Schulen",
+    ],
+    ".fh-dresden.eu": [
+        "Fachhochschule Dresden – University of Applied Sciences"
+    ],
     ".get-mail.eu": ["Groupe ESC Troyes"],
     ".ggs-schenefeld.eu": ["Grund- und Gemeinschaftsschule Schenefeld"],
     ".gym-old.eu": ["Gymnasium Oldenfelde"],
@@ -9890,7 +10713,9 @@ DOMAINS: Dict[str, List[str]] = {
         "Międzynarodowa Wyższa Szkoła Logistyki i Transportu we Wrocławiu",
         "The International University of Logistics and Transport in Wroclaw",
     ],
-    ".nvna.eu": ["Nikola Vaptsarov Naval Academy - Bulgarian Maritime University"],
+    ".nvna.eu": [
+        "Nikola Vaptsarov Naval Academy - Bulgarian Maritime University"
+    ],
     ".obs-sottrum.eu": ["Oberschule An der Wieste Sottrum"],
     ".ozanam.eu": ["LYCEE OZANAM, LILLE"],
     ".pacr.eu": ["Police Academy of Czech Republic"],
@@ -9940,13 +10765,17 @@ DOMAINS: Dict[str, List[str]] = {
     ".utad.eu": ["Universidade de Trás-os-Montes e Alto Douro"],
     ".vumk.eu": ["International University College"],
     ".wittenborg.eu": ["Wittenborg University"],
-    ".student.wsinf.eu": ["University of Computer Sciences and Skills in Łódź"],
+    ".student.wsinf.eu": [
+        "University of Computer Sciences and Skills in Łódź"
+    ],
     ".yschools.eu": ["Yschools"],
     ".zielone.eu": [
         "Zespół\xa0Szkół im. Jędrzeja Śniadeckiego w Pionkach",
         "Jędrzej Śniadecki School Complex in Pionki",
     ],
-    ".zsge.eu": ["Zespół Szkół Górniczo-Energetycznych im. Stanisława Staszica"],
+    ".zsge.eu": [
+        "Zespół Szkół Górniczo-Energetycznych im. Stanisława Staszica"
+    ],
     ".zszatopkovych.eu": ["ZS Dany a Emila Zatopkovych, Trinec, prisp. org."],
     ".ikasle.aeg.eus": ["AEG Ikastetxea"],
     ".birt.eus": [
@@ -9962,21 +10791,37 @@ DOMAINS: Dict[str, List[str]] = {
     ".aalto.fi": ["Aalto University"],
     ".abo.fi": ["Abo Akademi University"],
     ".arcada.fi": ["Arcada University of Applied Sciences"],
-    ".edu.bc.fi": ["Suomen Liikemiesten Kauppaopisto", "Business College Helsinki"],
-    ".bc.fi": ["Suomen Liikemiesten Kauppaopisto", "Business College Helsinki"],
+    ".edu.bc.fi": [
+        "Suomen Liikemiesten Kauppaopisto",
+        "Business College Helsinki",
+    ],
+    ".bc.fi": [
+        "Suomen Liikemiesten Kauppaopisto",
+        "Business College Helsinki",
+    ],
     ".centria.fi": ["Centria University of Applied Sciences"],
     ".cou.fi": ["Central Ostrobothnia University of Applied Sciences"],
     ".diak.fi": ["Diaconia University of Applied Sciences"],
-    ".eduespoo.fi": ["All schools in the city of Espoo, Finland", "    ", ".group"],
+    ".eduespoo.fi": [
+        "All schools in the city of Espoo, Finland",
+        "    ",
+        ".group",
+    ],
     ".oppilas.eduhat.fi": ["Parolan Yhteiskoulu", "Parola Co-Educational"],
     ".eduouka.fi": ["The City of Oulu Department of Education"],
     ".eduvammalanlukio.fi": ["Vammala/Sastamala High School, Finland"],
-    ".opp.eduvantaa.fi": ["Vantaan ammattiopisto Varia", "Vocational College Varia"],
+    ".opp.eduvantaa.fi": [
+        "Vantaan ammattiopisto Varia",
+        "Vocational College Varia",
+    ],
     ".edu.espoo.fi": ["All schools in the city of Espoo, Finland"],
     ".evtek.fi": ["EVTEK University of Applied Sciences"],
     ".gradia.fi": ["Gradia", "Jyväskylän koulutuskuntayhtymä Gradia"],
     ".haaga-helia.fi": ["HAAGA-HELIA University of Appliced Sciences"],
-    ".hamk.fi": ["HAMK University of Applied Sciences", "Hämeen ammattikorkeakoulu"],
+    ".hamk.fi": [
+        "HAMK University of Applied Sciences",
+        "Hämeen ammattikorkeakoulu",
+    ],
     ".hanken.fi": ["Hanken School of Economics"],
     ".edu.hel.fi": ["All schools in the city of Helsinki, Finland"],
     ".helsinki.fi": ["University of Helsinki"],
@@ -9993,7 +10838,10 @@ DOMAINS: Dict[str, List[str]] = {
     ".kamk.fi": ["Kajaani University of Applied Sciences"],
     ".karelia.fi": ["Karelia University of Applied Sciences"],
     ".kauniaistenlukio.fi": ["High school of Kauniainen"],
-    ".kktavastia.fi": ["Koulutuskuntayhtymä Tavastia", "Tavastia Education Consortium"],
+    ".kktavastia.fi": [
+        "Koulutuskuntayhtymä Tavastia",
+        "Tavastia Education Consortium",
+    ],
     ".edu.kokkola.fi": ["All schools in the city of Kokkola, Finland"],
     ".edu.kotka.fi": ["All schools in the city of Kotka, Finland"],
     ".koudata.fi": ["Kouvola Region Vocational College"],
@@ -10012,7 +10860,10 @@ DOMAINS: Dict[str, List[str]] = {
         "Website: https://www.laurea.fi/en",
         "Domains: @laurea.fi",
     ],
-    ".edu.lohja.fi": ["Lohjan Yhteislyseon lukio", "Lohja Upper Secondary School"],
+    ".edu.lohja.fi": [
+        "Lohjan Yhteislyseon lukio",
+        "Lohja Upper Secondary School",
+    ],
     ".edu.loimaa.fi": ["Schools in and near Loimaa,Finland"],
     ".lut.fi": ["Lappeenranta University of Technology"],
     ".lyk.fi": ["Lahden Yhteiskoulu"],
@@ -10043,7 +10894,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".savonia.fi": ["Savonia University of Applied Sciences"],
     ".scp.fi": ["South Carelian Polytechnic"],
     ".seamk.fi": ["Seinäjoki University of Applied Sciences"],
-    ".shh.fi": ["Swedish School of Economics and Business Administration, Finland"],
+    ".shh.fi": [
+        "Swedish School of Economics and Business Administration, Finland"
+    ],
     ".siba.fi": ["Sibelius Academy"],
     ".edu.siikalatva.fi": ["Siikalatvan lukio"],
     ".syk.fi": [
@@ -10071,7 +10924,10 @@ DOMAINS: Dict[str, List[str]] = {
     ".uta.fi": ["University of Tampere"],
     ".utu.fi": ["University of Turku"],
     ".uwasa.fi": ["University of Vaasa"],
-    ".student.vaasa.fi": ["Vamia", "vamia, vocational school in Vaasa, Finland"],
+    ".student.vaasa.fi": [
+        "Vamia",
+        "vamia, vocational school in Vaasa, Finland",
+    ],
     ".vamk.fi": ["Vaasa University of Applied Sciences"],
     ".xamk.fi": ["South-Eastern Finland University of Applied Sciences"],
     ".edu.ylojarvi.fi": [
@@ -10125,7 +10981,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".ac-toulouse.fr": ["Académie de Toulouse"],
     ".ac-versailles.fr": ["Académie de Versailles"],
     ".aformac.fr": ["aformac"],
-    ".afpa.fr": ["Agence nationale pour la Formation Professionnelle des Adultes"],
+    ".afpa.fr": [
+        "Agence nationale pour la Formation Professionnelle des Adultes"
+    ],
     ".agro-bordeaux.fr": ["Bordeaux Sciences Agro"],
     ".agrocampus-ouest.fr": ["Agro Campus Ouest", "West Agro Campus"],
     ".agroparistech.fr": ["AgroParisTech"],
@@ -10158,8 +11016,12 @@ DOMAINS: Dict[str, List[str]] = {
         "Formations diplômantes aux métiers de l’informatique",
         "Titres homologués par l'Etat Bac+2 à Bac+5",
     ],
-    ".campus-igs-toulouse.fr": ["Campus IGS Toulouse - Ecole en Informatique IPI"],
-    ".formation.aveyron.cci.fr": ["Chambre de Commerce et d'Industrie Aveyron"],
+    ".campus-igs-toulouse.fr": [
+        "Campus IGS Toulouse - Ecole en Informatique IPI"
+    ],
+    ".formation.aveyron.cci.fr": [
+        "Chambre de Commerce et d'Industrie Aveyron"
+    ],
     ".sudformation.cci.fr": ["CCI Sud Formation"],
     ".ccicampus.fr": [
         "-Chambre de Commerce et d'Industrie Colmar",
@@ -10207,11 +11069,19 @@ DOMAINS: Dict[str, List[str]] = {
     ".cnam-ara.fr": [
         "\ufeffConservatoire National des Arts et Métiers - Auvergne Rhône-Alpes"
     ],
-    ".cnam-enjmin.fr": ["École nationale du jeu et des médias interactifs numériques"],
-    ".cnam-picardie.fr": ["Conservatoire National des Arts et Métiers - Picardie"],
+    ".cnam-enjmin.fr": [
+        "École nationale du jeu et des médias interactifs numériques"
+    ],
+    ".cnam-picardie.fr": [
+        "Conservatoire National des Arts et Métiers - Picardie"
+    ],
     ".cnam.fr": ["Conservatoire National des Arts et Métiers"],
-    ".cnearc.fr": ["Centre National d'Etudes Agronomiques des Régions Chaudes"],
-    ".cnsmdp.fr": ["Conservatoire National Supérieur de Musique et de Danse de Paris"],
+    ".cnearc.fr": [
+        "Centre National d'Etudes Agronomiques des Régions Chaudes"
+    ],
+    ".cnsmdp.fr": [
+        "Conservatoire National Supérieur de Musique et de Danse de Paris"
+    ],
     ".coding-academy.fr": ["Coding Academy"],
     ".cohl.fr": ["+École d'art Emile Cohl de Lyon"],
     ".collegekarr.fr": ["Collège Alphonse Karr"],
@@ -10226,7 +11096,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".etu.cyu.fr": ["CY Cergy Paris Université", "CY Cergy Paris Université"],
     ".cyu.fr": ["CY Cergy Paris Université", "CY Cergy Paris Université"],
     ".dauphine.fr": ["Université Paris-Dauphine (Paris IX)"],
-    ".edu.ifa.delorozoy.fr": ["Institut de Formation par Alternance Robert Delorozoy"],
+    ".edu.ifa.delorozoy.fr": [
+        "Institut de Formation par Alternance Robert Delorozoy"
+    ],
     ".devinci.fr": ["Ecole Superieur d'Ingenieurs Leonard de Vinci"],
     ".eap.fr": ["Ecole Européen des Affaires"],
     ".ec-lille.fr": ["Ecole Centrale de Lille"],
@@ -10265,7 +11137,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".ehess.fr": ["School for Advanced Studies in the Social Sciences"],
     ".eigsi.fr": ["Ecole d'ingénieurs"],
     ".eilco-ulco.fr": ["Ecole d'ingénieur du littoral côte d'opale"],
-    ".eisti.fr": ["École internationale des sciences du traitement de l'information"],
+    ".eisti.fr": [
+        "École internationale des sciences du traitement de l'information"
+    ],
     ".eivp-paris.fr": ["Ecole des Ingénieurs de la Ville de Paris"],
     ".emse.fr": ["Ecole Nationale Supérieure des Mines de St-Etienne"],
     ".emweb.fr": ["L'école des métiers du web"],
@@ -10278,7 +11152,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".enim.fr": ["Ecole Nationale d'Ingénieurs de Metz"],
     ".enise.fr": ["Ecole Nationale d'Ingénieurs de Saint-Etienne"],
     ".enit.fr": ["Ecole Nationale d'Ingénieurs de Tarbes"],
-    ".enitab.fr": ["Ecole Nationale d'Ingénieurs des Travaux Agricoles de Bordeaux"],
+    ".enitab.fr": [
+        "Ecole Nationale d'Ingénieurs des Travaux Agricoles de Bordeaux"
+    ],
     ".enitiaa-nantes.fr": [
         "Ecole Nationale d'Ingénieurs des Techniques des Industries Agricoles et Alimentaires"
     ],
@@ -10289,13 +11165,19 @@ DOMAINS: Dict[str, List[str]] = {
     ".ens-paris-saclay.fr": ["ENS Paris-Saclay"],
     ".ens-rennes.fr": ["École Nationale Supérieure de Rennes"],
     ".ens.fr": ["Ecole Normale Supérieure de Paris"],
-    ".ens2m.fr": ["Ecole Nationale Supérieur de Mécaniques et des Microtechniques"],
+    ".ens2m.fr": [
+        "Ecole Nationale Supérieur de Mécaniques et des Microtechniques"
+    ],
     ".ensae-paristech.fr": ["Paris Graduate School of Economics"],
     ".ensae.fr": [
         "Ecole Nationale de la Statistique et de l'Administration Economique"
     ],
-    ".ensai.fr": ["Ecole Nationale de la Statistique et de l'Analyse de l'information"],
-    ".ensait.fr": ["Ecole Nationale Supérieure des Arts et Industries Textiles"],
+    ".ensai.fr": [
+        "Ecole Nationale de la Statistique et de l'Analyse de l'information"
+    ],
+    ".ensait.fr": [
+        "Ecole Nationale Supérieure des Arts et Industries Textiles"
+    ],
     ".ensam.fr": ["Ecole Nationale Supérieure d'Arts et Métiers de Paris"],
     ".ensat.fr": ["Ecole Nationale Supérieure Agronomique de Toulouse"],
     ".ensc-lille.fr": ["Ecole Nationale Supérieure de Chimie de Lille"],
@@ -10367,13 +11249,17 @@ DOMAINS: Dict[str, List[str]] = {
     ".esgi.fr": ["\ufeffESGI (Ecole Supérieure de Génie Informatique)"],
     ".esh64.fr": ["Ensemble Scolaire Hazparne"],
     ".esi-metz.fr": ["ESI Metz, France"],
-    ".esiae.fr": ["Ecole Supérieure Internationale d'Administration des Entreprises"],
+    ".esiae.fr": [
+        "Ecole Supérieure Internationale d'Administration des Entreprises"
+    ],
     ".esiea.fr": ["Ecole Supérieure d'Informatique-Electronique-Automatique"],
     ".esiee-amiens.fr": [
         "Ecole Supérieure d'Ingénieurs en Electronique et Electrotechnique - Amiens"
     ],
     ".edu.esiee-it.fr": ["CodingFactory Esiee-IT"],
-    ".esiee.fr": ["Ecole Supérieure d'Ingénieurs en Electronique et Electrotechnique"],
+    ".esiee.fr": [
+        "Ecole Supérieure d'Ingénieurs en Electronique et Electrotechnique"
+    ],
     ".esigelec.fr": ["Ecole Supérieure d'Ingénieurs en Génie Electrique"],
     ".esigetel.fr": [
         "Ecole d’ingénieur généraliste en systèmes numériques & objets communicants"
@@ -10388,12 +11274,19 @@ DOMAINS: Dict[str, List[str]] = {
     ".estei.fr": [
         "École Supérieure des Technologies Électronique, Informatique et Infographie"
     ],
-    ".etu.estia.fr": ["École Supérieure des Technologies Industrielles Avancées"],
+    ".etu.estia.fr": [
+        "École Supérieure des Technologies Industrielles Avancées"
+    ],
     ".net.estia.fr": ["Ecole d’ingénieurs ESTIA"],
-    ".estp.fr": ["Ecole Spéciale des Travaux Publics du Bâtiment et de l'Industrie"],
+    ".estp.fr": [
+        "Ecole Spéciale des Travaux Publics du Bâtiment et de l'Industrie"
+    ],
     ".etu-webschoolfactory.fr": ["La Web School Factory"],
     ".accueil.etud-espas.fr": ["ESTICE"],
-    ".etud-ices.fr": ["https://ices.fr/", "Institut Catholique d'Études Supérieures"],
+    ".etud-ices.fr": [
+        "https://ices.fr/",
+        "Institut Catholique d'Études Supérieures",
+    ],
     ".eudil.fr": ["Ecole Universitaire d'Ingénieurs de Lille"],
     ".eurecom.fr": ["Institut EURECOM"],
     ".fac-digital-campus.fr": ["ESG - Ecole de commerce"],
@@ -10404,7 +11297,10 @@ DOMAINS: Dict[str, List[str]] = {
         "Faculté des Sciences et Technologies (Université Catholique de Lille)"
     ],
     ".formation-cci.fr": ["CCI Formation - CCI Haute-Savoie"],
-    ".formation-cci12.fr": ["3iL Ingénieurs", "ÉCOLE D'INGÉNIEURS EN INFORMATIQUE"],
+    ".formation-cci12.fr": [
+        "3iL Ingénieurs",
+        "ÉCOLE D'INGÉNIEURS EN INFORMATIQUE",
+    ],
     ".formation-technologique.fr": ["CFA de l'Industrie 84"],
     ".g-4.fr": ["Institut G4 Marseille"],
     ".gastonberger.fr": ["Lycée Gaston Berger"],
@@ -10421,7 +11317,9 @@ DOMAINS: Dict[str, List[str]] = {
     ],
     ".grenoble-inp.fr": ["Grenoble INP"],
     ".greta-sud-aquitaine.fr": ["GRETA Sud Aquitaine"],
-    ".groupe-esigelec.fr": ["Ecole Supérieure d'Ingénieurs en Génie Electrique"],
+    ".groupe-esigelec.fr": [
+        "Ecole Supérieure d'Ingénieurs en Génie Electrique"
+    ],
     ".groupemontroland.fr": ["PASTEUR MONT ROLAND"],
     ".gustaveroussy.fr": [
         "Centre de lutte contre le cancer Gustave Roussy - Institut Français Supérieur de Biologie Médicale (IFSBM)"
@@ -10430,7 +11328,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".hec.fr": ["Ecole des Hautes Etudes Commerciales"],
     ".hei.fr": ["Ecole des Hautes Etudes Industrielles de Lille"],
     ".hetic.fr": ["Hetic"],
-    ".iae-toulouse.fr": ["Institut d'Administration des Entreprises de Toulouse"],
+    ".iae-toulouse.fr": [
+        "Institut d'Administration des Entreprises de Toulouse"
+    ],
     ".icam.fr": [
         "Institut Catholique d'Arts et Métiers",
         "ICAM Lille",
@@ -10440,9 +11340,14 @@ DOMAINS: Dict[str, List[str]] = {
         "ICAM Bretagne",
         "ICAM Vendée",
     ],
-    ".ices.fr": ["https://ices.fr/", "Institut Catholique d'Études Supérieures"],
+    ".ices.fr": [
+        "https://ices.fr/",
+        "Institut Catholique d'Études Supérieures",
+    ],
     ".icl-lille.fr": ["Institut Catholique de Lille"],
-    ".icof.fr": ["Lycée technologique secondaire et supérieur privé sous contrat"],
+    ".icof.fr": [
+        "Lycée technologique secondaire et supérieur privé sous contrat"
+    ],
     ".icp.fr": ["Institut Catholique de Paris"],
     ".ict-edu.fr": ["Institut Catholique de Toulouse"],
     ".etudiant.ief2i.fr": ["INSTITUT F2I"],
@@ -10459,7 +11364,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".imt-atlantique.fr": [
         "IMT Atlantique Bretagne-Pays de la Loire École Mines-Télécom"
     ],
-    ".imt-lille-douai.fr": ["Ecole nationale superieure Mines-Telecom Lille-Douai"],
+    ".imt-lille-douai.fr": [
+        "Ecole nationale superieure Mines-Telecom Lille-Douai"
+    ],
     ".imt-mrs.fr": ["Ecole Supérieure d'Ingénieurs de Marseille"],
     ".inalco.fr": [
         "Institut national des langues et civilisations orientales",
@@ -10490,15 +11397,21 @@ DOMAINS: Dict[str, List[str]] = {
         "Institut National Supérieur de Formation Agro-Alimentaire",
         "Agro campus Ouest",
     ],
-    ".inria.fr": ["National Institute for Research in Computer Science and Control"],
+    ".inria.fr": [
+        "National Institute for Research in Computer Science and Control"
+    ],
     ".insa-cvl.fr": [
         "Institut National des Sciences Appliquées de Centre Val de Loire"
     ],
     ".insa-lyon.fr": ["Institut National des Sciences Appliquées de Lyon"],
     ".insa-rennes.fr": ["Institut National des Sciences Appliquées de Rennes"],
     ".insa-rouen.fr": ["Institut National des Sciences Appliquées de Rouen"],
-    ".insa-strasbourg.fr": ["Institut National des Sciences Appliquées de Strasbourg"],
-    ".insa-toulouse.fr": ["Institut National des Sciences Appliquées de Toulouse"],
+    ".insa-strasbourg.fr": [
+        "Institut National des Sciences Appliquées de Strasbourg"
+    ],
+    ".insa-toulouse.fr": [
+        "Institut National des Sciences Appliquées de Toulouse"
+    ],
     ".insta.fr": ["institut de technologies avancées"],
     ".institutdegenech.fr": ["Institut de Genech"],
     ".int-evry.fr": ["Institut National des Télécommunications"],
@@ -10514,7 +11427,9 @@ DOMAINS: Dict[str, List[str]] = {
         "Institut de Recherche pour le Développement",
         "French National Research Institute for Sustainable Development",
     ],
-    ".irisa.fr": ["Institut de Recherche en Informatique et Systèmes Aléatoires"],
+    ".irisa.fr": [
+        "Institut de Recherche en Informatique et Systèmes Aléatoires"
+    ],
     ".etu.isae-ensma.fr": ["ISAE ENSMA"],
     ".isae-supaero.fr": ["ISAE-SUPAERO"],
     ".isae.fr": ["ISAE-SUPAERO"],
@@ -10533,7 +11448,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".isima.fr": [
         "Institut Supérieur d’Informatique, de Modélisation et de leurs Applications"
     ],
-    ".ismcm-cesti.fr": ["Centre d'Etudes Supérieures des Techniques Industrielles"],
+    ".ismcm-cesti.fr": [
+        "Centre d'Etudes Supérieures des Techniques Industrielles"
+    ],
     ".istef.fr": ["Ecole supérieure de formation en alternance à Toulouse"],
     ".it-akademy.fr": ["École Informatique IT-Akademy à Lyon"],
     ".itecboisfleury.fr": ["Lycée ItecBoisfleury"],
@@ -10550,7 +11467,10 @@ DOMAINS: Dict[str, List[str]] = {
         "Université Denis Diderot (Paris VII)",
         "Université Pierre et Marie Curie (Paris VI)",
     ],
-    ".keyce-academy.fr": ["Keyce International Academy", "Keyce International Academy"],
+    ".keyce-academy.fr": [
+        "Keyce International Academy",
+        "Keyce International Academy",
+    ],
     ".lacatholille.fr": ["Université Catholique de Lille"],
     ".lasallepantin.fr": ["St Joseph La Salle Pantin"],
     ".lbsi14.fr": ["La Bruyère Sainte Isabelle"],
@@ -10583,7 +11503,10 @@ DOMAINS: Dict[str, List[str]] = {
     ".meteo.fr": ["Ecole Nationale de la Météorologie"],
     ".mewo-campus.fr": ["ESI Metz, France"],
     ".mewo.fr": ["ESI Metz, France"],
-    ".toulouse.miage.fr": ["Université Paul Sabatier", "Paul Sabatier University"],
+    ".toulouse.miage.fr": [
+        "Université Paul Sabatier",
+        "Paul Sabatier University",
+    ],
     ".mines-albi.fr": ["École des Mines d'Albi"],
     ".mines-ales.fr": ["Ecole des Mines d'Alès"],
     ".mines-nantes.fr": ["École des Mines de Nantes"],
@@ -10600,7 +11523,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".myges.fr": ["Réseau GES"],
     ".neoma-bs.fr": ["Neoma Business School", "Neoma Business School"],
     ".nermont.fr": ["Lycee d'enseignement agricole prive de Nermont"],
-    ".netocentre.fr": ["Environnement Numérique de Travail de la région Centre"],
+    ".netocentre.fr": [
+        "Environnement Numérique de Travail de la région Centre"
+    ],
     ".next-u.fr": ["WebTech Institute", "WebTech Institute"],
     ".normandiewebschool.fr": ["Normandie Web School"],
     ".obspm.fr": ["Observatoire de Paris"],
@@ -10622,7 +11547,10 @@ DOMAINS: Dict[str, List[str]] = {
     ".purpan.fr": ["Ecole d'Ingenieurs de Purpan"],
     ".ri7.fr": ["École Ri7"],
     ".riviera.fr": ["University of Southern Europe (Monaco Business School)"],
-    ".rouenbs.fr": ["Rouen Business School", "Ecole Supérieure de Commerce de Rouen"],
+    ".rouenbs.fr": [
+        "Rouen Business School",
+        "Ecole Supérieure de Commerce de Rouen",
+    ],
     ".sciencespo-aix.fr": ["Sciences Po Aix"],
     ".sciencespo.fr": ["Institut d'Etudes Politiques de Paris (Sciences Po)"],
     ".sciencesu-lyon.fr": ["sciencesu-lyon"],
@@ -10646,7 +11574,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".stu-esarc-evolution.fr": ["ESG - Ecole de commerce"],
     ".stu-esg.fr": ["ESG - Ecole de commerce"],
     ".student-cs.fr": ["CentraleSupélec"],
-    ".supaero.fr": ["Ecole Nationale Supérieure de l'Aéronautique et de l'Espace"],
+    ".supaero.fr": [
+        "Ecole Nationale Supérieure de l'Aéronautique et de l'Espace"
+    ],
     ".supagro.fr": ["L'institut Agro | Montpellier SupAgro"],
     ".supbiotech.fr": ["École des Experts en Biotechnologies"],
     ".supco-amiens.fr": ["Groupe Sup de Co Amiens Picardie"],
@@ -10672,7 +11602,9 @@ DOMAINS: Dict[str, List[str]] = {
         "Ecole Nationale Supérieure de Physique de Marseille",
         "Université d'Aix-Marseille III",
     ],
-    ".etu.u-bordeaux-montaigne.fr": ["Etudiant à l'Université Bordeaux Montaigne"],
+    ".etu.u-bordeaux-montaigne.fr": [
+        "Etudiant à l'Université Bordeaux Montaigne"
+    ],
     ".iut.u-bordeaux-montaigne.fr": ["IUT Bordeaux Montaigne"],
     ".u-bordeaux-montaigne.fr": [
         "Université Bordeaux Montaigne",
@@ -10764,7 +11696,10 @@ DOMAINS: Dict[str, List[str]] = {
     ".univ-catholyon.fr": ["Université Catholique de Lyon"],
     ".univ-corse.fr": ["Università di Corsica Pasquale Paoli"],
     ".univ-cotedazur.fr": ["Université Côte d'Azur"],
-    ".univ-eiffel.fr": ["Université Gustave Eiffel", "University Gustave Eiffel"],
+    ".univ-eiffel.fr": [
+        "Université Gustave Eiffel",
+        "University Gustave Eiffel",
+    ],
     ".univ-evry.fr": ["Université d'Evry Val d'Essonne"],
     ".univ-fcomte.fr": ["Université de Franche-Comté"],
     ".iut2.univ-grenoble-alpes.fr": [
@@ -10777,7 +11712,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".univ-lehavre.fr": ["Université du Havre"],
     ".univ-lemans.fr": ["Université du Maine"],
     ".univ-lille.fr": ["Université de Lille"],
-    ".univ-lille1.fr": ["Université des Sciences et Technologies de Lille (Lille I)"],
+    ".univ-lille1.fr": [
+        "Université des Sciences et Technologies de Lille (Lille I)"
+    ],
     ".univ-lille2.fr": ["Université du Droit et de la Sante (Lille II)"],
     ".univ-lille3.fr": ["Université Charles-de-Gaulle (Lille III)"],
     ".univ-littoral.fr": ["Université du Littoral Cote d'Opale"],
@@ -10805,7 +11742,11 @@ DOMAINS: Dict[str, List[str]] = {
     ".univ-nantes.fr": ["Université de Nantes"],
     ".univ-orleans.fr": ["Université d'Orléans"],
     ".univ-paris-diderot.fr": ["Paris Diderot University"],
-    ".univ-paris-est.fr": ["Université Paris-Est", "University of Paris-Est", "UPE"],
+    ".univ-paris-est.fr": [
+        "Université Paris-Est",
+        "University of Paris-Est",
+        "UPE",
+    ],
     ".univ-paris1.fr": ["Université Panthéon-Sorbonne (Paris I)"],
     ".univ-paris12.fr": ["Université Val-de-Marne (Paris XII)"],
     ".univ-paris13.fr": ["Université Paris Nord (Paris XIII)"],
@@ -10817,7 +11758,10 @@ DOMAINS: Dict[str, List[str]] = {
     ".univ-poitiers.fr": ["Université de Poitiers"],
     ".univ-reims.fr": ["Université de Reims Champagne-Ardenne"],
     ".univ-rennes1.fr": ["Université Rennes I"],
-    ".univ-rennes2.fr": ["Université Rennes 2, FRANCE", "Rennes 2 university, FRANCE"],
+    ".univ-rennes2.fr": [
+        "Université Rennes 2, FRANCE",
+        "Rennes 2 university, FRANCE",
+    ],
     ".univ-reunion.fr": ["Université de la Reunion"],
     ".univ-rouen.fr": ["Université de Rouen - Haute Normandie"],
     ".univ-savoie.fr": ["Université de Savoie"],
@@ -10834,7 +11778,9 @@ DOMAINS: Dict[str, List[str]] = {
         "Université François Rabelais de Tours",
     ],
     ".univ-ubs.fr": ["Université de Bretagne Sud"],
-    ".etu.univ-valenciennes.fr": ["Université de Valenciennes et du Hainaut-Cambrésis"],
+    ".etu.univ-valenciennes.fr": [
+        "Université de Valenciennes et du Hainaut-Cambrésis"
+    ],
     ".univ-valenciennes.fr": [
         "Ecole Nationale Supérieure d'Ingénieurs en Mécanique et Energétique de Valenciennes",
         "Université de Valenciennes et du Hainaut-Cambrésis",
@@ -10855,13 +11801,17 @@ DOMAINS: Dict[str, List[str]] = {
     ".vet-alfort.fr": ["Ecole Nationale Vétérinaire d'Alfort"],
     ".vet-lyon.fr": ["Ecole Nationale Vétérinaire de Lyon"],
     ".vet-nantes.fr": ["Ecole Nationale Vétérinaire de Nantes"],
-    ".viacesi.fr": ["CESI Enseignement Supérieur et Formation Professionnelle"],
+    ".viacesi.fr": [
+        "CESI Enseignement Supérieur et Formation Professionnelle"
+    ],
     ".webschoolfactory.fr": ["La Web School Factory"],
     ".hei.yncrea.fr": ["Ecole des Hautes Etudes Industrielles de Lille"],
     ".isen-ouest.yncrea.fr": [
         "Institut supérieur de l'électronique et du numérique Yncrea Ouest"
     ],
-    ".isen.yncrea.fr": ["Institut supérieur de l'électronique et du numérique"],
+    ".isen.yncrea.fr": [
+        "Institut supérieur de l'électronique et du numérique"
+    ],
     ".student.yncrea.fr": [
         "Institut supérieur de l'électronique et du numérique (ISEN)"
     ],
@@ -10882,7 +11832,10 @@ DOMAINS: Dict[str, List[str]] = {
     ".ciu.edu.ge": ["Caucasus International University"],
     ".cu.edu.ge": ["Caucasus University"],
     ".eu.edu.ge": ["European university, Tbilisi, Georgia"],
-    ".fesvebi.edu.ge": ['N187 საჯარო სკოლა "ფესვები"', 'Public school N187 "Fesvebi"'],
+    ".fesvebi.edu.ge": [
+        'N187 საჯარო სკოლა "ფესვები"',
+        'Public school N187 "Fesvebi"',
+    ],
     ".freeuni.edu.ge": ["Free University of Tbilisi"],
     ".gau.edu.ge": ["Georgian-American University"],
     ".gruni.edu.ge": ["University of Grigol Robakidze"],
@@ -10901,15 +11854,24 @@ DOMAINS: Dict[str, List[str]] = {
     ".ug.edu.ge": ["საქართველოს უნივერსიტეტი", "The University Of Georgia"],
     ".unik.edu.ge": ["Kutaisi University"],
     ".gipa.ge": ["Georgian Institute of Public Affairs"],
-    ".students.gov.ge": ["Students of schools in Georgia", "Microsoft platform"],
-    ".gtu.ge": ["საქართველოს ტექნიკური უნივერსიტეტი", "Georgian Technical University"],
+    ".students.gov.ge": [
+        "Students of schools in Georgia",
+        "Microsoft platform",
+    ],
+    ".gtu.ge": [
+        "საქართველოს ტექნიკური უნივერსიტეტი",
+        "Georgian Technical University",
+    ],
     ".iset.ge": ["International School of Economics at TSU"],
     ".itvet.ge": [
         "ინფრომაციული ტექნოლოგიების აკადემია",
         "Information Technologies Academy",
     ],
     ".mziuri.ge": ["IT Center Mziuri"],
-    ".tsu.ge": ["თბილისის სახელმწიფო უნივერსიტეტი", "Tbilisi State University"],
+    ".tsu.ge": [
+        "თბილისის სახელმწიფო უნივერსიტეტი",
+        "Tbilisi State University",
+    ],
     ".accrapolytechnic.edu.gh": ["Accra Polytechnic "],
     ".anuc.edu.gh": ["all nations university college"],
     ".ashesi.edu.gh": ["Ashesi University"],
@@ -10938,10 +11900,16 @@ DOMAINS: Dict[str, List[str]] = {
     ".wiuc-ghana.edu.gh": ["wisconsin international university college"],
     ".ilisimatusarfik.gl": ["University of Greenland"],
     ".dwight.global": ["Dwight Global"],
-    ".aiu.edu.gm": ["American International University West Africa, The Gambia"],
+    ".aiu.edu.gm": [
+        "American International University West Africa, The Gambia"
+    ],
     ".iou.edu.gm": ["Islamic Online University"],
     ".utg.edu.gm": ["University of The Gambia"],
-    ".schools.nyc.gov": ["New York City Department of Education", "NYC DOE", ".group"],
+    ".schools.nyc.gov": [
+        "New York City Department of Education",
+        "NYC DOE",
+        ".group",
+    ],
     ".acg.gr": ["American College of Greece"],
     ".aeath.gr": [
         "University Ecclesiastical Academy of Thessaloniki",
@@ -10970,7 +11938,10 @@ DOMAINS: Dict[str, List[str]] = {
     ".duth.gr": ["Dimocritus University of Thrace"],
     ".eap.gr": ["Hellenic Open University"],
     ".alba.edu.gr": ["Athens Laboratory of Business Administration (ALBA)"],
-    ".amcstudent.edu.gr": ["Μητροπολιτικό Κολλέγιο", "AMC - Metropolitan College"],
+    ".amcstudent.edu.gr": [
+        "Μητροπολιτικό Κολλέγιο",
+        "AMC - Metropolitan College",
+    ],
     ".anatolia.edu.gr": ["Anatolia College"],
     ".athenscollege.edu.gr": ["HAEF - Athens College"],
     ".campion.edu.gr": ["Campion School"],
@@ -10981,7 +11952,10 @@ DOMAINS: Dict[str, List[str]] = {
         "Institute of Management Development - Ohrid",
         "Institute of Management Development, Ohrid",
     ],
-    ".mitropolitiko.edu.gr": ["Μητροπολιτικό Κολλέγιο", "AMC - Metropolitan College"],
+    ".mitropolitiko.edu.gr": [
+        "Μητροπολιτικό Κολλέγιο",
+        "AMC - Metropolitan College",
+    ],
     ".teikav.edu.gr": ["Technological Education Institute of Kavala"],
     ".uindy.edu.gr": ["University of Indianapolis in Athens"],
     ".uom.edu.gr": ["University Of Macedonia"],
@@ -11015,9 +11989,13 @@ DOMAINS: Dict[str, List[str]] = {
     ".ionio.gr": ["Ionian University"],
     ".ntua.gr": ["National Technical University of Athens"],
     ".nyc.gr": ["New York College of Athens"],
-    ".panteion.gr": ["Panteios University of Economics and Political Sciences Athens"],
+    ".panteion.gr": [
+        "Panteios University of Economics and Political Sciences Athens"
+    ],
     ".pinewood-school.gr": ["Pinewood International American School"],
-    ".students.puas.gr": ["Students of Piraeus University of Applied Sciences"],
+    ".students.puas.gr": [
+        "Students of Piraeus University of Applied Sciences"
+    ],
     ".puas.gr": ["Piraeus University of Applied Sciences"],
     ".sse.gr": ["Hellenic Army Academy"],
     ".ssl-unipi.gr": ["Systems Security Laboratory, University of Piraeus"],
@@ -11080,15 +12058,24 @@ DOMAINS: Dict[str, List[str]] = {
     ],
     ".cuhk.hk": ["Chinese University of Hong Kong"],
     ".bhjs.edu.hk": ["何明華會督銀禧中學", "Bishop Hall Jubilee School"],
-    ".bhscmc.edu.hk": ["佛教孔仙洲紀念中學", "Buddhist Hung Sean Chau Memorial College"],
-    ".cccmyc.edu.hk": ["中華基督教會銘賢書院", "The Church of Christ in China Ming Yin College"],
+    ".bhscmc.edu.hk": [
+        "佛教孔仙洲紀念中學",
+        "Buddhist Hung Sean Chau Memorial College",
+    ],
+    ".cccmyc.edu.hk": [
+        "中華基督教會銘賢書院",
+        "The Church of Christ in China Ming Yin College",
+    ],
     ".chuhai.edu.hk": ["Chu Hai College"],
     ".cihe.edu.hk": ["Caritas Institute of Higher Education"],
     ".student.cis.edu.hk": [
         "Chinese International School",
         "Chinese International School",
     ],
-    ".cis.edu.hk": ["Chinese International School", "Chinese International School"],
+    ".cis.edu.hk": [
+        "Chinese International School",
+        "Chinese International School",
+    ],
     ".my.cityu.edu.hk": ["City University of Hong Kong"],
     ".cityu.edu.hk": ["City University of Hong Kong"],
     ".link.cuhk.edu.hk": ["The Chinese University of Hong Kong"],
@@ -11099,7 +12086,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".cloud.elegantia.edu.hk": [
         "Elegantia College (Sponsored by Education Convergence)"
     ],
-    ".stu.elegantia.edu.hk": ["Elegantia College (Sponsored by Education Convergence)"],
+    ".stu.elegantia.edu.hk": [
+        "Elegantia College (Sponsored by Education Convergence)"
+    ],
     ".learning.gsis.edu.hk": ["German Swiss International School"],
     ".hkbu.edu.hk": ["Hong Kong Baptist University"],
     ".hkct.edu.hk": [
@@ -11130,16 +12119,24 @@ DOMAINS: Dict[str, List[str]] = {
         "School of Professional Education and Executive Development",
     ],
     ".stc.edu.hk": ["天主教崇德英文書院", "Shung Tak Catholic English College"],
-    ".tanghin.edu.hk": ["香港道教聯合會鄧顯紀念中學", "H.K.T.A. Tang Hin Memorial Secondary School"],
+    ".tanghin.edu.hk": [
+        "香港道教聯合會鄧顯紀念中學",
+        "H.K.T.A. Tang Hin Memorial Secondary School",
+    ],
     ".twc.edu.hk": ["東華學院", "Tung Wah College"],
     ".twghlkss.edu.hk": ["Tung Wah Group of Hospitals Li Ka Shing College"],
     ".mail.uic.edu.hk": ["北京师范大学-香港浸会大学联合国际学院", "UIC"],
-    ".stu.vtc.edu.hk": ["Vocational Training Council", "Vocational Training Council"],
+    ".stu.vtc.edu.hk": [
+        "Vocational Training Council",
+        "Vocational Training Council",
+    ],
     ".vtc.edu.hk": ["職業訓練局", "Vocational Training Council"],
     ".wahyan.edu.hk": ["Wah Yan College Hong Kong"],
     ".wis.edu.hk": ["West Island School"],
     ".eduhk.hk": ["The Education University of Hong Kong"],
-    ".learner.hkuspace.hku.hk": ["HKU School of Professional and Continuing Education"],
+    ".learner.hkuspace.hku.hk": [
+        "HKU School of Professional and Continuing Education"
+    ],
     ".hku.hk": ["University of Hong Kong"],
     ".kgv.hk": ["King George V School"],
     ".ln.hk": ["Lingnan University"],
@@ -11165,17 +12162,29 @@ DOMAINS: Dict[str, List[str]] = {
         "University of Zagreb, Faculty of Economics and Business",
     ],
     ".etfos.hr": ["University of Osijek Faculty of Electrical Engineering"],
-    ".fer.hr": ["University of Zagreb Faculty of Electrical Engineering and Computing"],
+    ".fer.hr": [
+        "University of Zagreb Faculty of Electrical Engineering and Computing"
+    ],
     ".ferit.hr": ["University of Osijek Faculty of Electrical Engineering"],
     ".fesb.hr": [
         "University of Split Faculty of Electrical Engineering, Mechanical Engineering and Naval Architecture"
     ],
-    ".ffos.hr": ["University of Osijek Faculty of humanities and social sciences"],
-    ".ffri.hr": ["University of Rijeka Faculty of Humanities and Social Sciences"],
-    ".ffst.hr": ["Faculty of Humanities and Social Sciences, University of Split"],
-    ".ffzg.hr": ["Faculty of Humanities and Social Sciences, University of Zagreb"],
+    ".ffos.hr": [
+        "University of Osijek Faculty of humanities and social sciences"
+    ],
+    ".ffri.hr": [
+        "University of Rijeka Faculty of Humanities and Social Sciences"
+    ],
+    ".ffst.hr": [
+        "Faculty of Humanities and Social Sciences, University of Split"
+    ],
+    ".ffzg.hr": [
+        "Faculty of Humanities and Social Sciences, University of Zagreb"
+    ],
     ".foi.hr": ["Faculty of Organization and Informatics"],
-    ".fpz.hr": ["Faculty of Transport and Traffic Sciences, University of Zagreb "],
+    ".fpz.hr": [
+        "Faculty of Transport and Traffic Sciences, University of Zagreb "
+    ],
     ".fsb.hr": [
         "Faculty of Mechanical Engineering and Naval Architecture, University of Zagreb"
     ],
@@ -11201,12 +12210,16 @@ DOMAINS: Dict[str, List[str]] = {
     ],
     ".mef.hr": ["Medicinski fakultet", "School of Medicine"],
     ".mev.hr": ["Polytechnic of Međimurje in Čakovec"],
-    ".pbf.hr": ["University of Zagreb Faculty of Food Technology and Biotechnology"],
+    ".pbf.hr": [
+        "University of Zagreb Faculty of Food Technology and Biotechnology"
+    ],
     ".phy.hr": [
         "University of Zagreb Faculty of Mathematics and Natural Sciences - Department of Physics"
     ],
     ".pmf.hr": ["University of Zagreb Faculty of Science"],
-    ".pmfst.hr": ["University of Split Faculty of Natural Sciences and Mathematics"],
+    ".pmfst.hr": [
+        "University of Split Faculty of Natural Sciences and Mathematics"
+    ],
     ".pou.hr": ["Public Open University Zagreb"],
     ".pravos.hr": ["University of Osijek Faculty of Law"],
     ".racunarstvo.hr": ["University College for Applied Computer Engineering"],
@@ -11230,7 +12243,10 @@ DOMAINS: Dict[str, List[str]] = {
     ".vevu.hr": ["Polytechnic Lavoslav Ružička Vukovar"],
     ".vsite.hr": ["College for Information Technologies"],
     ".vsmti.hr": ["Virovitica College"],
-    ".vub.hr": ["Veleučilište u Bjelovaru", "Bjelovar University of Applied Sciences"],
+    ".vub.hr": [
+        "Veleučilište u Bjelovaru",
+        "Bjelovar University of Applied Sciences",
+    ],
     ".vvg.hr": ["University of Applied Sciences Velika Gorica"],
     ".zsem.hr": [
         "Zagreb School of Economics and Management",
@@ -11242,7 +12258,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".avicenna.hu": ["Avicenna International College"],
     ".bdtf.hu": ["Dániel Berzsenyi Teacher Training College"],
     ".bjg.hu": ["Batsanyi Janos Gimnazium"],
-    ".bke.hu": ["Budapest University of Economic Sciences and Public Administration"],
+    ".bke.hu": [
+        "Budapest University of Economic Sciences and Public Administration"
+    ],
     ".bme.hu": ["Technical University of Budapest"],
     ".ceu.hu": ["Central European University"],
     ".dote.hu": ["University Medical School of Debrecen"],
@@ -11354,7 +12372,10 @@ DOMAINS: Dict[str, List[str]] = {
     ".uni-obuda.hu": ["Óbuda University"],
     ".uni-pannon.hu": ["University of Pannonia"],
     ".uni-sopron.hu": ["University of Sopron"],
-    ".hallgato.uni-szie.hu": ["Szent István Egyetem", "Szent István University"],
+    ".hallgato.uni-szie.hu": [
+        "Szent István Egyetem",
+        "Szent István University",
+    ],
     ".unibge.hu": ["Budapest Business School"],
     ".unideb.hu": [
         "Debrecen University of Agricultural Sciences",
@@ -11461,11 +12482,17 @@ DOMAINS: Dict[str, List[str]] = {
     ".iteba.ac.id": ["Institut Teknologi Batam (ITEBA)"],
     ".itenas.ac.id": ["Institut Teknologi Nasional (ITENAS)"],
     ".itera.ac.id": ["Institut Teknologi Sumatera"],
-    ".itg.ac.id": ["Institut Teknologi Garut", "Garut Institute of Technology"],
+    ".itg.ac.id": [
+        "Institut Teknologi Garut",
+        "Garut Institute of Technology",
+    ],
     ".ithb.ac.id": ["Institut Teknologi Harapan Bangsa"],
     ".itk.ac.id": ["Institut Teknologi Kalimantan"],
     ".itnb.ac.id": ["ITNB", "Institut Bisnis IT&B"],
-    ".itpln.ac.id": ["Institut Teknologi PLN Jakarta", "Institute Of Technology PLN"],
+    ".itpln.ac.id": [
+        "Institut Teknologi PLN Jakarta",
+        "Institute Of Technology PLN",
+    ],
     ".its.ac.id": ["Institut Teknologi Sepuluh Nopember"],
     ".ittelkom-pwt.ac.id": [
         "Institut Teknologi Telkom Purwokerto",
@@ -11516,13 +12543,19 @@ DOMAINS: Dict[str, List[str]] = {
     ".pnj.ac.id": ["Politeknik Negeri Jakarta"],
     ".pnk.ac.id": ["Politeknik Negeri Kupang", "Kupang Polytechnic"],
     ".polban.ac.id": ["Politeknik Negeri Bandung"],
-    ".polije.ac.id": ["Politeknik Negeri Jember", "State Polytechnic Of Jember"],
+    ".polije.ac.id": [
+        "Politeknik Negeri Jember",
+        "State Polytechnic Of Jember",
+    ],
     ".student.polindra.ac.id": ["Politeknik Negeri Indramayu"],
     ".polinema.ac.id": ["Politeknik Negeri Malang"],
     ".polines.ac.id": ["Politeknik Negeri Semarang"],
     ".polinpdg.ac.id": ["Politeknik Negeri Padang"],
     ".politala.ac.id": ["Politeknik Negeri Tanah Laut"],
-    ".politap.ac.id": ["Politeknik Negeri Ketapang", "Polytechnic state of Ketapang"],
+    ".politap.ac.id": [
+        "Politeknik Negeri Ketapang",
+        "Polytechnic state of Ketapang",
+    ],
     ".poliupg.ac.id": [
         "Politeknik Negeri Ujung Pandang",
         "State Polytechnic of Ujung Pandang",
@@ -11532,10 +12565,18 @@ DOMAINS: Dict[str, List[str]] = {
     ".polnep.ac.id": ["Politeknik Negeri Pontianak"],
     ".poltekbangsby.ac.id": ["POLTEKBANG SURABAYA"],
     ".poltekkesbandung.ac.id": ["Poltekkes Kemenkes Bandung"],
-    ".poltekkesjkt2.ac.id": ["Politeknik kesehatan kementrian kesehatan jakarta 2"],
+    ".poltekkesjkt2.ac.id": [
+        "Politeknik kesehatan kementrian kesehatan jakarta 2"
+    ],
     ".poltekpos.ac.id": ["Politeknik Pos Indonesia"],
-    ".poltektedc.ac.id": ["Politeknik TEDC Bandung", "Polytechnic TEDC Bandung"],
-    ".poltektegal.ac.id": ["Politeknik Harapan Bersama", "Harapan Bersama Polytechnic"],
+    ".poltektedc.ac.id": [
+        "Politeknik TEDC Bandung",
+        "Polytechnic TEDC Bandung",
+    ],
+    ".poltektegal.ac.id": [
+        "Politeknik Harapan Bersama",
+        "Harapan Bersama Polytechnic",
+    ],
     ".prasetiyamulya.ac.id": ["Universitas Prasetiya Mulya"],
     ".president.ac.id": ["President University"],
     ".puterabatam.ac.id": ["Universitas Putera Batam"],
@@ -11562,7 +12603,10 @@ DOMAINS: Dict[str, List[str]] = {
     ".stiki.ac.id": ["Sekolah Tinggi Informatika dan Komputer Indonesia"],
     ".stikom-bali.ac.id": ["Institut Teknologi Dan Bisnis STIKOM Bali"],
     ".stimednp.ac.id": ["STIMED Nusa Palapa"],
-    ".stis.ac.id": ["Politeknik Statistika STIS", "STIS Polytechnic of Statistics"],
+    ".stis.ac.id": [
+        "Politeknik Statistika STIS",
+        "STIS Polytechnic of Statistics",
+    ],
     ".stiteknas.ac.id": ["Sekolah Tinggi Teknologi Nasional Jambi"],
     ".stkip-pgri-sumbar.ac.id": ["STKIP PGRI Sumatera Barat"],
     ".stkipahsingaraja.ac.id": ["STKIP Agama Hindu Singaraja"],
@@ -11577,7 +12621,9 @@ DOMAINS: Dict[str, List[str]] = {
     ],
     ".stmikibbi.ac.id": ["Universitas IBBI", "IBBI University"],
     ".stmikjabar.ac.id": ["STMIK Jabar"],
-    ".stmkg.ac.id": ["STMKG Sekolah Tinggi Meteorologi Klimatologi dan Geofisika"],
+    ".stmkg.ac.id": [
+        "STMKG Sekolah Tinggi Meteorologi Klimatologi dan Geofisika"
+    ],
     ".stp-bandung.ac.id": ["Sekolah Tinggi Pariwisata Bandung"],
     ".stpi-pajak.ac.id": ["Sekolah Tinggi Perpajakan Indonesia"],
     ".stptrisakti.ac.id": ["Trisakti Institute of Tourism "],
@@ -11595,7 +12641,10 @@ DOMAINS: Dict[str, List[str]] = {
     ],
     ".teknokrat.ac.id": ["Universitas Teknokrat Indonesia"],
     ".telkomuniversity.ac.id": ["Institut Teknologi Telkom"],
-    ".triatmamulya.ac.id": ["Universitas Triatma Mulya", "Triatma Mulya University"],
+    ".triatmamulya.ac.id": [
+        "Universitas Triatma Mulya",
+        "Triatma Mulya University",
+    ],
     ".trilogi.ac.id": ["Universitas Trilogi"],
     ".trisakti.ac.id": ["Universitas Trisakti"],
     ".student.trunojoyo.ac.id": [
@@ -11619,7 +12668,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".uid.ac.id": ["Universitas Islam Jakarta"],
     ".uii.ac.id": ["Universitas Islam Indonesia"],
     ".uin-alauddin.ac.id": ["Universitas Islam Alauddin"],
-    ".uin-malang.ac.id": ["Universitas Islam Negeri Maulana Malik Ibrahim Malang"],
+    ".uin-malang.ac.id": [
+        "Universitas Islam Negeri Maulana Malik Ibrahim Malang"
+    ],
     ".student.uin-suka.ac.id": [
         "UIN Sunan Kalijaga",
         "State Islamic University Sunan Kalijaga",
@@ -11648,7 +12699,10 @@ DOMAINS: Dict[str, List[str]] = {
     ],
     ".ukrida.ac.id": ["Universitas Kristen Krida Wacana"],
     ".ukwms.ac.id": ["Universitas Katolik Widya Manadala"],
-    ".ulm.ac.id": ["Universitas Lambung Mangkurat", "Lambung Mangkurat University"],
+    ".ulm.ac.id": [
+        "Universitas Lambung Mangkurat",
+        "Lambung Mangkurat University",
+    ],
     ".um.ac.id": ["Universitas Negeri Malang"],
     ".staff.uma.ac.id": ["Universitas Medan Area", "University of Medan Area"],
     ".umaha.ac.id": ["Universitas Maarif Hasyim Latif"],
@@ -11673,7 +12727,10 @@ DOMAINS: Dict[str, List[str]] = {
     ".umsu.ac.id": ["Universitas Muhammadiyah Sumatra Utara"],
     ".umy.ac.id": ["Universitas Muhammadiyah Yogyakarta"],
     ".unair.ac.id": ["Universitas Airlangga"],
-    ".unama.ac.id": ["Universitas Dinamika Bangsa", "Dinamika Bangsa University"],
+    ".unama.ac.id": [
+        "Universitas Dinamika Bangsa",
+        "Dinamika Bangsa University",
+    ],
     ".unand.ac.id": ["Universitas Andalas"],
     ".unas.ac.id": ["Universitas Nasional Jakarta"],
     ".undana.ac.id": ["Universitas Nusa Cendana"],
@@ -11683,7 +12740,10 @@ DOMAINS: Dict[str, List[str]] = {
         "Ganesha University of Education",
     ],
     ".undip.ac.id": ["Universitas Diponegoro"],
-    ".undira.ac.id": ["Universitas Dian Nusantara", "Dian Nusantara University"],
+    ".undira.ac.id": [
+        "Universitas Dian Nusantara",
+        "Dian Nusantara University",
+    ],
     ".unej.ac.id": ["Universitas Jember"],
     ".unesa.ac.id": ["Universitas Negeri Surabaya"],
     ".ung.ac.id": ["Universitas Negeri Gorontalo"],
@@ -11706,7 +12766,10 @@ DOMAINS: Dict[str, List[str]] = {
     ".unila.ac.id": ["Universitas Lampung"],
     ".unilak.ac.id": ["Universitas Lancang Kuning"],
     ".unima.ac.id": ["Universitas Negeri Manado"],
-    ".mhs.unimal.ac.id": ["Universitas Malikussaleh", "Universitas Malikussaleh"],
+    ".mhs.unimal.ac.id": [
+        "Universitas Malikussaleh",
+        "Universitas Malikussaleh",
+    ],
     ".unimed.ac.id": ["Universitas Negeri Medan"],
     ".unindra.ac.id": ["Universitas Indraprasta", "Indraprasta University"],
     ".uninus.ac.id": ["Universitas Islam Nusantara"],
@@ -11827,7 +12890,9 @@ DOMAINS: Dict[str, List[str]] = {
         "belajar.id",
         "Official Webmail from Indonesian Ministry of Education and Culture (for students and teachers)",
     ],
-    ".alghifaribatanghari.or.id": ["Muhammadiyah Boarding School Abudzar Al-Ghifari"],
+    ".alghifaribatanghari.or.id": [
+        "Muhammadiyah Boarding School Abudzar Al-Ghifari"
+    ],
     ".bisedu.or.id": ["Bandung Independent School"],
     ".jisedu.or.id": ["Jakarta Intercultural School"],
     ".perbanas.id": ["perbanas.id", "Perbanas Institute"],
@@ -11847,7 +12912,10 @@ DOMAINS: Dict[str, List[str]] = {
         "SMK Negeri 7 Samarinda",
         "Vocational High School 7 Samarinda",
     ],
-    ".sekolahmuridmerdeka.id": ["sekolahmuridmerdeka.id", "Sekolah Murid Merdeka"],
+    ".sekolahmuridmerdeka.id": [
+        "sekolahmuridmerdeka.id",
+        "Sekolah Murid Merdeka",
+    ],
     ".ait.ie": ["Athlone Institute of Technology"],
     ".bfei.ie": ["blackrock further education institute"],
     ".carndonaghcs.ie": ["Carndonagh Community School"],
@@ -11963,7 +13031,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".kdror.co.il": ["קרית חינוך דרור", "Kiryat Education Dror"],
     ".misgavhs.co.il": ["אסיף משגב", "asif misgav"],
     ".nhs.co.il": ["אמית נחשון", "AMIT NAHSHON"],
-    ".volcani.agri.gov.il": ["Agricultural Research Organisation(ARO), Volcani Center"],
+    ".volcani.agri.gov.il": [
+        "Agricultural Research Organisation(ARO), Volcani Center"
+    ],
     ".hd.amalnet.k12.il": [
         "הרב תחומי למדעים ואומניות עמל חדרה",
         "school website: http://hd.amalnet.k12.il/",
@@ -11987,7 +13057,10 @@ DOMAINS: Dict[str, List[str]] = {
     ".gsh.edum.org.il": ["תיכון גבעת שמואל", "Giv'at Shmuel High School"],
     ".mekifh.edum.org.il": ["Mekifh H Rishon Letsiyon"],
     ".hadash-holon.org.il": ["Campus Peres", "HTH"],
-    ".hayovel.org.il": [" חטיבת היובל מבשרת ציון", "Hayovel Middle School, Israel"],
+    ".hayovel.org.il": [
+        " חטיבת היובל מבשרת ציון",
+        "Hayovel Middle School, Israel",
+    ],
     ".iasa-school.org.il": [
         'י"אסא - התיכון הישראלי למדעים ולאמנויות',
         "IASA - Israeli Arts and Science Academy",
@@ -11996,7 +13069,11 @@ DOMAINS: Dict[str, List[str]] = {
     ".bialik.ort.org.il": ["אורט ביאליק", "Ort Bialik"],
     ".ebin.ort.org.il": ["Ort Ebin High School"],
     ".guttman.ort.org.il": ["אורט גוטמן", "ORT GUTTMAN"],
-    ".holon.ort.org.il": ["אורט חולון", "Ort Holon", "https://holon.ort.org.il/"],
+    ".holon.ort.org.il": [
+        "אורט חולון",
+        "Ort Holon",
+        "https://holon.ort.org.il/",
+    ],
     ".kramim.ort.org.il": ["ORT Kramin", "ORT Kramin"],
     ".kshapira.ort.org.il": ["אורט שפירא", "Ort Shapira"],
     ".ortarad.ort.org.il": ["Ort Arad High School"],
@@ -12015,7 +13092,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".online.sch.im": ["Ballakermeen High School"],
     ".zjj.im": ["Hubei Industrial Polytechnic, Shiyan City"],
     ".abesit.in": ["ABES Institute of Technology, Ghaziabad"],
-    ".stu.UPES.ac.in": ["University of Petroleum and Energy Studies (UPES), Dehradun"],
+    ".stu.UPES.ac.in": [
+        "University of Petroleum and Energy Studies (UPES), Dehradun"
+    ],
     ".abes.ac.in": ["ABES Engineering College, Ghaziabad"],
     ".allenhouse.ac.in": ["Allenhouse Institute of Technology"],
     ".amu.ac.in": ["Aligarh Muslim University, Aligarh"],
@@ -12042,7 +13121,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".bmsce.ac.in": ["BMS College of Engineering (BMSCE), Bangalore"],
     ".cet.ac.in": ["College of Engineering, Trivandrum"],
     ".charusat.ac.in": ["Charotar University Of Science And Technology"],
-    ".ciem.ac.in": ["Calcutta Institute of Engineering and Management, Kolkata"],
+    ".ciem.ac.in": [
+        "Calcutta Institute of Engineering and Management, Kolkata"
+    ],
     ".cmi.ac.in": ["Chennai Mathematical Institute"],
     ".coer.ac.in": ["College of Engineering Roorkee"],
     ".continental.ac.in": ["Continental Institute for International Studies"],
@@ -12074,9 +13155,13 @@ DOMAINS: Dict[str, List[str]] = {
         "URL of a page on the official website where a long-term (>1 year) IT related course is offered by the university: (https://www.iiit-bh.ac.in/admissions)",
         "URL of a page or some other proof (.pdf or a screenshot are OK) showing that the university recognizes the domain which you are submitting as an official email domain for the enrolled students: (https://docs.google.com/spreadsheets/d/1SpdPVOukm7BDEOY7X-Rr-HSlBBy5WKjkVEAqWu9YC_o/edit#gid=0)",
     ],
-    ".iiit.ac.in": ["International Institute of Information Technology, Hyderabad"],
+    ".iiit.ac.in": [
+        "International Institute of Information Technology, Hyderabad"
+    ],
     ".iiita.ac.in": ["Indian Institute of Information Technology Allahabad"],
-    ".iiitb.ac.in": ["International Institute of Information Technology, Bangalore"],
+    ".iiitb.ac.in": [
+        "International Institute of Information Technology, Bangalore"
+    ],
     ".iiitd.ac.in": ["Indraprastha Institute of Information Technology Delhi"],
     ".iiitdmj.ac.in": ["Indian Institute of Information Technology"],
     ".iiitdwd.ac.in": ["Indian Institute of Technology Dharwad"],
@@ -12084,11 +13169,17 @@ DOMAINS: Dict[str, List[str]] = {
     ".iiitp.ac.in": ["Indian Institute of Information Technology, Pune"],
     ".iima.ac.in": ["Indian Institute of Management Ahmedabad"],
     ".iiml.ac.in": ["IIM Lucknow"],
-    ".iiserkol.ac.in": ["Indian Institute of Science Education and Research, Kolkata"],
-    ".iiserpune.ac.in": ["Indian Institute of Science Education and Research Pune"],
+    ".iiserkol.ac.in": [
+        "Indian Institute of Science Education and Research, Kolkata"
+    ],
+    ".iiserpune.ac.in": [
+        "Indian Institute of Science Education and Research Pune"
+    ],
     ".iitb.ac.in": ["Indian Institute of Technology Bombay"],
     ".iitbbs.ac.in": ["Indian Institute of Technology Bhubaneswar"],
-    ".iitbhu.ac.in": ["Indian Institute of Technology (Banaras Hindu University)"],
+    ".iitbhu.ac.in": [
+        "Indian Institute of Technology (Banaras Hindu University)"
+    ],
     ".iitd.ac.in": ["Indian Institute of Technology, Delhi"],
     ".iitg.ac.in": ["Indian Institute of Technology Guwahati"],
     ".iitgn.ac.in": ["Indian Institute of Technology Gandhinagar"],
@@ -12110,7 +13201,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".ismdhanbad.ac.in": [
         "Indian Institute of Technology (Indian School of Mines), Dhanbad"
     ],
-    ".itbhu.ac.in": ["Indian Institute of Technology (Banaras Hindu University)"],
+    ".itbhu.ac.in": [
+        "Indian Institute of Technology (Banaras Hindu University)"
+    ],
     ".jgec.ac.in": [
         "jgec.ac.in",
         "Jalpaiguri Government Engineering College, Jalpaiguri, West Bengal, India",
@@ -12137,7 +13230,9 @@ DOMAINS: Dict[str, List[str]] = {
         "MA College of Engineering",
     ],
     ".mait.ac.in": ["Maharaja Agrasen Institute of Technology, Delhi"],
-    ".manit.ac.in": ["Maulana Azad National Institute of Technology , Bhopal , India"],
+    ".manit.ac.in": [
+        "Maulana Azad National Institute of Technology , Bhopal , India"
+    ],
     ".mctrgit.ac.in": [
         "Manjara Charitable Trust's Rajiv Gandhi Institute of Technology, Mumbai",
         "aka Rajiv Gandhi Institute of Technology, Mumbai",
@@ -12163,7 +13258,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".nitc.ac.in": ["National Institute Of Technology Calicut"],
     ".nitdelhi.ac.in": ["National Institute of Technology, Delhi"],
     ".nith.ac.in": ["National Institute of Technology, Hamirpur"],
-    ".nitj.ac.in": ["Dr B R Ambedkar National Institute of Technology, Jalandhar"],
+    ".nitj.ac.in": [
+        "Dr B R Ambedkar National Institute of Technology, Jalandhar"
+    ],
     ".nitjsr.ac.in": ["National Institute of Technology, Jamshedpur"],
     ".nitkkr.ac.in": ["National Institute of Technology Kurukshetra"],
     ".nitm.ac.in": ["National Institute of Technology, Meghalaya"],
@@ -12188,10 +13285,15 @@ DOMAINS: Dict[str, List[str]] = {
     ".sjc.ac.in": ["St Joseph's College (Autonomous) in Bengaluru, Karnataka"],
     ".sjce.ac.in": ["JSS Science and Technology University, Mysore"],
     ".smvdu.ac.in": ["Shri Mata Vaishno Devi University"],
-    ".spit.ac.in": ["Bharatiya Vidya Bhavans Sardar Patel Institute Of Technology"],
+    ".spit.ac.in": [
+        "Bharatiya Vidya Bhavans Sardar Patel Institute Of Technology"
+    ],
     ".srec.ac.in": ["Sri Ramakrishna Engineering College"],
     ".srmuniv.ac.in": ["SRM University"],
-    ".srmuniversity.ac.in": ["SRM University, Sonipat", "aka SRM University, Haryana"],
+    ".srmuniversity.ac.in": [
+        "SRM University, Sonipat",
+        "aka SRM University, Haryana",
+    ],
     ".tkmce.ac.in": ["TKM College of Engineering, Kollam"],
     ".uktech.ac.in": ["Uttarakhand Technical University,Dehradun"],
     ".unipune.ac.in": ["University of Pune"],
@@ -12204,12 +13306,17 @@ DOMAINS: Dict[str, List[str]] = {
     ".ves.ac.in": ["Vivekanand Education Society"],
     ".vit.ac.in": ["Vellore Institute of Technology"],
     ".vitap.ac.in": ["VIT-AP University"],
-    ".vjti.ac.in": ["Veermata Jijabai Technological Institute, Mumbai", "aka VJTI"],
+    ".vjti.ac.in": [
+        "Veermata Jijabai Technological Institute, Mumbai",
+        "aka VJTI",
+    ],
     ".vnsgu.ac.in": ["Veer Narmad South Gujarat University"],
     ".vvpedulink.ac.in": ["VVP Engineering College"],
     ".walchandsangli.ac.in": ["Walchand College Of Engineering Sangli"],
     ".acropolis.in": ["Acropolis Institute Of Technology and Research"],
-    ".adcet.in": ["Annasaheb Dange College of Engineering and Technology,ashta"],
+    ".adcet.in": [
+        "Annasaheb Dange College of Engineering and Technology,ashta"
+    ],
     ".adhiyamaan.in": ["Adhiyamaan College of Engineering"],
     ".ajce.in": ["Amal Jyothi College of Engineering, Kanjirappally"],
     ".alpha-cet.in": ["Alpha College Of Engneering"],
@@ -12232,7 +13339,9 @@ DOMAINS: Dict[str, List[str]] = {
     ],
     ".campusuvce.in": ["Univerity Visvesvaraya College of Engineering"],
     ".christuniversity.in": ["Christ University, Bangalore"],
-    ".backstagepass.co.in": ["Backstage Pass Institute of Gaming and Technology"],
+    ".backstagepass.co.in": [
+        "Backstage Pass Institute of Gaming and Technology"
+    ],
     ".birlainstitute.co.in": ["Birla Institute of Applied Sciences, Bhimtal"],
     ".cdckids.co.in": ["Child Development Centre", "Child Development Centre"],
     ".ggct.co.in": ["Gyan Gang College of Technology"],
@@ -12248,7 +13357,9 @@ DOMAINS: Dict[str, List[str]] = {
         "Mahatma Gandhi Mission's College of Engineering and Technology, Noida"
     ],
     ".csiriicb.in": ["CSIR-Indian Institute of Chemical Biology"],
-    ".csitgeu.in": ["Department of Computer Science and Information Technology, GEU"],
+    ".csitgeu.in": [
+        "Department of Computer Science and Information Technology, GEU"
+    ],
     ".ctuniversity.in": ["Chandigarh Technical University"],
     ".cuchd.in": ["Chandigarh University "],
     ".cumail.in": ["Chandigarh University"],
@@ -12332,7 +13443,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".kvberhampur.in": ["Kendriya Vidyalaya Brahmapur"],
     ".kvsroguwahati.in": ["kendriya Vidyalaya Namrup"],
     ".lpu.in": ["Lovely Professional University"],
-    ".mcet.in": ["Dr.Mahalingam College of Engineering and Technology, Pollachi."],
+    ".mcet.in": [
+        "Dr.Mahalingam College of Engineering and Technology, Pollachi."
+    ],
     ".mcka.in": ["Marian College"],
     ".mespune.in": ["MES's IMCC"],
     ".micamail.in": ["MICA"],
@@ -12381,7 +13494,9 @@ DOMAINS: Dict[str, List[str]] = {
         "Sri Dharmasthala Manjunatheshwara Institute of Technology",
         "SDM Institute of Technology",
     ],
-    ".sgsitsindore.in": ["Shri Govindram Seksaria Institute of Technology and Science"],
+    ".sgsitsindore.in": [
+        "Shri Govindram Seksaria Institute of Technology and Science"
+    ],
     ".siom.in": ["Symbiosis Institute of Operations Management"],
     ".sjissonipat.in": [
         "Shreejee International School",
@@ -12389,8 +13504,13 @@ DOMAINS: Dict[str, List[str]] = {
     ],
     ".sjmsom.in": ["Shailesh J. Mehta School of Management"],
     ".slrtce.in": ["Shree LR Tiwari College of Engineering"],
-    ".snuindia.in": ["Sister Nivedita University", "Sister Nivedita University"],
-    ".sode-edu.in": ["Shri Madhwa Vadiraja Institute of Technology and Management"],
+    ".snuindia.in": [
+        "Sister Nivedita University",
+        "Sister Nivedita University",
+    ],
+    ".sode-edu.in": [
+        "Shri Madhwa Vadiraja Institute of Technology and Management"
+    ],
     ".sxconlineclass.in": ["St. Xavier's College(Autonomous), Kolkata"],
     ".tcetmumbai.in": ["Thakur College of Engineering and Technology"],
     ".teamfuture.in": [
@@ -12414,21 +13534,30 @@ DOMAINS: Dict[str, List[str]] = {
     ],
     ".bcltedu.info": ["Bangladesh College of Leather Technology"],
     ".blathy.info": ["\ufeffBláthy Ottó Titusz Informatikai Szakközépiskola"],
-    ".cfvw-gymnasium.info": ["Carl Friedrich von Weizsäcker-Gymnasium, Ratingen"],
+    ".cfvw-gymnasium.info": [
+        "Carl Friedrich von Weizsäcker-Gymnasium, Ratingen"
+    ],
     ".diit.info": ["Daffodil Institute of Information & Technology"],
     ".dronacharya.info": ["DRONACHARYA COLLEGE OF ENGINEERING"],
-    ".fshnstudent.info": ["Faculty of Natural Sciences at University of Tirana"],
+    ".fshnstudent.info": [
+        "Faculty of Natural Sciences at University of Tirana"
+    ],
     ".gymsob.info": ["Gymnasium Schrobenhausen"],
     ".hf-ict.info": [
         "Höhere Fachschule für Informations- und Kommunikationstechnologie"
     ],
     ".infomila.info": ["Milà i Fontanals"],
-    ".oldcolony.info": ["Old Colony Regional Vocational Technical High School"],
+    ".oldcolony.info": [
+        "Old Colony Regional Vocational Technical High School"
+    ],
     ".phw.info": ["Fachhochschule Pur"],
     ".pmit.info": ["Chernivtsi Polytechnic College"],
     ".raharja.info": ["Perguruan Tinggi Raharja"],
     ".rswol-iserv.info": ["Realschule Wolbeck"],
-    ".sgma.info": ["Smolensk State Medical Academy", "Smolensk State Medical Academy"],
+    ".sgma.info": [
+        "Smolensk State Medical Academy",
+        "Smolensk State Medical Academy",
+    ],
     ".southern-bd.info": ["Southern University Bangladesh"],
     ".stamforduniversity.info": ["Stamford University"],
     ".turgot-paris.info": [
@@ -12439,14 +13568,20 @@ DOMAINS: Dict[str, List[str]] = {
     ".unisilvaner.info": ["University of Silvaner"],
     ".untagcirebon.info": ["Universitas 17 Agustus 1945 Cirebon"],
     ".usfx.info": ["Universidad San Francisco Xavier"],
-    ".vsma.info": ["Voronezh State Medical Academy", "Voronezh State Medical Academy"],
+    ".vsma.info": [
+        "Voronezh State Medical Academy",
+        "Voronezh State Medical Academy",
+    ],
     ".whsg.info": ["Westcliff Highschool for Girls"],
     ".edu.dsti.institute": ["Data ScienceTech Institute (DSTI) "],
     ".3wa.io": ["3w Academy"],
     ".laplateforme.io": ["LaPlatforme Coding School"],
     ".oclock.io": ["Ecole O'clock"],
     ".albayan.edu.iq": ["Al-Bayan University"],
-    ".alfarabiuc.edu.iq": ["كلية الفارابي الجامعة", "Al-Farabi University College"],
+    ".alfarabiuc.edu.iq": [
+        "كلية الفارابي الجامعة",
+        "Al-Farabi University College",
+    ],
     ".alkafeel.edu.iq": ["جامعة الكفيل", "University of Alkafeel"],
     ".alsafwa.edu.iq": ["AlSafwa University College"],
     ".atu.edu.iq": [
@@ -12481,7 +13616,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".uodiyala.edu.iq": ["Diyala University"],
     ".uog.edu.iq": ["زانکۆی گۆیژە", "University College of Goizha"],
     ".uoh.edu.iq": ["University of Halabja"],
-    ".uoitc.edu.iq": ["University of Information Technology and Communications"],
+    ".uoitc.edu.iq": [
+        "University of Information Technology and Communications"
+    ],
     ".uokerbala.edu.iq": ["Kerbala University"],
     ".uokirkuk.edu.iq": ["University of Kirkuk"],
     ".uokufa.edu.iq": ["University of Kufa"],
@@ -12514,14 +13651,18 @@ DOMAINS: Dict[str, List[str]] = {
     ".bums.ac.ir": ["Birjand University of Medical Sciences"],
     ".fasau.ac.ir": ["Fasa University"],
     ".fums.ac.ir": ["Fasa Faculty of Medical Sciences"],
-    ".gau.ac.ir": ["Gorgan University of Agricultural Sciences and Natural Resources"],
+    ".gau.ac.ir": [
+        "Gorgan University of Agricultural Sciences and Natural Resources"
+    ],
     ".gmu.ac.ir": ["Gonabad University of Medical Sciences"],
     ".goums.ac.ir": ["Golestan University of Medical Sciences"],
     ".guilan.ac.ir": ["Guilan University"],
     ".gums.ac.ir": ["Guilan University of Medical Sciences"],
     ".hormozgan.ac.ir": ["University of Hormozgan"],
     ".hums.ac.ir": ["Hormozgan University of Medical Sciences"],
-    ".iasbs.ac.ir": ["Zanjan Institute for Advanced Studies in Basic Sciences"],
+    ".iasbs.ac.ir": [
+        "Zanjan Institute for Advanced Studies in Basic Sciences"
+    ],
     ".iau-ahar.ac.ir": ["Islamic Azad University, Ahar"],
     ".iau-arak.ac.ir": ["Islamic Azad University, Arak"],
     ".iau-boukan.ac.ir": ["Islamic Azad University, Boukan"],
@@ -12607,7 +13748,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".sku.ac.ir": ["Shahrekord University"],
     ".skums.ac.ir": ["Shahrekord University of Medical Sciences"],
     ".spnu.ac.ir": ["Shiraz Payamnoor University"],
-    ".srbiau.ac.ir": ["Islamic Azad University, Tehran Science &amp; Research Branch"],
+    ".srbiau.ac.ir": [
+        "Islamic Azad University, Tehran Science &amp; Research Branch"
+    ],
     ".ssu.ac.ir": ["Yazd Medical University"],
     ".sums.ac.ir": ["Shiraz University of Medical Sciences"],
     ".sut.ac.ir": ["Sahand University of Technology"],
@@ -12632,7 +13775,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".usb.ac.ir": ["Sistan &amp; Balouchestan University"],
     ".usc.ac.ir": ["University of Science and Culture"],
     ".ustmb.ac.ir": ["Mazandaran University of Science &amp; Technology"],
-    ".uswr.ac.ir": ["University of Social Welfare and Rehabilitation Scinences"],
+    ".uswr.ac.ir": [
+        "University of Social Welfare and Rehabilitation Scinences"
+    ],
     ".ut.ac.ir": ["University of Tehran"],
     ".uut.ac.ir": ["Urmia University of Technology"],
     ".vru.ac.ir": ["Vali-e-Asr University"],
@@ -12667,11 +13812,15 @@ DOMAINS: Dict[str, List[str]] = {
     ".bearzi.it": ['Istituto Tecnico Industriale "G. Bearzi", Udine'],
     ".belluzzifioravanti.it": ["IIS Belluzzi Fioravanti"],
     ".itis.biella.it": ["ITIS Q. SELLA"],
-    ".luxemburg.bo.it": ["Istituto Tecnico Commerciale Statale Rosa Luxemburg"],
+    ".luxemburg.bo.it": [
+        "Istituto Tecnico Commerciale Statale Rosa Luxemburg"
+    ],
     ".chilesotti.it": ["ITT G. Chilesotti"],
     ".ciusa.it": ["Istituto Istruzione Superiore Francesco Ciusa"],
     ".cobianchi.it": ["IIS L. Cobianchi"],
-    ".consalerno.it": ['Conservatorio di Musica "G. Martucci", Salerno (Italia)'],
+    ".consalerno.it": [
+        'Conservatorio di Musica "G. Martucci", Salerno (Italia)'
+    ],
     ".copernicopasoli.it": ["Copernico Pasoli"],
     ".curiepergine.it": ['Istituto di istruzione "Marie Curie"'],
     ".davincifascetti.it": ["I.I.S L. da Vinci - Fascetti"],
@@ -12710,14 +13859,21 @@ DOMAINS: Dict[str, List[str]] = {
         "S.M.I.M. Don Milani Seregno",
         "Don Milani Secondary School Seregno",
     ],
-    ".ictassolatina.edu.it": ["Istituto Compressivo n.5 Torquato Tasso Latina"],
+    ".ictassolatina.edu.it": [
+        "Istituto Compressivo n.5 Torquato Tasso Latina"
+    ],
     ".iis-silva-ricci.edu.it": [
         'Istituto di Istruzione Superiore "Giovanni Silva - Matteo Ricci"'
     ],
-    ".iisbadoni.edu.it": ["Istituto di Istruzione Tecnico Antonio Badoni - IIS Badoni"],
+    ".iisbadoni.edu.it": [
+        "Istituto di Istruzione Tecnico Antonio Badoni - IIS Badoni"
+    ],
     ".iislagrange.edu.it": ["I.I.S. Giuseppe Luigi Lagrange"],
     ".iismajoranamoncalieri.edu.it": ["Liceo Majorana Moncalieri"],
-    ".iispaciolobracciano.edu.it": ["IIS Luca Paciolo", "Scientific high school"],
+    ".iispaciolobracciano.edu.it": [
+        "IIS Luca Paciolo",
+        "Scientific high school",
+    ],
     ".iisvicodevivo.edu.it": ["Istituto Istruzione superiore Vico-De Vivo"],
     ".iisvoltapescara.edu.it": ["IIS A. Volta Pescara, Italy"],
     ".ilpitagora.edu.it": ["Il pitagora liceo scientifico RC"],
@@ -12740,7 +13896,10 @@ DOMAINS: Dict[str, List[str]] = {
     ".istitutoeuropaunita.edu.it": [
         "Istituto Istruzione Superiore Europa Unita Chivasso"
     ],
-    ".istitutofortuny.edu.it": ["I.I.S. Mariano Fortuny", "I.I.S. Mariano Fortuny"],
+    ".istitutofortuny.edu.it": [
+        "I.I.S. Mariano Fortuny",
+        "I.I.S. Mariano Fortuny",
+    ],
     ".istitutoinsolera.edu.it": ["IISS Filadelfo Insolera"],
     ".istitutolevi.edu.it": ["Istituto di Istruzione Superiore 'Primo Levi'"],
     ".istitutomontani.edu.it": ["Istituto Tecnico Industriale Montani"],
@@ -12757,9 +13916,13 @@ DOMAINS: Dict[str, List[str]] = {
         "- official website : https://www.itisgrassi.edu.it/pvw/app/TOIT0017/pvw_sito.php",
     ],
     ".itisravenna.edu.it": ["ITIS N.Baldini, Ravenna"],
-    ".itisvallauri.edu.it": ['Istituto Tecnico Industriale Statale "G.VALLAURI"'],
+    ".itisvallauri.edu.it": [
+        'Istituto Tecnico Industriale Statale "G.VALLAURI"'
+    ],
     ".itiszuccante.edu.it": ['ITIS "C. Zuccante", Mestre (VE)'],
-    ".itive3pa.edu.it": ["Istituto Tecnico Industriale Vittorio Emanuele III Palermo"],
+    ".itive3pa.edu.it": [
+        "Istituto Tecnico Industriale Vittorio Emanuele III Palermo"
+    ],
     ".itivolta.edu.it": [
         "ISTITUTO TECNICO TECNOLOGICO STATALE ALESSANDRO VOLTA",
         "official website https://itivolta.edu.it",
@@ -12776,8 +13939,12 @@ DOMAINS: Dict[str, List[str]] = {
     ".liceodesio.edu.it": [
         'Liceo Statale Scientifico e Classico "Ettore Majorana" Desio'
     ],
-    ".liceoeinsteinmilano.edu.it": ["Liceo Scientifico Statale Einstein Milano"],
-    ".liceofedericoquercia.edu.it": ["Liceo Federico Querica | Marcianise CE, Italy"],
+    ".liceoeinsteinmilano.edu.it": [
+        "Liceo Scientifico Statale Einstein Milano"
+    ],
+    ".liceofedericoquercia.edu.it": [
+        "Liceo Federico Querica | Marcianise CE, Italy"
+    ],
     ".liceogalileicatania.edu.it": [
         "Liceo Scientifico Statale Galileo Galilei - http://www.liceogalileicatania.edu.it/"
     ],
@@ -12800,7 +13967,9 @@ DOMAINS: Dict[str, List[str]] = {
         "Istituto di Istruzione Superiore Newton-Pertini",
         "Upper secondary school Newton-Pertini",
     ],
-    ".pacinottitaranto.edu.it": ['Istituto Tecnico Industriale Statale "A. Pacinotti"'],
+    ".pacinottitaranto.edu.it": [
+        'Istituto Tecnico Industriale Statale "A. Pacinotti"'
+    ],
     ".panettipitagora.edu.it": ["ITT Panetti - Pitagora"],
     ".paolosarpi.edu.it": ["ISIS Paolo Sarpi"],
     ".paschinilinussio.edu.it": ["ISIS Paschini-Linussio, Tolmezzo"],
@@ -12823,15 +13992,21 @@ DOMAINS: Dict[str, List[str]] = {
         "Istituto Tecnico Tecnologico Enrico Fermi",
         " Enrico Fermi Technological Technological Institute",
     ],
-    ".cellini.fi.it": ["Istituto di Istruzione Superiore Benvenuto Cellini di Firenze"],
-    ".isiadesign.fi.it": ["Istituto Superiore per le Industrie Artistiche di Firenze"],
+    ".cellini.fi.it": [
+        "Istituto di Istruzione Superiore Benvenuto Cellini di Firenze"
+    ],
+    ".isiadesign.fi.it": [
+        "Istituto Superiore per le Industrie Artistiche di Firenze"
+    ],
     ".fossatidapassano.it": [
         "Istituto Tecnico Commerciale e Tecnologico Fossati-Da Passano",
         "Technical Commercial and Technological Institute Fossati-Da Passano",
     ],
     ".accademiabellearti.fr.it": ["Frosinone Academy of Fine Arts"],
     ".galileo.galileicrema.it": ["IIS Galileo Galilei Crema"],
-    ".galileimirandola.it": ["Istituto Superiore Statale Galileo Galilei Mirandola"],
+    ".galileimirandola.it": [
+        "Istituto Superiore Statale Galileo Galilei Mirandola"
+    ],
     ".calvino.ge.it": ["Istituto Italo Calvino"],
     ".barsanti.gov.it": [
         '"ITT Eugenio Barsanti" High school - http://www.barsanti.gov.it/'
@@ -12888,15 +14063,22 @@ DOMAINS: Dict[str, List[str]] = {
     ".iisve.it": ["IIS Volterra Elia", "Volterra Elia Education Institute"],
     ".iit.it": ["Istituto Italiano di Tecnologia"],
     ".imtlucca.it": ["Institute for Advanced Studies Lucca"],
-    ".isii.it": ["Istituto Superiore di Istruzione Industriale Guglielmo Marconi "],
+    ".isii.it": [
+        "Istituto Superiore di Istruzione Industriale Guglielmo Marconi "
+    ],
     ".isiltp.it": ["Istruzione Liceale Tecnica e Professionale"],
-    ".isissacilebrugnera.it": ["Istituto Statale Istruzione Superiore Sacile Brugnera"],
+    ".isissacilebrugnera.it": [
+        "Istituto Statale Istruzione Superiore Sacile Brugnera"
+    ],
     ".ispascalcomandini.it": ["Istituto Superiore Pascal Comandini "],
     ".issgreppi.it": [
         ' "Alessandro Greppi" High School  -  http://www.issgreppi.gov.it/'
     ],
     ".istitutoacerbo.it": ['Istituto Tecnico "Tito Acerbo", Pescara'],
-    ".istitutofortuny.it": ["I.I.S. Mariano Fortuny", "I.I.S. Mariano Fortuny"],
+    ".istitutofortuny.it": [
+        "I.I.S. Mariano Fortuny",
+        "I.I.S. Mariano Fortuny",
+    ],
     ".istitutolevi.it": ["Istituto di Istruzione Superiore 'Primo Levi'"],
     ".istitutopilati.it": ['Istituto Tecnico "Carlo Antonio Pilati"'],
     ".aldini.istruzioneer.it": ["Aldini Valeriani ", "Aldini Valeriani"],
@@ -12972,7 +14154,9 @@ DOMAINS: Dict[str, List[str]] = {
     ],
     ".lumsa.it": ["Free University Maria Santissima Assunta"],
     ".lumsastud.it": ["Libera Università Maria Santissima Assunta (LUMSA)"],
-    ".magistricumacini.it": ["Istituto Tecnico Industriale Statale Magistri Cumacini"],
+    ".magistricumacini.it": [
+        "Istituto Tecnico Industriale Statale Magistri Cumacini"
+    ],
     ".marconigorgonzola.it": ["Istituto Guglielmo Marconi"],
     ".marconirovereto.it": ["Istituto Tecnico Tecnologico Guglielmo Marconi"],
     ".maxplanck.it": ["I.T.I.S Max Planck"],
@@ -12989,7 +14173,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".itivinci.mo.it": [
         'Istituto Tecnico Industriale "Leonardo Da Vinci", Carpi (MO), Italia'
     ],
-    ".unisob.na.it": ["University Institute of Teacher Training Suor Orsola Benincasa"],
+    ".unisob.na.it": [
+        "University Institute of Teacher Training Suor Orsola Benincasa"
+    ],
     ".naba.it": ["NABA - Nuova Accademia di Belle Arti, Milan"],
     ".olivelliputelli.it": [
         'Istituto d\'istruzione superiore "Olivelli Putelli"',
@@ -13017,7 +14203,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".tecnicosuperiorekennedy.it": ["Istituto Tecnico Superiore Kennedy"],
     ".artigianelli.tn.it": ["Istituto Pavoniano Artigianelli"],
     ".buonarroti.tn.it": ["Istituto Tecnico Tecnologico Buonarroti-Pozzo"],
-    ".ictp.trieste.it": ["Abdus Salam international centre for theoretical physics"],
+    ".ictp.trieste.it": [
+        "Abdus Salam international centre for theoretical physics"
+    ],
     ".univ.trieste.it": ["University of Trieste"],
     ".tuascuola.it": ['Centro Scolastico "TuaScuola"'],
     ".studenti.malignani.ud.it": ["ISIS A.Malignani"],
@@ -13027,7 +14215,10 @@ DOMAINS: Dict[str, List[str]] = {
     ".unibas.it": ["Basilicata University Potenza"],
     ".unibg.it": ["University of Bergamo"],
     ".unibo.it": ["University of Bologna"],
-    ".unibocconi.it": ['Università Commerciale "L. Bocconi"', "Bocconi University"],
+    ".unibocconi.it": [
+        'Università Commerciale "L. Bocconi"',
+        "Bocconi University",
+    ],
     ".unibs.it": ["University of Brescia"],
     ".unibz.it": ["Free University of Bozen"],
     ".unica.it": ["University of Cagliari"],
@@ -13089,10 +14280,14 @@ DOMAINS: Dict[str, List[str]] = {
         "San Raffaele Vita-Salute University",
     ],
     ".uniss.it": ["University of Sassari"],
-    ".unistrapg.it": ["University of Italian Studies for Foreigners of Perugia"],
+    ".unistrapg.it": [
+        "University of Italian Studies for Foreigners of Perugia"
+    ],
     ".unistrasi.it": ["University of Italian Studies for Foreigners of Siena"],
     ".unite.it": ["University of Teramo"],
-    ".studenti.unitelmasapienza.it": ["Università telematica UNITELMA Sapienza"],
+    ".studenti.unitelmasapienza.it": [
+        "Università telematica UNITELMA Sapienza"
+    ],
     ".unitn.it": ["University of Trento"],
     ".unito.it": ["University of Turin"],
     ".units.it": ["University of Trieste"],
@@ -13152,7 +14347,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".aasa.ac.jp": ["Aichi Shukutoku University"],
     ".abu.ac.jp": ["Aichi Bunkyo University"],
     ".aichi-edu.ac.jp": ["Aichi University of Education"],
-    ".aichi-fam-u.ac.jp": ["Aichi Prefectural University of Fine Arts &amp; Music"],
+    ".aichi-fam-u.ac.jp": [
+        "Aichi Prefectural University of Fine Arts &amp; Music"
+    ],
     ".aichi-gakuin.ac.jp": ["Aichi Gakuin University"],
     ".aichi-med-u.ac.jp": ["Aichi Medical University"],
     ".aichi-pu.ac.jp": ["Aichi Prefectural University"],
@@ -13396,7 +14593,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".meio-u.ac.jp": ["Meio University"],
     ".meisei-u.ac.jp": ["Meisei University"],
     ".mejiro.ac.jp": ["Mejiro University"],
-    ".metro-cit.ac.jp": ["Tokyo Metropolitan College of Industrial Technology"],
+    ".metro-cit.ac.jp": [
+        "Tokyo Metropolitan College of Industrial Technology"
+    ],
     ".mgu.ac.jp": ["Miyagi Gakuin Women's College"],
     ".mie-u.ac.jp": ["Mie University"],
     ".mimasaka.ac.jp": ["Mimasaka Women's College"],
@@ -13466,27 +14665,41 @@ DOMAINS: Dict[str, List[str]] = {
     ".kansaigaidai.jp": [],
     ".keio.jp": ["Keio University"],
     ".fukui.kosen-ac.jp": ["National Institute of Technology, Fukui College"],
-    ".fukushima.kosen-ac.jp": ["National Institute of Technology, Fukushima College"],
+    ".fukushima.kosen-ac.jp": [
+        "National Institute of Technology, Fukushima College"
+    ],
     ".gunma.kosen-ac.jp": ["National Institute of Technology, Gunma College"],
-    ".hachinohe.kosen-ac.jp": ["National Institute of Technology, Hachinohe College"],
+    ".hachinohe.kosen-ac.jp": [
+        "National Institute of Technology, Hachinohe College"
+    ],
     ".hakodate.kosen-ac.jp": [
         "函館工業高等専門学校",
         "National Institute of Technology, Hakodate College.",
     ],
-    ".kagawa.kosen-ac.jp": ["National Institute of Technology, Kagawa College"],
-    ".kisarazu.kosen-ac.jp": ["National Institute of Technology, Kisarazu College"],
+    ".kagawa.kosen-ac.jp": [
+        "National Institute of Technology, Kagawa College"
+    ],
+    ".kisarazu.kosen-ac.jp": [
+        "National Institute of Technology, Kisarazu College"
+    ],
     ".kumamoto.kosen-ac.jp": [
         "National Institute of Technology, Kumamoto College",
         "- http://www.kumamoto-nct.ac.jp/ (Homepage)",
         "- @g.kumamoto-nct.ac.jp and @kumamoto.kosen-ac.jp (Student's email address)",
     ],
-    ".kurume.kosen-ac.jp": ["National Institute of Technology, Kurume College"],
+    ".kurume.kosen-ac.jp": [
+        "National Institute of Technology, Kurume College"
+    ],
     ".nara.kosen-ac.jp": [
         "奈良工業高等専門学校",
         "National Institute of Technology, Nara College",
     ],
-    ".niihama.kosen-ac.jp": ["National Institute of Technology, Niihama College"],
-    ".numazu.kosen-ac.jp": ["National Institute of Technology, Numazu College"],
+    ".niihama.kosen-ac.jp": [
+        "National Institute of Technology, Niihama College"
+    ],
+    ".numazu.kosen-ac.jp": [
+        "National Institute of Technology, Numazu College"
+    ],
     ".oyama.kosen-ac.jp": [
         "小山工業高等専門学校",
         "National Institute of Technology (Kosen), Oyama College",
@@ -13497,9 +14710,15 @@ DOMAINS: Dict[str, List[str]] = {
         "National Institute of Technology, Tokuyama College",
     ],
     ".tokyo.kosen-ac.jp": ["National Institute of Technology, Tokyo College"],
-    ".tomakomai.kosen-ac.jp": ["National Institute of Technology, Tomakomai College"],
-    ".toyota.kosen-ac.jp": ["National Institute of Technology, Toyota College"],
-    ".tsuyama.kosen-ac.jp": ["National Institute of Technology, Tsuyama College"],
+    ".tomakomai.kosen-ac.jp": [
+        "National Institute of Technology, Tomakomai College"
+    ],
+    ".toyota.kosen-ac.jp": [
+        "National Institute of Technology, Toyota College"
+    ],
+    ".tsuyama.kosen-ac.jp": [
+        "National Institute of Technology, Tsuyama College"
+    ],
     ".yuge.kosen-ac.jp": ["National Institute of Technology, Yuge College"],
     ".kyoto-u.jp": ["Kyoto University"],
     ".kyudai.jp": ["Kyushu University"],
@@ -13532,7 +14751,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".daystar.ac.ke": ["Daystar University"],
     ".egerton.ac.ke": ["Egerton University"],
     ".jkuat.ac.ke": ["Jomo Kenyatta University of Agriculture and Technology"],
-    ".jooust.ac.ke": ["Jaramogi Oginga Odinga University of Science and Technology"],
+    ".jooust.ac.ke": [
+        "Jaramogi Oginga Odinga University of Science and Technology"
+    ],
     ".kabarak.ac.ke": ["Kabarak University"],
     ".kemu.ac.ke": ["Kenya Methodist University"],
     ".kmtc.ac.ke": ["Kenya Medical Training College"],
@@ -13565,7 +14786,10 @@ DOMAINS: Dict[str, List[str]] = {
         "Профессиональный колледж при Кыргызском Национальном университете имени Жусупа Баласагына",
         "Professional'nyy kolledzh pri Kyrgyzskom Natsional'nom universitete imeni Zhusupa Balasagyna",
     ],
-    ".sapat.edu.kg": ["Tokmok high school “Umut”", "Tokmok high school “Umut”"],
+    ".sapat.edu.kg": [
+        "Tokmok high school “Umut”",
+        "Tokmok high school “Umut”",
+    ],
     ".inai.kg": [
         "Кыргызско-Германский институт прикладной информатики",
         "Kyrgyz-German Institute of Applied Informatics",
@@ -13662,7 +14886,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".honam.ac.kr": ["Honam University"],
     ".hongik.ac.kr": ["Hongik University"],
     ".hoseo.ac.kr": ["Hoseo University"],
-    ".howon.ac.kr": ["Chonbuk Sanup University of Technology (Howon University)"],
+    ".howon.ac.kr": [
+        "Chonbuk Sanup University of Technology (Howon University)"
+    ],
     ".hufs.ac.kr": ["Hankuk University of Foreign Studies"],
     ".hycu.ac.kr": ["Hanyang Cyber University"],
     ".hyupsung.ac.kr": ["Hyupsung University"],
@@ -13718,7 +14944,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".sch.ac.kr": ["Soonchunhyang University"],
     ".sejong.ac.kr": ["Sejong University"],
     ".semyung.ac.kr": ["Semyung University"],
-    ".seoultech.ac.kr": ["Seoul National University of Science and Technology"],
+    ".seoultech.ac.kr": [
+        "Seoul National University of Science and Technology"
+    ],
     ".seowon.ac.kr": ["Seowon University"],
     ".silla.ac.kr": ["Silla University"],
     ".skhu.ac.kr": ["SungKongHoe University"],
@@ -13759,13 +14987,20 @@ DOMAINS: Dict[str, List[str]] = {
     ".daepyonge.goe.go.kr": ["대평초등학교", "daepyung elementary school"],
     ".daepyongm.goe.go.kr": ["대평중학교", "daepyong middle school"],
     ".dshangangm.goe.go.kr": ["다산한강중학교", "Dasan Hangang Middle School"],
-    ".ggh.goe.go.kr": ["경기도교육청", "Gyeonggi Province Office of Education", ".group"],
+    ".ggh.goe.go.kr": [
+        "경기도교육청",
+        "Gyeonggi Province Office of Education",
+        ".group",
+    ],
     ".gghsm.goe.go.kr": ["광교호수중학교", "Gwanggyo Hosu Middle School"],
     ".mae-wone.goe.go.kr": ["매원초등학교", "Maewon elementary School"],
     ".pjwadonge.goe.go.kr": ["파주와동초등학교", "Paju Wadong Elementary School"],
     ".suwondasanm.goe.go.kr": ["수원다산중학교", "Suwon Dasan Middle School"],
     ".hifive.go.kr": ["선린인터넷고등학교", "Sunrin Internet High School"],
-    ".gclass.ice.go.kr": ["인천광역시교육청", "Incheon Metropolitan Office of Education"],
+    ".gclass.ice.go.kr": [
+        "인천광역시교육청",
+        "Incheon Metropolitan Office of Education",
+    ],
     ".ice.go.kr": ["인천기계공업고등학교"],
     ".o365.pen.go.kr": ["부산광역시교육청"],
     ".sen.go.kr": ["SUNGSU TECHNICAL HIGH SCHOOL"],
@@ -13792,7 +15027,10 @@ DOMAINS: Dict[str, List[str]] = {
     ".ynu.kr": ["영남대학교", "Yeungnam University"],
     ".auis.edu.krd": ["American University of Iraq, Sulaimani"],
     ".dpu.edu.krd": ["Duhok Polytechnic University"],
-    ".duhokcihan.edu.krd": ["Cihan University - Duhok", "Cihan University - Duhok"],
+    ".duhokcihan.edu.krd": [
+        "Cihan University - Duhok",
+        "Cihan University - Duhok",
+    ],
     ".hmu.edu.krd": ["Hawler Medical University"],
     ".hsti.edu.krd": [
         "په\u200c\u200cيمانگاى ته\u200cكنيكى هه\u200cيبه\u200cت سوڵتان",
@@ -13815,7 +15053,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".60edu.kz": ["School #60 Nur Sultan"],
     ".adilet.kz": ["Adilet Higher Law School"],
     ".almaty.kz": ["Kazak State University of Agriculture"],
-    ".aues.kz": ["Almaty University of Power Engineering and Telecommunications"],
+    ".aues.kz": [
+        "Almaty University of Power Engineering and Telecommunications"
+    ],
     ".bgtk.kz": [
         "Балхашский гуманитарно-технический колледж имени Алихана Мусина",
         "Balkhash Humanitarian and Technical College named after Alikhan Musina",
@@ -13844,14 +15084,19 @@ DOMAINS: Dict[str, List[str]] = {
     ".kaznu.kz": ["Al-Farabi Kazakh National University"],
     ".kbtu.kz": ["Kazakh British Technical University"],
     ".keu.kz": ["Karaganda Economic University"],
-    ".kgu.kz": ["Кокшетауский университет им. Ш.Уалиханова", "Ualikhanov University"],
+    ".kgu.kz": [
+        "Кокшетауский университет им. Ш.Уалиханова",
+        "Ualikhanov University",
+    ],
     ".kimep.kz": [
         "Kazakhstan Institute of Management, Economics, and Strategic Research"
     ],
     ".kst.kz": ["Kostanai State University"],
     ".kstu.kz": ["Karaganda State Technical University"],
     ".ksu.kz": ["Karaganda State Buketov University"],
-    ".kuef.kz": ["Kazakh University of Economics, Finance and International Trade"],
+    ".kuef.kz": [
+        "Kazakh University of Economics, Finance and International Trade"
+    ],
     ".narxoz.kz": ["Narxoz University"],
     ".nkzu.kz": ["North Kazakhstan State University"],
     ".okmpu.kz": [
@@ -13859,9 +15104,14 @@ DOMAINS: Dict[str, List[str]] = {
         "South Kazakhstan State Pedagogical Institute",
     ],
     ".psu.kz": ["Pavlodar State University"],
-    ".sci.kz": ["Almaty Abai State University", "Kazak National Technical University"],
+    ".sci.kz": [
+        "Almaty Abai State University",
+        "Kazak National Technical University",
+    ],
     ".semgu.kz": ["Shakarim University"],
-    ".sfek.kz": ["RSBE Semey financial-economic college named after Rymbek Baiseitov"],
+    ".sfek.kz": [
+        "RSBE Semey financial-economic college named after Rymbek Baiseitov"
+    ],
     ".tarsu.kz": ["Taraz State University", "Тараз Мемлекеттік Университеті"],
     ".turan-edu.kz": ["Turan University"],
     ".uib.kz": ["University of international business"],
@@ -13885,7 +15135,10 @@ DOMAINS: Dict[str, List[str]] = {
     ".gu.edu.lb": ["Global University"],
     ".haigazian.edu.lb": ["Haigazian University"],
     ".isae.edu.lb": ["Conservatoire national des arts et métiers (CNAM)"],
-    ".iul.edu.lb": ["Islamic University Of Lebanon", "Islamic University Of Lebanon"],
+    ".iul.edu.lb": [
+        "Islamic University Of Lebanon",
+        "Islamic University Of Lebanon",
+    ],
     ".jinan.edu.lb": ["Jinan University"],
     ".lau.edu.lb": ["Lebanese American University"],
     ".liu.edu.lb": ["Lebanese International University"],
@@ -13930,7 +15183,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".seu.ac.lk": ["South Eastern University of Sri Lanka"],
     ".sjp.ac.lk": ["University of Sri Jayewardenepura"],
     ".slgti.ac.lk": ["Sri Lanka-German Training Institute"],
-    ".sliate.ac.lk": ["Sri Lanka Institute of Advanced Technological Education"],
+    ".sliate.ac.lk": [
+        "Sri Lanka Institute of Advanced Technological Education"
+    ],
     ".sltc.ac.lk": ["Sri Lanka Technological Campus"],
     ".uwu.ac.lk": ["Uva Wellassa University"],
     ".vpa.ac.lk": ["University of the Visual and Performing Arts"],
@@ -13947,7 +15202,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".saegis.edu.lk": ["Saegis Campus ", "Saegis Campus "],
     ".sltc.edu.lk": ["SLTC", "Sri Lanka Technological Campus"],
     ".esoft.lk": ["ESOFT Metro Campus"],
-    ".dtet.gov.lk": ["Department of Technical Education & Training, Sri Lanka"],
+    ".dtet.gov.lk": [
+        "Department of Technical Education & Training, Sri Lanka"
+    ],
     ".ijse.lk": [
         "Institute of Software Engineering (IJSE)",
         "Institute of Java and Software Engineering",
@@ -14059,7 +15316,10 @@ DOMAINS: Dict[str, List[str]] = {
     ".edu.riga.lv": ["Riga Schools"],
     ".riseba.lv": ["Riseba school"],
     ".rpiva.lv": ["Riga Teacher Training and Educational Management Academy"],
-    ".rta.lv": ["Rēzeknes Tehnoloģiju akadēmija", "Rezekne Academy of Technologies"],
+    ".rta.lv": [
+        "Rēzeknes Tehnoloģiju akadēmija",
+        "Rezekne Academy of Technologies",
+    ],
     ".rtu.lv": ["Riga Technical University"],
     ".ru.lv": ["Rezekne Higher School"],
     ".rvt.lv": ["\ufeffRīgas Valsts tehnikums"],
@@ -14087,8 +15347,12 @@ DOMAINS: Dict[str, List[str]] = {
     ".hem.ac.ma": ["Institut des Hautes Etudes de Management"],
     ".iihem.ac.ma": ["International Institute for Higher Education"],
     ".inpt.ac.ma": ["Institut National des Postes et Télécommunications"],
-    ".isfort.ac.ma": ["ISFORT - Institut de Formation en Technologie Alimentaire"],
-    ".matci.ac.ma": ["Institut Supérieur de Management et de Technologie (MATCI)"],
+    ".isfort.ac.ma": [
+        "ISFORT - Institut de Formation en Technologie Alimentaire"
+    ],
+    ".matci.ac.ma": [
+        "Institut Supérieur de Management et de Technologie (MATCI)"
+    ],
     ".uae.ac.ma": ["Université Abdelmalek Essadi"],
     ".ucam.ac.ma": ["Université Cadi Ayyad"],
     ".ucd.ac.ma": ["Université Chouaib Doukkali"],
@@ -14187,7 +15451,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".upsc.md": ["Pedagogical State University Ion Creanga from Chisinau"],
     ".usarb.md": ["Balti State University Alecu Russo"],
     ".usm.md": ["Moldova State University"],
-    ".usmf.md": ["Moldova State University of Medicine and Pharmacy N. Testemitsanu"],
+    ".usmf.md": [
+        "Moldova State University of Medicine and Pharmacy N. Testemitsanu"
+    ],
     ".ust.md": ["Tiraspol State University"],
     ".ia.utm.md": [
         "Universitatea Tehnica din Republica Moldova",
@@ -14201,13 +15467,19 @@ DOMAINS: Dict[str, List[str]] = {
     ],
     ".urfu.me": ["Ural Federal University"],
     ".uspu.me": [" Уральский государственный педагогический университет"],
-    ".esti.mg": ["ESTI Madagascar", "Graduate School of Information Technology"],
+    ".esti.mg": [
+        "ESTI Madagascar",
+        "Graduate School of Information Technology",
+    ],
     ".univ-antananarivo.mg": ["Université d'Antananarivo"],
     ".univ-fianar.mg": ["Université de Fianarantsoa"],
     ".univ-mahajanga.mg": ["Université de Mahajanga"],
     ".univ-toamasina.mg": ["Université de Toamasina"],
     ".univ-toliara.mg": ["Université de Toliary"],
-    ".af.mil": ["United States Air Force Academy", "Air Force Institute of Technology"],
+    ".af.mil": [
+        "United States Air Force Academy",
+        "Air Force Institute of Technology",
+    ],
     ".navy.mil": ["Naval Postgraduate School"],
     ".usuhs.mil": ["Uniformed Services Universty of the Health Sciences"],
     ".eccfp.edu.mk": [
@@ -14258,7 +15530,10 @@ DOMAINS: Dict[str, List[str]] = {
     ".uit.edu.mm": ["University of Information Technology (UIT)"],
     ".um1ygn.edu.mm": ["University of Medicine 1, Yangon"],
     ".ummg.edu.mm": ["University of Medicine Magway"],
-    ".utycc.edu.mm": ["University of Technology ( Yatanarpon Cyber City )", "UTYCC"],
+    ".utycc.edu.mm": [
+        "University of Technology ( Yatanarpon Cyber City )",
+        "UTYCC",
+    ],
     ".uy.edu.mm": ["University of Yangon (UY)"],
     ".ytu.edu.mm": ["Yangon Technological University"],
     ".most.gov.mm": [
@@ -14284,7 +15559,9 @@ DOMAINS: Dict[str, List[str]] = {
         "Taungoo Technological University",
         "Yangon Technological University",
     ],
-    ".itbmu.org.mm": ["International Theravada Buddhist Missionary University"],
+    ".itbmu.org.mm": [
+        "International Theravada Buddhist Missionary University"
+    ],
     ".icb.edu.mn": ["Institute of Commerce and Business"],
     ".msue.edu.mn": ["Mongolian State University of Education"],
     ".must.edu.mn": ["Mongolian University of Science and Technology"],
@@ -14326,7 +15603,9 @@ DOMAINS: Dict[str, List[str]] = {
     ],
     ".anahuac.mx": ["Universidad Anáhuac", "Universidad Anáhuac"],
     ".anahuacmayab.mx": ["Universidad Anáhuac Mayab"],
-    ".aulamexiquense.mx": ["Centro de Bachillerato Tecnológico Atizapan de Zaragoza"],
+    ".aulamexiquense.mx": [
+        "Centro de Bachillerato Tecnológico Atizapan de Zaragoza"
+    ],
     ".buap.mx": [
         "Benemerita Universidad Autónoma de Puebla",
         "Benemerita Universidad Autónoma de Puebla",
@@ -14362,8 +15641,14 @@ DOMAINS: Dict[str, List[str]] = {
     ],
     ".myunitec.com.mx": ["Universidad Tecnológica de México"],
     ".prepacusac.com.mx": ["Colegio Universitario de Saltillo"],
-    ".umma.com.mx": ["Universidad Mundo Maya", "Universidad Mundo Maya, México"],
-    ".ebc.mx": ["Escuela Bancaria y Comercial", "Escuela Bancaria y Comercial"],
+    ".umma.com.mx": [
+        "Universidad Mundo Maya",
+        "Universidad Mundo Maya, México",
+    ],
+    ".ebc.mx": [
+        "Escuela Bancaria y Comercial",
+        "Escuela Bancaria y Comercial",
+    ],
     ".cecytec.edu.mx": [
         "Colegio de Estudios Cientificos y Tecnologicos del Estado de Coahuila",
         "Colegio de Estudios Cientificos y Tecnologicos del Estado de Coahuila",
@@ -14381,7 +15666,10 @@ DOMAINS: Dict[str, List[str]] = {
     ],
     ".i.edu.mx": ["Universidad Itaca", "Universidad Itaca"],
     ".ijm.edu.mx": ["Instituto Jefferson de Morelia"],
-    ".ipn.edu.mx": ["Instituto Politécnico Nacional", "Instituto Politécnico Nacional"],
+    ".ipn.edu.mx": [
+        "Instituto Politécnico Nacional",
+        "Instituto Politécnico Nacional",
+    ],
     ".itdurango.edu.mx": [
         "Instituto Tecnologico de Durango",
         "Durango Institute of Technology ",
@@ -14450,9 +15738,18 @@ DOMAINS: Dict[str, List[str]] = {
     ".udeh.edu.mx": ["Universidad de Hermosillo", "Universidad de Hermosillo"],
     ".udem.edu.mx": ["Universidad de Monterrey", "Universidad de Monterrey"],
     ".udv.edu.mx": ["Universidad Don Vasco", "Universidad Don Vasco"],
-    ".ufram.edu.mx": ["Universidad Franco-Mexicana", "Universidad Franco-Mexicana"],
-    ".uic.edu.mx": ["Universidad Intercontinental", "Universidad Intercontinental"],
-    ".ula.edu.mx": ["Universidad Latinoamericana", "Universidad Latinoamericana"],
+    ".ufram.edu.mx": [
+        "Universidad Franco-Mexicana",
+        "Universidad Franco-Mexicana",
+    ],
+    ".uic.edu.mx": [
+        "Universidad Intercontinental",
+        "Universidad Intercontinental",
+    ],
+    ".ula.edu.mx": [
+        "Universidad Latinoamericana",
+        "Universidad Latinoamericana",
+    ],
     ".ulsa.edu.mx": ["Universidad La Salle", "Universidad La Salle"],
     ".ulsab.edu.mx": [
         "Universidad Lasallista Benavente",
@@ -14489,16 +15786,25 @@ DOMAINS: Dict[str, List[str]] = {
     ],
     ".un.edu.mx": ["Universidad del Norte", "Universidad del Norte"],
     ".une.edu.mx": ["Universidad del Noreste", "Universidad del Noreste"],
-    ".unes.edu.mx": ["Universidad España de Durango", "Universidad España de Durango"],
+    ".unes.edu.mx": [
+        "Universidad España de Durango",
+        "Universidad España de Durango",
+    ],
     ".unica.edu.mx": [
         "Universidad de Comunicación Avanzada",
         "Universidad de Comunicación Avanzada",
     ],
     ".unimayab.edu.mx": ["Universidad del Mayab", "Universidad del Mayab"],
     ".unimex.edu.mx": ["Universidad Mexicana", "Universidad Mexicana"],
-    ".univas.edu.mx": ["Universidad Jóse Vasconcelos", "Universidad Jóse Vasconcelos"],
+    ".univas.edu.mx": [
+        "Universidad Jóse Vasconcelos",
+        "Universidad Jóse Vasconcelos",
+    ],
     ".alumnos.univer-gdl.edu.mx": ["Univer University, Mexico"],
-    ".universidaddeleon.edu.mx": ["Universidad de León", "Universidad de León"],
+    ".universidaddeleon.edu.mx": [
+        "Universidad de León",
+        "Universidad de León",
+    ],
     ".universidadlaconcordia.edu.mx": [
         "Universidad la Concordia",
         "Universidad la Concordia",
@@ -14511,9 +15817,15 @@ DOMAINS: Dict[str, List[str]] = {
         "Universidad Mundo Maya",
         "Universidad Mundo Maya",
     ],
-    ".universidadsalesiana.edu.mx": ["Universidad Salesiana", "Universidad Salesiana"],
+    ".universidadsalesiana.edu.mx": [
+        "Universidad Salesiana",
+        "Universidad Salesiana",
+    ],
     ".unla.edu.mx": ["Universidad Latina", "Universidad Latina"],
-    ".uom.edu.mx": ["Universidad Obrera de Mexico", "Universidad Obrera de Mexico"],
+    ".uom.edu.mx": [
+        "Universidad Obrera de Mexico",
+        "Universidad Obrera de Mexico",
+    ],
     ".upchiapas.edu.mx": ["Universidad Politecnica de Chiapas"],
     ".urmh.edu.mx": [
         "Universidad Regional Miguel Hidalgo",
@@ -14523,7 +15835,10 @@ DOMAINS: Dict[str, List[str]] = {
         "Universidad Regional del Sureste",
         "Universidad Regional del Sureste",
     ],
-    ".usac.edu.mx": ["Universidad de la Sierra A.C.", "Universidad de la Sierra A.C."],
+    ".usac.edu.mx": [
+        "Universidad de la Sierra A.C.",
+        "Universidad de la Sierra A.C.",
+    ],
     ".usb.edu.mx": ["Universidad Simón Bolivar", "Universidad Simón Bolivar"],
     ".uteg.edu.mx": ["Universidad Tecnologica De Guadalajara"],
     ".utel.edu.mx": [" Universidad Tecnológica Latinoamericana"],
@@ -14531,7 +15846,9 @@ DOMAINS: Dict[str, List[str]] = {
         "Universidad Tecnológica de Querétaro",
         "Technological University of Querétaro",
     ],
-    ".utez.edu.mx": ["Universidad Tecnológica Emiliano Zapata del Estado de Morelos"],
+    ".utez.edu.mx": [
+        "Universidad Tecnológica Emiliano Zapata del Estado de Morelos"
+    ],
     ".utneza.edu.mx": [
         "Universidad Tecnologica de Nezahualcoyotl",
         "Universidad Tecnologica de Nezahualcoyotl",
@@ -14560,7 +15877,10 @@ DOMAINS: Dict[str, List[str]] = {
         "Universidad Iberoamericana Puebla",
         "IBERO Puebla",
     ],
-    ".ifp.mx": ["Instituto Francisco Possenti", "Instituto Francisco Possenti"],
+    ".ifp.mx": [
+        "Instituto Francisco Possenti",
+        "Instituto Francisco Possenti",
+    ],
     ".inaoep.mx": ["Instituto Nacional de Astrofísica, Óptica y Electrónica"],
     ".infotec.mx": [
         "Dirección General de Institutos Tecnológicos",
@@ -14575,7 +15895,10 @@ DOMAINS: Dict[str, List[str]] = {
         "Instituto Tecnológico Autonómo de México",
         "Instituto Tecnológico Autonómo de México",
     ],
-    ".itc.mx": ["Instituto Tecnológico de Celaya", "Instituto Tecnológico de Celaya"],
+    ".itc.mx": [
+        "Instituto Tecnológico de Celaya",
+        "Instituto Tecnológico de Celaya",
+    ],
     ".itesm.mx": [
         "Instituto Tecnológico y de Estudios Superiores de Monterrey (ITESM)",
         "Instituto Tecnológico y de Estudios Superiores de Monterrey (ITESM)",
@@ -14585,8 +15908,14 @@ DOMAINS: Dict[str, List[str]] = {
         "Instituto Tecnológico y de Estudios Superiores de Occidente",
     ],
     ".ith.mx": ["Instituto Tecnológico de Hermosillo"],
-    ".itson.mx": ["Instituto Tecnológico de Sonora", "Instituto Tecnológico de Sonora"],
-    ".lasallep.mx": ["Universidad La Salle Pachuca", "La Salle Pachuca University"],
+    ".itson.mx": [
+        "Instituto Tecnológico de Sonora",
+        "Instituto Tecnológico de Sonora",
+    ],
+    ".lasallep.mx": [
+        "Universidad La Salle Pachuca",
+        "La Salle Pachuca University",
+    ],
     ".lasallistas.org.mx": ["Universidad La Salle"],
     ".reduaeh.mx": [
         "Universidad Autónoma del Estado de Hidalgo",
@@ -14656,7 +15985,10 @@ DOMAINS: Dict[str, List[str]] = {
         "Universidad Autónoma de Coahuila",
         "Universidad Autónoma de Coahuila",
     ],
-    ".uady.mx": ["Universidad Autónoma de Yucatán", "Universidad Autónoma de Yucatán"],
+    ".uady.mx": [
+        "Universidad Autónoma de Yucatán",
+        "Universidad Autónoma de Yucatán",
+    ],
     ".uaem.mx": [
         "Universidad Autónoma del Estado de Morelos",
         "Universidad Autónoma del Estado de Morelos",
@@ -14691,7 +16023,10 @@ DOMAINS: Dict[str, List[str]] = {
         "Universidad Autónoma Metropolitana - Iztapalapa",
         "Universidad Autónoma Metropolitana - Xochimilco",
     ],
-    ".uan.mx": ["Universidad Autónoma de Nayarit", "Universidad Autónoma de Nayarit"],
+    ".uan.mx": [
+        "Universidad Autónoma de Nayarit",
+        "Universidad Autónoma de Nayarit",
+    ],
     ".uanl.mx": [
         "Universidad Autónoma de Nuevo León",
         "Universidad Autónoma de Nuevo León",
@@ -14726,7 +16061,10 @@ DOMAINS: Dict[str, List[str]] = {
         "Universidad de las Américas - Puebla",
     ],
     ".udo.mx": ["Universidad de Occidente", "Universidad de Occidente"],
-    ".ues.mx": ["Universidad Estatal de Sonora", "Universidad Estatal de Sonora"],
+    ".ues.mx": [
+        "Universidad Estatal de Sonora",
+        "Universidad Estatal de Sonora",
+    ],
     ".ugto.mx": ["Universidad de Guanajuato", "Universidad de Guanajuato"],
     ".uia.mx": ["Universidad Iberoamericana", "Universidad Iberoamericana"],
     ".ujat.mx": [
@@ -14748,7 +16086,10 @@ DOMAINS: Dict[str, List[str]] = {
         "Universidad Autónoma del Carmen",
         "Universidad Autónoma del Carmen",
     ],
-    ".unach.mx": ["Universidad Autónoma de Chiapas", "Universidad Autónoma de Chiapas"],
+    ".unach.mx": [
+        "Universidad Autónoma de Chiapas",
+        "Universidad Autónoma de Chiapas",
+    ],
     ".nube.unadmexico.mx": ["Universidad Abierta y a Distancia de México"],
     ".unadmexico.mx": ["Universidad Abierta y a Distancia de México"],
     ".unam.mx": [
@@ -14779,9 +16120,15 @@ DOMAINS: Dict[str, List[str]] = {
         "Universidad Pablo Guardado Chávez",
         "Pablo Guardado Chavez University",
     ],
-    ".upn.mx": ["Universidad Pedagógica Nacional", "Universidad Pedagógica Nacional"],
+    ".upn.mx": [
+        "Universidad Pedagógica Nacional",
+        "Universidad Pedagógica Nacional",
+    ],
     ".upq.mx": ["Universidad Politecnica de Queretaro"],
-    ".uqroo.mx": ["Universidad de Quintana Roo", "Universidad de Quintana Roo"],
+    ".uqroo.mx": [
+        "Universidad de Quintana Roo",
+        "Universidad de Quintana Roo",
+    ],
     ".ur.mx": ["Universidad Regiomontana", "Universidad Regiomontana"],
     ".uson.mx": ["Universidad de Sonora", "Universidad de Sonora"],
     ".edu.utc.mx": ["UNIVERSIDAD TRES CULTURAS", "THREE CULTURES UNIVERSITY"],
@@ -14802,8 +16149,12 @@ DOMAINS: Dict[str, List[str]] = {
     ".aeu.edu.my": ["Asia E University"],
     ".aimst.edu.my": ["Aimst University"],
     ".aiu.edu.my": ["Al-Bukhari International University"],
-    ".apiit.edu.my": ["Asia Pacific Institute of Information Technology (APIIT)"],
-    ".apu.edu.my": ["Asia Pacific University of Technology & Innovation (APU)"],
+    ".apiit.edu.my": [
+        "Asia Pacific Institute of Information Technology (APIIT)"
+    ],
+    ".apu.edu.my": [
+        "Asia Pacific University of Technology & Innovation (APU)"
+    ],
     ".asb.edu.my": ["Asia School of Business"],
     ".aswara.edu.my": [
         "Akademi Seni Budaya Dan Warisan Kebangsaan",
@@ -14814,7 +16165,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".binary.edu.my": [
         "Binary University College of Managemant &amp; Entrepreneurship"
     ],
-    ".britishschool.edu.my": ["The British International School of Kuala Lumpur"],
+    ".britishschool.edu.my": [
+        "The British International School of Kuala Lumpur"
+    ],
     ".cempaka.edu.my": ["Cempaka International School Damansara Heights"],
     ".chonghwa-kuantan.edu.my": ["SEKOLAH MENENGAH CHONG HWA KUANTAN"],
     ".city.edu.my": ["City University College of Science and Technology"],
@@ -14824,10 +16177,15 @@ DOMAINS: Dict[str, List[str]] = {
     ],
     ".curtin.edu.my": ["Curtin University of Technology, Sarawak Campus"],
     ".cybermed.edu.my": ["Cyberjaya University College of Medical Science"],
-    ".djzhlc.edu.my": ["New Era Institute of Vocational and Continuing Education"],
+    ".djzhlc.edu.my": [
+        "New Era Institute of Vocational and Continuing Education"
+    ],
     ".firstcity.edu.my": ["First City University College"],
     ".foonyew.edu.my": ["新山宽柔中学", "FOON YEW HIGH SCHOOL JOHOR BAHRU"],
-    ".student.gmi.edu.my": ["German-Malaysian Institute", "German-Malaysian Institute"],
+    ".student.gmi.edu.my": [
+        "German-Malaysian Institute",
+        "German-Malaysian Institute",
+    ],
     ".help.edu.my": ["HELP University College", "HELP University "],
     ".helplive.edu.my": ["HELP University"],
     ".hikmah.edu.my": ["Darul Hikmah Islamic College"],
@@ -14875,9 +16233,13 @@ DOMAINS: Dict[str, List[str]] = {
     ".kuin.edu.my": ["Kolej Universiti Insaniah"],
     ".kuis.edu.my": ["Selangor Islamic University College"],
     ".kuptm.edu.my": ["Kolej Universiti Poly-Tech Mara Kuala Lumpur"],
-    ".limkokwing.edu.my": ["Limkokwing University College of Creative Technology"],
+    ".limkokwing.edu.my": [
+        "Limkokwing University College of Creative Technology"
+    ],
     ".linton.edu.my": ["Linton University College"],
-    ".mahsa.edu.my": ["Mahsa University College for Health and Medical Science"],
+    ".mahsa.edu.my": [
+        "Mahsa University College for Health and Medical Science"
+    ],
     ".mahsastudent.edu.my": ["玛莎大学", "MAHSA University"],
     ".mediu.edu.my": ["Al Madinah International University"],
     ".mmu.edu.my": ["Multimedia University"],
@@ -14887,7 +16249,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".murni.edu.my": ["Murni Nursing College"],
     ".must.edu.my": ["Malaysia University of Science and Technology (MUST)"],
     ".mykwanghua.edu.my": ["巴生光华独立中学", "Kwang Hua Private High School"],
-    ".neivce.edu.my": ["New Era Institute of Vocational and Continuing Education"],
+    ".neivce.edu.my": [
+        "New Era Institute of Vocational and Continuing Education"
+    ],
     ".newera.edu.my": ["New Era University College"],
     ".newinti.edu.my": ["INTI International University & Colleges"],
     ".nilai.edu.my": ["Nilai University College"],
@@ -14895,7 +16259,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".olympia.edu.my": ["Olympia College"],
     ".oum.edu.my": ["Open University Malaysia"],
     ".pbu.edu.my": ["POLITEKNIK BALIK PULAU"],
-    ".perdanauniversity.edu.my": ["Perdana University - School for Data Sciences"],
+    ".perdanauniversity.edu.my": [
+        "Perdana University - School for Data Sciences"
+    ],
     ".pidc.edu.my": ["Penang International Dental College"],
     ".pine.edu.my": ["Institut Prima Bestari - Pine Academy "],
     ".pkb.edu.my": ["Kota Bharu Polytechnic"],
@@ -14923,14 +16289,18 @@ DOMAINS: Dict[str, List[str]] = {
     ".saito.edu.my": ["Saito College"],
     ".segi.edu.my": ["Segi University College"],
     ".sunway.edu.my": ["Sunway University College"],
-    ".swinburne.edu.my": ["Swinburne University of Technology, Sarawak Campus"],
+    ".swinburne.edu.my": [
+        "Swinburne University of Technology, Sarawak Campus"
+    ],
     ".taj.edu.my": ["Taj International College"],
     ".tarc.edu.my": ["Tunku Abdul Rahman Chinese College"],
     ".taylors.edu.my": ["Taylor's University College"],
     ".toa.edu.my": ["The One Academy of Communication Design"],
     ".tpmcollege.edu.my": ["TPM College"],
     ".ucsiuniversity.edu.my": ["UCSI University"],
-    ".ucti.edu.my": ["University College of Technology &amp; Innovation (UCTI)"],
+    ".ucti.edu.my": [
+        "University College of Technology &amp; Innovation (UCTI)"
+    ],
     ".ucts.edu.my": ["University College of Technology Sarawak"],
     ".uitm.edu.my": ["Universiti Teknologi Mara"],
     ".ukm.edu.my": [
@@ -14947,7 +16317,9 @@ DOMAINS: Dict[str, List[str]] = {
         "Universiti Kuala Lumpur Malaysian Institute of Information Technology (MIIT)",
     ],
     ".unimap.edu.my": ["Universiti Malaysia Perlis"],
-    ".student.unimy.edu.my": ["University Malaysia of Computer Science & Engineering"],
+    ".student.unimy.edu.my": [
+        "University Malaysia of Computer Science & Engineering"
+    ],
     ".unirazak.edu.my": ["University Tun Abdul Razak"],
     ".unisel.edu.my": ["Universiti Industri Selangor"],
     ".putra.unisza.edu.my": ["Universiti Sultan Zainal Abidin"],
@@ -14967,7 +16339,10 @@ DOMAINS: Dict[str, List[str]] = {
     ".uthm.edu.my": ["Universiti Tun Hussein Onn Malaysia"],
     ".utmspace.edu.my": ["UTMSPACE"],
     ".utn.edu.my": ["Universiti Tenaga Nasional"],
-    ".utp.edu.my": ["Petronas Technology University", "Universiti Teknologi Petronas"],
+    ".utp.edu.my": [
+        "Petronas Technology University",
+        "Universiti Teknologi Petronas",
+    ],
     ".student.uts.edu.my": ["University of Technology Sarawak"],
     ".uum.edu.my": ["Universiti Utara Malaysia"],
     ".westminster.edu.my": ["West Minster International College"],
@@ -14982,7 +16357,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".unisza.my": ["universiti sultan zainal abidin"],
     ".usm.my": ["Universiti Sains Malaysia"],
     ".utm.my": ["Universiti Teknologi Malaysia"],
-    ".isctem.ac.mz": ["Instituto Superior de Ciências e Tecnologia de Moçambique"],
+    ".isctem.ac.mz": [
+        "Instituto Superior de Ciências e Tecnologia de Moçambique"
+    ],
     ".isri.ac.mz": ["Instituto Superior de Relações Internacionais (ISRI) "],
     ".ucm.ac.mz": ["Universidade Católica de Moçambique"],
     ".isutc.transcom.co.mz": [
@@ -14990,7 +16367,10 @@ DOMAINS: Dict[str, List[str]] = {
         " Higher Institute of Transport and Communications",
     ],
     ".www.uem.mz": ["Universidade Eduardo Mondlane"],
-    ".edu.na": ["Ilsa Independent College", "International University of Management"],
+    ".edu.na": [
+        "Ilsa Independent College",
+        "International University of Management",
+    ],
     ".nust.na": ["Namibia University of Science and Technology"],
     ".unam.na": ["University of Namibia"],
     ".unc.nc": ["University of New Caledonia"],
@@ -15082,7 +16462,9 @@ DOMAINS: Dict[str, List[str]] = {
         "Escola Superior de Disseny i d'Arts Plàstiques de Catalunya (ESDAP)",
         "Superior School of Design and Plastic Arts of Catalonia",
     ],
-    ".ecole-ipssi.net": ["IPSSI - École d’Informatique, Web et Design Graphique"],
+    ".ecole-ipssi.net": [
+        "IPSSI - École d’Informatique, Web et Design Graphique"
+    ],
     ".ecoles-wis.net": ["Web International School"],
     ".efrei.net": [
         "École d'ingénieur généraliste en informatique et technologies du numérique"
@@ -15108,14 +16490,18 @@ DOMAINS: Dict[str, List[str]] = {
         "École supérieure d'ingénieurs en informatique et génie des télécommunications"
     ],
     ".esrp.net": ["Escola Superior de Relacions Públiques"],
-    ".etna-alternance.net": ["École de la Nouvelle Alternance en Informatique"],
+    ".etna-alternance.net": [
+        "École de la Nouvelle Alternance en Informatique"
+    ],
     ".etsmtl.net": ["École de technologie supérieure, Université du Québec"],
     ".ewhain.net": ["Ewha Womans University"],
     ".fapsnewdelhi.net": ["The Frank Anthony Public School"],
     ".fcpsschools.net": ["Fairfax County Schools"],
     ".fevaq.net": ['Facultad de Economia "Vasco de Quiroga"'],
     ".learn.flvs.net": ["Florida Virtual School"],
-    ".fosbos.net": ["Maximilian Kolbe (Fachober- & Berufsober-) Schule Neumarkt"],
+    ".fosbos.net": [
+        "Maximilian Kolbe (Fachober- & Berufsober-) Schule Neumarkt"
+    ],
     ".franklinps.net": ["Franklin High School in Massachusetts"],
     ".fusdk12.net": ["American High School"],
     ".garfieldre2.net": ["Rifle Middle School"],
@@ -15146,13 +16532,22 @@ DOMAINS: Dict[str, List[str]] = {
     ".gyo6.net": ["경상북도교육청", "Gyeongbuk Education"],
     ".gzkjxy.net": ["广州科技职业技术大学"],
     ".hadleighhigh.net": ["Hadleigh High School"],
-    ".g.hayscisd.net": ["Johnson High School", "Moe & Gene Johnson High School"],
-    ".hcps.net": ["Hillsborough County Public Schools", "Thomas Jefferson High School"],
+    ".g.hayscisd.net": [
+        "Johnson High School",
+        "Moe & Gene Johnson High School",
+    ],
+    ".hcps.net": [
+        "Hillsborough County Public Schools",
+        "Thomas Jefferson High School",
+    ],
     ".helmholtzschule-ffm.net": ["Helmholtzschule Frankfurt"],
     ".hetic.net": ["HETIC, la grande école d'internet"],
     ".hetperspectief.net": ["Het Perspectief PCVO - Adult Education"],
     ".hinchingbrookeschool.net": ["Hinchingbrooke School"],
-    ".hindusthan.net": ["Hindusthan Educational Institutions, Coimbatore ", ".group"],
+    ".hindusthan.net": [
+        "Hindusthan Educational Institutions, Coimbatore ",
+        ".group",
+    ],
     ".hneu.net": ["Simon Kuznets Kharkiv National University of Economics"],
     ".hvf-bs.net": ["Hoffmann-von-Fallersleben-Schule Gymnasium"],
     ".hwbcymru.net": ["Cardiff High School"],
@@ -15162,18 +16557,26 @@ DOMAINS: Dict[str, List[str]] = {
     ".ict-campus.net": ["Eidgenössisches Fähigkeitszeugnis"],
     ".icuzambia.net": ["Information and Communications University"],
     ".iedparis8.net": ["iedparis8 foad"],
-    ".iesjuandeherrera.net": ["INSTITUTO DE EDUCACIÓN SECUNDARIA JUAN DE HERRERA"],
+    ".iesjuandeherrera.net": [
+        "INSTITUTO DE EDUCACIÓN SECUNDARIA JUAN DE HERRERA"
+    ],
     ".iessanclemente.net": ["IES San Clemente"],
     ".iesunamuno.net": ["Instituto de educación secundaria Miguel de Unamuno"],
-    ".iiitb.net": ["International Institute of Information Technology Bangalore"],
+    ".iiitb.net": [
+        "International Institute of Information Technology Bangalore"
+    ],
     ".iimtindia.net": ["IIMT Group of colleges in India"],
     ".impscet.net": ["IMPS College of Engineering and Technology, Malda"],
     ".imt-atlantique.net": ["Institut Mines-Télécom Atlantique"],
     ".indianatech.net": ["Indiana Tech"],
     ".infobosccoma.net": ["Institut Bosc de la Coma"],
-    ".ip-formation.net": ["IPSSI - École d’Informatique, Web et Design Graphique"],
+    ".ip-formation.net": [
+        "IPSSI - École d’Informatique, Web et Design Graphique"
+    ],
     ".ipilyon.net": ["IPI Lyon"],
-    ".ipsas-ens.net": ["institut polytechnique des sciences avancées sfax-Tunisie"],
+    ".ipsas-ens.net": [
+        "institut polytechnique des sciences avancées sfax-Tunisie"
+    ],
     ".irakasle.net": [
         "Delegación de Educación del Gobierno Vasco / Eusko Jaurlaritza Hezkuntza Saila"
     ],
@@ -15200,7 +16603,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".kashmiruniversity.net": ["University of Kashmir, India"],
     ".kellerisd.net": ["Keller Center for Advanced Learning"],
     ".kes.net": ["King Edwards VI School, Stratford"],
-    ".zsp2.krotoszyn.net": ["Zespół Szkół Ponadgimnazjalnych nr 2 w Krotoszynie"],
+    ".zsp2.krotoszyn.net": [
+        "Zespół Szkół Ponadgimnazjalnych nr 2 w Krotoszynie"
+    ],
     ".kumsa.net": ["Khurasan University"],
     ".kwantlen.net": ["Kwantlen Polytechnic University"],
     ".ladueschools.net": [
@@ -15208,7 +16613,9 @@ DOMAINS: Dict[str, List[str]] = {
         "Ladue Horton Watkins High School",
     ],
     ".lammersvilleusd.net": ["Mountain House High School", ".group"],
-    ".lasalleuniversities.net": ["La Salle Universities - International Programmes"],
+    ".lasalleuniversities.net": [
+        "La Salle Universities - International Programmes"
+    ],
     ".laschools.net": ["Los Alamos High School"],
     ".lausd.net": ["Los Angeles Unified School District"],
     ".lbschools.net": [
@@ -15261,7 +16668,10 @@ DOMAINS: Dict[str, List[str]] = {
     ".myoneclay.net": ["Fleming Island High School"],
     ".mypisd.net": ["Plano Independent School District"],
     ".nashobatech.net": ["Nashoba Valley Technical High School"],
-    ".ncvt.net": ["Nanning College For Vocational Technology", "http://www.ncvt.net"],
+    ".ncvt.net": [
+        "Nanning College For Vocational Technology",
+        "http://www.ncvt.net",
+    ],
     ".ndoverneuil.net": ["Notre Dame les Oiseaux Verneuil / NDO Verneuil"],
     ".nicevillehighschool.net": ["Niceville High School"],
     ".nisd.net": [
@@ -15356,7 +16766,10 @@ DOMAINS: Dict[str, List[str]] = {
     ".student.st-chris.net": ["St Christopher's School of Bahrain"],
     ".stanislascollege.net": ["Stanislascollege"],
     ".starkstate.net": ["Stark State College"],
-    ".stjameslc.net": ["St. James Lutheran College", "St. James Lutheran College"],
+    ".stjameslc.net": [
+        "St. James Lutheran College",
+        "St. James Lutheran College",
+    ],
     ".stmcougars.net": ["St. Thomas More Catholic High School"],
     ".student-jcboe.net": ["Jefferson County High School"],
     ".studentlaschools.net": ["Los Alamos High School"],
@@ -15405,7 +16818,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".unibave.net": ["Centro Universitário Barriga Verde"],
     ".unicornuniversity.net": ["Unicorn College"],
     ".unimediteran.net": ["Univerzitet Mediteran", "Mediterranean University"],
-    ".uninettunouniversity.net": ["Universita Telematica Internazionale UniNettuno"],
+    ".uninettunouniversity.net": [
+        "Universita Telematica Internazionale UniNettuno"
+    ],
     ".unir.net": ["Universidad Internacional de La Rioja"],
     ".univ-mngb.net": ["University Marien Ngouabi Brazzaville"],
     ".universityofsomalia.net": ["University of Somalia"],
@@ -15446,8 +16861,12 @@ DOMAINS: Dict[str, List[str]] = {
     ".abu.edu.ng": ["Ahmadu Bello University, Zaria"],
     ".student.adelekeuniversity.edu.ng": ["Adeleke University"],
     ".alhikmah.edu.ng": ["Alhikmah University Ilorin"],
-    ".aquatechcollege.edu.ng": ["Aquatech College of Agriculture and Technology"],
-    ".atbu.edu.ng": ["Abubakar Tafawa Balewa University Bauchi  State Nigeria"],
+    ".aquatechcollege.edu.ng": [
+        "Aquatech College of Agriculture and Technology"
+    ],
+    ".atbu.edu.ng": [
+        "Abubakar Tafawa Balewa University Bauchi  State Nigeria"
+    ],
     ".auk.edu.ng": ["Al-Qalam University Katsina"],
     ".student.aul.edu.ng": [
         "Anchor University Lagos",
@@ -15458,7 +16877,9 @@ DOMAINS: Dict[str, List[str]] = {
     ],
     ".aul.edu.ng": ["Anchor university, Lagos, Nigeria"],
     ".aun.edu.ng": ["American University of Nigeria"],
-    ".aust.edu.ng": ["African University of Science and Technology [AUST], Abuja"],
+    ".aust.edu.ng": [
+        "African University of Science and Technology [AUST], Abuja"
+    ],
     ".student.babcock.edu.ng": ["Babcock University"],
     ".basug.edu.ng": ["Bauchi State University Gadau"],
     ".bazeuniversity.edu.ng": ["Baze University Abuja"],
@@ -15502,9 +16923,14 @@ DOMAINS: Dict[str, List[str]] = {
         "http://www.fulafia.edu.ng",
     ],
     ".fulokoja.edu.ng": ["Federal University Lokoja"],
-    ".pg.funaab.edu.ng": ["Federal University Of Agriculture Postgraduate school"],
+    ".pg.funaab.edu.ng": [
+        "Federal University Of Agriculture Postgraduate school"
+    ],
     ".student.funaab.edu.ng": ["Federal University of Agriculture, Abeokuta."],
-    ".funaab.edu.ng": ["Federal University of Agriculture, Abeoukuta", "FUNAAB"],
+    ".funaab.edu.ng": [
+        "Federal University of Agriculture, Abeoukuta",
+        "FUNAAB",
+    ],
     ".fuoye.edu.ng": ["The Federal University of Oye Ekiti"],
     ".fupre.edu.ng": ["Federal University of Petroleum Resources, Effurun"],
     ".futa.edu.ng": ["The Federal University of Technology Akure"],
@@ -15519,9 +16945,13 @@ DOMAINS: Dict[str, List[str]] = {
     ],
     ".fuwukari.edu.ng": ["Federal University Wukari"],
     ".imsu.edu.ng": ["Imo State University Owerri"],
-    ".interlinkpolytechnic.edu.ng": ["Interlink Polytechnic, Ijebu-Jesa, Osun State"],
+    ".interlinkpolytechnic.edu.ng": [
+        "Interlink Polytechnic, Ijebu-Jesa, Osun State"
+    ],
     ".kasu.edu.ng": ["Kaduna State University"],
-    ".kwarastatepolytechnic.edu.ng": ["Kwara State Polytechnic, Ilorin, Kwara State"],
+    ".kwarastatepolytechnic.edu.ng": [
+        "Kwara State Polytechnic, Ilorin, Kwara State"
+    ],
     ".lasu.edu.ng": ["Lagos State University"],
     ".lautech.edu.ng": ["Ladoke Akintola University of Technology"],
     ".lmu.edu.ng": ["Landmark University, Omu-Aran"],
@@ -15536,7 +16966,10 @@ DOMAINS: Dict[str, List[str]] = {
         "OLABISI ONABANJO UNIVERSITY",
         "OLABISI ONABANJO UNIVERSITY",
     ],
-    ".osustech.edu.ng": ["OSUSTECH", "Ondo State university of science and Technology"],
+    ".osustech.edu.ng": [
+        "OSUSTECH",
+        "Ondo State university of science and Technology",
+    ],
     ".pau.edu.ng": ["Pan-Atlantic University", "PAU"],
     ".plapoly.edu.ng": ["Plateau State Polytechnic, Barkin Ladi, Nigeria"],
     ".run.edu.ng": ["Redeemer's University"],
@@ -15563,7 +16996,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".uam.edu.ni": ["Universidad Americana"],
     ".uca.edu.ni": ["Universidad Centroamericana"],
     ".ucc.edu.ni": ["Universidad Ciencias Comerciales"],
-    ".ucem.edu.ni": ["Universidad Centroamericana de Ciencias Empresariales (UCEM)"],
+    ".ucem.edu.ni": [
+        "Universidad Centroamericana de Ciencias Empresariales (UCEM)"
+    ],
     ".ucyt.edu.ni": ["Universidad Nicaragüense de Ciencia y Tecnológica"],
     ".udem.edu.ni": ["Universidad de Managua (U de M)"],
     ".uhispam.edu.ni": ["Universidad Hispanoamericana"],
@@ -15609,7 +17044,10 @@ DOMAINS: Dict[str, List[str]] = {
     ".arentheemcollege.nl": ["Arentheem College"],
     ".student.artez.nl": ["ArtEZ hogeschool voor de kunsten"],
     ".artez.nl": ["ArtEZ hogeschool voor de kunsten"],
-    ".ash.nl": ["American School of the Hague", "American School of the Hague"],
+    ".ash.nl": [
+        "American School of the Hague",
+        "American School of the Hague",
+    ],
     ".edu.atchilversum.nl": ["Alberdingk Thijm College"],
     ".auc.nl": ["Amsterdam University College"],
     ".avans.nl": ["Avans University of Applied Sciences"],
@@ -15630,7 +17068,10 @@ DOMAINS: Dict[str, List[str]] = {
     ".capellen.nl": ["Van der Capellen Scholengemeenschap Zwolle Lassuslaan"],
     ".cartesius2.nl": ["Cartesius 2"],
     ".leerling.cgu.nl": ["Christelijk Gymnasium Utrecht"],
-    ".cgu.nl": ["Christelijk Gymnasium Utrecht", "Christian Gymnasium Utrecht"],
+    ".cgu.nl": [
+        "Christelijk Gymnasium Utrecht",
+        "Christian Gymnasium Utrecht",
+    ],
     ".che.nl": ["CHE Christian University of Applied Sciences"],
     ".student.cibap.nl": ["Cibap Vakschool voor Verbeelding"],
     ".clv.nl": ["christelijk lyceum veenendaal"],
@@ -15644,7 +17085,10 @@ DOMAINS: Dict[str, List[str]] = {
     ".davinci-leiden.nl": ["SG Leonardo Da Vinci"],
     ".davinci.nl": ["ROC Da Vinci College"],
     ".ddu.nl": ["Dutch Delta University"],
-    ".degoudsewaarden.nl": ["https://www.degoudsewaarden.nl/", "csg de goudse waarden"],
+    ".degoudsewaarden.nl": [
+        "https://www.degoudsewaarden.nl/",
+        "csg de goudse waarden",
+    ],
     ".deltion.nl": ["Deltion College"],
     ".denassau.nl": ["De nassau", "The Nassau"],
     ".dewillem.nl": ["CSG Willem van Oranje"],
@@ -15721,7 +17165,9 @@ DOMAINS: Dict[str, List[str]] = {
         "International Institute for Geo - Information Science and Earth Observation"
     ],
     ".jtc-roosendaal.nl": ["Jan Tinbergen College"],
-    ".student.kabk.nl": ["Koninklijke Academie van Beeldende Kunsten, Den Haag"],
+    ".student.kabk.nl": [
+        "Koninklijke Academie van Beeldende Kunsten, Den Haag"
+    ],
     ".kabk.nl": ["Koninklijke Academie van Beeldende Kunsten, Den Haag"],
     ".leerling.kajmunk.nl": ["Kaj Munk College"],
     ".kalsbeek.nl": [
@@ -15812,7 +17258,10 @@ DOMAINS: Dict[str, List[str]] = {
     ".olympuscollege.nl": ["Olympus College"],
     ".ooz.nl": ["Openbaar Onderwijs Zwolle", ".group"],
     ".openbaarlyceumzeist.nl": ["Openbaar Lyceum Zeist", "Nuovo Scholengroep"],
-    ".os3.nl": ["University of Amsterdam ", "- Security and Network engineering"],
+    ".os3.nl": [
+        "University of Amsterdam ",
+        "- Security and Network engineering",
+    ],
     ".osgh.nl": ["Openbare Scholengemeenschap Hengelo"],
     ".ou.nl": ["Open University of the Netherlands"],
     ".leerling.over-y.nl": ["Over-Y College"],
@@ -15865,7 +17314,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".rocvantwente.nl": ["Regional Community College of Twente"],
     ".rocvf.nl": ["ROC van Flevoland"],
     ".rocwb.nl": ["ROC West-Brabant"],
-    ".rsm.nl": ["Rotterdam School of Management, Erasmus University Rotterdam"],
+    ".rsm.nl": [
+        "Rotterdam School of Management, Erasmus University Rotterdam"
+    ],
     ".ru.nl": ["Radboud University of Nijmegen"],
     ".rug.nl": ["University of Groningen"],
     ".rythovius.nl": ["Rythovius College"],
@@ -15890,7 +17341,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".symbion-vo.nl": ["Symbion VO"],
     ".talnet.nl": ["MBO Hilversum"],
     ".tcrmbo.nl": ["Techniek College Rotterdam"],
-    ".teylingen-college.nl": ["Teylingen College Noordwijkerhout/Voorhout/Rijnsburg"],
+    ".teylingen-college.nl": [
+        "Teylingen College Noordwijkerhout/Voorhout/Rijnsburg"
+    ],
     ".tilburguniversity.nl": ["Tilburg University"],
     ".tio.nl": ["TIO University"],
     ".leerling.trevianum.nl": ["Trevianum Scholengroep"],
@@ -15961,7 +17414,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".himolde.no": ["Molde University College"],
     ".hin.no": ["Narvik University College"],
     ".hint.no": ["Nord-Trøndelag University College"],
-    ".stud.hioa.no": ["Oslo and Akershus University College of Applied Sciences"],
+    ".stud.hioa.no": [
+        "Oslo and Akershus University College of Applied Sciences"
+    ],
     ".hioa.no": ["Høgskolen i Oslo og Akershus"],
     ".hiof.no": ["Østfold University College"],
     ".hist.no": ["Sør-Trøndelag University College"],
@@ -15977,10 +17432,15 @@ DOMAINS: Dict[str, List[str]] = {
     ],
     ".iskule.no": ["Sogndal VGS"],
     ".karmoyskolen.no": ["Karmøy Kommune Skoledomene"],
-    ".khio.no": ["National Academy of Fine Arts", "National College of Art and Design"],
+    ".khio.no": [
+        "National Academy of Fine Arts",
+        "National College of Art and Design",
+    ],
     ".kodeklubbenflaa.no": ["Kodeklubben Flå"],
     ".skole.trondheim.kommune.no": ["Trondheim Kommune - Skole"],
-    ".kristiania.no": ["Kristiania University College, the department of technology"],
+    ".kristiania.no": [
+        "Kristiania University College, the department of technology"
+    ],
     ".larvikskolen.no": ["Langestrand Skole"],
     ".sksk.mil.no": ["Royal Norwegian Naval Academy", "Sjøkrigsskolen"],
     ".vgs.nfk.no": ["Nordland Fylkeskommune"],
@@ -15988,7 +17448,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".nih.no": ["Norwegian University of Sport and Physical Education"],
     ".nith.no": ["Norway's Information Technology University College"],
     ".nittedalsskolen.no": ["Li Skole"],
-    ".nla.no": ["Norwegian Teacher Academy for Studies in Religion and Education"],
+    ".nla.no": [
+        "Norwegian Teacher Academy for Studies in Religion and Education"
+    ],
     ".nlh.no": ["Agricultural University of Norway"],
     ".nmbu.no": ["Norwegian University of Life Sciences"],
     ".nmh.no": ["Norwegian State Academy of Music"],
@@ -16011,7 +17473,9 @@ DOMAINS: Dict[str, List[str]] = {
         "Nord-Troms High School",
         "\ufeffAlta Videregående Skole",
     ],
-    ".tffk.no": ["Stangnes videregående skole, school district of Troms og Finnmark"],
+    ".tffk.no": [
+        "Stangnes videregående skole, school district of Troms og Finnmark"
+    ],
     ".tisipfagskole.no": ["TISIP fagskole"],
     ".elev.trondelagfylke.no": ["Trondelag Fylkeskommune"],
     ".trondelagfylke.no": ["\ufeffTrøndelag Fylkeskommune"],
@@ -16021,7 +17485,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".uio.no": ["University of Oslo"],
     ".uis.no": ["University of Stavanger"],
     ".uit.no": ["University of Tromsø"],
-    ".usn.no": ["Høgskolen i Sørøst-Norge / University College of Southeast Norway"],
+    ".usn.no": [
+        "Høgskolen i Sørøst-Norge / University College of Southeast Norway"
+    ],
     ".vaf.no": ["Vest-Agder fylkeskommune "],
     ".veths.no": ["Norwegian College of Veterinary Medicine"],
     ".skole.vfk.no": ["Vestfold Fylkeskommune"],
@@ -16029,7 +17495,10 @@ DOMAINS: Dict[str, List[str]] = {
     ".Verdal.vgs.no": ["Verdal Videregående Skole"],
     ".eid.vgs.no": ["Eid Videregående Skule"],
     ".krokeide.vgs.no": ["Krokeide videregående skole"],
-    ".kvadraturen.vgs.no": ["Kvadraturen vgs", "Kvadraturen technical college"],
+    ".kvadraturen.vgs.no": [
+        "Kvadraturen vgs",
+        "Kvadraturen technical college",
+    ],
     ".viken.no": [
         "Viken Fylkeskommune schools. https://viken.no/tjenester/skole-og-opplaring/"
     ],
@@ -16095,7 +17564,10 @@ DOMAINS: Dict[str, List[str]] = {
     ".edu.tibble.nu": ["Tibble Gymnasium, students emails"],
     ".tibble.nu": ["Tibble Gymnasium"],
     ".agi.ac.nz": ["AGI", "AGI Auckland"],
-    ".ais.ac.nz": ["Auckland Institute of Studies", "Auckland Institute of Studies"],
+    ".ais.ac.nz": [
+        "Auckland Institute of Studies",
+        "Auckland Institute of Studies",
+    ],
     ".ames.ac.nz": ["AMES "],
     ".amesstudent.ac.nz": ["AMES  - The Institute of IT"],
     ".ara.ac.nz": ["Ara Institute of Canterbury"],
@@ -16176,7 +17648,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".aou.edu.om": ["Arab Open University"],
     ".buc.edu.om": ["Al-Buraimi University College"],
     ".du.edu.om": ["Dhofar University"],
-    ".student.gutech.edu.om": ["German University of Technology in Oman (GUtech)"],
+    ".student.gutech.edu.om": [
+        "German University of Technology in Oman (GUtech)"
+    ],
     ".ibrict.edu.om": ["Ibri College of Technology"],
     ".ict.edu.om": ["Ibra College of Technology"],
     ".majancollege.edu.om": ["Majan University College"],
@@ -16186,7 +17660,9 @@ DOMAINS: Dict[str, List[str]] = {
     ],
     ".mtc.edu.om": ["Military Technological College"],
     ".muscatcollege.edu.om": ["Muscat College"],
-    ".nct.edu.om": ["university of Technology and Applied Sciences-Nizwa, Oman"],
+    ".nct.edu.om": [
+        "university of Technology and Applied Sciences-Nizwa, Oman"
+    ],
     ".nu.edu.om": ["National University, Oman"],
     ".omancollege.edu.om": ["Oman College Of Management &amp; Technology"],
     ".soharuni.edu.om": ["Sohar University"],
@@ -16195,7 +17671,10 @@ DOMAINS: Dict[str, List[str]] = {
     ".unizwa.edu.om": ["University of Nizwa"],
     ".uob.edu.om": ["University of Buraimi", "University of Buraimi"],
     ".vibrantprivateschool.edu.om": ["Vibrant Private School"],
-    ".moe.om": ["Ministry of Education - Oman", "Ministry of Education - Oman"],
+    ".moe.om": [
+        "Ministry of Education - Oman",
+        "Ministry of Education - Oman",
+    ],
     ".nmu.one": ["National Mining University", "NMU"],
     ".gmiv.onl": ["הגימנסיה העברית בירושלים"],
     ".hgs-singen.online": ["Hohentwiel Gewerbeschule Singen"],
@@ -16485,7 +17964,11 @@ DOMAINS: Dict[str, List[str]] = {
         ".group",
         "School district, Clear Lake, Iowa 50428",
     ],
-    ".cobbk12.org": ["Wheeler High School", ".group", "http://www.cobbk12.org/"],
+    ".cobbk12.org": [
+        "Wheeler High School",
+        ".group",
+        "http://www.cobbk12.org/",
+    ],
     ".coleacademy.org": ["Cole Academy"],
     ".doral.colegia.org": ["Doral Academy Charter High School"],
     ".colonialsd.org": ["Colonial School District"],
@@ -16564,14 +18047,18 @@ DOMAINS: Dict[str, List[str]] = {
         ".group",
     ],
     ".dalton.org": ["The Dalton School"],
-    ".danielcastelao.org": ['Centro de Formacion Profesional "Daniel Castelao"'],
+    ".danielcastelao.org": [
+        'Centro de Formacion Profesional "Daniel Castelao"'
+    ],
     ".darlingtonschool.org": ["Darlington School"],
     ".student.dasd.org": ["Downingtown S.T.E.M. Academy"],
     ".davenportschools.org": ["West High School"],
     ".davietjal.org": ["DAV Institute of Engineering & Technology"],
     ".davisonschools.org": ["Davison High School"],
     ".daystarus.org": ["Daystar University"],
-    ".dcrustm.org": ["Deenbandhu Chhotu Ram University of Science and Technology"],
+    ".dcrustm.org": [
+        "Deenbandhu Chhotu Ram University of Science and Technology"
+    ],
     ".s.dcsdk12.org": ["Douglas County School District", ".group"],
     ".dcsdk12.org": ["Douglas County School District", ".group"],
     ".denmarkroad.org": ["Denmark Road High School"],
@@ -16583,7 +18070,9 @@ DOMAINS: Dict[str, List[str]] = {
     ],
     ".diderot.org": ["Lycée Polyvalent Diderot"],
     ".diiage.org": ["Centre Universitaire Catholique de Bourgogne"],
-    ".student.dimanregional.org": ["Diman Regional Vocational Technical High School"],
+    ".student.dimanregional.org": [
+        "Diman Regional Vocational Technical High School"
+    ],
     ".dimanregional.org": ["Diman Regional Vocational Technical High School"],
     ".dist113.org": ["Deerfield High School"],
     ".district112.org": ["Independent School District 112"],
@@ -16611,7 +18100,10 @@ DOMAINS: Dict[str, List[str]] = {
     ".ebnet.org": ["East Brunswick High School"],
     ".ebrschools.org": ["Baton Rouge Magnet High School"],
     ".ecfs.org": ["Ethical Culture Fieldston School"],
-    ".ecscollege.org": ["ecscollege.org", "Evangel Christian Seminary & College"],
+    ".ecscollege.org": [
+        "ecscollege.org",
+        "Evangel Christian Seminary & College",
+    ],
     ".edmonds15.org": ["Edmonds School District"],
     ".edubuzz.org": [
         "Musselburgh Grammar School",
@@ -16645,7 +18137,9 @@ DOMAINS: Dict[str, List[str]] = {
     ],
     ".em-is.org": ["Eastern Mediterranean International School"],
     ".enfieldgrammar.org": ["Enfield Grammar School"],
-    ".ens2m.org": ["École Nationale Supérieure de Mécanique et des Microtechniques"],
+    ".ens2m.org": [
+        "École Nationale Supérieure de Mécanique et des Microtechniques"
+    ],
     ".ensta-bretagne.org": [
         "Ecole Nationale Supérieure de Techniques Avancées Bretagne"
     ],
@@ -16657,7 +18151,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".escolapiasvalencia.org": ["Colegio Escolapias Valencia"],
     ".esgis.org": ["Ecole Supérieure de Gestion Informatque et des Sciences"],
     ".esicad.org": ["ESICAD école de commerce sur Montpellier et Toulouse "],
-    ".student.esmonline.org": ["Eastport South-Manor Junior Senior High School"],
+    ".student.esmonline.org": [
+        "Eastport South-Manor Junior Senior High School"
+    ],
     ".esmonline.org": ["Eastport South-Manor Junior Senior High School"],
     ".students.esuhsd.org": ["East Side Union High School District", ".group"],
     ".campus.euss.org": ["Escola Universitaria Salesiana Sarria (EUSS)"],
@@ -16669,7 +18165,10 @@ DOMAINS: Dict[str, List[str]] = {
     ".fayacademy.org": ["Fayetteville Academy"],
     ".fayerweather.org": ["Fayerweather Street School "],
     ".fccps.org": ["Falls Church County Public Schools"],
-    ".research.fchampalimaud.org": ["Champalimaud Research", "Champalimaud Foundation"],
+    ".research.fchampalimaud.org": [
+        "Champalimaud Research",
+        "Champalimaud Foundation",
+    ],
     ".fcstu.org": ["Fulton County Schools"],
     ".student.fcusd.org": ["Sutter Middle School"],
     ".fergflor.org": [
@@ -16679,7 +18178,11 @@ DOMAINS: Dict[str, List[str]] = {
     ".ffc8.org": ["Fountain-Fort Carson Highschool"],
     ".fjuhsd.org": ["Troy High School"],
     ".flatbush.org": ["Yeshivah of Flatbush"],
-    ".florencek12.org": ["Florence High School", "Florence City Schools", ".group"],
+    ".florencek12.org": [
+        "Florence High School",
+        "Florence City Schools",
+        ".group",
+    ],
     ".flpoly.org": ["Florida Polytechnic University"],
     ".stu.fondazionejobsacademy.org": ["FondazioneJAC JobsAcademy"],
     ".foresthillshs.org": ["Forest Hills High School"],
@@ -16706,7 +18209,10 @@ DOMAINS: Dict[str, List[str]] = {
     ".fwastudents.org": ["Faith West Academy"],
     ".students.fwisd.org": ["Fort Worth Independent School District"],
     ".fwparker.org": ["Francis W. Parker School of Chicago"],
-    ".gannacademy.org": ["Gann Academy", "New Jewish High School of Greater Boston"],
+    ".gannacademy.org": [
+        "Gann Academy",
+        "New Jewish High School of Greater Boston",
+    ],
     ".garnetvalley.org": ["Garnet Valley School District"],
     ".gbwl.org": ["The Birch Wathen Lenox School"],
     ".gcelabschool.org": ["GCE Lab School"],
@@ -16739,7 +18245,10 @@ DOMAINS: Dict[str, List[str]] = {
     ],
     ".gissv.org": ["German International School of Silicon Valley"],
     ".gjust.org": ["GURU JAMBHESHWAR UNIVERSITY OF SCIENCE AND TECHNOLOGY"],
-    ".students.gmsdk12.org": ["Germantown Municipal School District", ".group"],
+    ".students.gmsdk12.org": [
+        "Germantown Municipal School District",
+        ".group",
+    ],
     ".gniindia.org": ["Guru Nanak Institutions"],
     ".gocommodores.org": ["Lafayette Middle School"],
     ".gouldacademy.org": ["Gould Academy"],
@@ -16876,7 +18385,10 @@ DOMAINS: Dict[str, List[str]] = {
     ".iesevalorpego.org": ["IES Enric Valor - Pego"],
     ".iesfbmoll.org": ["IES Francesc de Borja Moll"],
     ".ieshnosmachado.org": ["IES Hermanos Machado"],
-    ".iesjoandaustria.org": ["Institut Joan d'Austria", "Institut Joan d'Austria"],
+    ".iesjoandaustria.org": [
+        "Institut Joan d'Austria",
+        "Institut Joan d'Austria",
+    ],
     ".ieslluissimarro.org": [
         "IES Dr. Lluis Simarro",
         "High School Dr. Lluis Simarro",
@@ -16891,7 +18403,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".ifnti.org": [
         "Institut de Formation Aux Normes et Technologies de l'Informatique (IFNTI)"
     ],
-    ".iiitb.org": ["International Institute of Information Technology, Bangalore"],
+    ".iiitb.org": [
+        "International Institute of Information Technology, Bangalore"
+    ],
     ".iisbianchi.org": ["IIS Mosè Bianchi - Monza"],
     ".iitbombay.org": ["Indian Institute of Technology Bombay"],
     ".imdea.org": ["Instituto IMDEA", "IMDEA Institute"],
@@ -16937,7 +18451,10 @@ DOMAINS: Dict[str, List[str]] = {
         "Century Middle School",
     ],
     ".isd361.org": ["Falls High School"],
-    ".isefac.org": ["Ecole ISEFAC de Bac à Bac+5", "website : http://isefac.org"],
+    ".isefac.org": [
+        "Ecole ISEFAC de Bac à Bac+5",
+        "website : http://isefac.org",
+    ],
     ".isfce.org": ["Institut Supérieur de Formation Continue d'Etterbeek"],
     ".ishahomeschool.org": ["Isha Home School"],
     ".islahonline.org": ["Al-Islah University"],
@@ -16982,15 +18499,24 @@ DOMAINS: Dict[str, List[str]] = {
     ".jordandistrict.org": ["Jordan School District, UT, the U.S."],
     ".jpgacademy.org": ["John Paul the Great Academy"],
     ".jpsstudents.org": ["Jenison Public Senior High"],
-    ".js-student.org": ["Justin-Siena High School", "Justin-Siena High School"],
-    ".jsd117.org": ["Jacksonville School District 117 (Website: https://jsd117.org/)"],
+    ".js-student.org": [
+        "Justin-Siena High School",
+        "Justin-Siena High School",
+    ],
+    ".jsd117.org": [
+        "Jacksonville School District 117 (Website: https://jsd117.org/)"
+    ],
     ".k12albemarle.org": ["Albemarle High School"],
     ".k12louisa.org": ["Louisa County Public Schools"],
     ".students.katyisd.org": [
         "Katy ISD School Board",
         "Katy Independent School District",
     ],
-    ".kcpupils.org": ["King's College Schools", "kingscollegeschools.org", ".group"],
+    ".kcpupils.org": [
+        "King's College Schools",
+        "kingscollegeschools.org",
+        ".group",
+    ],
     ".kearsarge.org": ["Kearsarge Regional High School"],
     ".kentdenver.org": ["Kent Denver School"],
     ".kernhigh.org": ["Kern High School District"],
@@ -16998,7 +18524,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".khazar.org": ["Khazar University"],
     ".kinkaid.org": ["The Kinkaid School"],
     ".kirtlandhornet.org": ["Kirtland High School"],
-    ".kjit.org": ["K.J. Institute of Engineering and Technology- savli, vadodara"],
+    ".kjit.org": [
+        "K.J. Institute of Engineering and Technology- savli, vadodara"
+    ],
     ".klschools.org": ["Katonah Lewisboro School District"],
     ".knoxschools.org": ["Knox County Schools"],
     ".ksd.org": ["Kennewick High School"],
@@ -17044,7 +18572,10 @@ DOMAINS: Dict[str, List[str]] = {
     ".lighthousecoolbridge.org": ["Lighthouse Cool Bridge Academy"],
     ".lincolncharter.org": ["Lincoln Charter"],
     ".lincolnschool.org": ["Lincoln School"],
-    ".students.lindenps.org": ["Linden High School", "Linden Public Schools, NJ, US"],
+    ".students.lindenps.org": [
+        "Linden High School",
+        "Linden Public Schools, NJ, US",
+    ],
     ".lios.org": ["The Leadership Institute of Seattle"],
     ".lisd.org": ["Leander Independant School District"],
     ".llanoisd.org": ["Llano Independent School District", ".group"],
@@ -17069,7 +18600,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".lw210.org": ["Lincoln Way Community High School District 210"],
     ".tesla.lwsd.org": ["Tesla Stem High School, Washington, USA"],
     ".lwsd.org": ["Lake Washington School District"],
-    ".lyceexavierseoul.org": ["Xavier International School in Seoul, South KOREA"],
+    ".lyceexavierseoul.org": [
+        "Xavier International School in Seoul, South KOREA"
+    ],
     ".lz95.org": ["Lake Zurich Community District"],
     ".macintyreacademies.org": ["MacIntyre Academies"],
     ".madeira.org": ["The Madeira School"],
@@ -17086,10 +18619,14 @@ DOMAINS: Dict[str, List[str]] = {
     ".marlboroughcollege.org": ["Marlborough College"],
     ".marsd.org": ["Matawan Regional High School"],
     ".maruapula.org": ["Maru-a-Pula School, Gaborone"],
-    ".marymathacollege.org": ["Mary Matha Arts & Science College, Mananthavady"],
+    ".marymathacollege.org": [
+        "Mary Matha Arts & Science College, Mananthavady"
+    ],
     ".mayatanfoundation.org": ["Mayatan Bilingual School"],
     ".mcdonogh.org": ["McDonogh School", "McDonogh "],
-    ".mcps.org": ["Blacksburg Middle School (Montgomery County Public Schools)"],
+    ".mcps.org": [
+        "Blacksburg Middle School (Montgomery County Public Schools)"
+    ],
     ".mcqstudent.org": ["McQuaid Jesuit"],
     ".mcquaid.org": ["McQuaid Jesuit"],
     ".mcsoxford.org": ["Magdalen College School, Oxford"],
@@ -17102,7 +18639,9 @@ DOMAINS: Dict[str, List[str]] = {
         "Morris County Vocational School District",
     ],
     ".mdanderson.org": ["University of Texas MD Anderson Cancer Center"],
-    ".meltwater.org": ["Meltwater Entrepreneurial School of Technology (MEST)"],
+    ".meltwater.org": [
+        "Meltwater Entrepreneurial School of Technology (MEST)"
+    ],
     ".menloschool.org": ["Menlo School"],
     ".mesaschool.org": ["Mesa Union School"],
     ".mgs.org": ["The Manchester Grammar School"],
@@ -17124,7 +18663,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".mines-nancy.org": ["École Nationale Supérieure des Mines de Nancy"],
     ".mines-saint-etienne.org": ["Ecole des Mines de Saint-Etienne"],
     ".misd400.org": ["Mercer Island School District"],
-    ".mitmuzaffarpur.org": ["Muzaffarpur Institute of Technology, Muzaffarpur"],
+    ".mitmuzaffarpur.org": [
+        "Muzaffarpur Institute of Technology, Muzaffarpur"
+    ],
     ".miu.org": [
         "Maharishi International University",
         "Maharishi International University",
@@ -17177,7 +18718,10 @@ DOMAINS: Dict[str, List[str]] = {
     ".mysummitps.org": ["Summit Public Schools"],
     ".myunit5.org": ["Normal Community High School"],
     ".stu.naperville203.org": ["Naperville Central High School"],
-    ".nasdstudents.org": ["Nazareth Area High School", "Nazareth Area High School"],
+    ".nasdstudents.org": [
+        "Nazareth Area High School",
+        "Nazareth Area High School",
+    ],
     ".students.natickps.org": ["Natick High School"],
     ".stu.nbexcellence.org": [
         "New Berlin Eisenhower Middle/High School",
@@ -17229,7 +18773,10 @@ DOMAINS: Dict[str, List[str]] = {
     ".nscsd.org": ["North Syracuse Central Schools"],
     ".nsd.org": ["Northshore School District"],
     ".nsd131.org": ["Columbia High School", ".group"],
-    ".nuast.org": ["Nottingham University Academy of Science and Technology", "NUAST"],
+    ".nuast.org": [
+        "Nottingham University Academy of Science and Technology",
+        "NUAST",
+    ],
     ".nuevaschool.org": ["The Nueva School"],
     ".students.nusd.org": ["San Marin High School"],
     ".nutleyschools.org": ["Nutley Public School District"],
@@ -17247,7 +18794,10 @@ DOMAINS: Dict[str, List[str]] = {
     ".students.orchardview.org": ["Orchard View HighSchool"],
     ".ousd.org": ["Oakland Unified School District (Oakland, California)"],
     ".ovidunivconstanta-edu.org": ["University of Constanta Medical School"],
-    ".apps.oxfordpublicschools.org": ["Oxford High School", "Oxford High School"],
+    ".apps.oxfordpublicschools.org": [
+        "Oxford High School",
+        "Oxford High School",
+    ],
     ".oxfordspiresacademy.org": ["Oxford Spires Academy"],
     ".pafa.org": ["Pennsylvania Academy of the Fine Arts"],
     ".paideiaschool.org": ["Paideia School"],
@@ -17260,9 +18810,13 @@ DOMAINS: Dict[str, List[str]] = {
     ".park6.org": ["Park County School District #6 (K-12)"],
     ".parmacityschools.org": ["Parma City School District"],
     ".pathfinderstudents.org": ["Pathfinder Tech"],
-    ".pathfindertech.org": ["Pathfinder Regional Vocational Technicial High School"],
+    ".pathfindertech.org": [
+        "Pathfinder Regional Vocational Technicial High School"
+    ],
     ".pccoepune.org": ["Pimpri Chinchwad College Of Engineering, Pune"],
-    ".cat.pcsb.org": ["Center for Advanced Technologies at Lakewood High School"],
+    ".cat.pcsb.org": [
+        "Center for Advanced Technologies at Lakewood High School"
+    ],
     ".pcsb.org": ["Pinellas County School Board", ".group"],
     ".pdsb.org": ["Peel District School Board", ".group"],
     ".peddie.org": ["Peddie School"],
@@ -17280,7 +18834,10 @@ DOMAINS: Dict[str, List[str]] = {
     ".pingry.org": ["The Pingry School"],
     ".pionir.org": ["Слободна школа Пионир", "Pionir free school"],
     ".pisgahpats.org": ["Mount Pisgah Christian School"],
-    ".plps-k12.org": ["Pompton Lakes High School", "Pompton Lakes High School"],
+    ".plps-k12.org": [
+        "Pompton Lakes High School",
+        "Pompton Lakes High School",
+    ],
     ".plsas.org": ["Prior Lake High School"],
     ".pmlrru.org": ["PML University"],
     ".students.pmsd.org": ["Pocono Mountain School District"],
@@ -17295,7 +18852,10 @@ DOMAINS: Dict[str, List[str]] = {
         "Providence Day",
         "PDS",
     ],
-    ".prsd.org": ["Pentucket Regional High School", "Pentucket Regional High School"],
+    ".prsd.org": [
+        "Pentucket Regional High School",
+        "Pentucket Regional High School",
+    ],
     ".student.psdr3.org": ["Pattonville Highschool"],
     ".psdr3.org": ["Pattonville High School"],
     ".pusa-sy.org": ["Private University of Science and Arts"],
@@ -17330,7 +18890,10 @@ DOMAINS: Dict[str, List[str]] = {
     ],
     ".rkmshome.org": ["Ramakrishna Mission Polytechnic College"],
     ".rochester-college.org": ["Rochester Indepedent College, Rochester"],
-    ".rochesterschools.org": ["Rochester Public Schools (teacher email)", ".group"],
+    ".rochesterschools.org": [
+        "Rochester Public Schools (teacher email)",
+        ".group",
+    ],
     ".stu.rockwallisd.org": ["Rockwall Heath High School"],
     ".roeper.org": ["The Roeper School"],
     ".roundrockisd.org": ["Round Rock Indpenedent School District"],
@@ -17362,8 +18925,14 @@ DOMAINS: Dict[str, List[str]] = {
     ".sau57.org": ["Salem High School"],
     ".sawstonvc.org": ["Sawston Village College"],
     ".sbcfamily.org": ["Roanoke Valley Christian Schools"],
-    ".sboajc.org": ["SBOA School & Junior College", "SBOA School & Junior College"],
-    ".scarsdaleschools.org": ["Scarsdale High School", "Scarsdale High School"],
+    ".sboajc.org": [
+        "SBOA School & Junior College",
+        "SBOA School & Junior College",
+    ],
+    ".scarsdaleschools.org": [
+        "Scarsdale High School",
+        "Scarsdale High School",
+    ],
     ".sch.org": ["Springside Chestnut Hill Academy"],
     ".student.schs.org": ["Grand Rapids South Christian High School"],
     ".scicu.org": ["Allen University", "Claflin College", "Morris College"],
@@ -17374,7 +18943,10 @@ DOMAINS: Dict[str, List[str]] = {
     ".sd62learns.org": ["École John Stubbs", "John Stubbs "],
     ".seaprep.org": ["Seattle Preparatory School"],
     ".seattlegirlsschool.org": ["Seattle Girls' School"],
-    ".seattleschools.org": ["Washington Middle School", "Garfield High School"],
+    ".seattleschools.org": [
+        "Washington Middle School",
+        "Garfield High School",
+    ],
     ".sebrsd.org": ["David Prouty High School"],
     ".secuso.org": ["Technische Universität Darmstadt"],
     ".seq.org": ["Menlo-Atherton High School"],
@@ -17503,7 +19075,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".tbs-education.org": ["Toulouse Business School"],
     ".tcdsb.org": ["Toronto Catholic District School Board"],
     ".tcdupage.org": ["Technology Center of DuPage"],
-    ".tcstudents.org": ["The Anne & Max Tanenbaum Community Hebrew Academy of Toronto"],
+    ".tcstudents.org": [
+        "The Anne & Max Tanenbaum Community Hebrew Academy of Toronto"
+    ],
     ".technonjr.org": ["Techno India NJR"],
     ".techvalleyhigh.org": ["Tech Valley High School"],
     ".tehcoll.org": [
@@ -17520,7 +19094,10 @@ DOMAINS: Dict[str, List[str]] = {
         "Kühne Logistics University (KLU)",
         "Kuehne Logistics University",
     ],
-    ".the-klu.org": ["Kühne Logistics University (KLU)", "Kuehne Logistics University"],
+    ".the-klu.org": [
+        "Kühne Logistics University (KLU)",
+        "Kuehne Logistics University",
+    ],
     ".thecoleshillschool.org": ["The Coleshill School"],
     ".thedeantrustmoodle.org": ["Dean Trust Wigan, UK"],
     ".thehill.org": ["The Hill School"],
@@ -17556,7 +19133,10 @@ DOMAINS: Dict[str, List[str]] = {
     ".ucnh.org": ["Université Chrétienne du Nord d'Haiti"],
     ".udesmontagnes.org": ["Université des Montagnes"],
     ".stu.udsd.org": ["Upper Dublin High School"],
-    ".insa.ueuromed.org": ["INSA Euro-méditérannée", "Euromed University of Fes"],
+    ".insa.ueuromed.org": [
+        "INSA Euro-méditérannée",
+        "Euromed University of Fes",
+    ],
     ".uha-ky.org": ["University Heights Academy"],
     ".un-ihe.org": ["IHE Delft Institute for Water Education"],
     ".unesco-ihe.org": ["UNESCO-IHE Institute for Water Education"],
@@ -17573,7 +19153,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".univ-lyon.org": ["Université de Lyon"],
     ".universityliberia.org": ["University of Liberia"],
     ".universum-ks.org": ["Universum college, Kosovo"],
-    ".uofdjesuit.org": ["University of Detroit Jesuit High School and Academy"],
+    ".uofdjesuit.org": [
+        "University of Detroit Jesuit High School and Academy"
+    ],
     ".upeace.org": ["University for Peace"],
     ".upou.org": ["University of the Philippines Open University"],
     ".upra.org": ["Athenaeum Pontificium Regina Apostolorum"],
@@ -17588,7 +19170,10 @@ DOMAINS: Dict[str, List[str]] = {
     ".student.vansd.org": ["Vancouver School District"],
     ".vardhaman.org": ["Vardhaman College of Engineering"],
     ".vcpusd.org": ["Valley Center-Pauma Unified"],
-    ".vcuhealth.org": ["Virginia Commonwealth University", "vcu.edu, vcuhealth.org"],
+    ".vcuhealth.org": [
+        "Virginia Commonwealth University",
+        "vcu.edu, vcuhealth.org",
+    ],
     ".veltechmultitech.org": [
         "Vel Tech Multi Tech Dr. Rangarajan Dr. Sakunthala Engineering College"
     ],
@@ -17612,7 +19197,9 @@ DOMAINS: Dict[str, List[str]] = {
         "Prin. L. N. Welingkar Institute of Management Development & Research"
     ],
     ".westada.org": ["Sawtooth Middle School"],
-    ".student.westboroughk12.org": ["Westborough Public Schools (Westborough, MA, US)"],
+    ".student.westboroughk12.org": [
+        "Westborough Public Schools (Westborough, MA, US)"
+    ],
     ".westerncenter.org": ["Western Montgomery Career and Technology Center"],
     ".westex.org": ["West Essex Regional High School"],
     ".westportps.org": ["Westport, CT Public Schools"],
@@ -17665,7 +19252,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".utp.ac.pa": ["Universidad Tecnológica de Panamá"],
     ".etu-digitalschool.paris": ["Digital School of Paris"],
     ".stu-psbedu.paris": ["Paris Business School"],
-    ".SENATI.pe": ["Servicio Nacional de Adiestramiento en Trabajo Industrial"],
+    ".SENATI.pe": [
+        "Servicio Nacional de Adiestramiento en Trabajo Industrial"
+    ],
     ".champagnat.edu.pe": ["Universidad Marcelino Champagnat"],
     ".cibertec.edu.pe": ["Cibertec"],
     ".idat.edu.pe": ["Instituto superior tecnológico IDAT"],
@@ -17693,7 +19282,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".unasam.edu.pe": ["Universidad Nacional Santiago Antúnez de Mayolo"],
     ".unc.edu.pe": ["Universidad Nacional de Cajamarca"],
     ".uncp.edu.pe": ["Universidad Nacional del Centro del Perú"],
-    ".une.edu.pe": ["Universidad Nacional de Educación Enrique Guzmán y Valle"],
+    ".une.edu.pe": [
+        "Universidad Nacional de Educación Enrique Guzmán y Valle"
+    ],
     ".unheval.edu.pe": ["Universidad Nacional Hermilio Valdizan"],
     ".uni.edu.pe": ["Universidad Nacional de Ingeniería"],
     ".unica.edu.pe": ["Universidad Nacional San Luis Gonzaga"],
@@ -17736,7 +19327,10 @@ DOMAINS: Dict[str, List[str]] = {
     ],
     ".ucss.pe": ["Universidad Católica Sedes Sapientiae"],
     ".udep.pe": ["Universidad de Piura"],
-    ".uladech.pe": ["UNIVERSIDAD CATOLICA LOS ANGELES DE CHIMBOTE", "systems engineer"],
+    ".uladech.pe": [
+        "UNIVERSIDAD CATOLICA LOS ANGELES DE CHIMBOTE",
+        "systems engineer",
+    ],
     ".unac.pe": ["Universidad Nacional del Callao"],
     ".uni.pe": ["Universidad Nacional de Ingenieria"],
     ".unsa.pe": ["Universidad Nacional de San Agustín de Arequipa"],
@@ -17775,7 +19369,10 @@ DOMAINS: Dict[str, List[str]] = {
     ".cmu.edu.ph": ["Central Mindanao University"],
     ".cu.edu.ph": ["Capitol University"],
     ".davaodoctors.edu.ph": ["Davao Doctors College"],
-    ".dlsu.edu.ph": ["De La Salle University", "De La Salle University, Araneta"],
+    ".dlsu.edu.ph": [
+        "De La Salle University",
+        "De La Salle University, Araneta",
+    ],
     ".dmmmsu.edu.ph": ["Don Mariano Marcos Memorial State University"],
     ".eclaro.edu.ph": ["Eclaro Academy"],
     ".featiu.edu.ph": ["Feati University"],
@@ -17788,7 +19385,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".mlqu.edu.ph": ["Manuel L. Quezon University"],
     ".mmsu.edu.ph": ["Mariano Marcos State University"],
     ".mseuf.edu.ph": ["Manuel S. Enverga University Foundation"],
-    ".msuiit.edu.ph": ["Mindanao State University - Iligan Institute of Technology"],
+    ".msuiit.edu.ph": [
+        "Mindanao State University - Iligan Institute of Technology"
+    ],
     ".msumain.edu.ph": ["Mindanao State University"],
     ".mvc.edu.ph": ["Mountain View College"],
     ".ndmu.edu.ph": ["Notre Dame of Marbel University"],
@@ -17813,7 +19412,9 @@ DOMAINS: Dict[str, List[str]] = {
         "University of the East, Coloocan",
         "University of the East, Manila",
     ],
-    ".uerm.edu.ph": ["University of the East, Ramon Magsaysay Memorial Medical Center"],
+    ".uerm.edu.ph": [
+        "University of the East, Ramon Magsaysay Memorial Medical Center"
+    ],
     ".umindanao.edu.ph": ["University of Mindanao"],
     ".unc.edu.ph": ["University of Nueva Caceres"],
     ".unep.edu.ph": ["University of Northeastern Philippines"],
@@ -17858,15 +19459,21 @@ DOMAINS: Dict[str, List[str]] = {
     ".au.edu.pk": ["Air University"],
     ".aup.edu.pk": ["North West Frontier Province Agricultural University"],
     ".bahria.edu.pk": ["Bahria University"],
-    ".buetk.edu.pk": ["Balochistan University of Engineering and Technology Khuzdar"],
+    ".buetk.edu.pk": [
+        "Balochistan University of Engineering and Technology Khuzdar"
+    ],
     ".buitms.edu.pk": [
         "Balochistan University of Information Technology &amp; Management Sciences "
     ],
     ".bzu.edu.pk": ["Bahauddin Zakariya University, Multan"],
     ".case.edu.pk": ["CASE"],
     ".cecos.edu.pk": ["Cecos Univeristy of Information Technology"],
-    ".ciit-attock.edu.pk": ["COMSATS Institute of Information Technology, Attock"],
-    ".ciitlahore.edu.pk": ["COMSATS Institute of Information Technology, Lahore"],
+    ".ciit-attock.edu.pk": [
+        "COMSATS Institute of Information Technology, Attock"
+    ],
+    ".ciitlahore.edu.pk": [
+        "COMSATS Institute of Information Technology, Lahore"
+    ],
     ".isbstudent.comsats.edu.pk": [
         "Comsats University Islamabad",
         "Comsats University Islamabad",
@@ -17883,12 +19490,19 @@ DOMAINS: Dict[str, List[str]] = {
     ".formanite.fccollege.edu.pk": [
         "Forman Christian College (A Chartered University)"
     ],
-    ".fuuast.edu.pk": ["Federal Urdu University of Arts,Science and Technology"],
+    ".fuuast.edu.pk": [
+        "Federal Urdu University of Arts,Science and Technology"
+    ],
     ".gandhara.edu.pk": ["Gandhara Institute of Medical Sciences"],
-    ".gcu.edu.pk": ["GC University Lahore", "Government College University Lahore"],
+    ".gcu.edu.pk": [
+        "GC University Lahore",
+        "Government College University Lahore",
+    ],
     ".gcuf.edu.pk": ["Government College University Faisalabad"],
     ".gift.edu.pk": ["Gift University"],
-    ".giki.edu.pk": ["Ghulam Ishaq Khan Institute of Science &amp; Technology"],
+    ".giki.edu.pk": [
+        "Ghulam Ishaq Khan Institute of Science &amp; Technology"
+    ],
     ".gist.edu.pk": ["Gangdara Institute Of Science &amp; Technology"],
     ".global.edu.pk": ["The Global College Lahore"],
     ".gu.edu.pk": ["Gomal University"],
@@ -17918,7 +19532,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".kust.edu.pk": ["Kohat University of Science and Technology  (KUST)"],
     ".lcwu.edu.pk": ["Lahore College for Women University"],
     ".lgu.edu.pk": ["Lahore Garrison University"],
-    ".lumhs.edu.pk": ["Liaquat University of Medical &amp; Health Sciences Jamshoro"],
+    ".lumhs.edu.pk": [
+        "Liaquat University of Medical &amp; Health Sciences Jamshoro"
+    ],
     ".lums.edu.pk": ["Lahore University of Management Sciences"],
     ".maju.edu.pk": [
         "Muhammad Ali Jinnah University",
@@ -17948,12 +19564,16 @@ DOMAINS: Dict[str, List[str]] = {
     ".pafkiet.edu.pk": ["Karachi Institute Of Economics And Technology"],
     ".pakaims.edu.pk": ["Institute of Management Sciences, Lahore (IMS)"],
     ".pics.edu.pk": ["Punjab Institute of Computer science"],
-    ".pieas.edu.pk": ["Pakistan Institute of Engineering and Applied Sciences"],
+    ".pieas.edu.pk": [
+        "Pakistan Institute of Engineering and Applied Sciences"
+    ],
     ".pu.edu.pk": ["University of the Punjab"],
     ".pucit.edu.pk": ["Punjab University College of Information Tecnology"],
     ".pugc.edu.pk": ["University of the Punjab, Gujranwala Campus"],
     ".qau.edu.pk": ["Quaid-i-Azam University"],
-    ".qurtuba.edu.pk": ["Qurtuba University of Science and Infromation Technology"],
+    ".qurtuba.edu.pk": [
+        "Qurtuba University of Science and Infromation Technology"
+    ],
     ".riphah.edu.pk": ["Riphah International Univeristy"],
     ".salu.edu.pk": ["Shah Abdul Latif University Khairpur"],
     ".sau.edu.pk": ["Sindh Agricultural University"],
@@ -17998,7 +19618,10 @@ DOMAINS: Dict[str, List[str]] = {
     ".ustb.edu.pk": ["University of Science &amp; Technology Bannu"],
     ".uvas.edu.pk": ["University of Veterinary &amp; Animal Science"],
     ".vcomsats.edu.pk": ["Comsats University Islamabad (Virtual Campus)"],
-    ".vu.edu.pk": ["Pakistan Virtual University", "Virtual University of Pakistan"],
+    ".vu.edu.pk": [
+        "Pakistan Virtual University",
+        "Virtual University of Pakistan",
+    ],
     ".wahmedicalcollege.edu.pk": ["Wah Medical College"],
     ".wisdomhouse.edu.pk": ["Wisdom House Degree College"],
     ".zawiya.edu.pk": ["Zawiya Academy"],
@@ -18053,7 +19676,9 @@ DOMAINS: Dict[str, List[str]] = {
         "Andrzej Frycz Modrzewski Krakow University",
     ],
     ".agh.edu.pl": ["AGH University of Science and Technology"],
-    ".student.ajp.edu.pl": ["Akademia im. Jakuba z Paradyża w Gorzowie Wielkopolskim"],
+    ".student.ajp.edu.pl": [
+        "Akademia im. Jakuba z Paradyża w Gorzowie Wielkopolskim"
+    ],
     ".ajp.edu.pl": [
         "The Jacob of Paradies University in Gorzow Wielkopolski",
         "Akademia im. Jakuba z Paradyża w Gorzowie Wielkopolskim",
@@ -18074,17 +19699,24 @@ DOMAINS: Dict[str, List[str]] = {
     ".at.edu.pl": ["Aleksander Zelwerowicz State Theatre Academy"],
     ".ath.edu.pl": ["University of Bielsko-Biala"],
     ".awf.edu.pl": ["Physical Education Academy Jozef Pilsudski in Warsaw"],
-    ".awl.edu.pl": ["General Tadeusz Kościuszko Military University of Land Forces"],
+    ".awl.edu.pl": [
+        "General Tadeusz Kościuszko Military University of Land Forces"
+    ],
     ".batory.edu.pl": ["Liceum im. Stefana Batorego"],
     ".brzozowa5.edu.pl": [
         "Zespół Szkół Polskiego Górnictwa Naftowego i Gazownictwa",
         "Complex of Schools of Polish Oil Mining and Gas Industry",
     ],
-    ".cft.edu.pl": ["Center for Theoretical Physics, Polish Academy of Sciences"],
+    ".cft.edu.pl": [
+        "Center for Theoretical Physics, Polish Academy of Sciences"
+    ],
     ".chopin.edu.pl": ["Music Academy Fryderyk Chopin in Warszaw"],
     ".civitas.edu.pl": ["Collegium Civitas"],
     ".collegium.edu.pl": ["Collegium Civitas"],
-    ".student.dsw.edu.pl": ["Dolnośląska Szkoła Wyższa", "University of Lower Silesia"],
+    ".student.dsw.edu.pl": [
+        "Dolnośląska Szkoła Wyższa",
+        "University of Lower Silesia",
+    ],
     ".dsw.edu.pl": ["\ufeffDolnośląska Szkoła Wyższa"],
     ".eas.edu.pl": ["European Academy of Arts in Warsaw"],
     ".sluchacz.effekt.edu.pl": ["EFFEKT"],
@@ -18102,8 +19734,12 @@ DOMAINS: Dict[str, List[str]] = {
         "al. Politechniki 38,",
         "93-590 Łódź",
     ],
-    ".europejskauczelnia.edu.pl": ["Europejska Uczelnia Ekonomiczno-Informatyczna"],
-    ".ewsie.edu.pl": ["Europejska Uczelnia Informatyczno - Ekonomiczna w Warszawie"],
+    ".europejskauczelnia.edu.pl": [
+        "Europejska Uczelnia Ekonomiczno-Informatyczna"
+    ],
+    ".ewsie.edu.pl": [
+        "Europejska Uczelnia Informatyczno - Ekonomiczna w Warszawie"
+    ],
     ".ezn.edu.pl": ["Elektroniczne Zakłady Naukowe"],
     ".fundacjaszkolna.edu.pl": ["Liceum Fundacji Szkolnej"],
     ".fuw.edu.pl": [
@@ -18138,12 +19774,17 @@ DOMAINS: Dict[str, List[str]] = {
     ".kopernik.edu.pl": [
         "XXXIII Liceum Ogólnokształcące Dwujęzyczne im. Mikołaja Kopernika w Warszawie"
     ],
-    ".kozminski.edu.pl": ["Akademia Leona Koźmińskiego", "Kozminski University"],
+    ".kozminski.edu.pl": [
+        "Akademia Leona Koźmińskiego",
+        "Kozminski University",
+    ],
     ".ksw.edu.pl": ["Andrzej Frycz Modrzewski Cracow College"],
     ".kwspz.edu.pl": ["Krakowska Wyższa Szkoła Promocji Zdrowia"],
     ".law.edu.pl": ["Lotnicza Akademia Wojskowa"],
     ".lazarski.edu.pl": ["Uczelnia Łazarskiego", "Lazarski University"],
-    ".lckziu.edu.pl": ["Lubelskie Centrum Kształcenia Zawodowego i Ustawicznego"],
+    ".lckziu.edu.pl": [
+        "Lubelskie Centrum Kształcenia Zawodowego i Ustawicznego"
+    ],
     ".gsuite.pwsz.legnica.edu.pl": [
         "The Witelon State University of Applied Sciences in Legnica",
         "Państwowa Wyższa Szkoła Zawodowa im Witelona w Legnicy",
@@ -18188,10 +19829,17 @@ DOMAINS: Dict[str, List[str]] = {
     ".pbs.edu.pl": ["Bydgoszcz University of Science and Technology"],
     ".pg.edu.pl": ["Technical University of Gdansk"],
     ".pio.edu.pl": ["Katolicka Szkoła Podstawowa im. św. Ojca Pio w Zamościu"],
-    ".pja.edu.pl": ["Polish-Japanese Academy of Information Technology in Warsaw"],
-    ".pjwstk.edu.pl": ["Polish-Japanese Institute of Information Technology in Warsaw"],
+    ".pja.edu.pl": [
+        "Polish-Japanese Academy of Information Technology in Warsaw"
+    ],
+    ".pjwstk.edu.pl": [
+        "Polish-Japanese Institute of Information Technology in Warsaw"
+    ],
     ".pk.edu.pl": ["Technical University of Cracow"],
-    ".student.po.edu.pl": ["Opole University of Technology", "Politechnika Opolska"],
+    ".student.po.edu.pl": [
+        "Opole University of Technology",
+        "Politechnika Opolska",
+    ],
     ".pollub.edu.pl": ["Lublin University of Technology"],
     ".prz.edu.pl": ["Politechnika Rzeszowska im. Ignacego Łukasiewicza"],
     ".pspo.edu.pl": [
@@ -18230,7 +19878,9 @@ DOMAINS: Dict[str, List[str]] = {
         "Państwowa Wyższa Szkoła Zawodowa im. Hipolita Cegielskiego w Gnieźnie"
     ],
     ".pwsz-kalisz.edu.pl": ["Państwowa Wyższa Szkoła Zawodowa w Kaliszu"],
-    ".pwsz-ns.edu.pl": ["\ufeffPaństwowa Wyższa Szkoła Zawodowa w Nowym Sączu"],
+    ".pwsz-ns.edu.pl": [
+        "\ufeffPaństwowa Wyższa Szkoła Zawodowa w Nowym Sączu"
+    ],
     ".pwszchelm.edu.pl": [
         "Państwowa Wyższa Szkoła Zawodowa w Chełmie",
         "The State School of Higher Education in Chełm",
@@ -18251,7 +19901,9 @@ DOMAINS: Dict[str, List[str]] = {
         "Warsaw University of Life Science",
     ],
     ".skarga.edu.pl": ["Katolicki Zespół Edukacyjny"],
-    ".smcebi.edu.pl": ["Silesian Centre for Education and Interdisciplinary Research"],
+    ".smcebi.edu.pl": [
+        "Silesian Centre for Education and Interdisciplinary Research"
+    ],
     ".sp341.edu.pl": [
         'Szkoła Podstawowa z Oddziałami Integracyjnymi nr 341 Im. "Twórców Literatury Dziecięcej"'
     ],
@@ -18268,7 +19920,10 @@ DOMAINS: Dict[str, List[str]] = {
         "Krakowska Akademia im. Andrzeja Frycza Modrzewskiego",
         "Andrzej Frycz Modrzewski Krakow University",
     ],
-    ".sum.edu.pl": ["Śląski Uniwersytet Medyczny", "Medical University of Silesia"],
+    ".sum.edu.pl": [
+        "Śląski Uniwersytet Medyczny",
+        "Medical University of Silesia",
+    ],
     ".swps.edu.pl": ["Warsaw School of Social Psychology"],
     ".szkolakolumba.edu.pl": [
         "Niepubliczna szkoła podstawowa nr 1 im. Krzysztofa Kolumba w Żyrardowie"
@@ -18285,7 +19940,9 @@ DOMAINS: Dict[str, List[str]] = {
         "Technikum nr 5 w Częstochowie ",
         "Technical Secondary School No. 5 in Częstochowa",
     ],
-    ".student.tzndg.edu.pl": ["Techniczne Zakłady Naukowe w Dąbrowie Górniczej"],
+    ".student.tzndg.edu.pl": [
+        "Techniczne Zakłady Naukowe w Dąbrowie Górniczej"
+    ],
     ".student.uczelniaoswiecim.edu.pl": [
         "Małopolska Uczelnia Państwowa imienia rotmistrza Witolda Pileckiego w Oświęcimiu",
         "The Witold Pilecki University of Applied Sciences in Oświęcim",
@@ -18343,7 +20000,9 @@ DOMAINS: Dict[str, List[str]] = {
     ],
     ".us.edu.pl": ["University of Silesia"],
     ".usz.edu.pl": ["University of Szczecin"],
-    ".uth.edu.pl": ["Helena Chodkowska University of Technology and Economics"],
+    ".uth.edu.pl": [
+        "Helena Chodkowska University of Technology and Economics"
+    ],
     ".uw.edu.pl": ["University of Warsaw"],
     ".uwb.edu.pl": ["University of Bialystok"],
     ".uwm.edu.pl": ["University of Wamia and Masuria in Olsztyn"],
@@ -18402,7 +20061,10 @@ DOMAINS: Dict[str, List[str]] = {
         "Warszawski Uniwersytet Medyczny",
         "Medical University of Warsaw",
     ],
-    ".wum.edu.pl": ["Warszawski Uniwersytet Medyczny", "Medical University of Warsaw"],
+    ".wum.edu.pl": [
+        "Warszawski Uniwersytet Medyczny",
+        "Medical University of Warsaw",
+    ],
     ".wumed.edu.pl": ["Warszawska Uczelnia Medyczna im. Tadeusza Koźluka"],
     ".wwsi.edu.pl": [
         "Warsaw School of Computer Science",
@@ -18440,7 +20102,9 @@ DOMAINS: Dict[str, List[str]] = {
         "Szkoły publiczne w Warszawie (domena zbiorowa)",
         "Public schools in Warsaw (collective domain)",
     ],
-    ".pwsz.elblag.pl": ["The State School of Higher Professional Education in Elbląg"],
+    ".pwsz.elblag.pl": [
+        "The State School of Higher Professional Education in Elbląg"
+    ],
     ".edu.erzeszow.pl": [
         "Rzeszowskie Szkoły w Chmurze Microsoft - platforma Office 365 dla edukacji",
         ".group",
@@ -18470,7 +20134,10 @@ DOMAINS: Dict[str, List[str]] = {
         "III Liceum Ogólnokształcące im. Marynarki Wojennej RP w Gdyni",
         "Navy 3rd High School in Gdynia",
     ],
-    ".wsb.gdynia.pl": ["Wyższa Szkoła Bankowa w Gdańsku", "WSB University in Gdańsk"],
+    ".wsb.gdynia.pl": [
+        "Wyższa Szkoła Bankowa w Gdańsku",
+        "WSB University in Gdańsk",
+    ],
     ".zsti.gliwice.pl": [
         "Zespół Szkół Techniczno-Informatycznych",
         "Informatics-Technical School",
@@ -18544,14 +20211,18 @@ DOMAINS: Dict[str, List[str]] = {
     ".kul.pl": ["John Paul II Catholic University of Lublin"],
     ".kwspz.pl": ["Krakowska Wyższa Szkoła Promocji Zdrowia"],
     ".lazarski.pl": ["Lazarski School of Commerce and Law"],
-    ".zset.leszno.pl": ["Zespol Szkol Elektroniczno Telekomunikacyjnych w Lesznie"],
+    ".zset.leszno.pl": [
+        "Zespol Szkol Elektroniczno Telekomunikacyjnych w Lesznie"
+    ],
     ".liceumwchmurze.pl": ["Liceum w Chmurze"],
     ".lo-niepolomice.pl": ["Zespół Szkół im. Ojca Świętego Jana Pawła II"],
     ".lo2gdynia.pl": [
         "II Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi im. Adama Mickiewicza",
         "II Secondary School with Bilingual Departments Adam Mickiewicz in Gdynia",
     ],
-    ".lobiecz.pl": ["Liceum Ogólnokształcące im. Stanisława Wyspiańskiego w Bieczu"],
+    ".lobiecz.pl": [
+        "Liceum Ogólnokształcące im. Stanisława Wyspiańskiego w Bieczu"
+    ],
     ".ahe.lodz.pl": [
         "Akademia Humanistyczno-Ekonomiczna w Łodzi",
         "University of Humanities and Economics in Lodz",
@@ -18562,7 +20233,10 @@ DOMAINS: Dict[str, List[str]] = {
         "Uniwersytet Medyczny w Łodzi",
         "Medical University of Lodz",
     ],
-    ".umed.lodz.pl": ["Uniwersytet Medyczny w Łodzi", "Medical University of Lodz"],
+    ".umed.lodz.pl": [
+        "Uniwersytet Medyczny w Łodzi",
+        "Medical University of Lodz",
+    ],
     ".math.uni.lodz.pl": ["Faculty of Mathematics and Computer Science"],
     ".uni.lodz.pl": ["University Of Lodz"],
     ".jadwiga.lublin.pl": [
@@ -18583,7 +20257,10 @@ DOMAINS: Dict[str, List[str]] = {
     ],
     ".umcs.lublin.pl": ["Maria Curie Skłodowska University in Lublin"],
     ".wsei.lublin.pl": ["University of Economics and Innovation in Lublin"],
-    ".student.akademia.mil.pl": ["Akademia Sztuki Wojennej", "War Studies University"],
+    ".student.akademia.mil.pl": [
+        "Akademia Sztuki Wojennej",
+        "War Studies University",
+    ],
     ".law.mil.pl": ["Lotnicza Akademia Wojskowa"],
     ".mojasiodemka.pl": [
         "Szkoła Podstawowa nr 7 im. Erazma z Rotterdamu, ul. Galileusza 14, 60-158 Poznań"
@@ -18594,7 +20271,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".po.opole.pl": ["Technical University of Opole"],
     ".uni.opole.pl": ["University of Opole"],
     ".student.wsb.opole.pl": ["Wyższa Szkoła Bankowa we Wrocławiu"],
-    ".g.wszia.opole.pl": ["\ufeffWyższa Szkoła Zarządzania i Administracji w Opolu"],
+    ".g.wszia.opole.pl": [
+        "\ufeffWyższa Szkoła Zarządzania i Administracji w Opolu"
+    ],
     ".eszkola.opolskie.pl": [
         "Zespół Szkół Elektrycznych  im. Tadeusza Kościuszki w Opolu "
     ],
@@ -18607,7 +20286,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".pollub.pl": ["Lublin University of Technology"],
     ".polsl.pl": ["Silesian University of Technology"],
     ".au.poznan.pl": ["Agricultural University of Poznan"],
-    ".awf.poznan.pl": ["Physical Education Academy Eugeniusz Piasecki in Poznan"],
+    ".awf.poznan.pl": [
+        "Physical Education Academy Eugeniusz Piasecki in Poznan"
+    ],
     ".ibch.poznan.pl": [
         "Institute of Bioorganic Chemistry, Polish Academy of Sciences"
     ],
@@ -18615,7 +20296,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".put.poznan.pl": ["Technical University of Poznan"],
     ".ue.poznan.pl": ["Poznan University of Economics"],
     ".up.poznan.pl": ["Poznan University Of Life Sciences"],
-    ".usoms.poznan.pl": ["Medical Academy \x93Karol Marcinkowski\x94 in Poznan"],
+    ".usoms.poznan.pl": [
+        "Medical Academy \x93Karol Marcinkowski\x94 in Poznan"
+    ],
     ".wsb.poznan.pl": ["Poznan School of Banking"],
     ".zsk.poznan.pl": ["Zespół Szkół Komunikacji im. Hipolita Cegielskiego"],
     ".dydaktyka.pswbp.pl": [
@@ -18695,7 +20378,10 @@ DOMAINS: Dict[str, List[str]] = {
         "Professor Sylwester Kaliski Mechanical School Of Electrical And Electronic in Torun",
     ],
     ".uekat.pl": ["University of Economics in Katowice"],
-    ".student.ujw.pl": ["Uczelnia Jana Wyżykowskiego", "Jan Wyżykowski University"],
+    ".student.ujw.pl": [
+        "Uczelnia Jana Wyżykowskiego",
+        "Jan Wyżykowski University",
+    ],
     ".office.umcs.pl": [
         "Uniwersytet Marii Curie-Skłodowskiej w Lublinie",
         "Maria Curie-Skłodowska University",
@@ -18706,7 +20392,11 @@ DOMAINS: Dict[str, List[str]] = {
         "@student.umlub.pl",
         "@umlub.pl",
     ],
-    ".umlub.pl": ["Medical University of Lublin", "@student.umlub.pl", "@umlub.pl"],
+    ".umlub.pl": [
+        "Medical University of Lublin",
+        "@student.umlub.pl",
+        "@umlub.pl",
+    ],
     ".uth.pl": ["Helena Chodkowska University of Technology and Economics"],
     ".uthrad.pl": ["Technical University of Radom"],
     ".vizja.pl": [
@@ -18730,7 +20420,9 @@ DOMAINS: Dict[str, List[str]] = {
         "Systems Research Institute Polish Academy of Sciences",
         "Instytut Badan Systemowych Polskiej Akademii Nauk",
     ],
-    ".ipipan.waw.pl": ["Institute of Computer Science Polish Academy of Sciences"],
+    ".ipipan.waw.pl": [
+        "Institute of Computer Science Polish Academy of Sciences"
+    ],
     ".lopiaseczno.waw.pl": [
         "IV Liceum Ogólnokształcące im. rtm. Witolda Pileckiego w Piasecznie",
         "Witold Pilecki 4th High School in Piaseczno",
@@ -18771,7 +20463,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".wroclawskaedukacja.pl": [
         "I Liceum Ogólnokształcące im. Danuty Siedzikówny „Inki” we Wrocławiu"
     ],
-    ".chorzow.wsb.pl": ["Chorzow/Katowice branch of Higher School of Business"],
+    ".chorzow.wsb.pl": [
+        "Chorzow/Katowice branch of Higher School of Business"
+    ],
     ".wseh.pl": ["University of Economics and Humanities"],
     ".student.wsg.pl": ["Wyższa Szkoła Gospodarki", "University of Economy"],
     ".wsiz.pl": [
@@ -18780,7 +20474,9 @@ DOMAINS: Dict[str, List[str]] = {
     ],
     ".wsnhid.pl": ["School of Humanities and Journalism"],
     ".wsosp.pl": ["Polish Air Force Academy"],
-    ".wspa.pl": ["The University College of Enterprise and Administration in Lublin"],
+    ".wspa.pl": [
+        "The University College of Enterprise and Administration in Lublin"
+    ],
     ".office.wst.pl": [
         "Wyższa Szkoła Techniczna w Katowicach",
         "University of Technology, Katowice, Poland",
@@ -18795,20 +20491,28 @@ DOMAINS: Dict[str, List[str]] = {
     ],
     ".wsti.pl": ["Katowice Institute of Information Technologies"],
     ".wsz.pl": ["Gdansk Management College"],
-    ".jedynka.zgora.pl": ["\ufeffI Liceum Ogólnokształcące im. Edwarda Dembowskiego"],
+    ".jedynka.zgora.pl": [
+        "\ufeffI Liceum Ogólnokształcące im. Edwarda Dembowskiego"
+    ],
     ".uz.zgora.pl": ["University of Zielona Gora"],
     ".zpsb.pl": [
         "Zachodniopomorska Szkoła Biznesu w Szczecinie",
         "West Pomeranian School of Business",
     ],
-    ".zs1-swarzedz.pl": ["Zespół Szkół nr 1 im. Powstańców Wielkopolskich w Swarzędzu"],
+    ".zs1-swarzedz.pl": [
+        "Zespół Szkół nr 1 im. Powstańców Wielkopolskich w Swarzędzu"
+    ],
     ".zs1piaseczno.pl": ["Zespół Szkół Nr 1 w Piasecznie"],
     ".zsdil.pl": [
         "Zespół Szkół Technicznych i Leśnych w Żywcu",
         "Complex of Technical and Forest Schools in Żywiec",
     ],
-    ".zsel1.pl": ["Zespół Szkół Elektrycznych nr 1 im. Powstańców Śląskich w Krakowie"],
-    ".zsepoznan.pl": ["Zespół Szkół Ekonomicznych im. Stanisława Staszica w Poznaniu"],
+    ".zsel1.pl": [
+        "Zespół Szkół Elektrycznych nr 1 im. Powstańców Śląskich w Krakowie"
+    ],
+    ".zsepoznan.pl": [
+        "Zespół Szkół Ekonomicznych im. Stanisława Staszica w Poznaniu"
+    ],
     ".zsp2garwolin.pl": [
         "Zespol Szkol Ponadgimnazjalnych nr 2 Centrum Ksztalcenia Praktycznego w Garwolinie"
     ],
@@ -18862,7 +20566,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".enautica.pt": ["Escola Nautica Infante D. Henrique"],
     ".enta.pt": ["ENTA - Escola de Novas Tecnologias dos Açores"],
     ".esad.pt": ["Escola Superior de Artes e Design"],
-    ".alunos.esdacsf.pt": ["Escola Secundária Dr. Augusto César da Silva Ferreira"],
+    ".alunos.esdacsf.pt": [
+        "Escola Secundária Dr. Augusto César da Silva Ferreira"
+    ],
     ".esec.pt": ["ESEC - Escola Superior de Educação de Coimbra"],
     ".eshte.pt": ["Escola Superior de Hotelaria e Turismo do Estoril"],
     ".esmaior.pt": ["Santa Maria Maior School Group"],
@@ -18905,7 +20611,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".ipvc.pt": ["Instituto Politécnico de Viana do Castelo"],
     ".isai.pt": ["Instituto Superior de Assistentes e Intérpretes"],
     ".isbb.pt": ["Instituto Superior Bissaya Barreto"],
-    ".iscac.pt": ["Instituto Superior de Contabilidade e Administração de Coimbra"],
+    ".iscac.pt": [
+        "Instituto Superior de Contabilidade e Administração de Coimbra"
+    ],
     ".iscet.pt": ["Instituto Superior de Ciências Empresariais e de Turismo"],
     ".iscte-iul.pt": ["ISCTE – University Institute of Lisbon"],
     ".iscte.pt": ["Instituto Superior de Ciências do Trabalho e da Empresa"],
@@ -18937,7 +20645,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".ubi.pt": ["Universidade da Beira Interior"],
     ".uc.pt": ["Universidade de Coimbra"],
     ".ucp.pt": ["Universidade Catolica Portuguesa"],
-    ".ucpcrp.pt": ["Universidade Católica Portuguesa - Centro Regional do Porto"],
+    ".ucpcrp.pt": [
+        "Universidade Católica Portuguesa - Centro Regional do Porto"
+    ],
     ".uevora.pt": ["Universidade de Evora"],
     ".ufp.pt": ["Universidade Fernando Pessoa"],
     ".uinternacional.pt": ["Universidade Internacional Lisboa"],
@@ -18976,7 +20686,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".ucsa.edu.py": ["Universidad del Cono Sur de las Américas"],
     ".uma.edu.py": ["Universidad Metropolitana de Asunción"],
     ".une.edu.py": ["Universidad Nacional del Este"],
-    ".unida.edu.py": ["Universidad de la Integración de las Americas (UNIDAD)"],
+    ".unida.edu.py": [
+        "Universidad de la Integración de las Americas (UNIDAD)"
+    ],
     ".uninorte.edu.py": ["Universidad del Norte"],
     ".upe.edu.py": ["Universidad Privada del Este"],
     ".pol.una.py": ["Facultad Politécnica"],
@@ -19007,7 +20719,10 @@ DOMAINS: Dict[str, List[str]] = {
         "Colegiul National Elena Cuza Bucuresti",
         "Elena Cuza National College of Bucharest",
     ],
-    ".cnfb.ro": ["Colegiul Național Frații Buzești", "Frații Buzești National College"],
+    ".cnfb.ro": [
+        "Colegiul Național Frații Buzești",
+        "Frații Buzești National College",
+    ],
     ".cnghsincai.ro": [
         "Colegiul National Gheorghe Sincai",
         '"Gheorghe Sincai" National College',
@@ -19028,7 +20743,10 @@ DOMAINS: Dict[str, List[str]] = {
         'Colegiul National "Iosif Vulcan"',
         'National College "Iosif Vulcan"',
     ],
-    ".cnmv.ro": ["Colegiul National Mihai Viteazul", "Mihai Viteazul National College"],
+    ".cnmv.ro": [
+        "Colegiul National Mihai Viteazul",
+        "Mihai Viteazul National College",
+    ],
     ".cnrv.ro": ["Colegiul National Roman Voda"],
     ".cnsm.ro": [
         "Colegiul National Stefan Cel Mare Targu-Neamt",
@@ -19038,7 +20756,10 @@ DOMAINS: Dict[str, List[str]] = {
         'Colegiul National "Stefan cel Mare" Suceava',
         'National College "Stefan cel Mare" Suceava',
     ],
-    ".cnszalau.ro": ["Colegiul National Silvania", "Silvania National College"],
+    ".cnszalau.ro": [
+        "Colegiul National Silvania",
+        "Silvania National College",
+    ],
     ".cnvgarad.ro": [
         "Colegiul Național „Vasile Goldiș” Arad",
         "„Vasile Goldiș” Arad National College",
@@ -19165,7 +20886,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".scoalaprincipesamargareta.ro": ["Scoala Principesa Margareta"],
     ".sibiu.ro": ["University of Sibiu"],
     ".sincaibm.ro": ["Colegiul Național „Gheorghe Șincai” Baia Mare"],
-    ".snspa.ro": ["National School of Political and Administrative Studies Bucharest"],
+    ".snspa.ro": [
+        "National School of Political and Administrative Studies Bucharest"
+    ],
     ".spiruharet.ro": ["Spiru Haret University"],
     ".traian-vuia.ro": ["Traian Vuia Bucuresti", "Traian Vuia Bucharest"],
     ".tuiasi.ro": ["Technical University of Iasi"],
@@ -19205,10 +20928,15 @@ DOMAINS: Dict[str, List[str]] = {
     ".student.unitbv.ro": ["Transilvania University of Brasov"],
     ".unitbv.ro": ["Transilvania University of Brasov"],
     ".univ-ovidius.ro": ["University of Constanta"],
-    ".univagro-iasi.ro": ["University of Agriculture and Veterinary Medicine Iasi"],
+    ".univagro-iasi.ro": [
+        "University of Agriculture and Veterinary Medicine Iasi"
+    ],
     ".univcb.ro": ["Constantin Brancoveanu University Pitesti"],
     ".universitateamaritima.ro": ["Maritime University Constanta"],
-    ".univnt.ro": ["Universitatea Nicolae Titulescu", "Nicolae Titulescu University"],
+    ".univnt.ro": [
+        "Universitatea Nicolae Titulescu",
+        "Nicolae Titulescu University",
+    ],
     ".unmb.ro": ["National University of Music"],
     ".uoradea.ro": ["University of Oradea"],
     ".upa.ro": ["University Petre Andrei Iasi"],
@@ -19222,12 +20950,16 @@ DOMAINS: Dict[str, List[str]] = {
         "Banat's University of Agricultural Sciences",
         "University of Agriculture and Veterinary Medicine Timisoara",
     ],
-    ".usab.ro": ["University of Agriculture and Veterinary Medicine Bucharest"],
+    ".usab.ro": [
+        "University of Agriculture and Veterinary Medicine Bucharest"
+    ],
     ".agro.usamv.ro": [
         "Universitatea de Științe Agronomice și Medicină Veterinară",
         "University of Agriculture and Veterinary Medicine",
     ],
-    ".usamvcluj.ro": ["University of Agriculture and Veterinary Medicine Cluj-Napoca"],
+    ".usamvcluj.ro": [
+        "University of Agriculture and Veterinary Medicine Cluj-Napoca"
+    ],
     ".usm.ro": [
         "Universitatea Ștefan cel Mare Suceava",
         "Stefan cel Mare University of Suceava",
@@ -19241,8 +20973,13 @@ DOMAINS: Dict[str, List[str]] = {
     ".uvt.ro": ["West University of Timisoara"],
     ".uvvg.ro": ['Universitatea de Vest "Vasile Goldis" din Arad'],
     ".valahia.ro": ["Valahia University of Targoviste"],
-    ".wurmbrand.ro": ["Colegiul Richard Wurmbrand", "Richard Wurmbrand School"],
-    ".etf.bg.ac.rs": ["University of Belgrade, School of Electrical Engineering"],
+    ".wurmbrand.ro": [
+        "Colegiul Richard Wurmbrand",
+        "Richard Wurmbrand School",
+    ],
+    ".etf.bg.ac.rs": [
+        "University of Belgrade, School of Electrical Engineering"
+    ],
     ".matf.bg.ac.rs": ["University of Belgrade, Faculty of Mathematics"],
     ".bg.ac.rs": [
         "University of Belgrade",
@@ -19254,7 +20991,10 @@ DOMAINS: Dict[str, List[str]] = {
     ".metropolitan.ac.rs": ["Metropolitan University"],
     ".ni.ac.rs": ["University of Nis"],
     ".np.ac.rs": ["Drzavni Univerzitet u Novom Pazaru"],
-    ".vps.ns.ac.rs": ["Visoka Poslovna Škola Novi Sad", "Novi Sad School Of Business"],
+    ".vps.ns.ac.rs": [
+        "Visoka Poslovna Škola Novi Sad",
+        "Novi Sad School Of Business",
+    ],
     ".pr.ac.rs": ["University of Priština"],
     ".singidunum.ac.rs": ["UNIVERZITET SINGIDUNUM", "Singidunum University"],
     ".vts.su.ac.rs": [
@@ -19412,7 +21152,10 @@ DOMAINS: Dict[str, List[str]] = {
         "Vologda State Pedagogical University",
         "Vologda State Pedagogical University",
     ],
-    ".uniyar.ac.ru": ["Yaroslavl State University", "Yaroslavl State University"],
+    ".uniyar.ac.ru": [
+        "Yaroslavl State University",
+        "Yaroslavl State University",
+    ],
     ".unn.ac.ru": [
         "Nizhny Novgorod State University",
         "Nizhny Novgorod State University",
@@ -19475,7 +21218,10 @@ DOMAINS: Dict[str, List[str]] = {
         "Arkhangelsk college of telecommunications",
         "Архангельский колледж телекоммуникаций (филиал) СПбГУТ им. проф. М.А. Бонч-Бруевича ",
     ],
-    ".artcollege.ru": ["Первый Московский образовательный комплекс 1-й МОК", "1st MOK"],
+    ".artcollege.ru": [
+        "Первый Московский образовательный комплекс 1-й МОК",
+        "1st MOK",
+    ],
     ".asau.ru": [
         "Алтайский Государственный Аграрный Университет",
         "Altai State Agricultural University",
@@ -19483,7 +21229,10 @@ DOMAINS: Dict[str, List[str]] = {
     ".aserhovo.ru": [
         "МБОУ Асерховская средняя общеобразовательная школа Собинского района"
     ],
-    ".asmu.ru": ["Altai State Medical University", "Altai State Medical University"],
+    ".asmu.ru": [
+        "Altai State Medical University",
+        "Altai State Medical University",
+    ],
     ".aspc-edu.ru": [
         'ГБПОУ АО "Астраханский государственный политехнический колледж"',
         "Astrakhan State Polytechnic College",
@@ -19497,7 +21246,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".asugubkin.ru": [
         "Automated Control Systems Departments of Gubkin Russian State University of Oil and Gas (National Research University)"
     ],
-    ".aucu.ru": ["Astrakhan State University of Architecture and Civil Engineering"],
+    ".aucu.ru": [
+        "Astrakhan State University of Architecture and Civil Engineering"
+    ],
     ".avtlg.ru": ["Volgograd Medical Academy", "Volgograd Medical Academy"],
     ".ismu.baikal.ru": ["Irkutsk Medical University"],
     ".bashedu.ru": [
@@ -19524,7 +21275,10 @@ DOMAINS: Dict[str, List[str]] = {
         "Брянский филиал Московского государственного университета путей сообщения (БфМИИТ)",
     ],
     ".bgpu.ru": ["Blagoveshchensk State Pedagogical University"],
-    ".bgu.ru": ["Байкальский Государственный Университет ", "Baikal State University"],
+    ".bgu.ru": [
+        "Байкальский Государственный Университет ",
+        "Baikal State University",
+    ],
     ".birsk.ru": ["Bashkir State University Birsk Branch"],
     ".biysk-liceum.ru": ["Biysk Liceum"],
     ".biysk.ru": [
@@ -19532,8 +21286,13 @@ DOMAINS: Dict[str, List[str]] = {
         "Biysk State Padagogical University after V.M. Shukshin ",
     ],
     ".bktis.ru": ["Baikal college of tourism and service"],
-    ".blpk-uu.ru": ["Бурятский лесопромышленный колледж", "Burjat forestry college"],
-    ".bmstu-kaluga.ru": ["Kaluga branch of Bauman Moscow State Technical University"],
+    ".blpk-uu.ru": [
+        "Бурятский лесопромышленный колледж",
+        "Burjat forestry college",
+    ],
+    ".bmstu-kaluga.ru": [
+        "Kaluga branch of Bauman Moscow State Technical University"
+    ],
     ".bmstu.ru": [
         "Bauman Moscow State Technical University",
         "Bauman Moscow State Technical University",
@@ -19586,7 +21345,10 @@ DOMAINS: Dict[str, List[str]] = {
         "Novosibirsk State Academy of Economics and Mangement",
         "Novosibirsk State Academy of Economics and Mangement",
     ],
-    ".compscicenter.ru": ["Computer Science Center", "Computer Science Center"],
+    ".compscicenter.ru": [
+        "Computer Science Center",
+        "Computer Science Center",
+    ],
     ".conservatoire.ru": [
         "Novosibirsk State Music Academy M. Glinka",
         "Novosibirsk State Music Academy M. Glinka",
@@ -19597,14 +21359,26 @@ DOMAINS: Dict[str, List[str]] = {
     ],
     ".cspu.ru": ["Chelyabinsk State Pedagogical University"],
     ".csu.ru": ["Cheljabinsk State University"],
-    ".da.ru": ["Rostov State Medical University", "Rostov State Medical University"],
+    ".da.ru": [
+        "Rostov State Medical University",
+        "Rostov State Medical University",
+    ],
     ".dakad.ru": ["ЧОУ «ДЕТСКАЯ АКАДЕМИЯ»"],
     ".dgu.ru": ["Dagestan State University", "Dagestan State University"],
-    ".donstu.ru": ["Don State Technical University", "Don State Technical University"],
+    ".donstu.ru": [
+        "Don State Technical University",
+        "Don State Technical University",
+    ],
     ".dvfu.ru": ["Far Eastern Federal University"],
-    ".dvgu.ru": ["Far Eastern State University", "Far Eastern State University"],
+    ".dvgu.ru": [
+        "Far Eastern State University",
+        "Far Eastern State University",
+    ],
     ".e-43.ru": ["Kirov State All School Network"],
-    ".eastsib.ru": ["East-Siberian State University", "East-Siberian State University"],
+    ".eastsib.ru": [
+        "East-Siberian State University",
+        "East-Siberian State University",
+    ],
     ".ects.ru": ["ECTS", "Yekaterinburg College Of Transport Construction"],
     ".asu.edu.ru": ["Astrakhan State University"],
     ".bsu.edu.ru": ["Belgorod State University", "Belgorod State University"],
@@ -19648,7 +21422,9 @@ DOMAINS: Dict[str, List[str]] = {
         "Санкт–Петербургский Технический колледж управления и коммерции",
         "St. Petersburg Technical College of Management and Commerce",
     ],
-    ".eetk.ru": ['ГАПОУ СО "Екатеринбургский экономико-технологический колледж"'],
+    ".eetk.ru": [
+        'ГАПОУ СО "Екатеринбургский экономико-технологический колледж"'
+    ],
     ".eimb.ru": ["Engelhardt Institute of Molecular Biology"],
     ".ekvl.ru": ["Industrial College of Energy and Communications"],
     ".eltech.ru": [
@@ -19688,7 +21464,10 @@ DOMAINS: Dict[str, List[str]] = {
         "State budgetary educational institution of the city of Moscow School No. 2007 FMS",
         "Государственное бюджетное общеобразовательное учреждение города Москвы Школа № 2007 ФМШ",
     ],
-    ".fta-mo.ru": ["Finance and Technology Academy", "Finance and Technology Academy"],
+    ".fta-mo.ru": [
+        "Finance and Technology Academy",
+        "Finance and Technology Academy",
+    ],
     ".ftacademy.ru": [
         "St. Petersburg State Forest-Technical Academy",
         "St. Petersburg State Forest-Technical Academy",
@@ -19696,7 +21475,10 @@ DOMAINS: Dict[str, List[str]] = {
     ".gagpk.ru": [
         "Горно-Алтайский государственный политехнический колледж имени М.З.Гнездилова"
     ],
-    ".gasu.ru": ["Gorno-Altaisk State University", "Gorno-Altaisk State University"],
+    ".gasu.ru": [
+        "Gorno-Altaisk State University",
+        "Gorno-Altaisk State University",
+    ],
     ".gma.ru": ["State Maritine Academy", "State Maritine Academy"],
     ".gnesin-academy.ru": [
         "Gnesins Russian Academy of Music",
@@ -19706,7 +21488,10 @@ DOMAINS: Dict[str, List[str]] = {
         'Государственное бюджетное профессиональное образовательное учреждение "Жирновский нефтяной техникум"',
         'State budgetary professional educational institution "Zhirnovskiy oil technical college"',
     ],
-    ".gourpt.ru": ["ГОУ СПО Рыбницкий политехнический техникум", "GOU SPO RPT"],
+    ".gourpt.ru": [
+        "ГОУ СПО Рыбницкий политехнический техникум",
+        "GOU SPO RPT",
+    ],
     ".goushet.ru": [
         "Государственное бюджетное профессиональное образовательное учреждение Московской области «Шатурский энергетический техникум»"
     ],
@@ -19731,9 +21516,14 @@ DOMAINS: Dict[str, List[str]] = {
         "St. Petersburg State Cinema and TV University",
         "St. Petersburg State Cinema and TV University",
     ],
-    ".gumrf.ru": ["Admiral Makarov State University of Maritime and Inland Shipping"],
+    ".gumrf.ru": [
+        "Admiral Makarov State University of Maritime and Inland Shipping"
+    ],
     ".gup.ru": ["St. Petersburg University of Humanities"],
-    ".guu.ru": ["State University of Management", "State University of Management"],
+    ".guu.ru": [
+        "State University of Management",
+        "State University of Management",
+    ],
     ".gym1505.ru": [
         'Государственное бюджетное общеобразовательное учреждение города Москвы "Школа № 1505 "Преображенская"',
         'The state budgetary educational institution of the city of Moscow "School No. 1505 "Preobrazhenskaya"',
@@ -19758,7 +21548,9 @@ DOMAINS: Dict[str, List[str]] = {
         "Федеральное государственное бюджетное учреждение науки Институт механики сплошных сред Уральского отделения Российской академии наук",
         "ИМСС УрО РАН",
     ],
-    ".ieml.ru": ["Kazan Innovative University named after V. G. Timiryasov (IEML)"],
+    ".ieml.ru": [
+        "Kazan Innovative University named after V. G. Timiryasov (IEML)"
+    ],
     ".iet.ru": [
         "Institute for the Economy in Transition",
         "Institute for the Economy in Transition",
@@ -19822,7 +21614,10 @@ DOMAINS: Dict[str, List[str]] = {
     ".ispras.ru": [
         "Ivannikov Institute for System Programming of the Russian Academy of Sciences"
     ],
-    ".ispu.ru": ["Ivanovo State Power University", "Ivanovo State Power University"],
+    ".ispu.ru": [
+        "Ivanovo State Power University",
+        "Ivanovo State Power University",
+    ],
     ".istu.ru": [
         "Izhevsk State Technical University",
         "Izhevsk State Technical University",
@@ -19867,12 +21662,17 @@ DOMAINS: Dict[str, List[str]] = {
         "Kamchatka State University Vitus Bering",
         "Kamchatka State University Vitus Bering",
     ],
-    ".kansk-tc.ru": ["Канский технологический колледж", "Kansk college of technology"],
+    ".kansk-tc.ru": [
+        "Канский технологический колледж",
+        "Kansk college of technology",
+    ],
     ".kantiana.ru": [
         "Immanuel Kant State University of Russia",
         "Immanuel Kant State University of Russia",
     ],
-    ".cs.karelia.ru": ["Petrozavodsk State University, Computer Science department"],
+    ".cs.karelia.ru": [
+        "Petrozavodsk State University, Computer Science department"
+    ],
     ".dims.karelia.ru": [
         "Petrozavodsk State University, Department of Information Measurement Systems"
     ],
@@ -19919,7 +21719,10 @@ DOMAINS: Dict[str, List[str]] = {
         "Kazan State Pedagogical University",
         "Kazan State Pedagogical University",
     ],
-    ".kgsu.ru": ["Курганский государственный университет", "Kurgan State University"],
+    ".kgsu.ru": [
+        "Курганский государственный университет",
+        "Kurgan State University",
+    ],
     ".khpk.ru": [
         "Khakas State Polytechnic College",
         "Хакасский политехнический колледж",
@@ -19937,7 +21740,10 @@ DOMAINS: Dict[str, List[str]] = {
         "Крымский инженерно-педагогический университет",
         "Crimean Engineering and Pedagogical University",
     ],
-    ".kiu.ru": ["Kurgan International University", "Kurgan International University"],
+    ".kiu.ru": [
+        "Kurgan International University",
+        "Kurgan International University",
+    ],
     ".klgtu.ru": [
         "Kaliningrad State Technical University",
         "Kaliningrad State Technical University",
@@ -20052,7 +21858,10 @@ DOMAINS: Dict[str, List[str]] = {
     ".lrmk.ru": [
         "Государственное бюджетное профессиональное образовательное учреждение «Лермонтовский региональный многопрофильный колледж»"
     ],
-    ".lschool5.ru": ['МБОУ "Лянторская СОШ № 5"', 'MBOU "Lyantorskaya SOSh N 5"'],
+    ".lschool5.ru": [
+        'МБОУ "Лянторская СОШ № 5"',
+        'MBOU "Lyantorskaya SOSh N 5"',
+    ],
     ".madi.ru": [
         "Moscow State Automobile and Road Technical University",
         "Moscow State Automobile and Road Technical University",
@@ -20111,7 +21920,10 @@ DOMAINS: Dict[str, List[str]] = {
         "Moscow State University of Technology and Management named after K.G. Razumovsky (PKU)",
         "Education programm: http://www.mgutm.ru/about/chairs/it.php",
     ],
-    ".edu.midis.ru": ["МИДиС", "INTERNATIONAL INSTITUTE OF DESIGN AND SERVICE"],
+    ".edu.midis.ru": [
+        "МИДиС",
+        "INTERNATIONAL INSTITUTE OF DESIGN AND SERVICE",
+    ],
     ".miet.ru": ["National Research University of Electronic Technology"],
     ".miigaik.ru": [
         "Moscow State University of Geodesy and Cartography",
@@ -20147,8 +21959,14 @@ DOMAINS: Dict[str, List[str]] = {
         "I.M. Sechenov Moscow Medical Academy",
         "I.M. Sechenov Moscow Medical Academy",
     ],
-    ".mmamos.ru": ["Moscow International Academy", "Московская Международная Академия"],
-    ".edu.mos.ru": ["ГБОУ Школа им.Полбина", "Hero of the Soviet Union I.S. Polbina"],
+    ".mmamos.ru": [
+        "Moscow International Academy",
+        "Московская Международная Академия",
+    ],
+    ".edu.mos.ru": [
+        "ГБОУ Школа им.Полбина",
+        "Hero of the Soviet Union I.S. Polbina",
+    ],
     ".mosconsv.ru": [
         "Moscow P. I. Tchaikovsky Conservatory",
         "Moscow P. I. Tchaikovsky Conservatory",
@@ -20227,7 +22045,9 @@ DOMAINS: Dict[str, List[str]] = {
         "Северо-Кавказский Федеральный Университет",
         "North-Caucasus Federal University",
     ],
-    ".ncshta.ru": ["North-Caucasian State Humanities and Technological Academy"],
+    ".ncshta.ru": [
+        "North-Caucasian State Humanities and Technological Academy"
+    ],
     ".ncstu.ru": [
         "Stavropol State Technical University",
         "Stavropol State Technical University",
@@ -20268,7 +22088,10 @@ DOMAINS: Dict[str, List[str]] = {
         "Moscow State University of Civil Engineering",
     ],
     ".norvuz.ru": ["Norilsk State Industrial Institute"],
-    ".nosu.ru": ["North Ossetian State University", "North Ossetian State University"],
+    ".nosu.ru": [
+        "North Ossetian State University",
+        "North Ossetian State University",
+    ],
     ".novsu.ru": ["Novgorod State University of Yaroslav the Wise"],
     ".npi-tu.ru": [
         "Южно-Российский государственный политехнический университет (НПИ) имени М.И. Платова",
@@ -20299,8 +22122,13 @@ DOMAINS: Dict[str, List[str]] = {
         "Novosibirsk State University",
         "Новосибирский государственный университет",
     ],
-    ".nsu.ru": ["Novosibirsk State University", "Novosibirsk State University"],
-    ".nsuem.ru": ["  Novosibirsk State University of Economics and Management"],
+    ".nsu.ru": [
+        "Novosibirsk State University",
+        "Novosibirsk State University",
+    ],
+    ".nsuem.ru": [
+        "  Novosibirsk State University of Economics and Management"
+    ],
     ".nvsu.ru": [
         "Нижневартовский государственный университет",
         "NIZHNEVARTOVSK STATE UNIVERSITY (NVSU)",
@@ -20332,21 +22160,32 @@ DOMAINS: Dict[str, List[str]] = {
         "\ufeff«Образовательный комплекс «Точка будущего»",
         'Educational complex "Point of future"',
     ],
-    ".omgau.ru": ["Omsk State Agrarian University", "Omsk State Agrarian University"],
+    ".omgau.ru": [
+        "Omsk State Agrarian University",
+        "Omsk State Agrarian University",
+    ],
     ".omgpu.ru": ["Omsk State Pedagogical Universtity"],
-    ".omgtu.ru": ["Omsk State Technical University", "Omsk State Technical University"],
+    ".omgtu.ru": [
+        "Omsk State Technical University",
+        "Omsk State Technical University",
+    ],
     ".omgups.ru": [
         "Omsk State Transport University",
         "Omsk State Transport University",
     ],
-    ".omsk-osma.ru": ["Omsk State Medicical Academy", "Omsk State Medicical Academy"],
+    ".omsk-osma.ru": [
+        "Omsk State Medicical Academy",
+        "Omsk State Medicical Academy",
+    ],
     ".omsu.ru": ["Omsk State University", "Omsk State University"],
     ".oreluniver.ru": ["Orel State University"],
     ".orun.ru": ["Oriental University", "Oriental University"],
     ".ostu.ru": ["Orel State Technical University"],
     ".osu.ru": ["Orenburg State University", "Orenburg State University"],
     ".pbrea.ru": ["Филиал РЭУ им. Г.В. Плеханова в г. Пятигорске"],
-    ".permaviat.ru": ["КГАПОУ «Пермский авиационный техникум им. А.Д. Швецова»"],
+    ".permaviat.ru": [
+        "КГАПОУ «Пермский авиационный техникум им. А.Д. Швецова»"
+    ],
     ".petrocollege.ru": ["Петровский колледж", "Petrovsky college"],
     ".petrsu.ru": ["Petrozavodsk State University"],
     ".pfncfu.ru": ["Institute of service, tourism and design in Pyatigorsk"],
@@ -20361,8 +22200,12 @@ DOMAINS: Dict[str, List[str]] = {
         'GBPOU "Permskij himiko-tehnologicheskij tehnikum"',
     ],
     ".pktm.ru": ["Povolzhsky College of Technologies and Management Balakovo"],
-    ".pl36angarsk.ru": ["Angarsk College of Advertising and Industrial Technology"],
-    ".pml30.ru": ["\ufeffPhysics and Mathematics Lyceum No. 30, St. Petersburg"],
+    ".pl36angarsk.ru": [
+        "Angarsk College of Advertising and Industrial Technology"
+    ],
+    ".pml30.ru": [
+        "\ufeffPhysics and Mathematics Lyceum No. 30, St. Petersburg"
+    ],
     ".pnzgu.ru": ["Penza State University"],
     ".pomorsu.ru": [
         "Pomorsk State University",
@@ -20378,7 +22221,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".protonmos.ru": [
         '\ufeffГосударственное бюджетное общеобразовательное учреждение города Москвы "Образовательный центр "Протон"'
     ],
-    ".psati.ru": ["Povolzhsky State University of Telecommunications and Informatics"],
+    ".psati.ru": [
+        "Povolzhsky State University of Telecommunications and Informatics"
+    ],
     ".psfa.ru": [
         "Perm State Pharmaceutical Academy",
         "Perm State Pharmaceutical Academy",
@@ -20389,7 +22234,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".pspu.ru": ["Perm State Humanitarian-Pedagogical University"],
     ".pstu.ru": ["Perm National Research Polytechnic University"],
     ".psu.ru": ["Perm State University", "Perm State University"],
-    ".psuti.ru": ["Povolzhsky State University of Telecommunications and Informatics"],
+    ".psuti.ru": [
+        "Povolzhsky State University of Telecommunications and Informatics"
+    ],
     ".kspu.ptz.ru": [
         "Karelian State Pedagogical University",
         "Karelian State Pedagogical University",
@@ -20508,7 +22355,9 @@ DOMAINS: Dict[str, List[str]] = {
         "Samara State Medical University",
         "Samara State Medical University",
     ],
-    ".sano.ru": ["Siberian Institute of Business and Information Technologies"],
+    ".sano.ru": [
+        "Siberian Institute of Business and Information Technologies"
+    ],
     ".sao.ru": [
         "Специальная астрофизическая обсерватория Российской академии наук",
         "The Special Astrophysical Observatory of the Russian Academy of Sciences",
@@ -20523,7 +22372,9 @@ DOMAINS: Dict[str, List[str]] = {
     ],
     ".sch-int.ru": ['ГБОУ Школа "Интеллектуал"'],
     ".sch12.ru": ["School 12 of Petrozavodsk, Russia"],
-    ".sch1349.ru": ["State Budgetary Educational Institution of Moscow School 1349"],
+    ".sch1349.ru": [
+        "State Budgetary Educational Institution of Moscow School 1349"
+    ],
     ".sch1550.ru": ["школа 1550 города Москвы it"],
     ".students.sch2.ru": ["Лицей Вторая Школа", "Lyceum Second School"],
     ".sch508.ru": ["School 508, Moscow, Russia"],
@@ -20566,9 +22417,14 @@ DOMAINS: Dict[str, List[str]] = {
     ],
     ".sevsu.ru": ["Sevastopol State University"],
     ".sfedu.ru": ["Southern Federal University"],
-    ".sfek.ru": ["RSBE Semey financial-economic college named after Rymbek Baiseitov"],
+    ".sfek.ru": [
+        "RSBE Semey financial-economic college named after Rymbek Baiseitov"
+    ],
     ".sfu-kras.ru": ["Siberian Federal University"],
-    ".sgap.ru": ["Saratov State Academy of Law", "Saratov State Academy of Law"],
+    ".sgap.ru": [
+        "Saratov State Academy of Law",
+        "Saratov State Academy of Law",
+    ],
     ".sgau.ru": [
         "Saratov State Agrarian University",
         "Saratov State Agrarian University",
@@ -20690,7 +22546,10 @@ DOMAINS: Dict[str, List[str]] = {
         "St. Petersburg State Polytechnical University",
         "St. Petersburg State Polytechnical University",
     ],
-    ".spbu.ru": ["St. Petersburg State University", "St. Petersburg State University"],
+    ".spbu.ru": [
+        "St. Petersburg State University",
+        "St. Petersburg State University",
+    ],
     ".spbuwc.ru": [
         "St. Petersburg State University of Waterway Communications",
         "St. Petersburg State University of Waterway Communications",
@@ -20703,7 +22562,9 @@ DOMAINS: Dict[str, List[str]] = {
         "Санкт-Петербургский Федеральный исследовательский центр Российской академии наук",
         "St. Petersburg Federal Research Center of the Russian Academy of Sciences",
     ],
-    ".sphti.ru": ["Снежинский физико-технический институт НИЯУ МИФИ (СФТИ НИЯУ МИФИ)"],
+    ".sphti.ru": [
+        "Снежинский физико-технический институт НИЯУ МИФИ (СФТИ НИЯУ МИФИ)"
+    ],
     ".spmi.ru": ["National Mineral Resources University"],
     ".spobip-bel.ru": [
         "ЧАСТНОЕ УЧРЕЖДЕНИЕ ПРОФЕССИОНАЛЬНАЯ ОБРАЗОВАТЕЛЬНАЯ ОРГАНИЗАЦИЯ ТЕХНИКУМ “БИЗНЕС И ПРАВО”"
@@ -20795,7 +22656,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".tatngpi.ru": [
         "The Naberezhnye Chelny Institute of Social and Educational Technologies and Resources"
     ],
-    ".tfrggu.ru": ["Branch of Russian State University of Humanity in Togliatty"],
+    ".tfrggu.ru": [
+        "Branch of Russian State University of Humanity in Togliatty"
+    ],
     ".tgmu.ru": ["Pacific State Medical University"],
     ".theatrins-yar.ru": [
         "Yaroslavl State Theatre Institute",
@@ -20824,10 +22687,16 @@ DOMAINS: Dict[str, List[str]] = {
         "TomInTech",
         "Томский Индустриальный Техникум",
     ],
-    ".tib.tomsk.ru": ["Tomsk Institute of Business", "Томский институт бизнеса"],
+    ".tib.tomsk.ru": [
+        "Tomsk Institute of Business",
+        "Томский институт бизнеса",
+    ],
     ".tomtit.tomsk.ru": ["Tomsk College of Information Technologies"],
     ".touro.ru": ["Moscow University Touro", "Moscow University Touro"],
-    ".tpu.ru": ["Tomsk Polytechnic University", "Tomsk Polytechnic University"],
+    ".tpu.ru": [
+        "Tomsk Polytechnic University",
+        "Tomsk Polytechnic University",
+    ],
     ".tsma.ru": ["Tver State Medical Academy", "Tver State Medical Academy"],
     ".tsogu.ru": [
         "Tyumen State University of Gas and Oil",
@@ -20945,8 +22814,14 @@ DOMAINS: Dict[str, List[str]] = {
         "Ural State Academy of Mining and Geology",
         "Ural State Academy of Mining and Geology",
     ],
-    ".ustu.ru": ["Ural State Technical University", "Ural State Technical University"],
-    ".usu.ru": ["Ural Gorkij State University", "Ural Gorkij State University"],
+    ".ustu.ru": [
+        "Ural State Technical University",
+        "Ural State Technical University",
+    ],
+    ".usu.ru": [
+        "Ural Gorkij State University",
+        "Ural Gorkij State University",
+    ],
     ".usue.ru": [
         "Ural State University of Economics",
         "Ural State University of Economics",
@@ -20988,7 +22863,9 @@ DOMAINS: Dict[str, List[str]] = {
         "NGO Vladikavkaz Institute of Economics, Management, and Law",
         "NGO Vladikavkaz Institute of Economics, Management, and Law",
     ],
-    ".vimvd.ru": ["Voronezh Institute of the Ministry of the Interior of Russia"],
+    ".vimvd.ru": [
+        "Voronezh Institute of the Ministry of the Interior of Russia"
+    ],
     ".viti-mephi.ru": [
         'Volgodonsk engineering technical Institute, branch of National Research Nuclear University "MEPhI"'
     ],
@@ -21000,7 +22877,10 @@ DOMAINS: Dict[str, List[str]] = {
         "Vologda State University",
     ],
     ".volgmed.ru": ["Volgograd State Medical University"],
-    ".volpi.ru": ["Volzhsky Polytechnic Institute", "Volzhsky Polytechnic Institute"],
+    ".volpi.ru": [
+        "Volzhsky Polytechnic Institute",
+        "Volzhsky Polytechnic Institute",
+    ],
     ".volsu.ru": ["Volgograd State University", "Volgograd State University"],
     ".vgasu.vrn.ru": [
         "Voronezh State University of Architecture and Civil Engineering"
@@ -21102,7 +22982,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".kfu.edu.sa": ["King Faisal University"],
     ".kfupm.edu.sa": ["King Fahad University of Petroleum and Minerals"],
     ".kku.edu.sa": ["King Khaled University"],
-    ".ksau-hs.edu.sa": ["King Saud bin Abdulaziz University for Health Sciences "],
+    ".ksau-hs.edu.sa": [
+        "King Saud bin Abdulaziz University for Health Sciences "
+    ],
     ".student.ksu.edu.sa": ["king saud university"],
     ".ksu.edu.sa": ["King Saud University"],
     ".ku.edu.sa": ["Alkharj University"],
@@ -21142,7 +23024,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".chepstow.school": ["Chepstow School, Chepstow"],
     ".donkey.school": ["DonkeySchool"],
     ".egs.school": ["Education Gaming School"],
-    ".governors.school": ["South Carolina Governor's School For Science & Math"],
+    ".governors.school": [
+        "South Carolina Governor's School For Science & Math"
+    ],
     ".horo.school": ["Horoshkola, hi.horoshkola.ru"],
     ".laclick.school": ["ADEN Formations"],
     ".millhill.school": ["Mill Hill School"],
@@ -21158,7 +23042,10 @@ DOMAINS: Dict[str, List[str]] = {
     ],
     ".juventus.schule": ["Juventus Technikerschule HF"],
     ".ggb.kbs.schule": ["Goethe-Gymnasium Bensheim"],
-    ".kks.kbs.schule": ["Karl Kübel Schule Bensheim", "Karl Kübel Schule Bensheim"],
+    ".kks.kbs.schule": [
+        "Karl Kübel Schule Bensheim",
+        "Karl Kübel Schule Bensheim",
+    ],
     ".kgl.schule": ["KOPERNIKUS-GYMNASIUM LINTORF"],
     ".s.kkst.schule": ["Königin Katharina Stift Gymnasium"],
     ".rkm.schule": ["Realschule Korntal-Münchingen"],
@@ -21223,7 +23110,10 @@ DOMAINS: Dict[str, List[str]] = {
     ".du.se": ["Dalarna University College"],
     ".utb.ecutbildning.se": ["EC Utbildning"],
     ".ecutbildning.se": ["EC Utbildning"],
-    ".edufalkenberg.se": ["Falkenbergs gymnasieskola", "Falkenberg high school"],
+    ".edufalkenberg.se": [
+        "Falkenbergs gymnasieskola",
+        "Falkenberg high school",
+    ],
     ".edu.edugrade.se": ["Edugrade Yrkeshögskolan"],
     ".skola.engelholm.se": ["Engelholms gymnasieskola students"],
     ".engelholm.se": ["Engelholms gymnasieskola"],
@@ -21243,7 +23133,10 @@ DOMAINS: Dict[str, List[str]] = {
     ],
     ".grillska.se": ["Grillska Gymnasiet Eskilstuna"],
     ".gtg.se": ["Göteborgsgregionens Tekniska Gymnasium"],
-    ".gti.se": ["Göteborgs Tekniska Institut", "Gothenburgs Institute of Technology"],
+    ".gti.se": [
+        "Göteborgs Tekniska Institut",
+        "Gothenburgs Institute of Technology",
+    ],
     ".gu.se": ["Göteborg University", "School of Design and Crafts"],
     ".edu.halmstad.se": ["Kattegattgymnasiet Halmstad"],
     ".ubf.haninge.se": [
@@ -21337,7 +23230,10 @@ DOMAINS: Dict[str, List[str]] = {
         "Stockholm International school of commerce",
     ],
     ".skolamoa.se": ["Mora High School", "http://www.moragymnasium.se/"],
-    ".skolanskurup.se": ["Skurup Kommuns Skolor", "Schools Of Skurup Municipality"],
+    ".skolanskurup.se": [
+        "Skurup Kommuns Skolor",
+        "Schools Of Skurup Municipality",
+    ],
     ".slu.se": ["Swedish University of Agricultural Sciences"],
     ".elev.snitz.se": ["Snitz Gymnasium"],
     ".snitz.se": ["Snitz Gymnasium (Teacher)"],
@@ -21438,7 +23334,10 @@ DOMAINS: Dict[str, List[str]] = {
     ".osbrod.si": ["Osnovna Šola Vižmarje-Brod"],
     ".sc-celje.si": ["School Centre Celje"],
     ".sc-nm.si": ["School Center Novo mesto"],
-    ".sts.sckr.si": ["Srednja tehniška šola Kranj", "Secondary technical school Kranj"],
+    ".sts.sckr.si": [
+        "Srednja tehniška šola Kranj",
+        "Secondary technical school Kranj",
+    ],
     ".ms.scng.si": [
         "Višja strokovna šola Nova Gorica",
         "Higher Vocational School of Nova Gorica",
@@ -21451,18 +23350,26 @@ DOMAINS: Dict[str, List[str]] = {
     ".ssravne.si": ["Srednja šola Ravne"],
     ".stps-trbovlje.si": ["Srednja tehniska in poklicna sola Trbovlje"],
     ".sts.si": ["Srednja tehniška sola Koper"],
-    ".student-erudio.si": ["Erudio Izobraževalni Center", "Erudio Educational Center"],
+    ".student-erudio.si": [
+        "Erudio Izobraževalni Center",
+        "Erudio Educational Center",
+    ],
     ".um.si": ["University of Maribor"],
     ".ung.si": ["University of Nova Gorica"],
     ".uni-lj.si": ["University of Ljubljana"],
     ".uni-mb.si": ["University of Maribor"],
-    ".student.fis.unm.si": ["Fakulteta za informacijske študije v Novem mestu"],
+    ".student.fis.unm.si": [
+        "Fakulteta za informacijske študije v Novem mestu"
+    ],
     ".upr.si": ["University of Primorska"],
     ".vegova.si": ["Vegova Ljubljana"],
     ".student.adlerka.sk": [
         "Stredná priemyselná škola elektrotechnická, K. Adlera 5, 841 02 Bratislava"
     ],
-    ".akademiapz.sk": ["Police Academy in Bratislava", "Police Academy in Bratislava"],
+    ".akademiapz.sk": [
+        "Police Academy in Bratislava",
+        "Police Academy in Bratislava",
+    ],
     ".aku.sk": [
         "Academy of Arts in Banská Bystrica",
         "Academy of Arts in Banská Bystrica",
@@ -21486,7 +23393,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".spssnina.edu.sk": [
         "Stredná priemyselná škola, Partizánska 1059/23, Snina, Slovakia"
     ],
-    ".elektrohradok.sk": ["Stredná odborná škola elektrotechnická Liptovský Hrádok"],
+    ".elektrohradok.sk": [
+        "Stredná odborná škola elektrotechnická Liptovský Hrádok"
+    ],
     ".euba.sk": [
         "University of Economics in Bratislava",
         "University of Economics in Bratislava",
@@ -21553,8 +23462,14 @@ DOMAINS: Dict[str, List[str]] = {
         "University of Alexandra Dubček in Trenčín",
     ],
     ".truni.sk": ["University of Trnava", "University of Trnava"],
-    ".tuke.sk": ["Technical University in Kosice", "Technical University in Kosice"],
-    ".tuzvo.sk": ["Technical University in Zvolen", "Technical University in Zvolen"],
+    ".tuke.sk": [
+        "Technical University in Kosice",
+        "Technical University in Kosice",
+    ],
+    ".tuzvo.sk": [
+        "Technical University in Zvolen",
+        "Technical University in Zvolen",
+    ],
     ".tvu.sk": ["Trnavska Univerzita", "University of Trnava"],
     ".ucm.sk": [
         "University of St. Cyril and Methodius in Trnava",
@@ -21582,7 +23497,10 @@ DOMAINS: Dict[str, List[str]] = {
         "Comenius University in Bratislava",
         "Comenius University in Bratislava",
     ],
-    ".uninova.sk": ["Law University of Bratislava", "Law University of Bratislava"],
+    ".uninova.sk": [
+        "Law University of Bratislava",
+        "Law University of Bratislava",
+    ],
     ".unipo.sk": ["University of Presov", "University of Presov"],
     ".uniza.sk": ["University of Žilina", "University of Žilina"],
     ".upjs.sk": [
@@ -21598,7 +23516,10 @@ DOMAINS: Dict[str, List[str]] = {
         "University of Performing Arts in Bratislava",
         "University of Performing Arts in Bratislava",
     ],
-    ".vssladkovicovo.sk": ["College in Sládkovičovo", "College in Sládkovičovo"],
+    ".vssladkovicovo.sk": [
+        "College in Sládkovičovo",
+        "College in Sládkovičovo",
+    ],
     ".vssvalzbety.sk": [
         "St. Elizabeth’s College of Health and Social Sciences in Bratislava",
         "St. Elizabeth’s College of Health and Social Sciences in Bratislava",
@@ -21609,7 +23530,9 @@ DOMAINS: Dict[str, List[str]] = {
     ],
     ".zsstrba.sk": ["Základná škola v Štrbe", "Primary school Strba"],
     ".unirsm.sm": ["University of San Marino"],
-    ".estm.edu.sn": ["\ufeffÉcole Supérieure de Technologie et de Management, Senegal"],
+    ".estm.edu.sn": [
+        "\ufeffÉcole Supérieure de Technologie et de Management, Senegal"
+    ],
     ".eua.edu.sn": [
         "Excellence Universitaire Africaine",
         "African University Excellence",
@@ -21711,7 +23634,10 @@ DOMAINS: Dict[str, List[str]] = {
     ],
     ".univ-lome.tg": ["Université de Lomé"],
     ".acr.ac.th": ["อัสสัมชัญระยอง", "Assumption College Rayong"],
-    ".acsp.ac.th": ["โรงเรียนอัสสัมชัญสมุทรปราการ", "Assumption College Samutprakarn"],
+    ".acsp.ac.th": [
+        "โรงเรียนอัสสัมชัญสมุทรปราการ",
+        "Assumption College Samutprakarn",
+    ],
     ".aims.ac.th": ["Adventist International Mission School (AIMS)"],
     ".ait.ac.th": ["Asian Institute of Technology"],
     ".aru.ac.th": ["Phranakhon Si Ayutthaya Rajabhat University"],
@@ -21724,7 +23650,10 @@ DOMAINS: Dict[str, List[str]] = {
         "มหาวิทยาลัยราชภัฏจันทรเกษม",
         "CHANDRAKASEM RAJABHAT UNIVERSITY",
     ],
-    ".chiangkham.ac.th": ["โรงเรียนเชียงคำวิทยาคม", "Chiangkhamwittayakhom School"],
+    ".chiangkham.ac.th": [
+        "โรงเรียนเชียงคำวิทยาคม",
+        "Chiangkhamwittayakhom School",
+    ],
     ".chiangmai.ac.th": ["Chiang Mai University"],
     ".chula.ac.th": ["Chulalongkorn University"],
     ".cmkl.ac.th": ["CMKL University"],
@@ -21732,10 +23661,16 @@ DOMAINS: Dict[str, List[str]] = {
     ".cmu.ac.th": ["www.cmu.ac.th", "Chiang Mai University"],
     ".cmvc.ac.th": ["Chiang Mai Vocational College"],
     ".cpc.ac.th": ["Rajamangala University of Technology Tawan-ok"],
-    ".cpru.ac.th": ["มหาวิทยาลัยราชภัฏชัยภูมิ", "Chaiyaphum Rajabhat University"],
+    ".cpru.ac.th": [
+        "มหาวิทยาลัยราชภัฏชัยภูมิ",
+        "Chaiyaphum Rajabhat University",
+    ],
     ".cpu.ac.th": ["Chaopraya University "],
     ".cra.ac.th": ["ราชวิทยาลัยจุฬาภรณ์", "chulabhorn royal academy"],
-    ".crru.ac.th": ["มหาวิทยาลัยราชภัฏเชียงราย", "chiang rai rajabhat university"],
+    ".crru.ac.th": [
+        "มหาวิทยาลัยราชภัฏเชียงราย",
+        "chiang rai rajabhat university",
+    ],
     ".dpu.ac.th": ["Dhurakijpundit University"],
     ".dru.ac.th": ["มหาวิทยาลัยราชภัฎธนบุรี", "Dhonburi Rajabhat University"],
     ".dusit.ac.th": ["Suan Dusit Rajabhat University"],
@@ -21795,7 +23730,10 @@ DOMAINS: Dict[str, List[str]] = {
         "Phetchaburi Rajabhat University",
     ],
     ".pcru.ac.th": ["Phetchabun Rajabhat University"],
-    ".phothitham.ac.th": ["Phothithammasuwat School", "Phothithammasuwat School"],
+    ".phothitham.ac.th": [
+        "Phothithammasuwat School",
+        "Phothithammasuwat School",
+    ],
     ".phuketthaihua.ac.th": [
         "โรงเรียนภูเก็ตไทยหัวอาเซียนวิทยา",
         "Phuketthaihua Asean Wittaya School",
@@ -21855,10 +23793,15 @@ DOMAINS: Dict[str, List[str]] = {
     ".rsu.ac.th": ["Rangsit University"],
     ".rumail.ru.ac.th": ["Ramkhamhaeng University"],
     ".ru.ac.th": ["Ramkhamhaeng University"],
-    ".satriwit3.ac.th": ["Nawamintrachinutit Satriwitthaya3 Putthamonton School"],
+    ".satriwit3.ac.th": [
+        "Nawamintrachinutit Satriwitthaya3 Putthamonton School"
+    ],
     ".sau.ac.th": ["South-East Asia University"],
     ".student.sd.ac.th": ["เซนต์ดอมินิก", "SaintDominic School"],
-    ".siamtechno.ac.th": [" วิทยาลัยเทคโนโลยีสยาม", "Siam Technology College (STC)"],
+    ".siamtechno.ac.th": [
+        " วิทยาลัยเทคโนโลยีสยาม",
+        "Siam Technology College (STC)",
+    ],
     ".stu.sibs.ac.th": [
         "Satit International Bilingual School of Rangsit University Chiang Mai (SIBS)"
     ],
@@ -21868,7 +23811,10 @@ DOMAINS: Dict[str, List[str]] = {
         "วิทยาลัยการอาชีพสอง",
         "Song Industrial and Community Education College",
     ],
-    ".southeast.ac.th": ["วิทยาลัยเซาธ์อีสท์บางกอก", "Southeast Bangkok College"],
+    ".southeast.ac.th": [
+        "วิทยาลัยเซาธ์อีสท์บางกอก",
+        "Southeast Bangkok College",
+    ],
     ".spu.ac.th": ["Sripatum University"],
     ".sriyapai.ac.th": ["โรงเรียนศรียาภัย", "SriyapaiSchool"],
     ".sru.ac.th": ["RAJABHAT UNIVERSITY", "SURATTHANI RAJABHAT UNIVERSITY"],
@@ -21878,7 +23824,10 @@ DOMAINS: Dict[str, List[str]] = {
     ".su.ac.th": ["Silpakorn University"],
     ".sut.ac.th": ["Suranaree University of Technology"],
     ".swu.ac.th": ["Srinakharinwirot University"],
-    ".tni.ac.th": ["สถาบันเทคโนโลยีไทย-ญี่ปุ่น", "Thai-Nichi Institute of Technology"],
+    ".tni.ac.th": [
+        "สถาบันเทคโนโลยีไทย-ญี่ปุ่น",
+        "Thai-Nichi Institute of Technology",
+    ],
     ".tsu.ac.th": ["Thaksin University"],
     ".tu.ac.th": ["Thammasat University"],
     ".ms.tup.ac.th": [
@@ -21886,7 +23835,10 @@ DOMAINS: Dict[str, List[str]] = {
         "Triam Udom Suksa Pattanakarn School",
     ],
     ".ubu.ac.th": ["Ubonratchathani University"],
-    ".365.udru.ac.th": ["มหาวิทยาลัยราชภัฏอุดรธานี", "UDON THANI RAJABHAT UNIVERSITY"],
+    ".365.udru.ac.th": [
+        "มหาวิทยาลัยราชภัฏอุดรธานี",
+        "UDON THANI RAJABHAT UNIVERSITY",
+    ],
     ".up.ac.th": ["มหาวิทยาลัยพะเยา", "University of Phayao"],
     ".uru.ac.th": ["Uttaradit Rajabhat University"],
     ".utcc.ac.th": ["University of the Thai Chamber of Commerce"],
@@ -21896,13 +23848,23 @@ DOMAINS: Dict[str, List[str]] = {
     ".webster.ac.th": ["Webster University, Thailand"],
     ".wmk.ac.th": ["watmongkol kothawas school"],
     ".wu.ac.th": ["Walailak University"],
-    ".ycpschool.ac.th": ["โรงเรียนยางชุมน้อยพิทยาคม", "Yangchumnoi Pittayakom school"],
+    ".ycpschool.ac.th": [
+        "โรงเรียนยางชุมน้อยพิทยาคม",
+        "Yangchumnoi Pittayakom school",
+    ],
     ".yru.ac.th": ["Yala Rajabhat University", "Yala Rajabhat University"],
     ".ytc.ac.th": ["yala technical college", "yala technical college"],
     ".ku.th": ["Kasetsart University"],
-    ".dtmik.tj": ["Innovation and Technology Management Institute in Kulob City"],
-    ".hgu.tj": ["Худжандский государственный университет", "Khujand State University"],
-    ".kbtut.tj": ["Khujand Polytechnic Institute of Tajik Technical University"],
+    ".dtmik.tj": [
+        "Innovation and Technology Management Institute in Kulob City"
+    ],
+    ".hgu.tj": [
+        "Худжандский государственный университет",
+        "Khujand State University",
+    ],
+    ".kbtut.tj": [
+        "Khujand Polytechnic Institute of Tajik Technical University"
+    ],
     ".polytech.tj": [
         "Донишкадаи политехникии Донишгоҳи техникии Тоҷикистон ба номи академик М.Осимӣ дар ш. Хуҷанд",
         "Khujand Polytechnic Institute of Tajik Technical University",
@@ -21917,12 +23879,17 @@ DOMAINS: Dict[str, List[str]] = {
         "Донишгоҳи техникии Тоҷикистон  ба номи академик М.С.Осимӣ",
         "Tajik Technical University  named after academic M.S.Osimi",
     ],
-    ".itit.edu.tm": ["Institute of Telecommunications and Informatics of Turkmenistan"],
+    ".itit.edu.tm": [
+        "Institute of Telecommunications and Informatics of Turkmenistan"
+    ],
     ".edu.tm": ["International Turkmen Turkish University"],
     ".SESAME.com.tn": [
         "SESAME : École supérieure des sciences appliquées et de management "
     ],
-    ".episousse.com.tn": ["EPI Sousse : Ecole Pluridisciplinaire Internationale", " "],
+    ".episousse.com.tn": [
+        "EPI Sousse : Ecole Pluridisciplinaire Internationale",
+        " ",
+    ],
     ".enis.tn": ["National Engineering School of Sfax"],
     ".iit.ens.tn": [
         "Institut International de Technologie",
@@ -21953,8 +23920,12 @@ DOMAINS: Dict[str, List[str]] = {
         "Institut Supérieur Des Etudes Technologiques De Bizerte",
         "Higher Institute Of Technological Studies Of Bizerte",
     ],
-    ".charguia.r-iset.tn": ["institut supérieur des études technologiques de charguia"],
-    ".gafsa.r-iset.tn": ["institut supérieur des études technologiques de Gafsa"],
+    ".charguia.r-iset.tn": [
+        "institut supérieur des études technologiques de charguia"
+    ],
+    ".gafsa.r-iset.tn": [
+        "institut supérieur des études technologiques de Gafsa"
+    ],
     ".kelibia.r-iset.tn": [
         "Institut Supérieur des Etudes Technologiques de Kélibia",
         "Higher Institute of Technological Studies of Kélibia",
@@ -21963,8 +23934,12 @@ DOMAINS: Dict[str, List[str]] = {
         "ISET Rades",
         " Higher Institute of Technological Studies of Rades",
     ],
-    ".sfax.r-iset.tn": ["\ufeffInstituts Supérieurs des Etudes Technologiques de Sfax"],
-    ".sousse.r-iset.tn": ["Institut Supérieur des Etudes Technologiques de Sousse"],
+    ".sfax.r-iset.tn": [
+        "\ufeffInstituts Supérieurs des Etudes Technologiques de Sfax"
+    ],
+    ".sousse.r-iset.tn": [
+        "Institut Supérieur des Etudes Technologiques de Sousse"
+    ],
     ".zaghouan.r-iset.tn": [
         "iset Zaghouan (Institut Supérieur des Etudes Technologiques de Zaghouan)",
         "iset Zaghouan (Higher Institute of Technological Studies of Zaghouan)",
@@ -21991,19 +23966,25 @@ DOMAINS: Dict[str, List[str]] = {
         "http://www.isetn.rnu.tn/fra/departements/TI/5/technologie-de-l-informatique",
         "http://www.cck.rnu.tn/newcck/index.php",
     ],
-    ".isetj.rnu.tn": ["Instituts Supérieurs des Etudes Technologiques de Jendouba"],
+    ".isetj.rnu.tn": [
+        "Instituts Supérieurs des Etudes Technologiques de Jendouba"
+    ],
     ".isetn.rnu.tn": [
         "Institut Supérieur des Etudes Technologiques de Nabeul",
         "Higher Institute of Technological Studies of Nabeul",
     ],
     ".isetr.rnu.tn": ["Instituts Supérieurs des Etudes Technologiques"],
-    ".isetso.rnu.tn": ["Instituts Supérieurs des Etudes Technologiques de Sousse"],
+    ".isetso.rnu.tn": [
+        "Instituts Supérieurs des Etudes Technologiques de Sousse"
+    ],
     ".isg.rnu.tn": ["Institut Supérieur de Gestion de Tunis"],
     ".isim.rnu.tn": [
         "Institut Supérieur de l'Informatique de Médenine (ISIMed)",
         "Higher Institute of Informatics of Medenine",
     ],
-    ".isimsf.rnu.tn": ["Institut Supérieur d'Informatique et du Multimédia de Sfax"],
+    ".isimsf.rnu.tn": [
+        "Institut Supérieur d'Informatique et du Multimédia de Sfax"
+    ],
     ".issatso.rnu.tn": [
         "Higher Institute of Applied Sciences and Technology of Sousse"
     ],
@@ -22024,7 +24005,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".uz.rnu.tn": ["Université Ez-Zitouna"],
     ".supcom.tn": ["Ecole Supérieure des Communications de Tunis (Sup'Com)"],
     ".suptech.tn": ["Private Higher School of Technology and Management"],
-    ".tek-up.tn": ["Tek-Up private higher school of technologies and ingineering"],
+    ".tek-up.tn": [
+        "Tek-Up private higher school of technologies and ingineering"
+    ],
     ".enicar.u-carthage.tn": [
         "École Nationale d'ingénieurs de Carthage",
         "National Engineering School of Carthage",
@@ -22070,9 +24053,13 @@ DOMAINS: Dict[str, List[str]] = {
         "المدرسة الوطنية للإلكترونيك والإتصالات بصفاقس",
         "National School of Electronics and Telecoms of Sfax",
     ],
-    ".isimsf.u-sfax.tn": ["Institut Supérieur d'Informatique et de Multimédia de Sfax"],
+    ".isimsf.u-sfax.tn": [
+        "Institut Supérieur d'Informatique et de Multimédia de Sfax"
+    ],
     ".eniso.u-sousse.tn": ["Ecole Nationale d'Ingénieurs de Sousse"],
-    ".essths.u-sousse.tn": ["HIGHER SCHOOL OF SCIENCE AND TECHNOLOGY OF HAMMAM SOUSSE"],
+    ".essths.u-sousse.tn": [
+        "HIGHER SCHOOL OF SCIENCE AND TECHNOLOGY OF HAMMAM SOUSSE"
+    ],
     ".isitc.u-sousse.tn": [
         "L'Institut Superieur d'Informatique et des Techniques de Communication de Hammam Sousse"
     ],
@@ -22093,7 +24080,9 @@ DOMAINS: Dict[str, List[str]] = {
         "Institut Supérieur des Technologies de l’Information et de la Communication",
         "The Higher Institute of Information Technologies and Communication",
     ],
-    ".isamm.uma.tn": ["Institut Supérieur des Arts Multimédia de la Manouba - ISAMM "],
+    ".isamm.uma.tn": [
+        "Institut Supérieur des Arts Multimédia de la Manouba - ISAMM "
+    ],
     ".myu.universitecentrale.tn": ["Université Centrale"],
     ".enetcom.usf.tn": [
         "Ecole nationale d'Electronique et des Télécommunications de Sfax"
@@ -22112,7 +24101,10 @@ DOMAINS: Dict[str, List[str]] = {
     ".etudiant-fst.utm.tn": ["Faculty of sciences of Tunis"],
     ".etudiant-isi.utm.tn": ["Institut Supérieur d'informatique"],
     ".utm.tn": ["Université de Tunis El Manar"],
-    ".uvt.tn": ["Université Virtuelle de Tunis", "Virtual University Of Tunis"],
+    ".uvt.tn": [
+        "Université Virtuelle de Tunis",
+        "Virtual University Of Tunis",
+    ],
     ".student.42kocaeli.com.tr": ["42 Kocaeli"],
     ".29mayis.edu.tr": [
         "İstanbul 29 Mayıs Üniversitesi",
@@ -22123,9 +24115,14 @@ DOMAINS: Dict[str, List[str]] = {
         "Adana Bilim ve Teknoloji Üniversitesi",
         "Adana Science and Technology University",
     ],
-    ".student.adiguzel.edu.tr": ["\ufeffTC Ataşehir Adıgüzel Vocational School"],
+    ".student.adiguzel.edu.tr": [
+        "\ufeffTC Ataşehir Adıgüzel Vocational School"
+    ],
     ".adiyaman.edu.tr": ["Adıyaman Üniversitesi", "Adıyaman University"],
-    ".adu.edu.tr": ["Adnan Menderes Üniversitesi", "Adnan Menderes University"],
+    ".adu.edu.tr": [
+        "Adnan Menderes Üniversitesi",
+        "Adnan Menderes University",
+    ],
     ".afsu.edu.tr": [
         "Afyon Sağlık Bilimleri Üniversitesi",
         "Afyonkarahisar Health Sciences University",
@@ -22139,7 +24136,10 @@ DOMAINS: Dict[str, List[str]] = {
     ".akdeniz.edu.tr": ["Akdeniz Üniversitesi", "Akdeniz University"],
     ".akev.edu.tr": ["Antalya Akev Üniversitesi", "Antalya Akev University"],
     ".aksaray.edu.tr": ["Aksaray Üniversitesi", "Aksaray University"],
-    ".aku.edu.tr": ["Afyon Kocatepe Üniversitesi", "Afyon Kocatepe University"],
+    ".aku.edu.tr": [
+        "Afyon Kocatepe Üniversitesi",
+        "Afyon Kocatepe University",
+    ],
     ".akun.edu.tr": [
         "AKDENIZ KARPAZ UNIVERSITESI",
         "UNIVERSITY OF MEDITERRENEAN KARPASIA",
@@ -22148,11 +24148,17 @@ DOMAINS: Dict[str, List[str]] = {
         "Alanya Alaaddin Keykubat Üniversitesi",
         "Alanya Alaaddin Keykubat University",
     ],
-    ".alparslan.edu.tr": ["Muş Alparslan Üniversitesi", "Muş Alparslan University"],
+    ".alparslan.edu.tr": [
+        "Muş Alparslan Üniversitesi",
+        "Muş Alparslan University",
+    ],
     ".altinbas.edu.tr": ["Altınbaş Üniversitesi", "Altinbas University"],
     ".amasya.edu.tr": ["T.C. Amasya Üniversitesi", "T.C. Amasya University"],
     ".anadolu.edu.tr": ["Anadolu Üniversitesi", "Anadolu University"],
-    ".anka.edu.tr": ["ANKA Teknoloji Üniversitesi", "ANKA University of Technology"],
+    ".anka.edu.tr": [
+        "ANKA Teknoloji Üniversitesi",
+        "ANKA University of Technology",
+    ],
     ".ankara.edu.tr": ["Ankara Üniversitesi", "Ankara University"],
     ".ankaramedipol.edu.tr": ["Ankara Medipol University"],
     ".antalya.edu.tr": [
@@ -22161,7 +24167,10 @@ DOMAINS: Dict[str, List[str]] = {
     ],
     ".ardahan.edu.tr": ["Ardahan Üniversitesi", "Ardahan University"],
     ".arel.edu.tr": ["İstanbul Arel Üniversitesi", "Istanbul Arel University"],
-    ".artuklu.edu.tr": ["Mardin Artuklu Üniversitesi", "Mardin Artuklu University"],
+    ".artuklu.edu.tr": [
+        "Mardin Artuklu Üniversitesi",
+        "Mardin Artuklu University",
+    ],
     ".artvin.edu.tr": ["Artvin Çoruh Üniversitesi", "Artvin Çoruh University"],
     ".asbu.edu.tr": [
         "Ankara Sosyal Bilimler Üniversitesi",
@@ -22170,19 +24179,28 @@ DOMAINS: Dict[str, List[str]] = {
     ".asu.edu.tr": ["Aksaray Üniversitesi", "Aksaray University"],
     ".atauni.edu.tr": ["Atatürk Üniversitesi", "Atatürk University"],
     ".atilim.edu.tr": ["Atılım Üniversitesi", "Atılım University"],
-    ".st.atlas.edu.tr": ["İSTANBUL ATLAS ÜNİVERSİTESİ", "ISTANBUL ATLAS UNIVERSITY"],
+    ".st.atlas.edu.tr": [
+        "İSTANBUL ATLAS ÜNİVERSİTESİ",
+        "ISTANBUL ATLAS UNIVERSITY",
+    ],
     ".atu.edu.tr": [
         "Adana Alparslan Türkeş Bilim ve Teknoloji Üniversitesi",
         "Adana Alparslan Türkeş Science and Technology University",
     ],
     ".avrasya.edu.tr": ["Avrasya Üniversitesi", "Avrasya University"],
-    ".aydin.edu.tr": ["İstanbul Aydın Üniversitesi", "İstanbul Aydın University"],
+    ".aydin.edu.tr": [
+        "İstanbul Aydın Üniversitesi",
+        "İstanbul Aydın University",
+    ],
     ".ayvansaray.edu.tr": [
         "İstanbul Ayvansaray Üniversitesi",
         "Istanbul Ayvansaray University",
     ],
     ".bahcesehir.edu.tr": ["Bahçeşehir Üniversitesi", "Bahçeşehir University"],
-    ".bakircay.edu.tr": ["İzmir Bakırçay Üniversitesi", "Izmir Bakircay University"],
+    ".bakircay.edu.tr": [
+        "İzmir Bakırçay Üniversitesi",
+        "Izmir Bakircay University",
+    ],
     ".balikesir.edu.tr": ["Balıkesir Üniversitesi", "Balıkesir University"],
     ".bandirma.edu.tr": [
         "Bandırma Onyedi Eylül Üniversitesi",
@@ -22205,9 +24223,15 @@ DOMAINS: Dict[str, List[str]] = {
     ".beun.edu.tr": ["Bülent Ecevit Üniversitesi", "Bülent Ecevit University"],
     ".beykent.edu.tr": ["Beykent Üniversitesi", "Beykent University"],
     ".beykoz.edu.tr": ["Beykoz Üniversitesi", "Beykoz University"],
-    ".bezmialem.edu.tr": ["Bezmialem Vakıf Üniversitesi", "Bezmialem University"],
+    ".bezmialem.edu.tr": [
+        "Bezmialem Vakıf Üniversitesi",
+        "Bezmialem University",
+    ],
     ".bilecik.edu.tr": ["Bilecik Üniversitesi", "Bilecik University"],
-    ".bilgi.edu.tr": ["İstanbul Bilgi Üniversitesi", "İstanbul Bilgi University"],
+    ".bilgi.edu.tr": [
+        "İstanbul Bilgi Üniversitesi",
+        "İstanbul Bilgi University",
+    ],
     ".bilkent.edu.tr": ["Bilkent Üniversitesi", "Bilkent University"],
     ".bingol.edu.tr": ["Bingöl Üniversitesi", "Bingöl University"],
     ".biruni.edu.tr": ["Biruni Üniversitesi", "Biruni University"],
@@ -22216,15 +24240,24 @@ DOMAINS: Dict[str, List[str]] = {
     ".btu.edu.tr": ["Bursa Teknik Üniversitesi", "Bursa Technical University"],
     ".cag.edu.tr": ["Çağ Üniversitesi", "Çağ University"],
     ".cankaya.edu.tr": ["Çankaya Üniversitesi", "Çankaya University"],
-    ".cbu.edu.tr": ["Manisa Celal Bayar Üniversitesi", "Manisa Celal Bayar University"],
+    ".cbu.edu.tr": [
+        "Manisa Celal Bayar Üniversitesi",
+        "Manisa Celal Bayar University",
+    ],
     ".ciu.edu.tr": [
         "Uluslararası Kıbrıs Üniversitesi",
         "Cyprus International University",
     ],
-    ".comu.edu.tr": ["Çanakkale 18 Mart Üniversitesi", "Çanakkale 18 Mart University"],
+    ".comu.edu.tr": [
+        "Çanakkale 18 Mart Üniversitesi",
+        "Çanakkale 18 Mart University",
+    ],
     ".cu.edu.tr": ["Çukurova Üniversitesi", "Çukurova University"],
     ".cumhuriyet.edu.tr": ["Cumhuriyet Üniversitesi", "Cumhuriyet University"],
-    ".dau.edu.tr": ["Doğu Akdeniz Üniversitesi", "Eastern Mediterranean University"],
+    ".dau.edu.tr": [
+        "Doğu Akdeniz Üniversitesi",
+        "Eastern Mediterranean University",
+    ],
     ".deu.edu.tr": ["Dokuz Eylül Üniversitesi", "Dokuz Eylül University"],
     ".dho.edu.tr": ["Deniz Harp Okulu", "Turkish Naval Academy"],
     ".dicle.edu.tr": ["Dicle Üniversitesi", "Dicle University"],
@@ -22237,7 +24270,10 @@ DOMAINS: Dict[str, List[str]] = {
         "Erzincan Binali Yıldırım University",
     ],
     ".ege.edu.tr": ["Ege Üniversitesi", "Ege University"],
-    ".emu.edu.tr": ["Doğu Akdeniz Üniversitesi", "Eastern Mediterranean University"],
+    ".emu.edu.tr": [
+        "Doğu Akdeniz Üniversitesi",
+        "Eastern Mediterranean University",
+    ],
     ".ogr.erbakan.edu.tr": [
         "Necmettin Erbakan Üniversitesi",
         "Necmettin Erbakan University",
@@ -22252,7 +24288,10 @@ DOMAINS: Dict[str, List[str]] = {
         "Recep Tayyip Erdoğan University",
     ],
     ".erzincan.edu.tr": ["Erzincan Üniversitesi", "Erzincan University"],
-    ".erzurum.edu.tr": ["Erzurum Teknik Üniversitesi", "Erzurum Technical University"],
+    ".erzurum.edu.tr": [
+        "Erzurum Teknik Üniversitesi",
+        "Erzurum Technical University",
+    ],
     ".esenyurt.edu.tr": [
         "İstanbul Esenyurt Üniversitesi",
         "İstanbul Esenyurt University",
@@ -22262,7 +24301,10 @@ DOMAINS: Dict[str, List[str]] = {
         "TOBB Ekonomi ve Teknoloji Üniversitesi",
         "TOBB Economics and Technology University",
     ],
-    ".eul.edu.tr": ["European University of Lefke", "Lefke Avrupa Üniversitesi"],
+    ".eul.edu.tr": [
+        "European University of Lefke",
+        "Lefke Avrupa Üniversitesi",
+    ],
     ".fatihsultan.edu.tr": [
         "Fatih Sultan Mehmet Vakıf Üniversitesi",
         "Fatih Sultan Mehmet Waqf University",
@@ -22277,13 +24319,28 @@ DOMAINS: Dict[str, List[str]] = {
         "Fatih Sultan Mehmet Vakıf Üniversitesi",
         "Fatih Sultan Mehmet Foundation University",
     ],
-    ".galata.edu.tr": ["İstanbul Galata Üniversitesi", "İstanbul Galata University"],
+    ".galata.edu.tr": [
+        "İstanbul Galata Üniversitesi",
+        "İstanbul Galata University",
+    ],
     ".gantep.edu.tr": ["Gaziantep Üniversitesi", "Gaziantep University"],
-    ".gau.edu.tr": ["Girne Amerikan Üniversitesi", "Girne American University"],
+    ".gau.edu.tr": [
+        "Girne Amerikan Üniversitesi",
+        "Girne American University",
+    ],
     ".gazi.edu.tr": ["Gazi Üniversitesi", "Gazi University"],
-    ".student.gaziantep.edu.tr": ["Gaziantep Universitesi", "Gaziantep University"],
-    ".gedik.edu.tr": ["İstanbul Gedik Üniversitesi", "İstanbul Gedik University"],
-    ".gelisim.edu.tr": ["İstanbul Gelişim Üniversitesi", "İstanbul Gelişim University"],
+    ".student.gaziantep.edu.tr": [
+        "Gaziantep Universitesi",
+        "Gaziantep University",
+    ],
+    ".gedik.edu.tr": [
+        "İstanbul Gedik Üniversitesi",
+        "İstanbul Gedik University",
+    ],
+    ".gelisim.edu.tr": [
+        "İstanbul Gelişim Üniversitesi",
+        "İstanbul Gelişim University",
+    ],
     ".gidatarim.edu.tr": [
         "Konya Gıda ve Tarım Üniversitesi",
         "Konya Food & Agriculture University",
@@ -22304,18 +24361,36 @@ DOMAINS: Dict[str, List[str]] = {
     ],
     ".hho.edu.tr": ["Hava Harp Okulu", "Turkish Air Force Academy"],
     ".hitit.edu.tr": ["Hitit Üniversitesi", "Hitit University"],
-    ".hku.edu.tr": ["Hasan Kalyoncu Üniversitesi", "Hasan Kalyoncu University"],
+    ".hku.edu.tr": [
+        "Hasan Kalyoncu Üniversitesi",
+        "Hasan Kalyoncu University",
+    ],
     ".hun.edu.tr": ["Hacettepe Üniversitesi", "Hacettepe University"],
     ".ibnhaldun.edu.tr": ["İbn Haldun Üniversitesi", "Ibn Haldun University"],
-    ".ibu.edu.tr": ["Abant İzzet Baysal Üniversitesi", "Abant İzzet Baysal University"],
-    ".ibun.edu.tr": ["İstanbul Bilgi Üniversitesi", "İstanbul Bilgi University"],
-    ".std.idu.edu.tr": ["İzmir Demokrasi Üniversitesi", "Izmir Democracy University"],
+    ".ibu.edu.tr": [
+        "Abant İzzet Baysal Üniversitesi",
+        "Abant İzzet Baysal University",
+    ],
+    ".ibun.edu.tr": [
+        "İstanbul Bilgi Üniversitesi",
+        "İstanbul Bilgi University",
+    ],
+    ".std.idu.edu.tr": [
+        "İzmir Demokrasi Üniversitesi",
+        "Izmir Democracy University",
+    ],
     ".idu.edu.tr": ["İzmir Demokrasi Üniversitesi"],
     ".iesu.edu.tr": ["\ufeffİstanbul Esenyurt Üniversitesi"],
-    ".ieu.edu.tr": ["İzmir Ekonomi Üniversitesi", "İzmir University of Economics"],
+    ".ieu.edu.tr": [
+        "İzmir Ekonomi Üniversitesi",
+        "İzmir University of Economics",
+    ],
     ".igdir.edu.tr": ["Iğdır Üniversitesi", "Iğdır University"],
     ".ihu.edu.tr": ["Ibn Haldun University", "İbn Haldun Üniversitesi"],
-    ".ikc.edu.tr": ["İzmir Kâtip Çelebi Üniversitesi", "İzmir Kâtip Çelebi University"],
+    ".ikc.edu.tr": [
+        "İzmir Kâtip Çelebi Üniversitesi",
+        "İzmir Kâtip Çelebi University",
+    ],
     ".ogr.ikcu.edu.tr": [
         "İzmir Katip Çelebi Üniversitesi",
         "Izmir Katip Celebi University",
@@ -22324,7 +24399,10 @@ DOMAINS: Dict[str, List[str]] = {
         "İzmir Katip Çelebi Üniversitesi",
         "Izmir Katip Celebi University",
     ],
-    ".iku.edu.tr": ["Istanbul Kültür Üniversitesi", "Istanbul Kültür University"],
+    ".iku.edu.tr": [
+        "Istanbul Kültür Üniversitesi",
+        "Istanbul Kültür University",
+    ],
     ".inonu.edu.tr": ["İnönü Üniversitesi", "İnönü University"],
     ".isik.edu.tr": ["Işık Üniversitesi", "Işık University"],
     ".isikun.edu.tr": ["Işık Üniversitesi", "Işık University"],
@@ -22355,8 +24433,14 @@ DOMAINS: Dict[str, List[str]] = {
         "İstanbul Sabahattin Zaim Üniversitesi",
         "İstanbul Sabahattin Zaim University",
     ],
-    ".iticu.edu.tr": ["İstanbul Ticaret Üniversitesi", "İstanbul Ticaret University"],
-    ".itu.edu.tr": ["İstanbul Teknik Üniversitesi", "İstanbul Technical University"],
+    ".iticu.edu.tr": [
+        "İstanbul Ticaret Üniversitesi",
+        "İstanbul Ticaret University",
+    ],
+    ".itu.edu.tr": [
+        "İstanbul Teknik Üniversitesi",
+        "İstanbul Technical University",
+    ],
     ".ogr.iu.edu.tr": [
         "İstanbul Universitesi",
         "Istanbul University - Student Spesific Mail Address Extensions",
@@ -22396,9 +24480,15 @@ DOMAINS: Dict[str, List[str]] = {
         "İstanbul Kemerburgaz Üniversitesi",
         "İstanbul Kemerburgaz University",
     ],
-    ".ogr.kent.edu.tr": ["İstanbul Kent Üniversitesi", "Istanbul KENT UNIVERSITY"],
+    ".ogr.kent.edu.tr": [
+        "İstanbul Kent Üniversitesi",
+        "Istanbul KENT UNIVERSITY",
+    ],
     ".khas.edu.tr": ["Kadir Has Üniversitesi", "Kadir Has University"],
-    ".kilis.edu.tr": ["Kilis 7 Aralık Üniversitesi", "Kilis 7 Aralık University"],
+    ".kilis.edu.tr": [
+        "Kilis 7 Aralık Üniversitesi",
+        "Kilis 7 Aralık University",
+    ],
     ".kirklareli.edu.tr": ["Kırklareli Üniversitesi", "Kırklareli University"],
     ".kku.edu.tr": ["Kırıkkale Üniversitesi", "Kırıkkale University"],
     ".klu.edu.tr": ["Kırklareli Üniversitesi", "Kırklareli University"],
@@ -22411,7 +24501,10 @@ DOMAINS: Dict[str, List[str]] = {
         "Kocaeli Sağlık ve Teknoloji Üniversitesi",
         "Kocaeli Healt and Technology University",
     ],
-    ".konya.edu.tr": ["Necmettin Erbakan Üniversitesi", "Necmettin Erbakan University"],
+    ".konya.edu.tr": [
+        "Necmettin Erbakan Üniversitesi",
+        "Necmettin Erbakan University",
+    ],
     ".ksbu.edu.tr": [
         "Kütahya Sağlık Bilimleri Üniversitesi",
         "Kütahya University of Health Sciences ",
@@ -22420,18 +24513,33 @@ DOMAINS: Dict[str, List[str]] = {
         "Kahramanmaraş Sütçü İmam Üniversitesi",
         "Kahramanmaraş Sütçü İmam University",
     ],
-    ".ktu.edu.tr": ["Karadeniz Teknik Üniversitesi", "Karadeniz Technical University"],
-    ".ktun.edu.tr": ["Konya Teknik Üniversitesi", "Konya Technical University"],
+    ".ktu.edu.tr": [
+        "Karadeniz Teknik Üniversitesi",
+        "Karadeniz Technical University",
+    ],
+    ".ktun.edu.tr": [
+        "Konya Teknik Üniversitesi",
+        "Konya Technical University",
+    ],
     ".ku.edu.tr": ["Koç Üniversitesi", "Koç University"],
-    ".lefke.edu.tr": ["Lefke Avrupa Üniversitesi", "European University of Lefke"],
-    ".maltepe.edu.tr": ["T.C. Maltepe Üniversitesi", "T.C. Maltepe University"],
+    ".lefke.edu.tr": [
+        "Lefke Avrupa Üniversitesi",
+        "European University of Lefke",
+    ],
+    ".maltepe.edu.tr": [
+        "T.C. Maltepe Üniversitesi",
+        "T.C. Maltepe University",
+    ],
     ".marmara.edu.tr": ["Marmara Üniversitesi", "Marmara University"],
     ".marun.edu.tr": ["Marmara University, Istanbul, TURKEY"],
     ".medeniyet.edu.tr": [
         "İstanbul Medeniyet Üniversitesi",
         "İstanbul Medeniyet University",
     ],
-    ".medipol.edu.tr": ["İstanbul Medipol Üniversitesi", "İstanbul Medipol University"],
+    ".medipol.edu.tr": [
+        "İstanbul Medipol Üniversitesi",
+        "İstanbul Medipol University",
+    ],
     ".mef.edu.tr": ["MEF Üniversitesi", "MEF University"],
     ".mehmetakif.edu.tr": [
         "T.C. Mehmet Akif Ersoy Üniversitesi",
@@ -22451,7 +24559,10 @@ DOMAINS: Dict[str, List[str]] = {
         "T.C. Mimar Sinan Güzel Sanatlar Üniversitesi",
         "T.C. Mimar Sinan Fine Arts University",
     ],
-    ".mu.edu.tr": ["Muğla Sıtkı Koçman Üniversitesi", "Muğla Sıtkı Koçman University"],
+    ".mu.edu.tr": [
+        "Muğla Sıtkı Koçman Üniversitesi",
+        "Muğla Sıtkı Koçman University",
+    ],
     ".munzur.edu.tr": ["Munzur Üniversitesi", "Munzur University"],
     ".campus.netkent.edu.tr": [
         "Netkent Akdeniz Araştırma ve Bilim Üniversitesi",
@@ -22484,7 +24595,10 @@ DOMAINS: Dict[str, List[str]] = {
         "Osmaniye Korkut Ata Üniversitesi",
         "Osmaniye Korkut Ata University",
     ],
-    ".ostimteknik.edu.tr": ["Ostim Teknik Üniversitesi", "Ostim Technical University"],
+    ".ostimteknik.edu.tr": [
+        "Ostim Teknik Üniversitesi",
+        "Ostim Technical University",
+    ],
     ".ozal.edu.tr": [
         "Malatya Turgut Özal Üniversitesi",
         "Malatya Turgut Özal University",
@@ -22506,9 +24620,18 @@ DOMAINS: Dict[str, List[str]] = {
     ".samsun.edu.tr": ["Samsun University"],
     ".sanko.edu.tr": ["Sanko Üniversitesi", "Sanko University"],
     ".sau.edu.tr": ["Sakarya Üniversitesi", "Sakarya University"],
-    ".sbu.edu.tr": ["Sağlık Bilimleri Üniversitesi", "University of Health Sciences"],
-    ".sdu.edu.tr": ["Süleyman Demirel Üniversitesi", "Süleyman Demirel University"],
-    ".sehir.edu.tr": ["İstanbul Şehir Üniversitesi", "İstanbul Şehir University"],
+    ".sbu.edu.tr": [
+        "Sağlık Bilimleri Üniversitesi",
+        "University of Health Sciences",
+    ],
+    ".sdu.edu.tr": [
+        "Süleyman Demirel Üniversitesi",
+        "Süleyman Demirel University",
+    ],
+    ".sehir.edu.tr": [
+        "İstanbul Şehir Üniversitesi",
+        "İstanbul Şehir University",
+    ],
     ".selcuk.edu.tr": ["Selçuk Üniversitesi", "Selçuk University"],
     ".siirt.edu.tr": ["Siirt Üniversitesi", "Siirt University"],
     ".sinop.edu.tr": ["Sinop Üniversitesi", "Sinop University"],
@@ -22549,8 +24672,14 @@ DOMAINS: Dict[str, List[str]] = {
         "Hoca Ahmet Yesevi Üniversitesi",
         "Akhmet Yassawi University",
     ],
-    ".yildiz.edu.tr": ["Yıldız Teknik Üniversitesi", "Yıldız Technical University"],
-    ".yiu.edu.tr": ["Yüksek İhtisas Üniversitesi", "Yüksek İhtisas University"],
+    ".yildiz.edu.tr": [
+        "Yıldız Teknik Üniversitesi",
+        "Yıldız Technical University",
+    ],
+    ".yiu.edu.tr": [
+        "Yüksek İhtisas Üniversitesi",
+        "Yüksek İhtisas University",
+    ],
     ".yuksekihtisasuniversitesi.edu.tr": [
         "Yüksek İhtisas Üniversitesi",
         "Yüksek İhtisas University",
@@ -22573,7 +24702,10 @@ DOMAINS: Dict[str, List[str]] = {
     ".maya.k12.tr": ["Maya School"],
     ".mayaokullari.k12.tr": ["Maya Okulları", "Maya Schools"],
     ".nds.k12.tr": ["Notre Dame de Sion Özel Fransız Lisesi"],
-    ".odtugvo.k12.tr": ["ODTU GVO ÖZEL LİSESİ", "METU DFS PRIVATE HIGH SCHOOL"],
+    ".odtugvo.k12.tr": [
+        "ODTU GVO ÖZEL LİSESİ",
+        "METU DFS PRIVATE HIGH SCHOOL",
+    ],
     ".robcol.k12.tr": ["American Robert College of Istanbul"],
     ".sanliurfaeml.k12.tr": [
         "Urfa Mesleki ve Teknik Anadolu Lisesi",
@@ -22583,13 +24715,21 @@ DOMAINS: Dict[str, List[str]] = {
     ".sj.k12.tr": ["İstanbul Özel Saint-Joseph Fransız Lisesi"],
     ".sm.k12.tr": ["Saint Michel Fransız Lisesi"],
     ".sp.k12.tr": ["Saint Pulcherie Fransız Lisesi"],
-    ".tedankara.k12.tr": ["TED Ankara Koleji", "Ted Ankara College Foundation Schools"],
+    ".tedankara.k12.tr": [
+        "TED Ankara Koleji",
+        "Ted Ankara College Foundation Schools",
+    ],
     ".tedatakent.k12.tr": ["TED Atakent Koleji  ", "TED Atakent College"],
     ".terakki.k12.tr": ["Terakki Vakfı Okulları"],
     ".tevitol.k12.tr": ["TEV Inanc Turkes Ozel Lisesi"],
-    ".uaa.k12.tr": ["Özel Üsküdar Amerikan Lisesi", "Uskudar American Academy"],
+    ".uaa.k12.tr": [
+        "Özel Üsküdar Amerikan Lisesi",
+        "Uskudar American Academy",
+    ],
     ".ugurokullari.k12.tr": ["Ugur Okullari", "Ugur High schools"],
-    ".yenilikciogrenme.k12.tr": ["Yenilikci Ogrenme Merkezi, Istanbul, Turkey"],
+    ".yenilikciogrenme.k12.tr": [
+        "Yenilikci Ogrenme Merkezi, Istanbul, Turkey"
+    ],
     ".usc.edu.tt": ["University of the Southern Caribbean"],
     ".utt.edu.tt": ["University of Trinidad and Tobago"],
     ".uwi.tt": ["University of the West Indies St. Augustine"],
@@ -22601,11 +24741,17 @@ DOMAINS: Dict[str, List[str]] = {
         "亞東科技大學",
         "Asia Eastern University of Science and Technology ",
     ],
-    ".live.asia.edu.tw": ["Asia University, Taiwan", "Asia University, Taiwan"],
+    ".live.asia.edu.tw": [
+        "Asia University, Taiwan",
+        "Asia University, Taiwan",
+    ],
     ".au.edu.tw": ["Aletheia University"],
     ".ccu.edu.tw": ["National Chung Cheng University"],
     ".cgu.edu.tw": ["Chang Gung University"],
-    ".chgsh.chc.edu.tw": ["國立彰化女子高級中學", "National Changhua Girl's Senior High School"],
+    ".chgsh.chc.edu.tw": [
+        "國立彰化女子高級中學",
+        "National Changhua Girl's Senior High School",
+    ],
     ".chsh.chc.edu.tw": ["國立彰化高級中學", "National Changhua Senior High School"],
     ".chihlee.edu.tw": ["Chihlee University of Technology", "致理科技大學"],
     ".chu.edu.tw": ["Chung Hua University"],
@@ -22630,18 +24776,37 @@ DOMAINS: Dict[str, List[str]] = {
     ".live.fy.edu.tw": ["輔英科技大學", "Fooyin University"],
     ".stu.hgsh.hc.edu.tw": ["国立新竹女子高级中学", "Hsinchu Girls Senior High School"],
     ".hcu.edu.tw": ["Hsuan Chuang University"],
-    ".mail.hdut.edu.tw": ["宏國德霖科技大學", "Hungkuo Delin University of Technology"],
-    ".student.hdut.edu.tw": ["宏國德霖科技大學", "Hungkuo Delin University of Technology"],
+    ".mail.hdut.edu.tw": [
+        "宏國德霖科技大學",
+        "Hungkuo Delin University of Technology",
+    ],
+    ".student.hdut.edu.tw": [
+        "宏國德霖科技大學",
+        "Hungkuo Delin University of Technology",
+    ],
     ".hfu.edu.tw": ["Huafan University"],
     ".hk.edu.tw": ["弘光科技大學", "HungKuang University", "http://www.hk.edu.tw"],
-    ".hust.edu.tw": ["修平科技大學", "Hsiuping University of Science and Technology"],
-    ".ms.hwai.edu.tw": ["中華醫事科技大學", "Chung Hwa University of Medical Technology"],
+    ".hust.edu.tw": [
+        "修平科技大學",
+        "Hsiuping University of Science and Technology",
+    ],
+    ".ms.hwai.edu.tw": [
+        "中華醫事科技大學",
+        "Chung Hwa University of Medical Technology",
+    ],
     ".go.hwh.edu.tw": ["華夏科技大學", "Hwa Hsia University of Technology"],
     ".isu.edu.tw": ["I-Shou University"],
     ".just.edu.tw": ["景文科技大學", "JinWen University of Science & Technology"],
-    ".kh.edu.tw": ["高雄市教育局", "Education Bureau, Kaohsiung City Government", ".group"],
+    ".kh.edu.tw": [
+        "高雄市教育局",
+        "Education Bureau, Kaohsiung City Government",
+        ".group",
+    ],
     ".fssh.khc.edu.tw": ["國立鳳山高級中學", "National Feng-Shan Senior High School"],
-    ".gm.kl.edu.tw": ["基隆市立銘傳國中", "Keelung Municipal Ming Chwan Junior High School"],
+    ".gm.kl.edu.tw": [
+        "基隆市立銘傳國中",
+        "Keelung Municipal Ming Chwan Junior High School",
+    ],
     ".kmu.edu.tw": ["高雄醫學大學", "Kaohsiung Medical University"],
     ".knu.edu.tw": ["開南大學", "Kainan University", "https://www.knu.edu.tw/"],
     ".ksu.edu.tw": ["Kun Shan University"],
@@ -22693,7 +24858,9 @@ DOMAINS: Dict[str, List[str]] = {
         "國立澎湖科技大學",
         "National Penghu University of Science and Technology",
     ],
-    ".npust.edu.tw": ["National Pingtung University of Science and Technology"],
+    ".npust.edu.tw": [
+        "National Pingtung University of Science and Technology"
+    ],
     ".nqu.edu.tw": ["國立金門大學", "National Quemoy University"],
     ".nsysu.edu.tw": ["National Sun Yat-Sen University"],
     ".gm.ntcu.edu.tw": ["National Taichung University of Education"],
@@ -22701,7 +24868,11 @@ DOMAINS: Dict[str, List[str]] = {
     ".nthu.edu.tw": ["National Tsinghua University"],
     ".ntnu.edu.tw": ["National Taiwan Normal University"],
     ".ntou.edu.tw": ["National Taiwan Ocean University"],
-    ".apps.ntpc.edu.tw": ["五華國小", "wu hua elementary school", "apps.ntpc.edu.tw"],
+    ".apps.ntpc.edu.tw": [
+        "五華國小",
+        "wu hua elementary school",
+        "apps.ntpc.edu.tw",
+    ],
     ".mail2.chshs.ntpc.edu.tw": [
         "新北市立中和高級中學",
         "New Taipei Municipal Zhonghe Senior High School",
@@ -22718,7 +24889,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".ntu.edu.tw": ["National Taiwan University"],
     ".ntub.edu.tw": ["國立臺北商業大學", "National Taipei University of Business"],
     ".ntue.edu.tw": ["國立台北教育大學", "national taipei university of education"],
-    ".ntunhs.edu.tw": ["National Taipei University of Nursing and Health Sciences"],
+    ".ntunhs.edu.tw": [
+        "National Taipei University of Nursing and Health Sciences"
+    ],
     ".ntupes.edu.tw": ["國立臺灣體育運動大學", "National Taiwan University of Sport"],
     ".ntus.edu.tw": ["國立臺灣體育運動大學", "National Taiwan University of Sport"],
     ".ntust.edu.tw": ["National Taiwan University of Science and Technology"],
@@ -22755,13 +24928,25 @@ DOMAINS: Dict[str, List[str]] = {
     ],
     ".stud.sju.edu.tw": ["聖約翰科技大學", "St. John's University"],
     ".stu.edu.tw": ["SHU-TE University"],
-    ".stust.edu.tw": ["南台科技大學", "Southern Taiwan University of Science and Technology"],
+    ".stust.edu.tw": [
+        "南台科技大學",
+        "Southern Taiwan University of Science and Technology",
+    ],
     ".stut.edu.tw": ["Southern Taiwan University of Technology"],
     ".student.tajen.edu.tw": ["Tajen University"],
-    ".cc.takming.edu.tw": ["德明財經科技大學", "Takming University of Science and Technology"],
-    ".gs.takming.edu.tw": ["德明財經科技大學", "takming university of science and technology"],
+    ".cc.takming.edu.tw": [
+        "德明財經科技大學",
+        "Takming University of Science and Technology",
+    ],
+    ".gs.takming.edu.tw": [
+        "德明財經科技大學",
+        "takming university of science and technology",
+    ],
     ".tas.edu.tw": ["Taipei American School"],
-    ".ddjhs.tc.edu.tw": ["臺中市立大道國民中學", "Taichung Municipal Da-Dau Junior High School"],
+    ".ddjhs.tc.edu.tw": [
+        "臺中市立大道國民中學",
+        "Taichung Municipal Da-Dau Junior High School",
+    ],
     ".ms1.fhbes.tc.edu.tw": [
         "台中市私立明道普霖斯頓雙語小學",
         "Future-Heir Bilingual Elementary School",
@@ -22786,7 +24971,10 @@ DOMAINS: Dict[str, List[str]] = {
     ".gm.youth.tc.edu.tw": ["臺中市青年高級中學", "Youth Senior High School"],
     ".gms.tcu.edu.tw": ["Tzu Chi University"],
     ".tcu.edu.tw": ["Tzu Chi College of Medicine and Humanities"],
-    ".ems.tcust.edu.tw": ["慈濟科技大學", "Tzu Chi University of Science and Technology"],
+    ".ems.tcust.edu.tw": [
+        "慈濟科技大學",
+        "Tzu Chi University of Science and Technology",
+    ],
     ".thu.edu.tw": ["Tunghai University"],
     ".tku.edu.tw": ["Tamkang University"],
     ".tmu.edu.tw": ["臺北醫學大學", "TAIPEI MEDICAL UNIVERSITY"],
@@ -22795,28 +24983,49 @@ DOMAINS: Dict[str, List[str]] = {
         "國立南科國際實驗高級中學",
         "National Nanke International Experimental High School",
     ],
-    ".gm.ptivs.tn.edu.tw": ["國立台南高級工業職業學校", "National Tainan Industrial High School"],
+    ".gm.ptivs.tn.edu.tw": [
+        "國立台南高級工業職業學校",
+        "National Tainan Industrial High School",
+    ],
     ".tnfsh.tn.edu.tw": ["Tainan First Senior High School"],
-    ".stu.tnssh.tn.edu.tw": ["國立台南第二高級中學", "National Tainan Second Senior High School"],
+    ".stu.tnssh.tn.edu.tw": [
+        "國立台南第二高級中學",
+        "National Tainan Second Senior High School",
+    ],
     ".tnnua.edu.tw": ["Tainan National University of the Arts"],
     ".mail2u.tnu.edu.tw": ["東南科技大學", "TUNGNAN UNIVERSITY"],
     ".tnu.edu.tw": ["東南科技大學", "Tungnan University"],
     ".gmcc.tnua.edu.tw": ["Taipei Nation University of Arts"],
     ".gl.ck.tp.edu.tw": ["臺北市立建國高級中學", "Taipei Municipal Jianguo High School"],
-    ".gafe.cksh.tp.edu.tw": ["臺北市立成功高級中學", "Taipei Municipal Chenggong High School"],
+    ".gafe.cksh.tp.edu.tw": [
+        "臺北市立成功高級中學",
+        "Taipei Municipal Chenggong High School",
+    ],
     ".st.fhjh.tp.edu.tw": ["臺北市私立復興實驗高級中學", "Taipei Fuhsing Private School"],
-    ".ms2.hssh.tp.edu.tw": ["台北市立西松高級中學", "Taipei Municipal XiSong Senior High School"],
+    ".ms2.hssh.tp.edu.tw": [
+        "台北市立西松高級中學",
+        "Taipei Municipal XiSong Senior High School",
+    ],
     ".mail.nihs.tp.edu.tw": ["Taipei Munucipal Nei-Hu Vocational High School"],
     ".tp.edu.tw": ["臺北市教育局"],
-    ".im.tpcu.edu.tw": ["臺北城市科技大學", "Taipei City University of Science & Technology"],
-    ".tpcu.edu.tw": ["台北城市科技大學", "Taipei City University of Science and Technology"],
+    ".im.tpcu.edu.tw": [
+        "臺北城市科技大學",
+        "Taipei City University of Science & Technology",
+    ],
+    ".tpcu.edu.tw": [
+        "台北城市科技大學",
+        "Taipei City University of Science and Technology",
+    ],
     ".tpec.edu.tw": ["Taipei Physical Education College"],
     ".ttu.edu.tw": ["TaTung University "],
     ".tut.edu.tw": ["Tainan University of Technology"],
     ".twu.edu.tw": ["TransWorld University"],
     ".gm2.fxsh.tyc.edu.tw": ["振聲高中"],
     ".phsh.tyc.edu.tw": ["\ufeffPaul Hsu Senior High School"],
-    ".uch.edu.tw": ["健行科技大學", "Chien Hsin University of Science and Technology"],
+    ".uch.edu.tw": [
+        "健行科技大學",
+        "Chien Hsin University of Science and Technology",
+    ],
     ".g2.usc.edu.tw": ["實踐大學", "Shih Chien University"],
     ".utaipei.edu.tw": ["\ufeffUniversity of Taipei"],
     ".vnu.edu.tw": ["Vanung University"],
@@ -22824,9 +25033,14 @@ DOMAINS: Dict[str, List[str]] = {
     ".ydu.edu.tw": ["育達科技大學", "Yu Da University of Science and Technology  "],
     ".pjes.ylc.edu.tw": ["Pijiao National Primary School"],
     ".ym.edu.tw": ["National Yang Ming Medical College"],
-    ".yuntech.edu.tw": ["National Yunlin University of Science and Technology"],
+    ".yuntech.edu.tw": [
+        "National Yunlin University of Science and Technology"
+    ],
     ".yzu.edu.tw": ["Yuan Ze University"],
-    ".ctschool.org.tw": ["臺北市運算思維實驗教育機構", "Taipei Computational Thinking School"],
+    ".ctschool.org.tw": [
+        "臺北市運算思維實驗教育機構",
+        "Taipei Computational Thinking School",
+    ],
     ".cycu.org.tw": ["Chung Yuan Christian University"],
     ".ntut.org.tw": ["NTUT", "National Taipei University of Technology"],
     ".yuntech.org.tw": [
@@ -22842,8 +25056,12 @@ DOMAINS: Dict[str, List[str]] = {
     ".kcmc.ac.tz": ["Kilimanjaro Christian Medical College"],
     ".mmu.ac.tz": ["Mount Meru University"],
     ".mnma.ac.tz": ["Mwalimu Nyerere Memorial Academy"],
-    ".muccobs.ac.tz": ["Moshi University College of Cooperative and Business Studies"],
-    ".muchs.ac.tz": ["Muhimbili University of Health and Allied Sciences (MUHAS)"],
+    ".muccobs.ac.tz": [
+        "Moshi University College of Cooperative and Business Studies"
+    ],
+    ".muchs.ac.tz": [
+        "Muhimbili University of Health and Allied Sciences (MUHAS)"
+    ],
     ".mustnet.ac.tz": ["Mbeya University of Science and Technology"],
     ".mustudent.ac.tz": ["Mzumbe University (Chuo Kikuu Mzumbe)"],
     ".mzumbe.ac.tz": ["Mzumbe University (Chuo Kikuu Mzumbe)"],
@@ -22941,7 +25159,9 @@ DOMAINS: Dict[str, List[str]] = {
         "Центральноукраїнський державний педагогічний університет імені Володимира Винниченка",
         "Volodymyr Vynnychenko Central Ukrainian State Pedagogical University",
     ],
-    ".diit.edu.ua": ["Dnepropetrovsk National University of Railway Transport"],
+    ".diit.edu.ua": [
+        "Dnepropetrovsk National University of Railway Transport"
+    ],
     ".ef.dnu.edu.ua": [
         "Дніпровський національний університет ім. Олеся Гончара",
         "Oles Honchar Dnipro National University",
@@ -23015,7 +25235,9 @@ DOMAINS: Dict[str, List[str]] = {
         "Харьковский политехнический институт",
         "Kharkiv Polytechnic Institute",
     ],
-    ".kmu.edu.ua": ["Private higher educational establishment Kyiv Medical University"],
+    ".kmu.edu.ua": [
+        "Private higher educational establishment Kyiv Medical University"
+    ],
     ".kname.edu.ua": [
         "Харківський національний університет міського господарства імені О. М. Бекетова",
         "O.M. Beketov National University of Urban Economy in Kharkiv",
@@ -23030,7 +25252,9 @@ DOMAINS: Dict[str, List[str]] = {
         "Kharkiv National Medical University",
     ],
     ".knu.edu.ua": ["Kryvyi Rih National University"],
-    ".knuba.edu.ua": ["Kiev National University of Construction and Architecture"],
+    ".knuba.edu.ua": [
+        "Kiev National University of Construction and Architecture"
+    ],
     ".knutd.edu.ua": ["Kyiv National University of Technologies and Design"],
     ".knute.edu.ua": [
         "KYIV NATIONAL UNIVERSITY OF TRADE AND ECONOMICS",
@@ -23131,7 +25355,10 @@ DOMAINS: Dict[str, List[str]] = {
         'Національний університет "Одеська юридична академія"',
         "National University Odesa Law Academy",
     ],
-    ".stud.op.edu.ua": ["Одесская Политехника", "Odessа Polytechnic State University"],
+    ".stud.op.edu.ua": [
+        "Одесская Политехника",
+        "Odessа Polytechnic State University",
+    ],
     ".pdpu.edu.ua": [
         "Південноукраїнський національний педагогічний університет імені К. Д. Ушинського"
     ],
@@ -23157,7 +25384,9 @@ DOMAINS: Dict[str, List[str]] = {
         "Ternopil Ivan Puluj National Technical University",
         "Web-site: https://tntu.edu.ua/",
     ],
-    ".tnu.edu.ua": ["Таврический национальный университет имени В. И. Вернадского"],
+    ".tnu.edu.ua": [
+        "Таврический национальный университет имени В. И. Вернадского"
+    ],
     ".tsatu.edu.ua": [
         "Таврійський державний агротехнологічний університет",
         "Tavria State Agrotechnological University",
@@ -23194,7 +25423,9 @@ DOMAINS: Dict[str, List[str]] = {
         "Західноукраїнський національний університет",
         "West Ukrainian National University",
     ],
-    ".zieit.edu.ua": ["Zaporizhzhya Institute of Economics and Information Technology"],
+    ".zieit.edu.ua": [
+        "Zaporizhzhya Institute of Economics and Information Technology"
+    ],
     ".zntu.edu.ua": ["Zaporizhzhe National Technical University"],
     ".znu.edu.ua": ["Zaporizhzhe National University"],
     ".stu.zsea.edu.ua": [
@@ -23228,7 +25459,9 @@ DOMAINS: Dict[str, List[str]] = {
         'Приватний вищий навчальний заклад "Європейський Університет"',
         'Privatniy vischiy navchalniy zaklad "Evropeyskiy Universitet"',
     ],
-    ".kpi.in.ua": ["National Technical University (Kiev Politechnical Institute)"],
+    ".kpi.in.ua": [
+        "National Technical University (Kiev Politechnical Institute)"
+    ],
     ".mschool5.in.ua": ["\ufeffСпециализированная школа №5 Мариуполь"],
     ".karazin.ua": ["V. N. Karazin Kharkov National University"],
     ".khadi.kharkov.ua": ["Kharkiv State Transport Technical University"],
@@ -23275,25 +25508,37 @@ DOMAINS: Dict[str, List[str]] = {
         "Khmelnitsky National University",
         "Хмельницький Національний Університет",
     ],
-    ".kneu.ua": ["Kyiv National Economic University named after Vadym Hetman (KNEU)"],
+    ".kneu.ua": [
+        "Kyiv National Economic University named after Vadym Hetman (KNEU)"
+    ],
     ".knu.ua": ["Taras Shevchenko National University of Kyiv"],
-    ".kpi.ua": ["National Technical University (Kiev Politechnical Institute)"],
+    ".kpi.ua": [
+        "National Technical University (Kiev Politechnical Institute)"
+    ],
     ".kntu.kr.ua": ["Central Ukrainian National Technical University"],
     ".kspu.kr.ua": ["Kirovograd State Pedagogical University"],
     ".ptu16.kr.ua": [
         "Професійно-технічне училище №16 м. Мала Виска",
         "Vocational school №16 Mala Vyska",
     ],
-    ".ksu.ks.ua": ["Kherson State University", "Херсонський державний університет"],
+    ".ksu.ks.ua": [
+        "Kherson State University",
+        "Херсонський державний університет",
+    ],
     ".university.ks.ua": ["Kherson State University"],
     ".lnau.lg.ua": ["Lugansk National Agrarian University"],
     ".lpnu.ua": ["Lviv Polytechnic National University"],
     ".gymnasia21.lutsk.ua": ["Lutsk Gymnasium #  21 after Mikhail Kravchuk "],
     ".forest.lviv.ua": ["Ukrainian National Forestry University"],
     ".lute.lviv.ua": ["Lviv University of Trade and Economics"],
-    ".meduniv.lviv.ua": ["Lviv Medical University", "Lviv National Medical Univeristy"],
+    ".meduniv.lviv.ua": [
+        "Lviv Medical University",
+        "Lviv National Medical Univeristy",
+    ],
     ".nltu.lviv.ua": ["Ukrainian National Forestry University"],
-    ".school3.mk.ua": ["\ufeffМиколаївська загальноосвітня школа І-ІІІ ступенів №3"],
+    ".school3.mk.ua": [
+        "\ufeffМиколаївська загальноосвітня школа І-ІІІ ступенів №3"
+    ],
     ".kkz.net.ua": [
         "Kiev collage of communications",
         "KKC",
@@ -23318,8 +25563,13 @@ DOMAINS: Dict[str, List[str]] = {
         "Bogdan Khmelnitsky Melitopol State Pedagogical University",
     ],
     ".nmu.org.ua": ["National Mining University"],
-    ".ogasa.org.ua": ["Odessa State Academy of Civil Engeneering and Architecture"],
-    ".ztkolegium.org.ua": ["Житомирський міський колегіум", "Zhytomyr City Collegium"],
+    ".ogasa.org.ua": [
+        "Odessa State Academy of Civil Engeneering and Architecture"
+    ],
+    ".ztkolegium.org.ua": [
+        "Житомирський міський колегіум",
+        "Zhytomyr City Collegium",
+    ],
     ".polytechnic.poltava.ua": [
         "PPC NTU 'KhPI'",
         "Poltava Polytechnic College by National Technical University 'Kharkiv Polytechnical Institute'",
@@ -23336,7 +25586,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".unit.ua": ["UNIT Factory"],
     ".univ.uzhgorod.ua": ["Uzhgorod National University"],
     ".vnmu.vn.ua": ["National Pirogov Memorial Medical University"],
-    ".econom.zp.ua": ["Zaporizhzhya Institute of Economics and Information Technology"],
+    ".econom.zp.ua": [
+        "Zaporizhzhya Institute of Economics and Information Technology"
+    ],
     ".zgia.zp.ua": ["Zaporizhzhya State Engineering Academy"],
     ".zhatk.zt.ua": ["Zhytomyr Agrotechnical College"],
     ".bugemauniv.ac.ug": ["Bugema University"],
@@ -23358,7 +25610,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".ndejjeuniversity.ac.ug": ["Ndejje University"],
     ".nkumbauniversity.ac.ug": ["Nkumba University"],
     ".ucu.ac.ug": ["Uganda Christian University"],
-    ".uict.ac.ug": ["Uganda Institute of Information and Communications Technology"],
+    ".uict.ac.ug": [
+        "Uganda Institute of Information and Communications Technology"
+    ],
     ".umu.ac.ug": ["Uganda Martyr's University"],
     ".student.utamu.ac.ug": [
         "Uganda Technology and Management University",
@@ -23449,7 +25703,10 @@ DOMAINS: Dict[str, List[str]] = {
     ".hud.ac.uk": ["University of Huddersfield"],
     ".hull.ac.uk": ["University of Hull"],
     ".hw.ac.uk": ["Heriot-Watt University"],
-    ".ic.ac.uk": ["Imperial College London", "Imperial College School of Medicine"],
+    ".ic.ac.uk": [
+        "Imperial College London",
+        "Imperial College School of Medicine",
+    ],
     ".imperial.ac.uk": ["Imperial College London"],
     ".ioe.ac.uk": ["Institute of Education, University of London"],
     ".kcl.ac.uk": ["King's College London, University of London"],
@@ -23551,13 +25808,17 @@ DOMAINS: Dict[str, List[str]] = {
         "Institute of Latin American Studies, University of London",
         "Warburg Institute, University of London",
     ],
-    ".sghms.ac.uk": ["Saint George's Hospital Medical School, University of London"],
+    ".sghms.ac.uk": [
+        "Saint George's Hospital Medical School, University of London"
+    ],
     ".sgscol.ac.uk": ["South Gloucestershire and Stroud College"],
     ".shef.ac.uk": ["University of Sheffield"],
     ".shrewsbury.ac.uk": ["Shrewsbury Colleges Group"],
     ".shu.ac.uk": ["Sheffield Hallam University"],
     ".smu.ac.uk": ["Swansea Metropolitan University"],
-    ".soas.ac.uk": ["School of Oriental and African Studies, University of London"],
+    ".soas.ac.uk": [
+        "School of Oriental and African Studies, University of London"
+    ],
     ".solent.ac.uk": ["Southampton Solent University"],
     ".somerset.ac.uk": [
         "Taunton and Bridgwater College, Somerset, UK.",
@@ -23643,7 +25904,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".calday.co.uk": ["Calday Grange Grammar School"],
     ".caludoncastle.co.uk": ["Caludon Castle"],
     ".cardinalallen.co.uk": ["Cardinal Allen Catholic High School"],
-    ".cardinalnewman.co.uk": ["Cardinal Newman Roman Catholic Comprehensive School"],
+    ".cardinalnewman.co.uk": [
+        "Cardinal Newman Roman Catholic Comprehensive School"
+    ],
     ".cedarsupper.co.uk": ["Cedars Upper School"],
     ".chesterfieldhigh.co.uk": ["Chesterfield High School"],
     ".cliftonhigh.co.uk": ["Clifton High School"],
@@ -23655,8 +25918,13 @@ DOMAINS: Dict[str, List[str]] = {
     ".crgs.co.uk": ["Colchester Royal Grammar School"],
     ".cvms.co.uk": ["The Cardinal Vaughan Memorial School"],
     ".derbymanufacturingutc.co.uk": ["Derby Manufacturing UTC, Derby, UK"],
-    ".eastlondonscienceschool.co.uk": ["East London Science School Sixth Form"],
-    ".ebbwfawr.co.uk": ["Ebbw Fawr Learning Community", "Ebbw Fawr Learning Community"],
+    ".eastlondonscienceschool.co.uk": [
+        "East London Science School Sixth Form"
+    ],
+    ".ebbwfawr.co.uk": [
+        "Ebbw Fawr Learning Community",
+        "Ebbw Fawr Learning Community",
+    ],
     ".edgbarrowschool.co.uk": ["Edgbarrow School"],
     ".elam.co.uk": ["East London Arts and Music"],
     ".ewellcastle.co.uk": ["Ewell Castle School"],
@@ -23670,7 +25938,11 @@ DOMAINS: Dict[str, List[str]] = {
     ".hswv.co.uk": ["Highfields School"],
     ".ilford-school.co.uk": ["Ilford Grammar School"],
     ".ilkleygs.co.uk": ["Ilkley Grammar School"],
-    ".interhigh.co.uk": ["InterHigh Education", "InterHigh School", "InterHigh"],
+    ".interhigh.co.uk": [
+        "InterHigh Education",
+        "InterHigh School",
+        "InterHigh",
+    ],
     ".iscaexeter.co.uk": ["Isca Academy "],
     ".ivesheadschool.co.uk": ["Iveshead School"],
     ".kennetschool.co.uk": ["Kennet School, Thatcham"],
@@ -23681,7 +25953,10 @@ DOMAINS: Dict[str, List[str]] = {
     ".latymer.co.uk": ["Latymer School - Sixth Form"],
     ".limt.co.uk": ["London Institute of Management and Technology"],
     ".lincolnutc.co.uk": ["Lincoln UTC"],
-    ".lsclondon.co.uk": ["London School of Commerce", "London School of Commerce"],
+    ".lsclondon.co.uk": [
+        "London School of Commerce",
+        "London School of Commerce",
+    ],
     ".maynard.co.uk": ["Maynard School"],
     ".meole.co.uk": ["Meole Brace School Science College"],
     ".meolscophighschool.co.uk": ["Meols Cop High School"],
@@ -23741,7 +26016,10 @@ DOMAINS: Dict[str, List[str]] = {
     ".wolfreton.co.uk": ["Wolfreton School and Sixth Form College"],
     ".wsnl.co.uk": ["Worksop College"],
     ".wycliffe.co.uk": ["Wycliffe College"],
-    ".Kingsworcester.org.uk": ["King's School Worcester", "@kingsworcester.org.uk"],
+    ".Kingsworcester.org.uk": [
+        "King's School Worcester",
+        "@kingsworcester.org.uk",
+    ],
     ".Ksw.org.uk": ["King's School Worcester", "@ksw.org.uk"],
     ".abingdon.org.uk": ["Abingdon School"],
     ".alleyns.org.uk": ["Alleyn's School"],
@@ -23756,7 +26034,10 @@ DOMAINS: Dict[str, List[str]] = {
         "@beechencliff.org.uk",
         "School offers A-Level in Computer Science",
     ],
-    ".berkeleygreenutc.org.uk": ["SGS Berkeley Green UTC", "@berkeleygreenutc.org.uk"],
+    ".berkeleygreenutc.org.uk": [
+        "SGS Berkeley Green UTC",
+        "@berkeleygreenutc.org.uk",
+    ],
     ".carmelstudent.bhcet.org.uk": ["Carmel College", "Carmel College"],
     ".bicestertechstudio.org.uk": ["Bicester Technology Studio"],
     ".bl6.org.uk": ["Brine Leas Sixth Form", "BL6"],
@@ -23790,7 +26071,10 @@ DOMAINS: Dict[str, List[str]] = {
     ".epsomcollege.org.uk": ["Epsom College"],
     ".esf-schools.org.uk": ["Emmanuel Schools Foundation"],
     ".etoncollege.org.uk": ["Eton College"],
-    ".stjohns.excalibur.org.uk": ["St John's Marlborough", "St John's Marlborough"],
+    ".stjohns.excalibur.org.uk": [
+        "St John's Marlborough",
+        "St John's Marlborough",
+    ],
     ".forest.org.uk": ["Forest School London"],
     ".gordanoschool.org.uk": ["Gordano School"],
     ".gsal.org.uk": ["The Grammar School at Leeds"],
@@ -23802,7 +26086,10 @@ DOMAINS: Dict[str, List[str]] = {
     ".ivesheadschool.org.uk": ["Iveshead School"],
     ".kaa.org.uk": ["Kensington Aldridge Academy"],
     ".kcs.org.uk": ["King's College School Wimbledon"],
-    ".kegs.org.uk": ["King Edward VI Grammar School", "King Edward VI Grammar School"],
+    ".kegs.org.uk": [
+        "King Edward VI Grammar School",
+        "King Edward VI Grammar School",
+    ],
     ".kgs.org.uk": ["Kingston Grammar School"],
     ".kingsburyhigh.org.uk": ["Kingsbury High School"],
     ".kingsdalefoundationschool.org.uk": ["Kingsdale Foundation School"],
@@ -23826,7 +26113,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".nsix.org.uk": ["Hellesdon High School & Sixth Form Centre"],
     ".olchfa.org.uk": ["Olchfa"],
     ".oundleschool.org.uk": ["Oundle School"],
-    ".parksidefederation.org.uk": ["Cambridge Academy for Science and Technology"],
+    ".parksidefederation.org.uk": [
+        "Cambridge Academy for Science and Technology"
+    ],
     ".penrice.org.uk": ["Penrice Accademy"],
     ".petcheyacademy.org.uk": ["The Petchey Academy"],
     ".plymstockschool.org.uk": ["Plymstock School"],
@@ -23932,7 +26221,10 @@ DOMAINS: Dict[str, List[str]] = {
         "Liberty Middle School",
         "Discovery Middle School",
     ],
-    ".mtnbrook.k12.al.us": ["Mountain Brook High School", "Mountain Brook Junior High"],
+    ".mtnbrook.k12.al.us": [
+        "Mountain Brook High School",
+        "Mountain Brook Junior High",
+    ],
     ".pickens.k12.al.us": ["Pickens County School District"],
     ".k12.andoverma.us": ["Andover Public Schools"],
     ".apsva.us": ["Washington-Liberty High School", "Arlington Career Center"],
@@ -23995,15 +26287,21 @@ DOMAINS: Dict[str, List[str]] = {
     ".jessamine.kyschools.us": ["West Jessamine High School"],
     ".stu.scott.kyschools.us": ["Scott County Schools"],
     ".duxbury.k12.ma.us": ["Duxbury Public Schools"],
-    ".lynnfield.k12.ma.us": ["Lynnfield Public Schools / Lynnfield High School"],
+    ".lynnfield.k12.ma.us": [
+        "Lynnfield Public Schools / Lynnfield High School"
+    ],
     ".newton.k12.ma.us": ["Newton South High School", ".group"],
     ".north-reading.k12.ma.us": [
         "North Reading Public Schools / North Reading High School"
     ],
     ".norwood.k12.ma.us": ["Norwood High School"],
     ".student.plymouth.k12.ma.us": ["Plymouth Public Schools"],
-    ".reading.k12.ma.us": ["Reading Public Schools / Reading Memorial High School"],
-    ".shrewsbury.k12.ma.us": ["Shrewsbury Public Schools / Shrewsbury High School"],
+    ".reading.k12.ma.us": [
+        "Reading Public Schools / Reading Memorial High School"
+    ],
+    ".shrewsbury.k12.ma.us": [
+        "Shrewsbury Public Schools / Shrewsbury High School"
+    ],
     ".wayland.k12.ma.us": ["Wayland High School"],
     ".sch.ci.lexington.ma.us": ["Lexington High School"],
     ".students.kent.k12.md.us": ["Kent County High School"],
@@ -24047,7 +26345,9 @@ DOMAINS: Dict[str, List[str]] = {
         "https://www.scps.k12.fl.us/",
         "The emails for students that are in schools in Seminole County are ID@student.myscps.us",
     ],
-    ".students.abss.k12.nc.us": ["Alamance-Burlington School System - Student Emails"],
+    ".students.abss.k12.nc.us": [
+        "Alamance-Burlington School System - Student Emails"
+    ],
     ".abss.k12.nc.us": ["Alamance-Burlington School System - Teacher Emails"],
     ".lee.k12.nc.us": ["Lee County Schools"],
     ".k12.nd.us": ["Jamestown High School"],
@@ -24056,7 +26356,10 @@ DOMAINS: Dict[str, List[str]] = {
     ".dvrhs.k12.nj.us": ["Delaware Valley Regional High School"],
     ".edison.k12.nj.us": ["Edison Public School District"],
     ".ewrsd.k12.nj.us": ["Hightstown High School"],
-    ".ns.greenwich.k12.nj.us": ["Greenwich Township School District", ".group"],
+    ".ns.greenwich.k12.nj.us": [
+        "Greenwich Township School District",
+        ".group",
+    ],
     ".gtps.k12.nj.us": ["Galloway Township Public Schools"],
     ".mahwah.k12.nj.us": ["Mahwah Public School District"],
     ".nps.k12.nj.us": ["Newark Public Schools District"],
@@ -24071,11 +26374,20 @@ DOMAINS: Dict[str, List[str]] = {
     ".commack.k12.ny.us": ["Commack High School"],
     ".comsewogue.k12.ny.us": ["Comsewogue School District"],
     ".icsd.k12.ny.us": ["Ithaca City School District"],
-    ".lvcsd.k12.ny.us": ["Locust Valley Middle School", "Locust Valley Middle School"],
+    ".lvcsd.k12.ny.us": [
+        "Locust Valley Middle School",
+        "Locust Valley Middle School",
+    ],
     ".newpaltz.k12.ny.us": ["New Paltz High School"],
     ".northport.k12.ny.us": ["Northport High School"],
-    ".syosset.k12.ny.us": ["Syosset High School", "Syosset Central School District"],
-    ".wfsd.k12.ny.us": ["William Floyd High School", "William Floyd School District"],
+    ".syosset.k12.ny.us": [
+        "Syosset High School",
+        "Syosset Central School District",
+    ],
+    ".wfsd.k12.ny.us": [
+        "William Floyd High School",
+        "William Floyd School District",
+    ],
     ".ashland-city.k12.oh.us": ["Ashland City Schools"],
     ".norman.k12.ok.us": ["Norman Public Schools"],
     ".cascade.k12.or.us": ["Cascade School District"],
@@ -24100,7 +26412,9 @@ DOMAINS: Dict[str, List[str]] = {
     ],
     ".rentonschools.us": ["Renton School District"],
     ".clover.k12.sc.us": ["Clover School District"],
-    ".gssm.k12.sc.us": ["South Carolina Governor's School for Science and Mathematics"],
+    ".gssm.k12.sc.us": [
+        "South Carolina Governor's School for Science and Mathematics"
+    ],
     ".k12.sd.us": ["Brookings High School"],
     ".smusd.us": ["San Marino Unified School District"],
     ".tri-county.us": ["Tri-County Regional Vocational Technical High School"],
@@ -24122,7 +26436,10 @@ DOMAINS: Dict[str, List[str]] = {
     ".westfordk12.us": ["Westford Academy"],
     ".bonduel.k12.wi.us": ["Bonduel School District"],
     ".hudson.k12.wi.us": ["Hudson"],
-    ".madison.k12.wi.us": ["James Madison Memorial High School", "Madison, WI  USA"],
+    ".madison.k12.wi.us": [
+        "James Madison Memorial High School",
+        "Madison, WI  USA",
+    ],
     ".students.mcpasd.k12.wi.us": ["Middleton High School"],
     ".randomlake.k12.wi.us": ["Random Lake School District"],
     ".shorewood.k12.wi.us": ["Shorewood School District"],
@@ -24147,7 +26464,10 @@ DOMAINS: Dict[str, List[str]] = {
     ".ort.edu.uy": ["Universidad ORT Uruguay"],
     ".psico.edu.uy": ["Facultad de Psicología UDELAR", "psico.edu.uy"],
     ".rau.edu.uy": ["Universidad de la República"],
-    ".seciu.edu.uy": ["Universidad de la Republica", "University of the Republic"],
+    ".seciu.edu.uy": [
+        "Universidad de la Republica",
+        "University of the Republic",
+    ],
     ".alumnos.seminario.edu.uy": ["Colegio Seminario"],
     ".ucu.edu.uy": ["Universidad Católica del Uruguay"],
     ".ude.edu.uy": ["Universidad de la Empresa (UDE)"],
@@ -24180,7 +26500,10 @@ DOMAINS: Dict[str, List[str]] = {
         "Moscow State University in Tashkent",
     ],
     ".namdu.uz": ["Namangan davlat universiteti", "Namangan State University"],
-    ".ndki.uz": ["Navoiy Davlat Konchilik Instituti", "Navoi State Mining Institute"],
+    ".ndki.uz": [
+        "Navoiy Davlat Konchilik Instituti",
+        "Navoi State Mining Institute",
+    ],
     ".nuu.uz": ["National University of Uzbekistan"],
     ".pharmi.uz": ["Tashkent Pharmaceutical Institute"],
     ".polito.uz": ["Turin Polytechnic University in Tashkent"],
@@ -24189,8 +26512,12 @@ DOMAINS: Dict[str, List[str]] = {
     ".qmii.uz": ["Karshi Engineering Economic Institute"],
     ".samdchti.uz": ["Samarkand State Institute of Foreign Languages"],
     ".samdu.uz": ["Samarkand State University"],
-    ".samgasi.uz": ["Samarkand State Architectural and Civil Engineering Institute"],
-    ".tatuff.uz": ["Tashkent University of Information Technologies, Ferghana branch"],
+    ".samgasi.uz": [
+        "Samarkand State Architectural and Civil Engineering Institute"
+    ],
+    ".tatuff.uz": [
+        "Tashkent University of Information Technologies, Ferghana branch"
+    ],
     ".tayi.uz": ["Tashkent Automobile and Roads Institute"],
     ".tcti.uz": ["Tashkent Chemical Technological Institute"],
     ".tdpu.uz": [
@@ -24216,7 +26543,9 @@ DOMAINS: Dict[str, List[str]] = {
         "Tashkent State University of Law",
     ],
     ".tuit.uz": ["Tashkent University of Information Technologies"],
-    ".tuitkf.uz": ["Karshi Branch of Tashkent University of Information Technologies"],
+    ".tuitkf.uz": [
+        "Karshi Branch of Tashkent University of Information Technologies"
+    ],
     ".ubtuit.uz": ["TATU Urgnch filiali", "Urgench branch of TUIT"],
     ".urdu.uz": ["Urganch Davlat Universiteti", "Urgench State University"],
     ".uwed.uz": ["University of World Economy &amp; Diplomacy"],
@@ -24243,7 +26572,9 @@ DOMAINS: Dict[str, List[str]] = {
         "Universidad Nacional Experimental de los Llanos Occidentales Ezequiel Zamora"
     ],
     ".unerg.edu.ve": ["Universidad Nacional Experimental Romulo Gallegos"],
-    ".unermb.edu.ve": ["Universidad Nacional Experimental Rafael Maria Baralt"],
+    ".unermb.edu.ve": [
+        "Universidad Nacional Experimental Rafael Maria Baralt"
+    ],
     ".unesur.edu.ve": [
         "Universidad Nacional Experimental Sur del Lago Jesús Maria Semprum"
     ],
@@ -24259,7 +26590,9 @@ DOMAINS: Dict[str, List[str]] = {
     ".usb.ve": ["Simón Bolívar University"],
     ".hlscc.edu.vg": ["H. Lavity Stoutt Community College"],
     ".fpt.aptech.ac.vn": ["FPT Aptech", "FPT Aptech"],
-    ".apcs.vn": ["Advanced Program in Computer Science - University of Science HCMC"],
+    ".apcs.vn": [
+        "Advanced Program in Computer Science - University of Science HCMC"
+    ],
     ".aptech.vn": ["Hanoi-Aptech Computer Education"],
     ".datapot.vn": [
         "https://datapot.edu.vn/",
@@ -24290,14 +26623,23 @@ DOMAINS: Dict[str, List[str]] = {
         "BCTECH",
     ],
     ".bdu.edu.vn": ["Binh Duong University"],
-    ".bkacad.edu.vn": ["Học viện Công nghệ BKACAD", "BKACAD Academy of Technology"],
-    ".bkc.edu.vn": ["CAO DANG BACH KHOA SAI GON (BKC)", "BACH KHOA SAI GON COLLEGE"],
+    ".bkacad.edu.vn": [
+        "Học viện Công nghệ BKACAD",
+        "BKACAD Academy of Technology",
+    ],
+    ".bkc.edu.vn": [
+        "CAO DANG BACH KHOA SAI GON (BKC)",
+        "BACH KHOA SAI GON COLLEGE",
+    ],
     ".ms.blu.edu.vn": ["Trường Đại Học Bạc Liêu", "Bac Lieu University"],
     ".st.buh.edu.vn": [
         "Đại học ngân hàng thành phố Hồ Chí Minh",
         "Banking University of Ho Chi Minh city",
     ],
-    ".buh.edu.vn": ["Trường Đại Học Ngân Hàng TPHCM", "Banking University TPHCM"],
+    ".buh.edu.vn": [
+        "Trường Đại Học Ngân Hàng TPHCM",
+        "Banking University TPHCM",
+    ],
     ".bvu.edu.vn": ["Ba Ria - Vung Tau University"],
     ".c3lqdon-khanhhoa.edu.vn": [
         "Trung Học Phổ Thông Lê Quý Đôn Khánh Hoà",
@@ -24340,8 +26682,14 @@ DOMAINS: Dict[str, List[str]] = {
         "https://datapot.edu.vn/",
         "Datapot is an educational institute that provides data science courses for Universities and Companies in Vietnam.",
     ],
-    ".dau.edu.vn": ["Đại học kiến trúc Đà Nẵng", "DANANG ARCHITECTURE UNIVERSITY"],
-    ".dhcnhn.edu.vn": ["Đại học Công Nghiệp Hà Nội", "Hanoi University of Industry"],
+    ".dau.edu.vn": [
+        "Đại học kiến trúc Đà Nẵng",
+        "DANANG ARCHITECTURE UNIVERSITY",
+    ],
+    ".dhcnhn.edu.vn": [
+        "Đại học Công Nghiệp Hà Nội",
+        "Hanoi University of Industry",
+    ],
     ".sv.dla.edu.vn": [
         "Đại học Kinh tế Công nghiệp Long An",
         "Long An University of Economics and Industry",
@@ -24349,14 +26697,20 @@ DOMAINS: Dict[str, List[str]] = {
     ".dlu.edu.vn": ["University of Da Lat"],
     ".donga.edu.vn": ["\ufeffĐại Học Đông Á", "Dong A University"],
     ".dtu.edu.vn": ["Duy Tan University"],
-    ".due.edu.vn": ["Đại học kinh tế Đà Nẵng", "Da Nang University of Economics"],
+    ".due.edu.vn": [
+        "Đại học kinh tế Đà Nẵng",
+        "Da Nang University of Economics",
+    ],
     ".dut.edu.vn": ["Da Nang University of Technology and Science"],
     ".duytan.edu.vn": ["Trường Đại học Duy Tân", "Duy Tan university"],
     ".eaut.edu.vn": [
         "Trường Đại Học Công Nghệ Đông Á, Hà Nội, Việt Nam",
         "East Asia University of Technology, Hanoi, VietNam",
     ],
-    ".edisonschools.edu.vn": ["Edison Schools Ecopark", "Edison Schools Ecopark"],
+    ".edisonschools.edu.vn": [
+        "Edison Schools Ecopark",
+        "Edison Schools Ecopark",
+    ],
     ".eiu.edu.vn": [
         "Eastern International University",
         "Eastern International University",
@@ -24378,15 +26732,22 @@ DOMAINS: Dict[str, List[str]] = {
     ],
     ".hanu.edu.vn": ["Ha Noi University"],
     ".hau.edu.vn": ["Hanoi University of Architecture"],
-    ".haugiang.edu.vn": ["Department of Education and Training of Hau Giang Province"],
-    ".haui.edu.vn": [" Đại học Công Nghiệp Hà Nội", "Hanoi University of Industry"],
+    ".haugiang.edu.vn": [
+        "Department of Education and Training of Hau Giang Province"
+    ],
+    ".haui.edu.vn": [
+        " Đại học Công Nghiệp Hà Nội",
+        "Hanoi University of Industry",
+    ],
     ".hcc2.edu.vn": [
         "Cao đẳng xây dựng Thành phố Hồ Chí Minh",
         "Ho Chi Minh City Construction College",
     ],
     ".hce.edu.vn": ["Hue College of Economics"],
     ".hcmiu.edu.vn": ["International University Ho Chi Minh City"],
-    ".hcmuaf.edu.vn": ["Ho Chi Minh City University of Agriculture and Forestry"],
+    ".hcmuaf.edu.vn": [
+        "Ho Chi Minh City University of Agriculture and Forestry"
+    ],
     ".hcmuarc.edu.vn": ["Ho Chi Minh City University of Architecture"],
     ".hcmue.edu.vn": [
         "Trường Đại học Sư Phạm TP.HCM",
@@ -24417,7 +26778,10 @@ DOMAINS: Dict[str, List[str]] = {
         "Đại học Y Dược Hải Phòng",
         "Hai Phong University of Medicine and Pharmacy",
     ],
-    ".hpu2.edu.vn": ["Dai Hoc Su Pham Ha Noi", "Hanoi Pedagogical University 2"],
+    ".hpu2.edu.vn": [
+        "Dai Hoc Su Pham Ha Noi",
+        "Hanoi Pedagogical University 2",
+    ],
     ".htt.edu.vn": [
         "Trường Cao Đẳng Công nghệ và Thương Mại Hà Nội",
         "Hanoi College of Technology and Trading",
@@ -24443,19 +26807,28 @@ DOMAINS: Dict[str, List[str]] = {
         "Đại học Tài nguyên và Môi trường Hà Nội",
         "Hanoi University of Natural Resources and Environment",
     ],
-    ".hup.edu.vn": ["Trường Đại học Dược Hà Nội", "Ha Noi University of Pharmacy"],
+    ".hup.edu.vn": [
+        "Trường Đại học Dược Hà Nội",
+        "Ha Noi University of Pharmacy",
+    ],
     ".huph.edu.vn": [
         "TRƯỜNG ĐẠI HỌC Y TẾ CÔNG CỘNG",
         "HANOI UNIVERSITY OF PUBLIC HEALTH",
     ],
     ".hus.edu.vn": ["Hanoi University of Science"],
-    ".husc.edu.vn": ["Trường Đại học Khoa học Huế", "Hue University Of Sciences"],
+    ".husc.edu.vn": [
+        "Trường Đại học Khoa học Huế",
+        "Hue University Of Sciences",
+    ],
     ".hust.edu.vn": ["Hanoi University of Science and Technology"],
     ".hut.edu.vn": ["Hanoi University of Technology"],
     ".hutech.edu.vn": ["University of Technology"],
     ".hvnh.edu.vn": ["Học Viện Ngân Hàng", "Banking Academy"],
     ".hvtc.edu.vn": ["Học Viện Tài Chính", "Academy Of Finance"],
-    ".hvu.edu.vn": ["\ufeffTrường đại học Hùng Vương", "Hung Vuong University"],
+    ".hvu.edu.vn": [
+        "\ufeffTrường đại học Hùng Vương",
+        "Hung Vuong University",
+    ],
     ".hwru.edu.vn": ["Water Resources University"],
     ".ibm.edu.vn": [
         "Viện quản lý kinh doanh quốc tế",
@@ -24490,8 +26863,13 @@ DOMAINS: Dict[str, List[str]] = {
         "Industrial University of Ho Chi Minh City",
     ],
     ".ict.jvn.edu.vn": ["John Von Neumann Institute"],
-    ".khanhhoa.edu.vn": ["Trường THPT Nguyễn Văn Trỗi", "Nguyen Van Troi High School"],
-    ".ktkt-haiduong.edu.vn": ["Hai Duong University of  Economics and Technology"],
+    ".khanhhoa.edu.vn": [
+        "Trường THPT Nguyễn Văn Trỗi",
+        "Nguyen Van Troi High School",
+    ],
+    ".ktkt-haiduong.edu.vn": [
+        "Hai Duong University of  Economics and Technology"
+    ],
     ".ldxh.edu.vn": [
         "Đại học Lao động - Xã hội cơ sở 2",
         "University of Labour Social Affairs 2",
@@ -24512,7 +26890,10 @@ DOMAINS: Dict[str, List[str]] = {
         "Nam Dinh University of Nursing",
     ],
     ".neu.edu.vn": ["Hanoi National Economics University"],
-    ".nttu.edu.vn": ["Trường Đại học Nguyễn Tất Thành", "Nguyen Tat Thanh University"],
+    ".nttu.edu.vn": [
+        "Trường Đại học Nguyễn Tất Thành",
+        "Nguyen Tat Thanh University",
+    ],
     ".ntu-hn.edu.vn": ["Đại học Nguyễn Trãi", "Nguyen Trai University"],
     ".ntu.edu.vn": ["Trường Đại học Nha Trang", "Nha Trang University"],
     ".nuce.edu.vn": ["National University of Civil Engineering"],
@@ -24521,7 +26902,10 @@ DOMAINS: Dict[str, List[str]] = {
     ".pace.edu.vn": ["PACE Institute of Management "],
     ".penphy.edu.vn": ["Trường THCS Thuận Hưng"],
     ".phenikaa-uni.edu.vn": ["Phenikaa university", "Phenikaa university"],
-    ".phuocbinh.edu.vn": ["Trường Đại Học Phước Bình", "Phuoc Binh University"],
+    ".phuocbinh.edu.vn": [
+        "Trường Đại Học Phước Bình",
+        "Phuoc Binh University",
+    ],
     ".pnt.edu.vn": [
         "Trường Đại học Y khoa Phạm Ngọc Thạch",
         "Pham Ngoc Thach University of Medicine (PNTU)",
@@ -24531,7 +26915,10 @@ DOMAINS: Dict[str, List[str]] = {
         "Học viện Công nghệ Bưu chính viễn thông",
         "Posts and Telecommunications Institute of Technology",
     ],
-    ".pvu.edu.vn": ["Trường Đại Học Dầu Khí Việt Nam", "Petrovietnam University"],
+    ".pvu.edu.vn": [
+        "Trường Đại Học Dầu Khí Việt Nam",
+        "Petrovietnam University",
+    ],
     ".qui.edu.vn": ["Quang Ninh University of Industry"],
     ".quochocquynhon.edu.vn": ["Quoc Hoc Quy Nhon"],
     ".rmit.edu.vn": ["RMIT International University Vietnam"],
@@ -24551,7 +26938,10 @@ DOMAINS: Dict[str, List[str]] = {
     ".tdc.edu.vn": ["Thu Duc College of Technology"],
     ".tdmu.edu.vn": ["Thu Dau Mot University"],
     ".tdt.edu.vn": ["Ton Duc Thang University"],
-    ".student.tdtu.edu.vn": ["Đại Học Tôn Đức Thắng", "Ton Duc Thang University"],
+    ".student.tdtu.edu.vn": [
+        "Đại Học Tôn Đức Thắng",
+        "Ton Duc Thang University",
+    ],
     ".tdtu.edu.vn": ["Ton Duc Thang University"],
     ".tdu.edu.vn": ["Tay Do University"],
     ".teky.edu.vn": [
@@ -24567,12 +26957,17 @@ DOMAINS: Dict[str, List[str]] = {
         "Trung học phổ thông chuyên Thái Nguyên",
         "Thai Nguyen gifted high school",
     ],
-    ".thpthahuytaphatinh.edu.vn": ["Truong THPT Ha Huy Tap", "Ha Huy Tap High School "],
+    ".thpthahuytaphatinh.edu.vn": [
+        "Truong THPT Ha Huy Tap",
+        "Ha Huy Tap High School ",
+    ],
     ".thptkhuongdinh.edu.vn": ["THPT Khương Đình", "Khuong Dinh Highschool"],
     ".thptlythaito.edu.vn": ["THPT Ly Thai To", "Ly Thai To High School"],
     ".thptsontra.edu.vn": ["THPT Sơn Trà", "Son Tra High School"],
     ".thpt-aldong.thuathienhue.edu.vn": ["An Luong Dong High School"],
-    ".tkh.edu.vn": ["Trường trung học phổ thông Thanh Khê, Đà Nẵng City, VietNam"],
+    ".tkh.edu.vn": [
+        "Trường trung học phổ thông Thanh Khê, Đà Nẵng City, VietNam"
+    ],
     ".tlu.edu.vn": ["Đại học thủy lợi Hà Nội", "Water Resources University"],
     ".tmu.edu.vn": ["Đại học Thương Mại", "Vietnam University of Commerce"],
     ".tnut.edu.vn": [
@@ -24606,7 +27001,10 @@ DOMAINS: Dict[str, List[str]] = {
         "University of Medicine and Pharmacy at Ho Chi Minh City",
         "University of Medicine and Pharmacy at Ho Chi Minh City",
     ],
-    ".uneti.edu.vn": ["Kinh tế kỹ thuật công nghiệp Hà Nội", "Uneti University"],
+    ".uneti.edu.vn": [
+        "Kinh tế kỹ thuật công nghiệp Hà Nội",
+        "Uneti University",
+    ],
     ".upt.edu.vn": ["Đại học Phan Thiết", "University of Phan Thiet"],
     ".uschool.edu.vn": ["Trường Trung Cấp Công Nghệ Tân Tiến"],
     ".sv.ussh.edu.vn": [
@@ -24620,7 +27018,10 @@ DOMAINS: Dict[str, List[str]] = {
         "Ho Chi Minh City University of Transport",
     ],
     ".utb.edu.vn": ["Tay Bac University", "Tay Bac University"],
-    ".st.utc.edu.vn": ["University of Transport and Communication", "www.utc.edu.vn"],
+    ".st.utc.edu.vn": [
+        "University of Transport and Communication",
+        "www.utc.edu.vn",
+    ],
     ".utc.edu.vn": ["University of Transport and Communications"],
     ".st.utc2.edu.vn": [
         "University of Transport and Communications – Campus in Ho Chi Minh City",
@@ -24640,7 +27041,10 @@ DOMAINS: Dict[str, List[str]] = {
         "Trường cao đẳng cơ khí nông nghiệp",
         "Vocational college of agricultural mecanics",
     ],
-    ".student.vgu.edu.vn": ["Đại học Việt Đức", "Vietnamese German University"],
+    ".student.vgu.edu.vn": [
+        "Đại học Việt Đức",
+        "Vietnamese German University",
+    ],
     ".vhu.edu.vn": ["Van Hien University"],
     ".vimaru.edu.vn": ["Vietnam Maritime University"],
     ".vinhuni.edu.vn": ["Vinh University"],
@@ -24660,7 +27064,10 @@ DOMAINS: Dict[str, List[str]] = {
         "Viện Nghiên cứu và Đào tạo Việt Anh",
         "The VNUK Institute for Research and Executive Education",
     ],
-    ".vtc.edu.vn": ["VTC INFORMATION TECHNOLOGY AND DESIGN ACADEMY", "VTC ACADEMY"],
+    ".vtc.edu.vn": [
+        "VTC INFORMATION TECHNOLOGY AND DESIGN ACADEMY",
+        "VTC ACADEMY",
+    ],
     ".wellspring.edu.vn": [
         "trường Phổ thông Song Ngữ Liên cấp Wellspring",
         "Wellspring International Bilingual School",
@@ -24724,7 +27131,10 @@ DOMAINS: Dict[str, List[str]] = {
     ".educationgroup.co.za": ["CTI Education Group"],
     ".gibs.co.za": ["Gordon Institute of Business Science"],
     ".kloofhigh.co.za": ["Kloof High School"],
-    ".lsdc.co.za": ["Leseding Computer Systems", "Leseding Skills Development Centre"],
+    ".lsdc.co.za": [
+        "Leseding Computer Systems",
+        "Leseding Skills Development Centre",
+    ],
     ".students.mancosa.co.za": ["Mancosa University"],
     ".myboston.co.za": ["Boston College"],
     ".sabje.co.za": ["King David Victory Park"],

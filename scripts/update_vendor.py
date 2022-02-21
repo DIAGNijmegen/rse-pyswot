@@ -9,7 +9,9 @@ VENDOR_DIR = Path(__file__).parent.parent / "pyswot" / "vendor"
 
 def clone_repo(*, target_dir, repo="https://github.com/JetBrains/swot.git"):
     check_output(["git", "clone", "--depth", "1", repo, target_dir])
-    process = check_output(["git", "rev-parse", "--short", "HEAD"], cwd=target_dir)
+    process = check_output(
+        ["git", "rev-parse", "--short", "HEAD"], cwd=target_dir
+    )
     return f"{repo}@{process.decode('utf-8')}"
 
 
