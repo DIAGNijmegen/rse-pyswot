@@ -1,4 +1,4 @@
-# From https://github.com/JetBrains/swot.git@70ad2a3d
+# From https://github.com/JetBrains/swot.git@41740910
 
 TLDS = frozenset(
     [

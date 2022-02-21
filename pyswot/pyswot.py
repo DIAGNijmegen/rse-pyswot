@@ -1,5 +1,5 @@
 from pathlib import Path
-from typing import FrozenSet, List, Optional
+from typing import FrozenSet, List
 
 from pyswot.vendor.domains import DOMAINS
 from pyswot.vendor.stoplist import STOPLIST
@@ -19,7 +19,7 @@ def is_academic(email: str) -> bool:
     )
 
 
-def find_school_names(email: str) -> List[Optional[str]]:
+def find_school_names(email: str) -> List[str]:
     return _find_school_names(_domain_parts(email))
 
 
@@ -31,7 +31,7 @@ def _is_stoplisted(parts: List[str]) -> bool:
     return _check_set(STOPLIST, parts)
 
 
-def _find_school_names(parts: List[str]) -> List[Optional[str]]:
+def _find_school_names(parts: List[str]) -> List[str]:
     key = ""
     for part in parts:
         key = f".{part}{key}"

@@ -2,6 +2,8 @@ from pathlib import Path
 from subprocess import check_output
 from tempfile import TemporaryDirectory
 
+from chardet import detect
+
 VENDOR_DIR = Path(__file__).parent.parent / "pyswot" / "vendor"
 
 
@@ -48,7 +50,8 @@ def create_dict(*, src, dest, varname, commit_id):
                 try:
                     i = line.decode("utf-8")
                 except UnicodeDecodeError:
-                    i = None
+                    encoding = detect(line)["encoding"]
+                    i = line.decode(encoding)
                 school_info.append(i)
 
         var[_get_key(rel_path=domain.relative_to(src))] = school_info

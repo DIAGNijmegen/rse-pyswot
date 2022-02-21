@@ -1,4 +1,4 @@
-# From https://github.com/JetBrains/swot.git@70ad2a3d
+# From https://github.com/JetBrains/swot.git@41740910
 
 STOPLIST = frozenset(
     [
@@ -259,7 +259,6 @@ STOPLIST = frozenset(
         "my.chattanoogastate.edu",
         "my.cleveland.edu",
         "my.edu.moi",
-        "my.jcu.edu.au",
         "my.riohondo.edu",
         "my.smccd.edu",
         "my.tccd.edu",
