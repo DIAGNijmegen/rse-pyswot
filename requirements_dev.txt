@@ -6,3 +6,4 @@ Sphinx
 twine
 
 pytest
+chardet

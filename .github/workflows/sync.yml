@@ -21,8 +21,9 @@ jobs:
         with:
           python-version: '3.x'
 
-      - name: Install pre-commit
+      - name: Install pre-commit and chardet
         run: |
+          python -m pip install -r chardet
           python -m pip install pre-commit
           pre-commit install
 
