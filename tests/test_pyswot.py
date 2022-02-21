@@ -78,7 +78,7 @@ def test_find_school_names():
 
 
 def test_non_utf8_source():
-    assert find_school_names("myself@cirvianum.cat") == [None]
+    assert find_school_names("myself@cirvianum.cat") == ["Institut Cirviànum de Torelló"]
     assert is_academic("myself@cirvianum.cat")
 
 
