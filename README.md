@@ -15,7 +15,7 @@ This library is a wrapper around
 [JetBrains/swot](https://github.com/JetBrains/swot) and provides two
 methods:
 
-``` sourceCode python
+```python
 >>> from pyswot import is_academic
 >>> is_academic("user@ox.ac.uk")
 True
@@ -23,7 +23,7 @@ True
 False
 ```
 
-``` sourceCode python
+```python
 >>> from pyswot import find_school_names
 >>> find_school_names("user@ox.ac.uk")
 ['University of Oxford']
