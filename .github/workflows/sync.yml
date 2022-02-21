@@ -28,7 +28,7 @@ jobs:
           poetry install --verbose
 
       - name: Update Vendor Sources
-        run: poetry run ./scripts/update_vendor.py
+        run: poetry run python ./scripts/update_vendor.py
 
       - name: Run pre-commit
         run: pre-commit run -a
