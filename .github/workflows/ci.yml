@@ -35,7 +35,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        python: ["3.7", "3.8", "3.9", "3.10"]
+        python-version: ["3.7", "3.8", "3.9", "3.10"]
     steps:
       - uses: actions/checkout@v2
       - name: Setup Python ${{ matrix.python-version }}
@@ -44,11 +44,10 @@ jobs:
           python-version: ${{ matrix.python-version }}
       - name: Install Tox and any other packages
         run: |
-          pip install -U pip
-          pip install tox tox-gh-actions poetry
-      - name: Run Tox with system python
-        run: |
-          tox
+          python -m pip install --upgrade pip
+          python -m pip install tox-gh-actions poetry
+      - name: Run tox
+        run: tox
 
   deploy:
     if: github.event_name == 'release'
