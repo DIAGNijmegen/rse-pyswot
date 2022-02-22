@@ -43,7 +43,7 @@ legacy_tox_ini = """
 isolated_build = True
 envlist = py37, py38, py39, py310
 
-[gh-actiona]
+[gh-actions]
 python =
     3.7: py37
     3.8: py38
