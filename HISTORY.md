@@ -1,5 +1,11 @@
 # History
 
+## 0.2.1 (2022-02-22)
+
+- `find_school_names` now always returns a string
+- Updated the source database
+- Migrated to PEP517
+
 ## 0.2.0 (2022-02-15)
 
   - Dropped support for Python 3.6
