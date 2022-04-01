@@ -1,6 +1,6 @@
 # PySwot
 
-[![CI](https://github.com/DIAGNijmegen/rse-pyswot/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/DIAGNijmegen/rse-pyswot/actions/workflows/ci.yml?query=branch%3Amaster)
+[![CI](https://github.com/DIAGNijmegen/rse-pyswot/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/DIAGNijmegen/rse-pyswot/actions/workflows/ci.yml?query=branch%3Amain)
 [![PyPI](https://img.shields.io/pypi/v/pyswot)](https://pypi.org/project/pyswot/)
 [![PyPI - Python Version](https://img.shields.io/pypi/pyversions/pyswot)](https://pypi.org/project/pyswot/)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
