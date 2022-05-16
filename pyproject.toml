@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "pyswot"
-version = "0.2.1"
+version = "0.2.2"
 description = "Python wrapper for JetBrains/swot"
 authors = ["James Meakin <pyswot@jmsmkn.com>"]
 license = "Apache-2.0"
