@@ -1,5 +1,9 @@
 # History
 
+## 0.2.2 (2022-05-16)
+
+- Automated domain updates
+
 ## 0.2.1 (2022-02-22)
 
 - `find_school_names` now always returns a string
