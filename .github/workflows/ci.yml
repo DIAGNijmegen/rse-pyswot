@@ -11,6 +11,9 @@ concurrency:
   group: ${{ github.head_ref || github.run_id }}
   cancel-in-progress: true
 
+env:
+  MINIMUM_PYTHON_VERSION: "3.8"
+
 jobs:
   precommit:
     runs-on: ubuntu-latest

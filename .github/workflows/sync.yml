@@ -5,6 +5,9 @@ on:
     - cron: '42 6 * * 2'
   workflow_dispatch:
 
+env:
+  MINIMUM_PYTHON_VERSION: "3.8"
+
 jobs:
   sync:
     name: Update Vendor Sources
@@ -16,7 +19,7 @@ jobs:
         with:
           ref: ${{ github.head_ref }}
 
-      - name: Install Python ${{ env.PYTHON_VERSION }}
+      - name: Install Python ${{ env.MINIMUM_PYTHON_VERSION }}
         uses: actions/setup-python@v4
         with:
           python-version: '3.x'
