@@ -24,11 +24,11 @@ jobs:
         with:
           python-version: '3.x'
 
-      - name: Install pre-commit and chardet
+      - name: Install pre-commit and dev dependencies
         run: |
           python -m pip install pre-commit poetry
           pre-commit install
-          poetry install --verbose
+          poetry install
 
       - name: Update Vendor Sources
         run: poetry run python ./scripts/update_vendor.py

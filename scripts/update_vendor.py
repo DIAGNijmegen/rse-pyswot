@@ -2,7 +2,7 @@ from pathlib import Path
 from subprocess import check_output
 from tempfile import TemporaryDirectory
 
-from chardet import detect
+from charset_normalizer import detect
 
 VENDOR_DIR = Path(__file__).parent.parent / "pyswot" / "vendor"
 
