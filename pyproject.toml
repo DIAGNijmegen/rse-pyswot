@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "pyswot"
-version = "0.2.2"
+version = "0.3.0"
 description = "Python wrapper for JetBrains/swot"
 authors = ["James Meakin <pyswot@jmsmkn.com>"]
 license = "Apache-2.0"
@@ -12,7 +12,7 @@ classifiers = [
 ]
 
 [tool.poetry.dependencies]
-python = "^3.7"
+python = "^3.8"
 
 [tool.poetry.dev-dependencies]
 pytest = "*"
@@ -32,7 +32,7 @@ line_length = 79
 
 [tool.black]
 line-length = 79
-target-version = ['py37']
+target-version = ['py38']
 
 [tool.pytest.ini_options]
 minversion = "6.0"
@@ -46,14 +46,14 @@ addopts = "--strict-markers --showlocals -n auto --dist loadscope"
 legacy_tox_ini = """
 [tox]
 isolated_build = True
-envlist = py37, py38, py39, py310
+envlist = py38, py39, py310, py311
 
 [gh-actions]
 python =
-    3.7: py37
     3.8: py38
     3.9: py39
     3.10: py310
+    3.11: py311
 
 [testenv]
 allowlist_externals = poetry

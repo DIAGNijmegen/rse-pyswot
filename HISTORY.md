@@ -1,5 +1,11 @@
 # History
 
+## 0.3.0 (2023-01-31)
+
+- Automated domain updates
+- Added support for Python 3.10
+- Dropped support for Python 3.7
+
 ## 0.2.2 (2022-05-16)
 
 - Automated domain updates
