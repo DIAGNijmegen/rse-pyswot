@@ -53,7 +53,7 @@ from pyswot.pyswot import _domain_parts, _is_stoplisted
         (True, "lee@uha.fr"),
     ),
 )
-def test_swot(expected, email):
+def test_swot(expected: bool, email: str) -> None:
     assert expected == is_academic(email)
 
 
@@ -61,11 +61,11 @@ def test_swot(expected, email):
     "expected,email",
     ((True, "alumni.nottingham.ac.uk"), (False, "nottingham.ac.uk")),
 )
-def test_stoplist(expected, email):
+def test_stoplist(expected: bool, email: str) -> None:
     assert expected == _is_stoplisted(_domain_parts(email))
 
 
-def test_find_school_names():
+def test_find_school_names() -> None:
     assert "University of Strathclyde" in find_school_names(
         "lreilly@cs.strath.ac.uk"
     )
@@ -81,7 +81,7 @@ def test_find_school_names():
     assert len(find_school_names("foo@shop.com")) == 0
 
 
-def test_non_utf8_source():
+def test_non_utf8_source() -> None:
     assert find_school_names("myself@cirvianum.cat") == [
         "Institut Cirviànum de Torelló"
     ]

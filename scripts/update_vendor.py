@@ -7,7 +7,9 @@ from charset_normalizer import detect
 VENDOR_DIR = Path(__file__).parent.parent / "pyswot" / "vendor"
 
 
-def clone_repo(*, target_dir, repo="https://github.com/JetBrains/swot.git"):
+def clone_repo(
+    *, target_dir: Path, repo: str = "https://github.com/JetBrains/swot.git"
+) -> str:
     check_output(["git", "clone", "--depth", "1", repo, target_dir])
     process = check_output(
         ["git", "rev-parse", "--short", "HEAD"], cwd=target_dir
@@ -15,7 +17,7 @@ def clone_repo(*, target_dir, repo="https://github.com/JetBrains/swot.git"):
     return f"{repo}@{process.decode('utf-8')}"
 
 
-def create_set(*, src, dest, varname, commit_id):
+def create_set(*, src: Path, dest: Path, varname: str, commit_id: str) -> None:
     with open(src) as f:
         var = [v for v in f.read().splitlines() if v]
 
@@ -28,7 +30,7 @@ def create_set(*, src, dest, varname, commit_id):
         f.write(f"{varname} = frozenset({repr(sorted(var))})\n")
 
 
-def _get_key(*, rel_path):
+def _get_key(*, rel_path: Path) -> str:
     parts = list(rel_path.parts)
 
     # Strip txt
@@ -38,7 +40,9 @@ def _get_key(*, rel_path):
     return "." + ".".join(parts)
 
 
-def create_dict(*, src, dest, varname, commit_id):
+def create_dict(
+    *, src: Path, dest: Path, varname: str, commit_id: str
+) -> None:
     var = {}
     domains = sorted(src.rglob("*.txt"))
 
@@ -72,7 +76,7 @@ def create_dict(*, src, dest, varname, commit_id):
         f.write(f"{varname}: Dict[str, List[str]] = {repr(var)}\n")
 
 
-if __name__ == "__main__":
+def main() -> int:
     with TemporaryDirectory() as tmp_dir:
         tmp_path = Path(tmp_dir)
 
@@ -95,3 +99,9 @@ if __name__ == "__main__":
             varname="DOMAINS",
             commit_id=commit_id,
         )
+
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())
