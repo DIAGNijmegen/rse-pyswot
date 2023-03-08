@@ -1,9 +1,5 @@
 from typing import FrozenSet, List
 
-from pyswot.vendor.domains import DOMAINS
-from pyswot.vendor.stoplist import STOPLIST
-from pyswot.vendor.tlds import TLDS
-
 
 def is_academic(email: str) -> bool:
     parts = _domain_parts(email)
@@ -17,14 +13,20 @@ def find_school_names(email: str) -> List[str]:
 
 
 def _is_under_tld(parts: List[str]) -> bool:
+    from pyswot.vendor.tlds import TLDS
+
     return _check_set(TLDS, parts)
 
 
 def _is_stoplisted(parts: List[str]) -> bool:
+    from pyswot.vendor.stoplist import STOPLIST
+
     return _check_set(STOPLIST, parts)
 
 
 def _find_school_names(parts: List[str]) -> List[str]:
+    from pyswot.vendor.domains import DOMAINS
+
     key = ""
     for part in parts:
         key = f".{part}{key}"
