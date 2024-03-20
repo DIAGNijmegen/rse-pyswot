@@ -15,12 +15,12 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           ref: ${{ github.head_ref }}
 
       - name: Install Python ${{ env.MINIMUM_PYTHON_VERSION }}
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: '3.x'
 
@@ -33,10 +33,13 @@ jobs:
       - name: Update Vendor Sources
         run: poetry run python ./scripts/update_vendor.py
 
+      - name: Run black
+        run: poetry run black .
+
       - name: Run pre-commit
         run: pre-commit run -a
         continue-on-error: true
 
-      - uses: stefanzweifel/git-auto-commit-action@v4
+      - uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: Automated vendor update

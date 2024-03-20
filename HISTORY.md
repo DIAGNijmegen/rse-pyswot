@@ -1,5 +1,16 @@
 # History
 
+## 0.3.2 (2024-03-20)
+
+- Automated domain updates
+- Added support for Python 3.12
+
+## 0.3.1 (2023-03-08)
+
+- Automated domain updates
+- Improved the import time
+- Added support for Python 3.11
+
 ## 0.3.0 (2023-01-31)
 
 - Automated domain updates
