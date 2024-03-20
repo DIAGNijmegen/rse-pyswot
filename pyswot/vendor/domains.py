@@ -4197,7 +4197,10 @@ DOMAINS: Dict[str, List[str]] = {
         "\ufeff中国科学院高能物理研究所",
         "The Institute of High Energy Physics of the Chinese Academy of Sciences",
     ],
-    ".iie.ac.cn": ["中国科学院大学", "University of Chinese Academy of Sciences"],
+    ".iie.ac.cn": [
+        "中国科学院大学",
+        "University of Chinese Academy of Sciences",
+    ],
     ".ime.ac.cn": [
         "中国科学院微电子研究所",
         "Institute of Microelectronics，Chinese Academy of Sciences",
@@ -4288,7 +4291,10 @@ DOMAINS: Dict[str, List[str]] = {
         "Beanstalk International Bilingual School in China (Chengdu campus)"
     ],
     ".cvit.com.cn": ["Changchun Vocational Institute Of Technology"],
-    ".jxhlxy.com.cn": ["江西卫生职业学院", "jiangxi health vocational college"],
+    ".jxhlxy.com.cn": [
+        "江西卫生职业学院",
+        "jiangxi health vocational college",
+    ],
     ".njude.com.cn": [
         "南京大学网络教育学院",
         "NANJING UNIVERSITY School of Distance Education",
@@ -4389,7 +4395,10 @@ DOMAINS: Dict[str, List[str]] = {
     ".cqmu.edu.cn": ["Chongqing Medical University", "重庆医科大学"],
     ".cqnu.edu.cn": ["Chongqing Normal University"],
     ".cqu.edu.cn": ["Chongqing University"],
-    ".stu.cque.edu.cn": ["重庆第二师范学院", "ChongQing Unversity Of Education"],
+    ".stu.cque.edu.cn": [
+        "重庆第二师范学院",
+        "ChongQing Unversity Of Education",
+    ],
     ".cqupt.edu.cn": ["Chongqing University of Post and Telecommunications"],
     ".cqust.edu.cn": ["Chongqing University Of Science and Technology"],
     ".2014.cqut.edu.cn": ["Chongqing University of Technology"],
@@ -4472,7 +4481,10 @@ DOMAINS: Dict[str, List[str]] = {
     ],
     ".glmc.edu.cn": ["Guilin Medical University"],
     ".glut.edu.cn": ["Guilin university of technology"],
-    ".gpnu.edu.cn": ["Guangdong Polytechnic Normal University", "广东技术师范大学"],
+    ".gpnu.edu.cn": [
+        "Guangdong Polytechnic Normal University",
+        "广东技术师范大学",
+    ],
     ".gsau.edu.cn": ["Gansu Agricultural University"],
     ".gsli.edu.cn": [" GanSu Political Science And Law Institute"],
     ".gsut.edu.cn": ["Gansu University of Technology"],
@@ -4519,7 +4531,10 @@ DOMAINS: Dict[str, List[str]] = {
     ".hnnu.edu.cn": ["淮南师范学院", "Huainan Normal University"],
     ".hnu.edu.cn": ["Hunan University"],
     ".hnuahe.edu.cn": ["Henan University of Animal Husbandry and Economy"],
-    ".hnuit.edu.cn": ["湖南信息学院", "Hunan University of Information Technology"],
+    ".hnuit.edu.cn": [
+        "湖南信息学院",
+        "Hunan University of Information Technology",
+    ],
     ".hnust.edu.cn": ["Hunan University of Science and Technology"],
     ".hpu.edu.cn": ["Henan Polytechnic University"],
     ".hqu.edu.cn": ["Huaqiao University Quanzhuo"],
@@ -4568,7 +4583,10 @@ DOMAINS: Dict[str, List[str]] = {
     ".kfu.edu.cn": ["Kaifeng University"],
     ".kmust.edu.cn": ["Kunmimg University of Science and Technology"],
     ".lcu.edu.cn": ["Liaocheng University", "聊城大学"],
-    ".ldzy.edu.cn": ["娄底职业技术学院", "Loudi Vocational and Technical College"],
+    ".ldzy.edu.cn": [
+        "娄底职业技术学院",
+        "Loudi Vocational and Technical College",
+    ],
     ".lixin.edu.cn": ["Shanghai Lixin University of Accounting and Finance"],
     ".lnnu.edu.cn": ["Liaoning Normal University"],
     ".stu.lnpu.edu.cn": [
@@ -4620,7 +4638,10 @@ DOMAINS: Dict[str, List[str]] = {
     ".nuaa.edu.cn": ["Nanjing University of Aeronautics and Astronautics"],
     ".nuc.edu.cn": ["North University of China"],
     ".nudt.edu.cn": ["National University of Defense Technology"],
-    ".nufe.edu.cn": ["Nanjing University of Finance and Economics", "南京财经大学"],
+    ".nufe.edu.cn": [
+        "Nanjing University of Finance and Economics",
+        "南京财经大学",
+    ],
     ".nuist.edu.cn": [
         "Nanjing University of Information Science and Technology",
         "南京信息工程大学",
@@ -4629,7 +4650,10 @@ DOMAINS: Dict[str, List[str]] = {
     ".stu.nun.edu.cn": ["北方民族大学", "North Minzu University"],
     ".nwafu.edu.cn": ["Northwest A&F University"],
     ".nwnu.edu.cn": ["Northwest Normal University Lanzhou"],
-    ".mail.nwpu.edu.cn": ["西北工业大学", "Northwestern Polytechnical University"],
+    ".mail.nwpu.edu.cn": [
+        "西北工业大学",
+        "Northwestern Polytechnical University",
+    ],
     ".nwpu.edu.cn": ["Northwest Polytechnical University Xi'an"],
     ".nwsuaf.edu.cn": ["Northwest A&F University"],
     ".nwu.edu.cn": ["Northwest University Xi'an"],
@@ -4650,7 +4674,10 @@ DOMAINS: Dict[str, List[str]] = {
     ".scnu.edu.cn": ["South China Normal University"],
     ".scu.edu.cn": ["Sichuan University"],
     ".scuec.edu.cn": ["South-Central University for Nationalities"],
-    ".mail.scut.edu.cn": ["华南理工大学", "South China University of Technology"],
+    ".mail.scut.edu.cn": [
+        "华南理工大学",
+        "South China University of Technology",
+    ],
     ".scut.edu.cn": ["South China University of Technology"],
     ".sdau.edu.cn": ["Shandong Agricultural University"],
     ".sdcit.edu.cn": [
@@ -4803,14 +4830,21 @@ DOMAINS: Dict[str, List[str]] = {
     ],
     ".whut.edu.cn": ["Wuhan University of Technology"],
     ".wmu.edu.cn": ["Wenzhou Medical University"],
-    ".wsyu.edu.cn": ["Wuchang Shouyi University", "武昌首义学院", "华中科技大学武昌分校"],
+    ".wsyu.edu.cn": [
+        "Wuchang Shouyi University",
+        "武昌首义学院",
+        "华中科技大学武昌分校",
+    ],
     ".wtu.edu.cn": ["Wuhan Textile University"],
     ".wust.edu.cn": ["Wuhan University of Science and Technology"],
     ".wyu.edu.cn": ["Wuyi University"],
     ".xaau.edu.cn": ["Xi’an Aeronautical University", "西安航空学院"],
     ".xahu.edu.cn": ["Xi'an Highway University"],
     ".xauat.edu.cn": ["Xi'an University of Architecture and Technology"],
-    ".xaufe.edu.cn": ["西安财经大学", "Xi'An University of Finance and Economics"],
+    ".xaufe.edu.cn": [
+        "西安财经大学",
+        "Xi'An University of Finance and Economics",
+    ],
     ".xaut.edu.cn": ["Xi'an University of Technology"],
     ".xhcom.edu.cn": ["Xinghai Conservatory of Music"],
     ".xhu.edu.cn": ["Xihua University"],
@@ -4844,14 +4878,26 @@ DOMAINS: Dict[str, List[str]] = {
     ".ysu.edu.cn": ["Yanshan University"],
     ".ytu.edu.cn": ["YANTAI UNIVERSITY"],
     ".yzu.edu.cn": ["Yangzhou University"],
-    ".zafu.edu.cn": ["Zhejiang Agriculture & Forest University", "浙江农林大学"],
+    ".zafu.edu.cn": [
+        "Zhejiang Agriculture & Forest University",
+        "浙江农林大学",
+    ],
     ".zbti.edu.cn": ["Zhejiang Business Technology Institute"],
-    ".zisu.edu.cn": ["Zhejiang International Studies University", "浙江外国语学院"],
+    ".zisu.edu.cn": [
+        "Zhejiang International Studies University",
+        "浙江外国语学院",
+    ],
     ".zjgsu.edu.cn": ["Zhejiang Gongshang University"],
     ".zjnu.edu.cn": ["Zhejiang Normal University"],
-    ".zju.edu.cn": ["Zhejiang University, Hangzhou, China", "浙江大学，中国杭州"],
+    ".zju.edu.cn": [
+        "Zhejiang University, Hangzhou, China",
+        "浙江大学，中国杭州",
+    ],
     ".zjut.edu.cn": ["ZheJiang University of Technology"],
-    ".zjvtit.edu.cn": ["Zhejiang Institute of Communications", "浙江交通职业技术学院"],
+    ".zjvtit.edu.cn": [
+        "Zhejiang Institute of Communications",
+        "浙江交通职业技术学院",
+    ],
     ".stu.zjweu.edu.cn": [
         "\ufeffZhejiang University of Water Resources and Electric Power",
         "浙江水利水电学院",
@@ -4862,7 +4908,10 @@ DOMAINS: Dict[str, List[str]] = {
         "\ufeffUniversity of Electronic Science and Technology of China，Zhongshan Institute"
     ],
     ".zstu.edu.cn": ["Zhejiang Sci-Tech University", "浙江理工大学"],
-    ".stu.zucc.edu.cn": ["Zhejiang University City College", "浙江大学城市学院"],
+    ".stu.zucc.edu.cn": [
+        "Zhejiang University City College",
+        "浙江大学城市学院",
+    ],
     ".zucc.edu.cn": ["Zhejiang University City College", "浙江大学城市学院"],
     ".zuel.edu.cn": ["Zhongnan University of Economics and Law"],
     ".zufe.edu.cn": [
@@ -4882,7 +4931,10 @@ DOMAINS: Dict[str, List[str]] = {
     ".gyu.cn": ["Guiyang University"],
     ".xs.gzcc.cn": ["广州商学院", "Guangzhou College of  Commerce"],
     ".gzmhxy.cn": ["贵州民用航空职业学院"],
-    ".harrowbeijing.cn": ["北京哈罗国际学校", "Harrow International School Beijing"],
+    ".harrowbeijing.cn": [
+        "北京哈罗国际学校",
+        "Harrow International School Beijing",
+    ],
     ".hbeu.cn": ["湖北工程学院", "Hubei Engineering University"],
     ".hbjhart.cn": ["江汉艺术职业学院"],
     ".mail.hniu.cn": ["湖南信息职业技术学院", "Hunan College of Information"],
@@ -4890,7 +4942,10 @@ DOMAINS: Dict[str, List[str]] = {
         "华东师范大学第二附属中学",
         "No.2 High School of East China Normal University",
     ],
-    ".huilieducation.cn": ["上海浦东新区民办惠立学校", "Huili School Shanghai"],
+    ".huilieducation.cn": [
+        "上海浦东新区民办惠立学校",
+        "Huili School Shanghai",
+    ],
     ".ccit.ccit.js.cn": [
         "常州信息职业技术学校",
         "Cangzhou College of Information Technology",
@@ -4924,7 +4979,10 @@ DOMAINS: Dict[str, List[str]] = {
         "蛇口国际学校",
         "URL: https://www.sis-shekou.org/",
     ],
-    ".sdcet.cn": ["山东电子职业技术学院", "SHANDONG COLLEGE OF ELECTRONIC TECHNOLOGY"],
+    ".sdcet.cn": [
+        "山东电子职业技术学院",
+        "SHANDONG COLLEGE OF ELECTRONIC TECHNOLOGY",
+    ],
     ".sia.cn": [
         "中国科学院沈阳自动化研究所",
         "SHENYANG INSTITUTE OF AUTOMATION, CHINESE ACADEMY OF SCIENCES",
@@ -5610,10 +5668,16 @@ DOMAINS: Dict[str, List[str]] = {
     ],
     ".e-cdp.com": ["Collège de Paris"],
     ".ecam-rennes.com": ["ECAM Rennes"],
-    ".ecccomp.com": ["ECCコンピュータ専門学校", "ECC College of Computer & Multimedia"],
+    ".ecccomp.com": [
+        "ECCコンピュータ専門学校",
+        "ECC College of Computer & Multimedia",
+    ],
     ".eccoschool.com": ["Ecclesfield School"],
     ".ece-france.com": ["BBA INSEEC - Ecole de Commerce Européenne"],
-    ".ecnudec.com": ["华东师范大学开放教育学院", "School of Open Learning and Education"],
+    ".ecnudec.com": [
+        "华东师范大学开放教育学院",
+        "School of Open Learning and Education",
+    ],
     ".ecole-hexagone.com": ["École Hexagone"],
     ".ecole-ipssi.com": [
         "IPSSI - École d’Informatique, Web et Design Graphique"
@@ -5775,7 +5839,10 @@ DOMAINS: Dict[str, List[str]] = {
     ],
     ".haringtonschool.com": ["Harrington School"],
     ".hartismere.com": ["Hartismere School"],
-    ".hbhgkj.com": ["黄冈科技职业学院", "Huanggang College Of Science and Technology"],
+    ".hbhgkj.com": [
+        "黄冈科技职业学院",
+        "Huanggang College Of Science and Technology",
+    ],
     ".hessleacademy.com": ["Hessle High School and Sixth Form College"],
     ".hnsoftedu.com": [
         "湖南软件职业技术大学",
@@ -5941,7 +6008,10 @@ DOMAINS: Dict[str, List[str]] = {
     ".jbdelasalle.com": ["Ensemble scolaire Jean-Baptiste de La Salle"],
     ".jeffstateonline.com": ["Jefferson State Community College"],
     ".johntalabot.com": ["John Talabot Parvulari", "John Talabot"],
-    ".joyintlschool.com": ["Huai'an Joy International School", "淮安市嘉洋国际学校"],
+    ".joyintlschool.com": [
+        "Huai'an Joy International School",
+        "淮安市嘉洋国际学校",
+    ],
     ".jpcatholic.com": ["John Paul the Great Catholic University"],
     ".jpgzx.com": ["Golden Apple Jin Cheng No.1 Secondary School"],
     ".jsspsdubai.com": ["JSS Private School", "JSS Private School"],
@@ -6506,7 +6576,10 @@ DOMAINS: Dict[str, List[str]] = {
     ".savio-lambersart.com": ["Dominique SAVIO Enseignement Catholique "],
     ".sbe5d.com": ["Shenley Brook End School, Milton Keynes"],
     ".sbjacksonville.com": ["Sanford-Brown Institute"],
-    ".scetop.com": ["四川托普信息技术职业学院", "SiChuan Top IT Voctional institute"],
+    ".scetop.com": [
+        "四川托普信息技术职业学院",
+        "SiChuan Top IT Voctional institute",
+    ],
     ".schillerstrasbourg.com": [
         "Schiller International University, Strasbourg"
     ],
@@ -14553,7 +14626,10 @@ DOMAINS: Dict[str, List[str]] = {
         "Buddhist Hung Sean Chau Memorial College",
     ],
     ".caisbv.edu.hk": ["Christian Alliance International School"],
-    ".cccmmwc.edu.hk": ["中華基督教會蒙民偉書院", "C.C.C. Mong Man Wai College"],
+    ".cccmmwc.edu.hk": [
+        "中華基督教會蒙民偉書院",
+        "C.C.C. Mong Man Wai College",
+    ],
     ".cccmyc.edu.hk": [
         "中華基督教會銘賢書院",
         "The Church of Christ in China Ming Yin College",
@@ -14570,7 +14646,10 @@ DOMAINS: Dict[str, List[str]] = {
     ],
     ".my.cityu.edu.hk": ["City University of Hong Kong"],
     ".cityu.edu.hk": ["City University of Hong Kong"],
-    ".clsmss.edu.hk": ["趙聿修紀念中學", "Chiu Lut Sau Memorial Secondary School"],
+    ".clsmss.edu.hk": [
+        "趙聿修紀念中學",
+        "Chiu Lut Sau Memorial Secondary School",
+    ],
     ".common.cpce-polyu.edu.hk": [
         "香港理工大學專業及持續教育學院",
         "College of Professional and Continuing Education, PolyU",
@@ -14639,13 +14718,19 @@ DOMAINS: Dict[str, List[str]] = {
         "Polyu Speed",
         "School of Professional Education and Executive Development",
     ],
-    ".stc.edu.hk": ["天主教崇德英文書院", "Shung Tak Catholic English College"],
+    ".stc.edu.hk": [
+        "天主教崇德英文書院",
+        "Shung Tak Catholic English College",
+    ],
     ".tanghin.edu.hk": [
         "香港道教聯合會鄧顯紀念中學",
         "H.K.T.A. Tang Hin Memorial Secondary School",
     ],
     ".tkhc.edu.hk": ["Tai Kwong Hilary College"],
-    ".tkogss.edu.hk": ["將軍澳官立中學", "Tseung Kwan O Government Secondary School"],
+    ".tkogss.edu.hk": [
+        "將軍澳官立中學",
+        "Tseung Kwan O Government Secondary School",
+    ],
     ".tmk.edu.hk": ["Hong Kong Tak Ming College"],
     ".twc.edu.hk": ["東華學院", "Tung Wah College"],
     ".twghlkss.edu.hk": ["Tung Wah Group of Hospitals Li Ka Shing College"],
@@ -14660,7 +14745,10 @@ DOMAINS: Dict[str, List[str]] = {
     ".waying.edu.hk": ["Wa Ying College"],
     ".wis.edu.hk": ["West Island School"],
     ".eduhk.hk": ["The Education University of Hong Kong"],
-    ".student.hkit.hk": ["香港科技專上書院", "Hong Kong Institute of Technology"],
+    ".student.hkit.hk": [
+        "香港科技專上書院",
+        "Hong Kong Institute of Technology",
+    ],
     ".learner.hkuspace.hku.hk": [
         "HKU School of Professional and Continuing Education"
     ],
@@ -18087,7 +18175,10 @@ DOMAINS: Dict[str, List[str]] = {
     ".jc-21.jp": ["東北電子専門学校", "Tohoku Computer College", ".group"],
     ".jindai.jp": ["Kanagawa University"],
     ".kadai.jp": ["Kagoshima University"],
-    ".kaiseigakuen.jp": ["開成中学校・高等学校", "Kaisei Junior & Senior High School"],
+    ".kaiseigakuen.jp": [
+        "開成中学校・高等学校",
+        "Kaisei Junior & Senior High School",
+    ],
     ".kait.jp": ["神奈川工科大学", "Kanagawa Institute of Technology"],
     ".kansaigaidai.jp": [],
     ".keio.jp": ["Keio University"],
@@ -18513,7 +18604,10 @@ DOMAINS: Dict[str, List[str]] = {
         "대전동신과학고등학교",
         "Daejeon Dongsin Science High School",
     ],
-    ".djgces.dje365.kr": ["대전갑천초등학교", "Daejeon Gabcheon Elementry School"],
+    ".djgces.dje365.kr": [
+        "대전갑천초등학교",
+        "Daejeon Gabcheon Elementry School",
+    ],
     ".gpms.dje365.kr": ["대전관평중학교", "Daejeong Gwanpyeong Middle School"],
     ".dyshs.djsch.kr": ["대전용산고등학교", "Daejeon Yongsan High School"],
     ".jeonminhs.djsch.kr": ["대전전민고등학교", "Daejeon Jeonmin High School"],
@@ -18523,7 +18617,10 @@ DOMAINS: Dict[str, List[str]] = {
     ".cbs-h.cbe.go.kr": ["충북과학고등학교", "chungbuk science high school"],
     ".chungil-m.cbe.go.kr": ["충일중학교", "Chungil Middle School"],
     ".sangdang-h.cbe.go.kr": ["상당고등학교", "Sangdang High School"],
-    ".dge.go.kr": ["대구광역시교육청", "Daegu Metropolitan Office of Education"],
+    ".dge.go.kr": [
+        "대구광역시교육청",
+        "Daegu Metropolitan Office of Education",
+    ],
     ".haman-h.gne.go.kr": ["함안고등학교", "Haman High School"],
     ".gne.go.kr": [
         "석동중학교",
@@ -18549,19 +18646,28 @@ DOMAINS: Dict[str, List[str]] = {
     ],
     ".gokjeongh.goe.go.kr": ["곡정고등학교", "Gokjeong High School"],
     ".haesolm.goe.go.kr": ["해솔중학교", "Haesol Middle School"],
-    ".hanambizh.goe.go.kr": ["하남경영고등학교", "Hanam Management High School"],
+    ".hanambizh.goe.go.kr": [
+        "하남경영고등학교",
+        "Hanam Management High School",
+    ],
     ".ilsanh.goe.go.kr": [
         "일산국제컨벤션고등학교",
         "Ilsan International Convention High School",
     ],
     ".jukgeonm.goe.go.kr": ["Jukgeon Middle School"],
     ".mae-wone.goe.go.kr": ["매원초등학교", "Maewon elementary School"],
-    ".pjwadonge.goe.go.kr": ["파주와동초등학교", "Paju Wadong Elementary School"],
+    ".pjwadonge.goe.go.kr": [
+        "파주와동초등학교",
+        "Paju Wadong Elementary School",
+    ],
     ".shinbongm.goe.go.kr": ["신봉중학교", "Shinbong Middle School"],
     ".shth.goe.go.kr": ["수원하이텍고등학교", "Suwon Hi-tech High School"],
     ".suwondasanm.goe.go.kr": ["수원다산중학교", "Suwon Dasan Middle School"],
     ".woosungh.goe.go.kr": ["우성고등학교", "WooSung High School"],
-    ".yshinchonm.goe.go.kr": ["용인신촌중학교", "Yongin Shinchon Middle School"],
+    ".yshinchonm.goe.go.kr": [
+        "용인신촌중학교",
+        "Yongin Shinchon Middle School",
+    ],
     ".hifive.go.kr": ["선린인터넷고등학교", "Sunrin Internet High School"],
     ".gclass.ice.go.kr": [
         "인천광역시교육청",
@@ -18575,13 +18681,22 @@ DOMAINS: Dict[str, List[str]] = {
     ".seohyeon-m.goesn.kr": ["서현중학교", "seohyeon middle school"],
     ".hanma.kr": ["\ufeff경남대학교", "Kyungnam University"],
     ".hnu.kr": ["한남대학교", "Hannam University"],
-    ".dimigo.hs.kr": ["Korea Digital Media High School", "한국디지털미디어고등학교"],
+    ".dimigo.hs.kr": [
+        "Korea Digital Media High School",
+        "한국디지털미디어고등학교",
+    ],
     ".dolma.hs.kr": ["Dolma High School", "돌마고등학교"],
-    ".dsm.hs.kr": ["Daedeok Software Meister Highschool", "대덕소프트웨어마이스터고등학교"],
+    ".dsm.hs.kr": [
+        "Daedeok Software Meister Highschool",
+        "대덕소프트웨어마이스터고등학교",
+    ],
     ".e-mirim.hs.kr": ["Mirim Meister Highschool"],
     ".hana.hs.kr": ["Hana Academy Seoul", "하나고등학교"],
     ".jeonghyeon.hs.kr": ["정현고등학교 ", "Jeonghyeon High School"],
-    ".ksa.hs.kr": ["Korea Science Academy of KAIST", "한국과학기술원 부설 한국과학영재학교"],
+    ".ksa.hs.kr": [
+        "Korea Science Academy of KAIST",
+        "한국과학기술원 부설 한국과학영재학교",
+    ],
     ".gyeongseong.sen.hs.kr": ["Gyeongseong High School", "경성고등학교"],
     ".shinsung.hs.kr": ["ShinSung High School", "-신성고등학교"],
     ".sshs.hs.kr": [
@@ -18592,7 +18707,10 @@ DOMAINS: Dict[str, List[str]] = {
         'curriculum: download "2022교육계획서_서울과학고(0421).pdf" at https://sshs.sen.hs.kr/120316/subMenu.do. Then, look at the page 26.',
         "proof of official domain(screenshot): https://drive.google.com/file/d/18r7TRVlMpuGLb7Dgfif3kFZ9FZurm0Jp/view?usp=sharing",
     ],
-    ".iasa.icehs.kr": ["인천과학예술영재학교", "Incheon Academy of Science and Arts"],
+    ".iasa.icehs.kr": [
+        "인천과학예술영재학교",
+        "Incheon Academy of Science and Arts",
+    ],
     ".innoaca.kr": ["이노베이션아카데미", "INNOVATIONACADEMY"],
     ".innovationacademy.kr": ["이노베이션아카데미", "INNOVATIONACADEMY"],
     ".muan.hs.jne.kr": ["무안고등학교", "Muan Highschool"],
@@ -18615,7 +18733,10 @@ DOMAINS: Dict[str, List[str]] = {
     ".xavier.sc.kr": ["LYCEE INTERNATIONAL XAVIER"],
     ".boram.sjedums.kr": ["보람중학교"],
     ".skhu.kr": ["SungKongHoe University"],
-    ".smit.kr": ["서울미디어대학원대학교", "Seoul Media Institute of Technology"],
+    ".smit.kr": [
+        "서울미디어대학원대학교",
+        "Seoul Media Institute of Technology",
+    ],
     ".sungil-i.kr": ["성일정보고등학교", "Sungil Information High School"],
     ".sunmoon.kr": ["선문대학교", "sunmoon university"],
     ".ynu.kr": ["영남대학교", "Yeungnam University"],
@@ -19443,7 +19564,10 @@ DOMAINS: Dict[str, List[str]] = {
         "澳门科技大学",
         "Macau University of Science and Technology",
     ],
-    ".must.edu.mo": ["澳門科技大學", "Macau University of Science and Technology"],
+    ".must.edu.mo": [
+        "澳門科技大學",
+        "Macau University of Science and Technology",
+    ],
     ".g.puiching.edu.mo": ["澳門培正中學", "Macau Pui Ching Middle School"],
     ".um.edu.mo": ["University of Macau", "University of Macau"],
     ".usj.edu.mo": ["University of Saint Joseph"],
@@ -20592,7 +20716,10 @@ DOMAINS: Dict[str, List[str]] = {
     ".msu.edu.my": ["Management and Science University"],
     ".murni.edu.my": ["Murni Nursing College"],
     ".must.edu.my": ["Malaysia University of Science and Technology (MUST)"],
-    ".mykwanghua.edu.my": ["巴生光华独立中学", "Kwang Hua Private High School"],
+    ".mykwanghua.edu.my": [
+        "巴生光华独立中学",
+        "Kwang Hua Private High School",
+    ],
     ".neivce.edu.my": [
         "New Era Institute of Vocational and Continuing Education"
     ],
@@ -31898,13 +32025,19 @@ DOMAINS: Dict[str, List[str]] = {
         "國立彰化女子高級中學",
         "National Changhua Girl's Senior High School",
     ],
-    ".chsh.chc.edu.tw": ["國立彰化高級中學", "National Changhua Senior High School"],
+    ".chsh.chc.edu.tw": [
+        "國立彰化高級中學",
+        "National Changhua Senior High School",
+    ],
     ".chihlee.edu.tw": ["Chihlee University of Technology", "致理科技大學"],
     ".chu.edu.tw": ["Chung Hua University"],
     ".mailst.cjcu.edu.tw": ["Chang Jung Christian University"],
     ".cku.edu.tw": ["Ching Kuo Institue of Management &amp; Health"],
     ".cmu.edu.tw": ["中國醫藥大學", "China Medical University"],
-    ".gm.cnu.edu.tw": ["嘉南藥理大學", "Chia Nan University of Pharmacy ＆ Science"],
+    ".gm.cnu.edu.tw": [
+        "嘉南藥理大學",
+        "Chia Nan University of Pharmacy ＆ Science",
+    ],
     ".o365.cnu.edu.tw": [
         "嘉南藥理大學",
         "Chia Nan University of Pharmacy ＆ Science",
@@ -31917,7 +32050,10 @@ DOMAINS: Dict[str, List[str]] = {
         "中臺科技大學",
         "Central Taiwan University of Science and Technology",
     ],
-    ".cufa.edu.tw": ["崇右影藝科技大學", "CHUNGYU UNIVERSITY OF FILM AND ARTS"],
+    ".cufa.edu.tw": [
+        "崇右影藝科技大學",
+        "CHUNGYU UNIVERSITY OF FILM AND ARTS",
+    ],
     ".gms.cust.edu.tw": [
         "中華科技大學",
         "China University of Science and Technology",
@@ -31932,7 +32068,10 @@ DOMAINS: Dict[str, List[str]] = {
     ".mail.fgu.edu.tw": ["佛光大學", "Fo Guang University"],
     ".fju.edu.tw": ["Fu Jen Catholic University"],
     ".live.fy.edu.tw": ["輔英科技大學", "Fooyin University"],
-    ".stu.hgsh.hc.edu.tw": ["国立新竹女子高级中学", "Hsinchu Girls Senior High School"],
+    ".stu.hgsh.hc.edu.tw": [
+        "国立新竹女子高级中学",
+        "Hsinchu Girls Senior High School",
+    ],
     ".hcu.edu.tw": ["Hsuan Chuang University"],
     ".mail.hdut.edu.tw": [
         "宏國德霖科技大學",
@@ -31943,7 +32082,11 @@ DOMAINS: Dict[str, List[str]] = {
         "Hungkuo Delin University of Technology",
     ],
     ".hfu.edu.tw": ["Huafan University"],
-    ".hk.edu.tw": ["弘光科技大學", "HungKuang University", "http://www.hk.edu.tw"],
+    ".hk.edu.tw": [
+        "弘光科技大學",
+        "HungKuang University",
+        "http://www.hk.edu.tw",
+    ],
     ".hust.edu.tw": [
         "修平科技大學",
         "Hsiuping University of Science and Technology",
@@ -31955,7 +32098,10 @@ DOMAINS: Dict[str, List[str]] = {
     ".go.hwh.edu.tw": ["華夏科技大學", "Hwa Hsia University of Technology"],
     ".mail.hwu.edu.tw": ["醒吾科技大學", "Hsing Wu University"],
     ".isu.edu.tw": ["I-Shou University"],
-    ".just.edu.tw": ["景文科技大學", "JinWen University of Science & Technology"],
+    ".just.edu.tw": [
+        "景文科技大學",
+        "JinWen University of Science & Technology",
+    ],
     ".mail2.ccvs.kh.edu.tw": [
         "高雄市立中正高級工業職業學校",
         "Kaohsiung Municipal Chung-Cheng Industrial High School",
@@ -31975,14 +32121,24 @@ DOMAINS: Dict[str, List[str]] = {
         "Special Education of Kaohsiung City",
         "https://www.spec.kh.edu.tw/",
     ],
-    ".cysh.khc.edu.tw": ["高雄市私立正義高級中學", "Cheng Yi Senior High School"],
-    ".fssh.khc.edu.tw": ["國立鳳山高級中學", "National Feng-Shan Senior High School"],
+    ".cysh.khc.edu.tw": [
+        "高雄市私立正義高級中學",
+        "Cheng Yi Senior High School",
+    ],
+    ".fssh.khc.edu.tw": [
+        "國立鳳山高級中學",
+        "National Feng-Shan Senior High School",
+    ],
     ".gm.kl.edu.tw": [
         "基隆市立銘傳國中",
         "Keelung Municipal Ming Chwan Junior High School",
     ],
     ".kmu.edu.tw": ["高雄醫學大學", "Kaohsiung Medical University"],
-    ".knu.edu.tw": ["開南大學", "Kainan University", "https://www.knu.edu.tw/"],
+    ".knu.edu.tw": [
+        "開南大學",
+        "Kainan University",
+        "https://www.knu.edu.tw/",
+    ],
     ".ksu.edu.tw": ["Kun Shan University"],
     ".kuas.edu.tw": ["National Kaohsiung University of Applied Sciences"],
     ".mail.kyu.edu.tw": ["高苑科技大學", "Kao Yuan University"],
@@ -31995,7 +32151,10 @@ DOMAINS: Dict[str, List[str]] = {
     ".teamail.ltu.edu.tw": ["嶺東科技大學", "Ling Tung University"],
     ".mcu.edu.tw": ["Ming Chuan University"],
     ".mail.mcut.edu.tw": ["明志科技大學", "MING CHI UNIVERSITY OF TECHNOLOGY"],
-    ".mail2.mcut.edu.tw": ["明志科技大學", "MING CHI UNIVERSITY OF TECHNOLOGY"],
+    ".mail2.mcut.edu.tw": [
+        "明志科技大學",
+        "MING CHI UNIVERSITY OF TECHNOLOGY",
+    ],
     ".o365.mcut.edu.tw": ["明志科技大學", "MING CHI UNIVERSITY OF TECHNOLOGY"],
     ".go.meiho.edu.tw": ["美和科技大學", "MeiHo University"],
     ".ms.mingdao.edu.tw": ["明道高級中學", "Mingdao High School"],
@@ -32010,7 +32169,10 @@ DOMAINS: Dict[str, List[str]] = {
     ".nctu.edu.tw": ["National Chiao Tung University"],
     ".ncu.edu.tw": ["National Central University"],
     ".ncue.edu.tw": ["National Changhua University of Education"],
-    ".ncut.edu.tw": ["國立勤益科技大學", "National Chin-Yi University of Technology"],
+    ".ncut.edu.tw": [
+        "國立勤益科技大學",
+        "National Chin-Yi University of Technology",
+    ],
     ".ncyu.edu.tw": ["National Chiayi University"],
     ".ndhu.edu.tw": ["National Dong Hwa University"],
     ".mail.ndmctsgh.edu.tw": ["國防醫學院", "National Defense Medical Center"],
@@ -32078,14 +32240,29 @@ DOMAINS: Dict[str, List[str]] = {
     ".ms99.nttu.edu.tw": ["國立臺東大學", "National Taitung University"],
     ".nttu.edu.tw": ["國立臺東大學", "National Taitung University"],
     ".ntu.edu.tw": ["National Taiwan University"],
-    ".mail.ntua.edu.tw": ["國立台灣藝術大學", "National Taiwan University of Arts"],
-    ".ntub.edu.tw": ["國立臺北商業大學", "National Taipei University of Business"],
-    ".ntue.edu.tw": ["國立台北教育大學", "national taipei university of education"],
+    ".mail.ntua.edu.tw": [
+        "國立台灣藝術大學",
+        "National Taiwan University of Arts",
+    ],
+    ".ntub.edu.tw": [
+        "國立臺北商業大學",
+        "National Taipei University of Business",
+    ],
+    ".ntue.edu.tw": [
+        "國立台北教育大學",
+        "national taipei university of education",
+    ],
     ".ntunhs.edu.tw": [
         "National Taipei University of Nursing and Health Sciences"
     ],
-    ".ntupes.edu.tw": ["國立臺灣體育運動大學", "National Taiwan University of Sport"],
-    ".ntus.edu.tw": ["國立臺灣體育運動大學", "National Taiwan University of Sport"],
+    ".ntupes.edu.tw": [
+        "國立臺灣體育運動大學",
+        "National Taiwan University of Sport",
+    ],
+    ".ntus.edu.tw": [
+        "國立臺灣體育運動大學",
+        "National Taiwan University of Sport",
+    ],
     ".ntust.edu.tw": ["National Taiwan University of Science and Technology"],
     ".ntut.edu.tw": ["National Taipei University of Technology"],
     ".nuk.edu.tw": ["National University of Kaohsiung"],
@@ -32101,13 +32278,19 @@ DOMAINS: Dict[str, List[str]] = {
     ".stumail.nutn.edu.tw": ["國立臺南大學", "National University of Tainan"],
     ".gm.nuu.edu.tw": ["國立聯合大學", "National United University"],
     ".nuu.edu.tw": ["國立聯合大學", "National United University"],
-    ".nycu.edu.tw": ["National Yang Ming Chiao Tung University", "國立陽明交通大學"],
+    ".nycu.edu.tw": [
+        "National Yang Ming Chiao Tung University",
+        "國立陽明交通大學",
+    ],
     ".ocu.edu.tw": ["僑光科技大學", "Oversea Chinese University"],
     ".mail.oit.edu.tw": ["亞東技術學院", "Oriental Institute of Technology"],
     ".ouk.edu.tw": ["Kaohsuing Open University"],
     ".pccu.edu.tw": ["Chinese Culture University"],
     ".mksh.phc.edu.tw": ["National Magong High School"],
-    ".pths.ptc.edu.tw": ["國立屏東高中", "National Pingtung Senior High School"],
+    ".pths.ptc.edu.tw": [
+        "國立屏東高中",
+        "National Pingtung Senior High School",
+    ],
     ".pu.edu.tw": ["Providence University"],
     ".school.saihs.edu.tw": [
         "臺北市立松山高級工農職業學校",
@@ -32181,7 +32364,10 @@ DOMAINS: Dict[str, List[str]] = {
     ".thu.edu.tw": ["Tunghai University"],
     ".tku.edu.tw": ["Tamkang University"],
     ".tmu.edu.tw": ["臺北醫學大學", "TAIPEI MEDICAL UNIVERSITY"],
-    ".csjhs.tn.edu.tw": ["臺南市立中山國民中學", "Jhongshan Junior High School"],
+    ".csjhs.tn.edu.tw": [
+        "臺南市立中山國民中學",
+        "Jhongshan Junior High School",
+    ],
     ".nnkieh.tn.edu.tw": [
         "國立南科國際實驗高級中學",
         "National Nanke International Experimental High School",
@@ -32208,12 +32394,18 @@ DOMAINS: Dict[str, List[str]] = {
         "Taipei National University of the Arts",
     ],
     ".tnua.edu.tw": ["Taipei National University of the Arts"],
-    ".gl.ck.tp.edu.tw": ["臺北市立建國高級中學", "Taipei Municipal Jianguo High School"],
+    ".gl.ck.tp.edu.tw": [
+        "臺北市立建國高級中學",
+        "Taipei Municipal Jianguo High School",
+    ],
     ".gafe.cksh.tp.edu.tw": [
         "臺北市立成功高級中學",
         "Taipei Municipal Chenggong High School",
     ],
-    ".st.fhjh.tp.edu.tw": ["臺北市私立復興實驗高級中學", "Taipei Fuhsing Private School"],
+    ".st.fhjh.tp.edu.tw": [
+        "臺北市私立復興實驗高級中學",
+        "Taipei Fuhsing Private School",
+    ],
     ".ms2.hssh.tp.edu.tw": [
         "台北市立西松高級中學",
         "Taipei Municipal XiSong Senior High School",
@@ -32252,7 +32444,10 @@ DOMAINS: Dict[str, List[str]] = {
     ".vnu.edu.tw": ["Vanung University"],
     ".wfu.edu.tw": ["吳鳳科技大學", "WuFeng University"],
     ".wzu.edu.tw": ["文藻外語大學", "Wenzao Ursuline University of Languages"],
-    ".ydu.edu.tw": ["育達科技大學", "Yu Da University of Science and Technology  "],
+    ".ydu.edu.tw": [
+        "育達科技大學",
+        "Yu Da University of Science and Technology  ",
+    ],
     ".pjes.ylc.edu.tw": ["Pijiao National Primary School"],
     ".ym.edu.tw": ["National Yang Ming Medical College"],
     ".mail.ypu.edu.tw": [
