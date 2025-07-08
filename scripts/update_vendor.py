@@ -72,8 +72,7 @@ def create_dict(
             f"CHANGES WILL BE OVERWRITTEN BY {Path(__file__).name}\n"
         )
         f.write(f"# From {commit_id}\n")
-        f.write("from typing import Dict, List\n")
-        f.write(f"{varname}: Dict[str, List[str]] = {repr(var)}\n")
+        f.write(f"{varname}: dict[str, list[str]] = {repr(var)}\n")
 
 
 def main() -> int:
