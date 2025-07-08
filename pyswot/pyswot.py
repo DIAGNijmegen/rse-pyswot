@@ -1,6 +1,3 @@
-from typing import FrozenSet, List
-
-
 def is_academic(email: str) -> bool:
     parts = _domain_parts(email)
     return not _is_stoplisted(parts) and (
@@ -8,23 +5,23 @@ def is_academic(email: str) -> bool:
     )
 
 
-def find_school_names(email: str) -> List[str]:
+def find_school_names(email: str) -> list[str]:
     return _find_school_names(_domain_parts(email))
 
 
-def _is_under_tld(parts: List[str]) -> bool:
+def _is_under_tld(parts: list[str]) -> bool:
     from pyswot.vendor.tlds import TLDS
 
     return _check_set(TLDS, parts)
 
 
-def _is_stoplisted(parts: List[str]) -> bool:
+def _is_stoplisted(parts: list[str]) -> bool:
     from pyswot.vendor.stoplist import STOPLIST
 
     return _check_set(STOPLIST, parts)
 
 
-def _find_school_names(parts: List[str]) -> List[str]:
+def _find_school_names(parts: list[str]) -> list[str]:
     from pyswot.vendor.domains import DOMAINS
 
     key = ""
@@ -38,7 +35,7 @@ def _find_school_names(parts: List[str]) -> List[str]:
     return []
 
 
-def _domain_parts(email_or_domain: str) -> List[str]:
+def _domain_parts(email_or_domain: str) -> list[str]:
     email_or_domain = email_or_domain.strip().lower()
 
     parts = email_or_domain.split("@")[-1].split(".")
@@ -47,7 +44,7 @@ def _domain_parts(email_or_domain: str) -> List[str]:
     return parts
 
 
-def _check_set(s: FrozenSet[str], parts: List[str]) -> bool:
+def _check_set(s: frozenset[str], parts: list[str]) -> bool:
     t = ""
     for part in parts:
         t = f"{part}{t}"

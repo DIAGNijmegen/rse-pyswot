@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 env:
-  MINIMUM_PYTHON_VERSION: "3.8"
+  MINIMUM_PYTHON_VERSION: "3.9"
 
 jobs:
   sync:
@@ -26,15 +26,15 @@ jobs:
 
       - name: Install pre-commit and dev dependencies
         run: |
-          python -m pip install pre-commit poetry
+          python -m pip install pre-commit uv
           pre-commit install
-          poetry install
+          uv sync
 
       - name: Update Vendor Sources
-        run: poetry run python ./scripts/update_vendor.py
+        run: uv run python ./scripts/update_vendor.py
 
       - name: Run black
-        run: poetry run black .
+        run: uv run black .
 
       - name: Run pre-commit
         run: pre-commit run -a

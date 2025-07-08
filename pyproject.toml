@@ -1,30 +1,31 @@
-[tool.poetry]
+[project]
+authors = [
+    {name = "James Meakin"},
+]
+license = {text = "Apache-2.0"}
+requires-python = "<4.0,>=3.9"
+dependencies = []
 name = "pyswot"
-version = "0.3.2"
+version = "0.3.3"
 description = "Python wrapper for JetBrains/swot"
-authors = ["James Meakin"]
-license = "Apache-2.0"
 readme = "README.md"
-repository = "https://github.com/DIAGNijmegen/rse-pyswot"
 classifiers = [
     "Development Status :: 3 - Alpha",
     "Intended Audience :: Developers",
 ]
 
-[tool.poetry.dependencies]
-python = "^3.8"
+[project.urls]
+repository = "https://github.com/DIAGNijmegen/rse-pyswot"
 
-[tool.poetry.group.dev.dependencies]
-pytest = "*"
-pytest-xdist = "*"
-pytest-randomly = "*"
-pytest-cov = "*"
-chardet = "*"
-black = "*"
-
-[build-system]
-requires = ["poetry-core>=1.0.0"]
-build-backend = "poetry.core.masonry.api"
+[dependency-groups]
+dev = [
+    "pytest",
+    "pytest-xdist",
+    "pytest-randomly",
+    "pytest-cov",
+    "chardet",
+    "black",
+]
 
 [tool.isort]
 profile = "black"
@@ -33,7 +34,7 @@ line_length = 79
 
 [tool.black]
 line-length = 79
-target-version = ['py38']
+target-version = ['py39']
 
 [tool.pytest.ini_options]
 minversion = "6.0"
@@ -47,19 +48,22 @@ addopts = "--strict-markers --showlocals -n auto --dist loadscope"
 legacy_tox_ini = """
 [tox]
 isolated_build = True
-envlist = py38, py39, py310, py311, py312
+envlist = py39, py310, py311, py312, py313
 
 [gh-actions]
 python =
-    3.8: py38
     3.9: py39
     3.10: py310
     3.11: py311
     3.12: py312
+    3.13: py313
 
 [testenv]
-allowlist_externals = poetry
+dependency_groups =
+    dev
 commands =
-    poetry install -v
-    poetry run pytest --cov-branch --cov-report term-missing --cov=tests/ --cov=pyswot/ --basetemp={envtmpdir} {posargs}
+    {envpython} -m pytest --cov-branch --cov-report term-missing --cov=tests/ --cov=pyswot/ --basetemp={envtmpdir} {posargs}
 """
+
+[tool.uv]
+package = true

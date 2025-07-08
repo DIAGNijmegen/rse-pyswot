@@ -12,7 +12,7 @@ concurrency:
   cancel-in-progress: true
 
 env:
-  MINIMUM_PYTHON_VERSION: "3.8"
+  MINIMUM_PYTHON_VERSION: "3.9"
 
 jobs:
   precommit:
@@ -35,7 +35,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        python-version: ["3.8", "3.9", "3.10", "3.11", "3.12"]
+        python-version: ["3.9", "3.10", "3.11", "3.12", "3.13"]
     steps:
       - uses: actions/checkout@v4
       - name: Setup Python ${{ matrix.python-version }}
@@ -45,9 +45,11 @@ jobs:
       - name: Install Tox and any other packages
         run: |
           python -m pip install --upgrade pip
-          python -m pip install tox-gh-actions poetry
+          python -m pip install uv
+          uv tool install tox --with tox-uv
       - name: Run tox
-        run: tox
+        run: |
+          tox -e py
 
   deploy:
     if: github.event_name == 'release'
@@ -62,9 +64,10 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          python -m pip install poetry
+          python -m pip install uv
       - name: Upload to pypi
         env:
-          POETRY_PYPI_TOKEN_PYPI: ${{ secrets.POETRY_PYPI_TOKEN_PYPI }}
+          UV_PUBLISH_TOKEN: ${{ secrets.POETRY_PYPI_TOKEN_PYPI }}
         run: |
-          poetry publish --build
+          uv build
+          uv publish

@@ -107,3 +107,5 @@ ENV/
 
 # Poetry
 poetry.lock
+
+uv.lock
