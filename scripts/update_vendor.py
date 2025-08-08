@@ -88,7 +88,7 @@ def main() -> int:
             dest=VENDOR_DIR / "stoplist.py",
             varname="STOPLIST",
             commit_id=commit_id,
-            extra=[".edu.kg"],
+            extra=[".edu.kg", ".mona.edu.pl", ".edumail.edu.pl"],
         )
         create_set(
             src=tmp_path / "lib" / "domains" / "tlds.txt",
