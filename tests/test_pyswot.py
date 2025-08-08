@@ -47,6 +47,12 @@ from pyswot.pyswot import _domain_parts, _is_stoplisted
         (True, "lee@mail.harvard.edu"),
         (False, "imposter@si.edu"),
         (False, "lee@mdu.edu.rs"),
+        (False, "lee@temporam.com"),
+        (False, "lee@mona.edu.kg"),
+        (False, "lee@mona.edu.pl"),
+        (False, "lee@zl.edu.kg"),
+        (False, "lee@lw.edu.kg"),
+        (False, "lee@edumail.edu.pl"),
         # Iran sanctions are lifted
         (True, "lee@acmt.ac.ir"),
         (True, "lee@xmu.edu.my"),
