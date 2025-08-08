@@ -17,9 +17,12 @@ def clone_repo(
     return f"{repo}@{process.decode('utf-8')}"
 
 
-def create_set(*, src: Path, dest: Path, varname: str, commit_id: str) -> None:
+def create_set(*, src: Path, dest: Path, varname: str, commit_id: str, extra: None | list(str) = None) -> None:
     with open(src) as f:
         var = [v for v in f.read().splitlines() if v]
+
+    if extra is not None:
+        var.extend(extra)
 
     with open(dest, "w") as f:
         f.write(
@@ -85,6 +88,7 @@ def main() -> int:
             dest=VENDOR_DIR / "stoplist.py",
             varname="STOPLIST",
             commit_id=commit_id,
+            extra=[".edu.kg"],
         )
         create_set(
             src=tmp_path / "lib" / "domains" / "tlds.txt",
