@@ -1,3 +1,5 @@
+import hashlib
+import subprocess
 from pathlib import Path
 from subprocess import check_output
 from tempfile import TemporaryDirectory
@@ -24,13 +26,13 @@ def create_set(
     dest: Path,
     varname: str,
     commit_id: str,
-    extra: Optional[list[str]] = None,
+    extra: Optional[set[str]] = None,
 ) -> None:
     with open(src) as f:
-        var = [v for v in f.read().splitlines() if v]
+        var = {v for v in f.read().splitlines() if v}
 
     if extra is not None:
-        var.extend(extra)
+        var.update(extra)
 
     with open(dest, "w") as f:
         f.write(
@@ -38,7 +40,7 @@ def create_set(
             f"CHANGES WILL BE OVERWRITTEN BY {Path(__file__).name}\n"
         )
         f.write(f"# From {commit_id}\n")
-        f.write(f"{varname} = frozenset({repr(sorted(var))})\n")
+        f.write(f"{varname} = frozenset({repr(sorted([*var]))})\n")
 
 
 def _get_key(*, rel_path: Path) -> str:
@@ -86,6 +88,16 @@ def create_dict(
         f.write(f"{varname}: dict[str, list[str]] = {repr(var)}\n")
 
 
+def calculate_sha256(filename: Path) -> str:
+    sha256_hash = hashlib.sha256()
+
+    with open(filename, "rb") as f:
+        for chunk in iter(lambda: f.read(4096), b""):
+            sha256_hash.update(chunk)
+
+    return sha256_hash.hexdigest()
+
+
 def main() -> int:
     with TemporaryDirectory() as tmp_dir:
         tmp_path = Path(tmp_dir)
@@ -96,7 +108,7 @@ def main() -> int:
             dest=VENDOR_DIR / "stoplist.py",
             varname="STOPLIST",
             commit_id=commit_id,
-            extra=["edu.kg", "mona.edu.pl", "edumail.edu.pl"],
+            extra={"edu.kg", "mona.edu.pl", "edumail.edu.pl"},
         )
         create_set(
             src=tmp_path / "lib" / "domains" / "tlds.txt",
@@ -109,6 +121,34 @@ def main() -> int:
             dest=VENDOR_DIR / "domains.py",
             varname="DOMAINS",
             commit_id=commit_id,
+        )
+
+        free_domains_file = tmp_path / "free-domains.csv"
+
+        # Source free domains from
+        # https://knowledge.hubspot.com/forms/what-domains-are-blocked-when-using-the-forms-email-domains-to-block-feature
+        subprocess.run(
+            [
+                "wget",
+                f"--output-document={free_domains_file}",
+                "https://f.hubspotusercontent40.net/hubfs/2832391/Marketing/Lead-Capture/free-domains-2.csv",
+            ],
+            check=True,
+            capture_output=True,
+        )
+
+        free_domains_hash = calculate_sha256(free_domains_file)
+
+        create_set(
+            src=free_domains_file,
+            dest=VENDOR_DIR / "free.py",
+            varname="FREE",
+            commit_id=free_domains_hash,
+            extra={
+                "pm.me",
+                "proton.me",
+                "protonmail.ch",
+            },
         )
 
     return 0
