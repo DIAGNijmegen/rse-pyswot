@@ -12,8 +12,8 @@ Python wrapper for [JetBrains/swot](https://github.com/JetBrains/swot).
 ## Features
 
 This library is a wrapper around
-[JetBrains/swot](https://github.com/JetBrains/swot) and provides two
-methods:
+[JetBrains/swot](https://github.com/JetBrains/swot)
+and provides three methods:
 
 ```python
 >>> from pyswot import is_academic
@@ -29,4 +29,17 @@ False
 ['University of Oxford']
 >>> find_school_names("user@gmail.com")
 []
+```
+
+Free emails are also included from the
+[HubSpot Free Email List](https://knowledge.hubspot.com/forms/what-domains-are-blocked-when-using-the-forms-email-domains-to-block-feature).
+
+```python
+>>> from pyswot import is_free
+>>> is_free("user@ox.ac.uk")
+False
+>>> is_free("user@gmail.com")
+True
+>>> is_free("user@google.com")
+False
 ```

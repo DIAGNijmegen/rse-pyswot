@@ -1,7 +1,7 @@
 import pytest
 
 from pyswot import find_school_names, is_academic
-from pyswot.pyswot import _domain_parts, _is_stoplisted
+from pyswot.pyswot import _domain_parts, _is_stoplisted, is_free
 
 
 @pytest.mark.parametrize(
@@ -92,3 +92,16 @@ def test_non_utf8_source() -> None:
         "Institut Cirviànum de Torelló"
     ]
     assert is_academic("myself@cirvianum.cat")
+
+
+@pytest.mark.parametrize(
+    "expected,email",
+    (
+        (True, "lreilly@proton.me"),
+        (True, "LREILLY@PROTON.ME"),
+        (True, "lreilly@yahoo.com"),
+        (False, "lreilly@google.com"),
+    ),
+)
+def test_is_free(expected: bool, email: str) -> None:
+    assert is_free(email) == expected

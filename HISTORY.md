@@ -1,5 +1,9 @@
 # History
 
+## 0.4.0 (2025-08-14)
+
+- Added free email
+
 ## 0.3.2 (2024-03-20)
 
 - Automated domain updates

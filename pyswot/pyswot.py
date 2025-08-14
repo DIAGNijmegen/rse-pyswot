@@ -1,12 +1,26 @@
 def is_academic(email: str) -> bool:
     parts = _domain_parts(email)
-    return not _is_stoplisted(parts) and (
-        _is_under_tld(parts) or bool(_find_school_names(parts))
+    return (
+        not _is_free(parts)
+        and not _is_stoplisted(parts)
+        and (_is_under_tld(parts) or bool(_find_school_names(parts)))
     )
 
 
 def find_school_names(email: str) -> list[str]:
     return _find_school_names(_domain_parts(email))
+
+
+def is_free(email: str) -> bool:
+    parts = _domain_parts(email)
+
+    return _is_free(parts)
+
+
+def _is_free(parts: list[str]) -> bool:
+    from pyswot.vendor.free import FREE
+
+    return _check_set(FREE, parts)
 
 
 def _is_under_tld(parts: list[str]) -> bool:
