@@ -2,7 +2,7 @@
 
 [![CI](https://github.com/DIAGNijmegen/rse-pyswot/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/DIAGNijmegen/rse-pyswot/actions/workflows/ci.yml?query=branch%3Amain)
 [![PyPI](https://img.shields.io/pypi/v/pyswot)](https://pypi.org/project/pyswot/)
-[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/pyswot)](https://pypi.org/project/pyswot/)
+![Python Version from PEP 621 TOML](https://img.shields.io/python/required-version-toml?tomlFilePath=https%3A%2F%2Fraw.githubusercontent.com%2FDIAGNijmegen%2Frse-pyswot%2Frefs%2Fheads%2Fmain%2Fpyproject.toml)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
 Python wrapper for [JetBrains/swot](https://github.com/JetBrains/swot).
