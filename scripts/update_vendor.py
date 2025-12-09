@@ -3,7 +3,6 @@ import subprocess
 from pathlib import Path
 from subprocess import check_output
 from tempfile import TemporaryDirectory
-from typing import Optional
 
 from chardet import detect
 
@@ -26,7 +25,7 @@ def create_set(
     dest: Path,
     varname: str,
     commit_id: str,
-    extra: Optional[set[str]] = None,
+    extra: set[str] | None = None,
 ) -> None:
     with open(src) as f:
         var = {v for v in f.read().splitlines() if v}

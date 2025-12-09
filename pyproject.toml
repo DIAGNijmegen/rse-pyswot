@@ -3,10 +3,10 @@ authors = [
     {name = "James Meakin"},
 ]
 license = {text = "Apache-2.0"}
-requires-python = "<4.0,>=3.9"
+requires-python = "<4.0,>=3.10"
 dependencies = []
 name = "pyswot"
-version = "0.4.1"
+version = "0.5.0"
 description = "Python wrapper for JetBrains/swot"
 readme = "README.md"
 classifiers = [
@@ -25,6 +25,7 @@ dev = [
     "pytest-cov",
     "chardet",
     "black",
+    "pre-commit",
 ]
 
 [tool.isort]
@@ -43,27 +44,6 @@ testpaths = [
 ]
 python_files = "tests.py test_*.py *_tests.py"
 addopts = "--strict-markers --showlocals -n auto --dist loadscope"
-
-[tool.tox]
-legacy_tox_ini = """
-[tox]
-isolated_build = True
-envlist = py39, py310, py311, py312, py313
-
-[gh-actions]
-python =
-    3.9: py39
-    3.10: py310
-    3.11: py311
-    3.12: py312
-    3.13: py313
-
-[testenv]
-dependency_groups =
-    dev
-commands =
-    {envpython} -m pytest --cov-branch --cov-report term-missing --cov=tests/ --cov=pyswot/ --basetemp={envtmpdir} {posargs}
-"""
 
 [tool.uv]
 package = true
