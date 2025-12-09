@@ -1,5 +1,9 @@
 # History
 
+## 0.5.0 (2025-12-09)
+
+- Remove support for Python 3.9, add support for Python 3.14
+
 ## 0.4.0 (2025-08-14)
 
 - Added free email
