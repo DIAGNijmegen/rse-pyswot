@@ -49,7 +49,9 @@ def _get_key(*, rel_path: Path) -> str:
     parts[-1] = parts[-1][:-4]
     parts.reverse()
 
-    return "." + ".".join(parts)
+    domain = ".".join(parts).lower()
+
+    return f".{domain}"
 
 
 def create_dict(
