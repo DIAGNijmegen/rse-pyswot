@@ -35,6 +35,9 @@ jobs:
       - name: Update Vendor Sources
         run: uv run python ./scripts/update_vendor.py
 
+      - name: Bump patch version
+        run: uv run python ./scripts/bump_version.py
+
       - name: Run black
         run: uv run black .
 
