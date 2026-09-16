@@ -16,19 +16,19 @@ jobs:
     steps:
       - name: Generate a token
         id: app-token
-        uses: actions/create-github-app-token@v3
+        uses: actions/create-github-app-token@bcd2ba49218906704ab6c1aa796996da409d3eb1 # v3.2.0
         with:
           client-id: ${{ secrets.DEPENDENCY_UPDATE_APP_CLIENT_ID }}
           private-key: ${{ secrets.DEPENDENCY_UPDATE_APP_PRIVATE_KEY }}
 
       - name: Checkout
-        uses: actions/checkout@v7
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           token: ${{ steps.app-token.outputs.token }}
           ref: ${{ github.head_ref }}
 
       - name: Install uv and set the python version
-        uses: astral-sh/setup-uv@v10
+        uses: astral-sh/setup-uv@ae62891fec2bb8e7d6c99fc78c9fec3a63790f8d # v10.0.0
         with:
           python-version: ${{ env.MINIMUM_PYTHON_VERSION }}
 
@@ -46,7 +46,7 @@ jobs:
         continue-on-error: true
 
       - name: Create Pull Request
-        uses: peter-evans/create-pull-request@v8
+        uses: peter-evans/create-pull-request@5f6978faf089d4d20b00c7766989d076bb2fc7f1 # v8.1.1
         with:
           token: ${{ steps.app-token.outputs.token }}
           commit-message: "Automated vendor update"
