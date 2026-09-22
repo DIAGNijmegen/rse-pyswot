@@ -2,7 +2,7 @@ name: Update Vendor Sources
 
 on:
   schedule:
-    - cron: '42 6 * * 2'
+    - cron: '42 5 * * 1'
   workflow_dispatch:
 
 env:
