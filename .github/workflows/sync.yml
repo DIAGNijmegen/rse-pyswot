@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 env:
-  MINIMUM_PYTHON_VERSION: "3.10"
+  MINIMUM_PYTHON_VERSION: "3.11"
 
 jobs:
   sync:

@@ -1,5 +1,9 @@
 # History
 
+## 0.6.0 (2026-11-02)
+
+- Remove support for Python 3.10, add support for Python 3.15
+
 ## 0.5.0 (2025-12-09)
 
 - Remove support for Python 3.9, add support for Python 3.14
