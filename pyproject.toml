@@ -3,10 +3,10 @@ authors = [
     {name = "James Meakin"},
 ]
 license = {text = "Apache-2.0"}
-requires-python = "<4.0,>=3.10"
+requires-python = "<4.0,>=3.11"
 dependencies = []
 name = "pyswot"
-version = "0.5.8"
+version = "0.6.0"
 description = "Python wrapper for JetBrains/swot"
 readme = "README.md"
 classifiers = [
